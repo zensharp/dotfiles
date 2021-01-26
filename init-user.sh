@@ -20,7 +20,7 @@ sed -i "$regex" /etc/passwd
 
 # Apply Windows-friendly WSL settings
 echo "Applying WSL settings..."
-cp wsl.conf /etc
+cp etc/wsl.conf /etc
 
 # Add standard files to new home
 echo "Adding standard files to home..."
