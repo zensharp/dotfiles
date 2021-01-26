@@ -14,7 +14,7 @@ winget install "iCUE"
 winget install "Logitech Options"
 
 # Dev
-winget install "Visual Studio Code"
+winget install "Visual Studio Code" --override "/silent /mergetasks='!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath'"
 winget install "Visual Studio Community" --override "--norestart"
 winget install "Sourcetree"
 
