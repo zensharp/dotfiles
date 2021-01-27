@@ -19,5 +19,6 @@ cp -R /etc/skel/. "$HOME/"
 echo
 echo "Adding windows aliases..."
 echo "alias explorer=explorer.exe" >> "$HOME"/.bashrc
+echo "alias open=explorer" >> "$HOME"/.bashrc
 echo "alias clip=clip.exe" >> "$HOME"/.bashrc
 echo "alias gitk=gitk.exe" >> "$HOME"/.bashrc
