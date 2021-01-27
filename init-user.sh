@@ -17,6 +17,7 @@ cp -R /etc/skel/. "$HOME/"
 
 # Add common aliases
 echo
+echo "# Windows Exe Shorthands"
 echo "Adding windows aliases..."
 echo "alias explorer=explorer.exe" >> "$HOME"/.bashrc
 echo "alias open=explorer" >> "$HOME"/.bashrc
