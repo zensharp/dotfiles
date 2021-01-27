@@ -5,6 +5,7 @@ winget install "Windows Terminal"
 winget install "7zip"
 winget install "Malwarebytes"
 winget install "Git"
+winget install "Git Credential Manager Core"
 winget install "Python"
 winget install "Ubuntu"
 
