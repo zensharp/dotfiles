@@ -34,3 +34,4 @@ winget install "Steam"
 # Extra
 #winget install "OBS Studio"
 #winget install "TeXstudio"
+#winget install "Mp3tag"
