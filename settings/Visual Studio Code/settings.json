@@ -32,5 +32,6 @@
 	"editor.matchBrackets": "never",
 	"editor.cursorBlinking": "phase",
 	"editor.cursorSmoothCaretAnimation": true,
-	"files.hotExit": "off"
+	"files.hotExit": "off",
+	"workbench.startupEditor": "newUntitledFile"
 }
