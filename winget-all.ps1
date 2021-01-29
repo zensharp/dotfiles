@@ -6,6 +6,7 @@ winget install "Git"
 winget install "Git Credential Manager Core"
 winget install "Ubuntu"
 winget install "Python"
+winget install "Link Shell Extension"
 
 # Essentials
 winget install "Windows Terminal"
@@ -32,7 +33,10 @@ winget install "Discord"
 winget install "Steam"
 
 # Extra
+#winget install "Audacity"
 #winget install "OBS Studio"
 #winget install "TeXstudio"
 #winget install "Mp3tag"
 #winget install "FileConverter"
+#winget install "ShellExView"
+#winget install "Power Toys"
