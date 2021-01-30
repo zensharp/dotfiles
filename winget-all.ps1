@@ -6,6 +6,7 @@ winget install "Git"
 winget install "Git Credential Manager Core"
 winget install "Ubuntu"
 winget install "Python"
+winget install "Nodejs"
 winget install "Link Shell Extension"
 
 # Essentials
