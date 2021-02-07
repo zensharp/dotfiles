@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd $(dirname $0)
+
 # Unity
 unityPrefs="C:\Program Files\Unity\Hub\Editor"
 unityPrefs=$(wslpath "$unityPrefs")

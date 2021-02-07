@@ -1,0 +1,25 @@
+
+# User Hotspots
+hosthome=$(wslpath "$(wslvar USERPROFILE)")
+alias home="cd $hosthome"
+work () {
+	dir=$hosthome/work
+	if [ ! -d "$dir" ]; then
+		mkdir $dir
+	fi
+	cd $dir
+}
+sand () {
+	dir=$hosthome/sand
+	if [ ! -d "$dir" ]; then
+		mkdir $dir
+	fi
+	cd $dir
+}
+temp () {
+	dir=$hosthome/temp
+	if [ ! -d "$dir" ]; then
+		mkdir $dir
+	fi
+	cd $dir
+}

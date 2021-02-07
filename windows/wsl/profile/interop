@@ -1,0 +1,7 @@
+
+# WSL Interoperability
+alias explorer=explorer.exe
+alias open=explorer
+alias notepad=notepad.exe
+alias clip=clip.exe
+alias gitk=gitk.exe
