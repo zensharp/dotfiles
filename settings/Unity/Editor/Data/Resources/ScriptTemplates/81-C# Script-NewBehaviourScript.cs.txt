@@ -1,34 +1,8 @@
 ﻿using UnityEngine;
 
-namespace Unsorted {
+	#ROOTNAMESPACEBEGIN#
 
 	public class #SCRIPTNAME# : MonoBehaviour {
-		
-		#region MONOBEHAVIOUR
-		#endregion
-
-		#region OVERRIDE
-		#endregion
-
-		#region VIRTUAL
-		#endregion
-
-		#region ABSTRACT
-		#endregion
-
-		#region INTERFACE
-		#endregion
-		
-		#region COROUTINE
-		#endregion
-
-		#region CALLBACK
-		#endregion
-
-		#region EVENT
-		#endregion
-
-		#region PIPELINE
-		#endregion
+		#NOTRIM#
 	}
-}
+#ROOTNAMESPACEEND#
