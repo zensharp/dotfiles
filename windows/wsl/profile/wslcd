@@ -1,5 +1,5 @@
 
 function wslcd {
-	dir=$(wslpath $1)
+	dir=$(wslpath "$1")
 	cd "$dir"
 }
