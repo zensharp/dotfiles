@@ -38,7 +38,7 @@ $ settings/apply.sh
 16. Run `windows/wsl/init.sh`.
 17. Terminate WSL.
 18. Open Windows Terminal as Administrator.
-19. Run `settings/apply.sh`.
+19. Run `settings/apply-all.sh`.
     - Manually apply Visual Studio (IDE) settings.
 20. Install .NET SDK(s).
     - [Winget installation](https://winget.run/pkg/Microsoft/dotnet)
