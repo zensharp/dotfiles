@@ -2,7 +2,8 @@
 
 	#ROOTNAMESPACEBEGIN#
 
-public class #SCRIPTNAME# : MonoBehaviour {
+public class #SCRIPTNAME# : MonoBehaviour
+{
 	#NOTRIM#
 }
 #ROOTNAMESPACEEND#
