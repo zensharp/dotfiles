@@ -1,7 +1,11 @@
-
 # WSL Interoperability
 alias explorer=explorer.exe
-alias open=explorer
 alias notepad=notepad.exe
 alias clip=clip.exe
 alias gitk=gitk.exe
+
+function open
+{
+	dir=${1:-.}
+	explorer.exe $dir
+}
