@@ -9,3 +9,4 @@ function open
 	dir=${1:-.}
 	explorer.exe $dir
 }
+

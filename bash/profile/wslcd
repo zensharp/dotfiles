@@ -2,3 +2,4 @@ function wslcd {
 	dir=$(wslpath "$1")
 	cd "$dir"
 }
+

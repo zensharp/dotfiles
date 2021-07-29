@@ -8,3 +8,4 @@ function mkcd {
     mkdir $@ && cd $last
   fi
 }
+
