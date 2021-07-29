@@ -1,4 +1,3 @@
-
 function mkcd {
   last=$(eval "echo \$$#")
   if [ ! -n "$last" ]; then
