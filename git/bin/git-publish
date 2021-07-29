@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+passthroughArgs="$*"
+currentBranch=$(git branch --show-current)
+git push -u origin $currentBranch $passthroughArgs
