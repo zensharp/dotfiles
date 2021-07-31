@@ -1,5 +1,8 @@
 "*":
   core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    closeDeletedFileTabs: true
     disabledPackages: [
       "about"
       "archive-view"
@@ -8,7 +11,6 @@
       "autocomplete-html"
       "autocomplete-plus"
       "autocomplete-snippets"
-      "welcome"
       "autoflow"
       "autosave"
       "background-tips"
@@ -28,7 +30,6 @@
       "grammar-selector"
       "image-view"
       "incompatible-packages"
-      "keybinding-resolver"
       "language-c"
       "language-clojure"
       "language-coffee-script"
@@ -40,10 +41,57 @@
       "language-html"
       "language-hyperlink"
       "language-java"
+      "language-javascript"
+      "language-json"
+      "language-less"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-property-list"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-rust-bundled"
+      "language-sass"
+      "language-shellscript"
+      "language-source"
+      "language-sql"
+      "language-todo"
+      "language-toml"
+      "language-typescript"
+      "language-xml"
+      "language-yaml"
+      "link"
+      "metrics"
+      "notifications"
+      "open-on-github"
+      "package-generator"
+      "snippets"
+      "spell-check"
+      "status-bar"
+      "styleguide"
+      "symbols-view"
+      "timecop"
+      "tree-view"
+      "welcome"
+      "wrap-guide"
+      "language-text"
+      "update-package-dependencies"
     ]
+    projectHome: "C:\\Users\\andrew\\iCloudDrive\\27N4MQEA55~pro~writer"
+    restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
     uriHandlerRegistration: "always"
+  editor:
+    fontSize: 10
+    tabLength: 4
   "exception-reporting":
-    userId: "57f0a69c-050d-4f28-b117-e0b7ffc27065"
+    userId: "41cdd319-870b-42d4-b1c2-d5e11ce6e0f7"
   welcome:
     showOnStartup: false
