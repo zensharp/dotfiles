@@ -1,8 +1,8 @@
 # WSL Interoperability
-alias explorer=explorer.exe
-alias notepad=notepad.exe
-alias clip=clip.exe
-alias gitk=gitk.exe
+alias explorer='explorer.exe'
+alias notepad='notepad.exe'
+alias clip='clip.exe'
+alias gitk='gitk.exe'
 
 function open
 {
