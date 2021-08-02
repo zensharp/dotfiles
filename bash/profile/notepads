@@ -1,7 +1,7 @@
 function notepads
 {
-	powershell.exe C:/Users/andrew/AppData/Local/Microsoft/WindowsApps/Notepads.exe"$*"
+	powershell.exe "& C:/Users/andrew/AppData/Local/Microsoft/WindowsApps/Notepads.exe $*"
 }
 
-alias notes=notepads
+alias notes='notepads'
 
