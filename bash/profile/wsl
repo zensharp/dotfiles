@@ -1,9 +1,0 @@
-function wslcd {
-	dir=$(wslpath "$1")
-	cd "$dir"
-}
-
-function wslpwd {
-	wslpath -w "$(pwd)"
-}
-
