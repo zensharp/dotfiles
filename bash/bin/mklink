@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source=$(wslpath -w "${1}")
+destination=$(wslpath -w "${2}")
+
+cmd.exe /c "mklink \"$source\" \"$destination\""
