@@ -6,14 +6,14 @@
     "searchResultHeight": 50,
     "showDescriptionOnAllSearchResults": true,
     "showSearchIcon": true,
-    "showSearchResultNumbers": true,
+    "showSearchResultNumbers": false,
     "smoothScrolling": true,
     "userInputHeight": 60,
     "windowWidth": 600,
-    "userInputBorderRadius": "4px",
+    "userInputBorderRadius": "8px",
     "userInputBottomMargin": "2",
-    "searchResultsBorderRadius": "4px",
-    "scrollbarBorderRadius": "4px"
+    "searchResultsBorderRadius": "8px",
+    "scrollbarBorderRadius": "0px"
   },
   "applicationSearchOptions": {
     "applicationFileExtensions": [
@@ -99,7 +99,7 @@
   },
   "generalOptions": {
     "allowWindowMove": true,
-    "autostart": false,
+    "autostart": true,
     "clearCachesOnExit": false,
     "hideMainWindowAfterExecution": true,
     "hideMainWindowOnBlur": true,
@@ -193,6 +193,42 @@
         "priority": 5,
         "url": "https://www.youtube.com/results?search_query={{query}}",
         "suggestionUrl": "https://www.google.com/complete/search?ds=yt&output=firefox&q={{query}}"
+      },
+      {
+        "encodeSearchTerm": true,
+        "icon": {
+          "parameter": "https://cdn.svgporn.com/logos/gitlab.svg",
+          "type": "URL"
+        },
+        "isFallback": false,
+        "name": "GitLab",
+        "prefix": "gl?",
+        "priority": 0,
+        "url": "https://gitlab.com/?name={{query}}"
+      },
+      {
+        "encodeSearchTerm": true,
+        "icon": {
+          "parameter": "https://cdn.svgporn.com/logos/github-icon.svg",
+          "type": "URL"
+        },
+        "isFallback": false,
+        "name": "GitHub",
+        "prefix": "gh?",
+        "priority": 0,
+        "url": "https://github.com/search?q={{query}}"
+      },
+      {
+        "encodeSearchTerm": true,
+        "icon": {
+          "parameter": "https://upload.wikimedia.org/wikipedia/commons/2/25/NuGet_project_logo.svg",
+          "type": "URL"
+        },
+        "isFallback": false,
+        "name": "NuGet",
+        "prefix": "ng?",
+        "priority": 0,
+        "url": "https://www.nuget.org/packages?q={{query}}"
       }
     ]
   },
