@@ -7,7 +7,7 @@ $ git config --global commit.template ~/.gitmessage
 ```
 
 # Git Subcommands
-* Add the included scripts to `~/bin`.
+* Add the `./bin` to `PATH`.
 
 # Enable Git DAG Logs
 ```
