@@ -2,6 +2,32 @@
 
 set -e
 
-passthroughArgs="$*"
+# Find current branch name
 currentBranch=$(git branch --show-current)
-git push -u origin $currentBranch $passthroughArgs
+
+# Create arguments
+args=""
+for value in "$@"; do
+	pattern='^--?.+'
+	if [[ $value =~ $pattern ]]
+	then
+		args+=" ${value}"
+	else
+		args+=" \"${value}\""
+	fi
+done
+
+# Detect whether an issue should be closed
+if [[ " $@ " =~ " merge_request.create " ]];
+then
+	pattern='(#[0-9]+)$'
+	if [[ $currentBranch =~ $pattern ]]
+	then
+		args+=" --push-option \"merge_request.description=/closes ${BASH_REMATCH[1]}\""
+	fi
+fi
+
+# Run command
+cmd="git push -u origin $currentBranch ${args}"
+echo $cmd
+eval $cmd
