@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-set -e
-
-git checkout master --force
-git checkout -B production
-git merge master --ff-only
-git push --set-upstream origin production
-git checkout master
