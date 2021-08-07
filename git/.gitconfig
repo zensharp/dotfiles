@@ -1,4 +1,5 @@
 [core]
+	editor = micro
 	compression = 0
 [fetch]
 	prune = true
