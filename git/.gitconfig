@@ -1,0 +1,32 @@
+[core]
+	compression = 0
+[fetch]
+	prune = true
+[commit]
+	template = ~/dotfiles/git/.gitmessage
+[http]
+	postBuffer = 524288000
+[alias]
+	pl = pull
+	ps = push
+	co = checkout
+	st = status
+	s = status --short
+	aa = add --all
+	ci = commit
+	cm = commit --message
+	ca = commit --all
+	cam = commit --all --message
+	pb = publish
+	pbc = publish --push-option merge_request.create
+	pbca = publish --push-option merge_request.create --push-option
+[url "git@gitlab.com"]
+	insteadOf = gl
+[url "git@github.com"]
+	insteadOf = gh
+[url "git@bitbucket.com"]
+	insteadOf = bb
+[includeIf "gitdir:**/gitlab/**"]
+	path = ~/dotfiles/git/.gitlab.gitconfig
+[includeIf "gitdir:**/github/**"]
+	path = ~/dotfiles/git/.github.gitconfig
