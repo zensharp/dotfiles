@@ -1,30 +1,49 @@
-# General
+# Configuration
+```
+[fetch]
+        prune = true
+[init]
+        defaultBranch = master
+[core]
+        editor = micro
+        excludesFile = ~/.gitignore
+[commit]
+        template = ~/.gitmessage
+```
 * Create a default commit template at `~/.message`. Then add to your configuration.
-```shell
-$ git config --global fetch.prune true
-$ git config --global init.defaultBranch master
-$ git config --global commit.template ~/.gitmessage
+
+## Aliases
+```
+[alias]
+        pl = pull
+        co = checkout
+        st = status
+        s = status --short
+        aa = add --all
+        ci = commit
+        cm = commit --message
+        ca = commit --all
+        cam = commit -all --message
+```
+```
+[alias]
+        pb = publish
+        pbc = publish --push-option merge_request.create
+        pbca = publish --push-option merge_request.create --push-option merge_request.merge_request.merge_when_pipeline_succeeds
+```
+```
+[alias]
+        adog = log --all --decorate --oneline --graph
 ```
 
-# Git Subcommands
-* Add the `./bin` to `PATH`.
-
-# Enable Git DAG Logs
+## URL Aliases
 ```
-$ git config --global alias.adog "log --all --decorate --oneline --graph"
-```
-
-# Git Aliases
-* Add any of these aliases to your global git configuration.
-```
-$ git config --global alias.st "status"
-$ git config --global alias.aa "add --all"
-$ git config --global alias.ci "commit"
-$ git config --global alias.cm "commit -m"
-$ git config --global alias.cam "commit -am"
-$ git config --global alias.pb "publish"
-$ git config --global alias.pbc "publish --push-option merge_request.create"
-$ git config --global alias.pbca "publish --push-option merge_request.create --push-option merge_request.merge_request.merge_when_pipeline_succeeds"
+[url "git@gitlab.com"]
+        insteadOf = gl
+[url "git@github.com"]
+        insteadOf = gh
+[url "git@bitbucket.com"]
+        insteadOf = bb
 ```
 
 # References
