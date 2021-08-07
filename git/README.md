@@ -1,68 +1,12 @@
 # Installation
-1. Copy (or symlink) `.gitmessage` to your home directory.
-
-# Configuration
+1. Create a `.gitignore` in your home directory.
+2. Include the git config dotfiles.
 ```
-[fetch]
-	prune = true
-[init]
-	defaultBranch = master
-[core]
-	editor = micro
-	excludesFile = ~/.gitignore
-[commit]
-	template = ~/.gitmessage
-```
-* Create a default commit template at `~/.message`. Then add to your configuration.
-
-### Aliases
-```
-[alias]
-	pl = pull
-	ps = push
-	co = checkout
-	st = status
-	s = status --short
-	aa = add --all
-	ci = commit
-	cm = commit --message
-	ca = commit --all
-	cam = commit -all --message
-```
-```
-[alias]
-	pb = publish
-	pbc = publish --push-option merge_request.create
-	pbca = publish --push-option merge_request.create --push-option merge_request.merge_request.merge_when_pipeline_succeeds
-```
-```
-[alias]
-	adog = log --all --decorate --oneline --graph
+$ git config --global include.path ~/dotfiles/git/.gitconfig
 ```
 
-### URL Aliases
-```
-[url "git@gitlab.com"]
-	insteadOf = gl
-[url "git@github.com"]
-	insteadOf = gh
-[url "git@bitbucket.com"]
-	insteadOf = bb
-```
-
+# Usage
 ## Templates
-```
-
-# ↑ Header: If applied, this commit will ____________.
-
-
-# ↑ Body: (Optional) Explain why this change is being made
-
-
-# ↑ Footer: (Optional) List breaking changes/provide links to any relevant resources
-# --------------------
-```
-
 ### Header
 ```
 <type>(<scope>): <subject>
