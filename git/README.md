@@ -1,3 +1,6 @@
+# Installation
+1. Copy (or symlink) `.gitmessage` to your home directory.
+
 # Configuration
 ```
 [fetch]
