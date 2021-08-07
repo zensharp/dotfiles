@@ -16,6 +16,7 @@
 ```
 [alias]
         pl = pull
+        ps = push
         co = checkout
         st = status
         s = status --short
