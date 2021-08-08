@@ -4,7 +4,7 @@
 [fetch]
 	prune = true
 [commit]
-	template = ~/dotfiles/git/.gitmessage
+	template = ~/.dotfiles/.gitmessage
 [http]
 	postBuffer = 524288000
 [alias]
@@ -28,6 +28,6 @@
 [url "git@bitbucket.com"]
 	insteadOf = bb
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/dotfiles/git/.gitlab.gitconfig
+	path = ~/.dotfiels/.gitlab.gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/dotfiles/git/.github.gitconfig
+	path = ~/.dotfiles/.github.gitconfig

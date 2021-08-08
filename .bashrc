@@ -1,9 +1,7 @@
 
 dotfilesDir=~/.dotfiles
 
-cd $dotfilesDir
-
-export PATH="bin:$PATH"
+export PATH="$dotfilesDir/bin:$PATH"
 alias ls="ls --color=auto --group-directories-first"
 alias tree="tree --dirsfirst"
 
