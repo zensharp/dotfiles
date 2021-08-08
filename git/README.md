@@ -1,9 +1,14 @@
 # Installation
-1. Create a `.gitignore` in your home directory.
-2. Include the git config dotfiles.
+1. Include the git config dotfiles. I use a fallback name/email if the account cannnot be resolved (see [git/.gitconfig](https://gitlab.com/andtech/dotfiles/-/blob/master/git/.gitconfig#L30)).
 ```
-$ git config --global include.path ~/dotfiles/git/.gitconfig
+[include]
+	path = /home/andrew/dotfiles/git/.gitconfig
+[user]
+	name = andtech
+	email = 8265381-andtech@users.noreply.gitlab.com
 ```
+
+2. (Optional) Create a `.gitignore` in your home directory.
 
 # Usage
 ## Templates
