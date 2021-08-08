@@ -18,6 +18,7 @@
 	cm = commit --message
 	ca = commit --all
 	cam = commit --all --message
+	adog = log --all --decorate --oneline --graph
 	pb = publish
 	pbc = publish --push-option merge_request.create
 	pbca = publish --push-option merge_request.create --push-option
