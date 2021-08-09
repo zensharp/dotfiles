@@ -1,1 +1,1 @@
-Refer to the [wiki](https://gitlab.com/andtech/cyberconfig/-/wikis/home) for instructions.
+Refer to the [wiki](https://gitlab.com/andtech/dotfiles/-/wikis/home) for instructions.
