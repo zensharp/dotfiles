@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Dependencies:
+#   * https://github.com/nemisj/git-removed-branches
+
+set -eu
+
+git fetch --prune
+current=$(git branch --show-current)
+git checkout master --quiet
+git pull --ff-only
+git removed-branches --prune
+git checkout $current --quiet 2>/dev/null || git status
