@@ -19,10 +19,12 @@
 	cm = commit --message
 	ca = commit --all
 	cam = commit --all --message
-	adog = log --all --decorate --oneline --graph
+	adog = log --all --decorate --oneline --graph
+
 	pb = publish
 	pbc = publish --push-option merge_request.create
 	pbca = publish --push-option merge_request.create --push-option merge_request.merge_when_pipeline_succeeds
+	pd = produce
 [url "git@gitlab.com"]
 	insteadOf = gl
 [url "git@github.com"]
