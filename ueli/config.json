@@ -140,25 +140,25 @@
 			"isEnabled": true,
 			"shortcuts": [
 				{
-					"description": "",
-					"executionArgument": "wt --startingDirectory \"//wsl$/Ubuntu-20.04/home/andrew/journal\" --title \"Journal\"",
+					"description": "Open your journal for editing",
+					"executionArgument": "wt --startingDirectory \"//wsl$/Ubuntu-20.04/home/andrew/journal/jot\" --title \"Journal\"",
 					"icon": {
 						"parameter": "https://icons.veryicon.com/png/Movie%20%26%20TV/Indiana%20Jones%20and%20the%20Last%20Crusade/Grail%20Diary.png",
 						"type": "URL"
 					},
-					"name": "Open my journal",
+					"name": "Edit my journal",
 					"needsUserConfirmationBeforeExecution": false,
 					"tags": [],
 					"type": "Commandline tool"
 				},
 				{
-					"description": "",
-					"executionArgument": "wt --startingDirectory \"//wsl$/Ubuntu-20.04/home/andrew/journal\" --title \"Journal\"",
+					"description": "Open your journal for editing",
+					"executionArgument": "wt --startingDirectory \"//wsl$/Ubuntu-20.04/home/andrew/dreams/jot\" --title \"Journal\"",
 					"icon": {
 						"parameter": "https://icons.veryicon.com/png/Movie%20%26%20TV/Indiana%20Jones%20and%20the%20Last%20Crusade/Grail%20Diary.png",
 						"type": "URL"
 					},
-					"name": "Open my dream journal",
+					"name": "Edit my dream journal",
 					"needsUserConfirmationBeforeExecution": false,
 					"tags": [],
 					"type": "Commandline tool"
