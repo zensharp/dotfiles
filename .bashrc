@@ -16,3 +16,10 @@ wslcd ()
 {
 	cd "$(wslpath $1)"
 }
+
+resource ()
+{
+	source ${1:-~/.bashrc}
+}
+
+alias source="resource"
