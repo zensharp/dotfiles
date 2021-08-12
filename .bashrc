@@ -19,7 +19,7 @@ wslcd ()
 
 resource ()
 {
-	source ${1:-~/.bashrc}
+	. ${1:-~/.bashrc}
 }
 
 alias source="resource"
