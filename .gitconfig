@@ -12,6 +12,7 @@
 	ps = push
 	ft = fetch
 	co = checkout
+	cob = checkout -b
 	st = status
 	s = status --short
 	aa = add --all
