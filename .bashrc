@@ -77,3 +77,7 @@ fi
 export PATH="$HOME/.dotfiles/bin:$PATH"
 . ~/.dotfiles/.bash_aliases
 . ~/.dotfiles/.bash_prompt
+
+if [[ $PWD == "/mnt/c/WINDOWS/System32" ]]; then
+	cd $HOME
+fi
