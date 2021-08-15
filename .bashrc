@@ -81,3 +81,5 @@ export PATH="$HOME/.dotfiles/bin:$PATH"
 if [[ $PWD == "/mnt/c/WINDOWS/System32" ]]; then
 	cd $HOME
 fi
+
+alias catkey='cat ~/.ssh/id_rsa.pub'
