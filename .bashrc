@@ -74,6 +74,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export BROWSER="explorer.exe"
+
 export PATH="$HOME/.dotfiles/bin:$PATH"
 . ~/.dotfiles/.bash_aliases
 . ~/.dotfiles/.bash_prompt
