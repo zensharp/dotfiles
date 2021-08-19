@@ -27,7 +27,7 @@
 	pbc = publish --push-option merge_request.create
 	pbca = publish --push-option merge_request.create --push-option merge_request.merge_when_pipeline_succeeds
 	pd = produce
-	wb = browse
+	bw = browse
 [url "git@gitlab.com"]
 	insteadOf = gl
 [url "git@github.com"]
