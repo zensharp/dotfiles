@@ -11,6 +11,7 @@
 	pl = pull
 	ps = push
 	ft = fetch
+	cl = clone
 	co = checkout
 	cob = checkout -b
 	st = status
