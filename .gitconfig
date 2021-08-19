@@ -16,6 +16,7 @@
 	cl = clone
 	co = checkout
 	cob = checkout -b
+	rb = rebase
 	st = status
 	s = status --short
 	aa = add --all
