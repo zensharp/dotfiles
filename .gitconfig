@@ -3,6 +3,8 @@
 	compression = 0
 [fetch]
 	prune = true
+[pull]
+	rebase = true
 [commit]
 	template = ~/.dotfiles/.gitmessage
 [http]
