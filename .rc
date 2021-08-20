@@ -1,6 +1,4 @@
-export PATH="$HOME/.dotfiles/bin:$PATH"
-. ~/.dotfiles/.bash_aliases
-. ~/.dotfiles/.bash_prompt
+export PATH="$PATH:$HOME/.dotfiles/bin"
 
 alias ls="ls --color=auto --group-directories-first"
 alias tree="tree --dirsfirst"
@@ -9,5 +7,3 @@ alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
 alias catkey='cat ~/.ssh/id_rsa.pub'
-
-open () { open ${1:-$PWD}; }

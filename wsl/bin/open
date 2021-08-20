@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-if command -v xdg-open &> /dev/null
-then
-	xdg-open "${1:-.}"
-else
-	explorer.exe "${1:-.}"
-fi
