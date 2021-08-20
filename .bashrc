@@ -5,10 +5,7 @@ case $- in
 esac
 
 # Aliases
-resource ()
-{
-	. ${1:-~/.bashrc}
-}
+resource () { . ${1:-~/.bashrc}; }
 
 alias source="resource"
 

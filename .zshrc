@@ -1,7 +1,4 @@
 # Aliases
-resource ()
-{
-	. ${1:-~/.zshrc}
-}
+resource () { . ${1:-~/.zshrc}; }
 
 alias source="resource"
