@@ -7,3 +7,6 @@ alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
 alias catkey='cat ~/.ssh/id_rsa.pub'
+
+alias openBin=$(which open)
+open () { openBin ${1:-$PWD}; }

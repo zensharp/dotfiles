@@ -7,9 +7,9 @@ open ()
 {
 	if command -v xdg-open &> /dev/null
 	then
-		xdg-open "${1:-$PWD}"
+		xdg-open "${1}"
 	else
-		explorer.exe "${1:-$PWD}"
+		explorer.exe "${1}"
 	fi
 }
 
