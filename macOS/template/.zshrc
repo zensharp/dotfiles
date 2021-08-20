@@ -1,2 +1,3 @@
+. ~/.dotfiles/zsh/.zshrc
+. ~/.dotfiles/macOS/.zshrc
 . ~/.dotfiles/.rc
-. ~/.dotfiles/macOS/.bashrc
