@@ -6,7 +6,7 @@
 [pull]
 	ff = only
 [commit]
-	template = ~/.dotfiles/.gitmessage
+	template = ~/.dotfiles/git/.gitmessage
 [merge]
 	ff = no
 [http]
@@ -27,7 +27,6 @@
 	ca = commit --all
 	cam = commit --all --message
 	adog = log --all --decorate --oneline --graph
-
 	pb = publish
 	pbc = publish --push-option merge_request.create
 	pbca = publish --push-option merge_request.create --push-option merge_request.merge_when_pipeline_succeeds
@@ -40,6 +39,6 @@
 [url "git@bitbucket.com"]
 	insteadOf = bb
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/.dotfiles/gitlab.gitconfig
+	path = ~/.dotfiles/git/gitlab.gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/.dotfiles/github.gitconfig
+	path = ~/.dotfiles/git/github.gitconfig
