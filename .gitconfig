@@ -7,6 +7,8 @@
 	ff = only
 [commit]
 	template = ~/.dotfiles/.gitmessage
+[merge]
+	ff = no
 [http]
 	postBuffer = 524288000
 [alias]
