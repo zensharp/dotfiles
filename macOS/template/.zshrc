@@ -1,5 +1,5 @@
 . ~/.dotfiles/macOS/macOS.rc
-. ~/.dotfiles/zsh/.zshrc
+. ~/.dotfiles/zsh/zsh.rc
 . ~/.dotfiles/zsh/.zsh_prompt
 . ~/.dotfiles/.rc
 

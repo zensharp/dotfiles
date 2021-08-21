@@ -1,5 +1,5 @@
 . ~/.dotfiles/wsl/wsl.rc
-. ~/.dotfiles/bash/.bashrc
+. ~/.dotfiles/bash/bash.rc
 . ~/.dotfiles/bash/.bash_prompt
 . ~/.dotfiles/.rc
 
