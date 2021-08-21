@@ -8,5 +8,4 @@ alias tree4="tree -L 4"
 resource () { . ${1:-~/$PROFILE}; }
 alias source="resource"
 
-alias openBin=$(which open)
-open () { openBin ${1:-$PWD}; }
+open () { $OPEN ${1:-$PWD}; }

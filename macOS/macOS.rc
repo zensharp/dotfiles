@@ -1,1 +1,2 @@
+export OPEN="open"
 export BROWSER="open"

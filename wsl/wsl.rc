@@ -1,16 +1,11 @@
-export BROWSER="explorer.exe"
-
 alias wudo="python3 ~/.dotfiles/wsl/bin/wsl-sudo.py"
 
-open ()
-{
-	if command -v xdg-open &> /dev/null
-	then
-		xdg-open "${1}"
-	else
-		explorer.exe "${1}"
-	fi
-}
+if type "xdg-open" > /dev/null; then
+	export OPEN="xdg-open"
+else
+	export OPEN="explorer.exe"
+fi
+export BROWSER="explorer.exe"
 
 wslcd () { cd "$(wslpath $1)"; }
 
