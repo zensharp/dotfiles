@@ -38,6 +38,6 @@
 [url "git@bitbucket.com"]
 	insteadOf = bb
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/.dotfiles/.gitlab.gitconfig
+	path = ~/.dotfiles/gitlab.gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/.dotfiles/.github.gitconfig
+	path = ~/.dotfiles/github.gitconfig

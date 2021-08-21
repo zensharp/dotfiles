@@ -2,4 +2,4 @@
 	name = ""
 	email = ""
 [include]
-	path = ~/.dotfiles/git/.gitconfig
+	path = ~/.dotfiles/.gitconfig
