@@ -4,11 +4,14 @@
 [fetch]
 	prune = true
 [pull]
-	ff = only
+	rebase = true
 [commit]
 	template = ~/.dotfiles/git/.gitmessage
 [merge]
 	ff = no
+[diff]
+	colormoved = dimmed-zebra
+	colormovedws = allow-indentation-change
 [http]
 	postBuffer = 524288000
 [alias]
