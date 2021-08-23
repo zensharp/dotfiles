@@ -5,6 +5,12 @@ alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
 
+function howami
+{
+	shopt -q login_shell && printf 'login' || printf 'non-login'
+	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
+}
+
 resource () { . ${1:-~/$PROFILE}; }
 alias source="resource"
 
