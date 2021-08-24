@@ -35,6 +35,7 @@
 	pbca = publish --push-option merge_request.create --push-option merge_request.merge_when_pipeline_succeeds
 	pd = produce
 	bw = browse
+	lz = lazy
 [url "git@gitlab.com"]
 	insteadOf = gl
 [url "git@github.com"]
