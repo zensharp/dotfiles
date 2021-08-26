@@ -1,5 +1,5 @@
 . ~/.dotfiles/shell/env
-. ~/.dotfiles/bash/env
+. ~/.dotfiles/shell/interactive
 . ~/.dotfiles/bash/interactive
 . ~/.dotfiles/wsl/env
 . ~/.dotfiles/wsl/interactive
