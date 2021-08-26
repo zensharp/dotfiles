@@ -1,4 +1,2 @@
-export PROFILE=".zshrc"
-
 autoload -U colors && colors
 PS1="%{$fg[green]%}%n@%m %{$fg[blue]%}%~ %{$reset_color%}%% "

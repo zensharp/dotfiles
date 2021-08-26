@@ -1,0 +1,65 @@
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$line_break\
+$character"""
+
+[username]
+style_root = "bold red"
+style_user = "bold yellow"
+show_always = false
+
+[hostname]
+ssh_only = false
+format = '[$hostname]($style) in '
+trim_at = "."
+
+[directory]
+truncation_length = 6
+truncate_to_repo = true
+style = "yellow"
+
+[git_branch]
+symbol = " "
+truncation_length = 8
+truncation_symbol = "..."
+style = "bold purple"
+
+[git_state]
+cherry_pick = "CHERRY PICKING"
+rebase = "REBASING"
+merge = "MERGING"
+revert = "REVERTING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+style = "purple"
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = 'purple'
+stashed = '\$'
+ahead = '⇡'
+behind = '⇣'
+up_to_date = ''
+diverged = '⇕'
+conflicted = '!'
+deleted = 'D'
+renamed = 'R'
+modified = 'M'
+staged = '+'
+untracked = '?'
+
+[character]
+format = '$symbol '
+success_symbol = '❯'
+error_symbol = '❯'
+vicmd_symbol = '❮'
