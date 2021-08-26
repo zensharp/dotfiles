@@ -13,14 +13,15 @@ $line_break\
 $character"""
 
 [username]
-style_root = "bold red"
-style_user = "bold yellow"
+style_root = "green"
+style_user = "green"
 show_always = false
 
 [hostname]
 ssh_only = false
 format = '[$hostname]($style) in '
 trim_at = "."
+style = "green"
 
 [directory]
 truncation_length = 6
