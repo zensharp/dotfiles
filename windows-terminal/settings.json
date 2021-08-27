@@ -27,7 +27,7 @@
         }
     ],
     "copyFormatting": "none",
-    "copyOnSelect": false,
+    "copyOnSelect": true,
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
     "disableAnimations": true,
     "experimental.rendering.forceFullRepaint": true,
