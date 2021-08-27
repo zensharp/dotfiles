@@ -25,6 +25,7 @@ style = "green"
 [directory]
 truncation_length = 6
 truncate_to_repo = true
+style = "blue"
 
 [git_branch]
 style = "bold purple"

@@ -65,7 +65,7 @@
                 "name": "Ubuntu",
                 "padding": "9",
                 "source": "Windows.Terminal.Wsl",
-                "useAcrylic": true
+                "useAcrylic": false
             },
             {
                 "acrylicOpacity": 0.94999999999999996,
@@ -194,14 +194,14 @@
             "yellow": "#C18301"
         },
         {
-            "background": "#0B061A",
+            "background": "#14151A",
             "black": "#567275",
             "blue": "#2770FF",
             "brightBlack": "#567275",
             "brightBlue": "#2770FF",
             "brightCyan": "#3BE8FF",
             "brightGreen": "#00F786",
-            "brightPurple": "#DA5AF4",
+            "brightPurple": "#FF7A2A",
             "brightRed": "#FF264A",
             "brightWhite": "#CEF9FF",
             "brightYellow": "#A3FE44",
@@ -210,10 +210,10 @@
             "foreground": "#AEFFE1",
             "green": "#00F786",
             "name": "Retro",
-            "purple": "#DA5AF4",
+            "purple": "#FF7A2A",
             "red": "#FF264A",
             "selectionBackground": "#19CDE6",
-            "white": "#CEF9FF",
+            "white": "#DADADA",
             "yellow": "#A3FE44"
         },
         {
