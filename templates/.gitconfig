@@ -1,5 +1,5 @@
 [user]
-	name = ""
-	email = ""
+	name = "Andrew"
+	email = "8265381-andtech@users.noreply.gitlab.com"
 [include]
 	path = ~/.dotfiles/.gitconfig
