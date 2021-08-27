@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-user=andrew
-notepadsExe=C:/Users/$user/AppData/Local/Microsoft/WindowsApps/Notepads.exe
-arguments=$1
-
-powershell.exe "& $notepadsExe $arguments"
