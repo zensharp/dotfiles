@@ -1,3 +1,4 @@
+alias cl=clear
 alias catkey='cat ~/.ssh/id_rsa.pub'
 alias tree="tree --dirsfirst"
 alias tree1="tree -L 1"
@@ -5,13 +6,26 @@ alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
 
+resource () { . ${1:-~/$PROFILE}; }
+alias source="resource"
+
+open () { $OPEN ${1:-$PWD}; }
+
 function howami
 {
 	shopt -q login_shell && printf 'login' || printf 'non-login'
 	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
 }
 
-resource () { . ${1:-~/$PROFILE}; }
-alias source="resource"
+function mksh
+{
+	filename=$(realpath "$1")
+	GREEN='\033[0;32m'
+	NC='\033[0m'
 
-open () { $OPEN ${1:-$PWD}; }
+	echo "Creating $filename"
+	$( var='#!/usr/bin/env bash\n\necho "Hello World!"'; printf '%b\n' "$var" > "$filename" )
+	chmod +x "$filename"
+
+	echo -e "$GREEN... '$filename' [Created]$NC"
+}
