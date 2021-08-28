@@ -1,2 +1,3 @@
-export OPEN="open"
-export BROWSER="open"
+export OPEN=open
+export BROWSER=$OPEN
+export EDITOR=$OPEN

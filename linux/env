@@ -1,1 +1,3 @@
-BROWSER=xdg-open
+export OPEN=xdg-open
+export BROWSER=$OPEN
+export EDITOR=$OPEN
