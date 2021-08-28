@@ -3,5 +3,5 @@ if type "xdg-open" > /dev/null; then
 else
 	export OPEN=explorer.exe
 fi
-export BROWSER=$OPEN
+export BROWSER=explorer.exe
 export EDITOR=$OPEN
