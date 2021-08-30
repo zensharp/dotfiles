@@ -10,7 +10,7 @@
 [commit]
 	template = ~/.dotfiles/git/.gitmessage
 [merge]
-	ff = no
+	ff = true
 [diff]
 	colormoved = dimmed-zebra
 	colormovedws = allow-indentation-change
