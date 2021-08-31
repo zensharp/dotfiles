@@ -20,6 +20,7 @@
 	pl = pull
 	ps = push
 	ft = fetch
+	br = branch
 	cl = clone
 	co = checkout
 	cob = checkout -b
