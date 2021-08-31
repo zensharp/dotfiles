@@ -33,7 +33,7 @@
 	ca = commit --all
 	cam = commit --all --message
 	adog = log --all --decorate --oneline --graph
-	ft = feature
+	feat = feature
 	pb = publish
 	pbc = publish --push-option merge_request.create
 	pbca = publish --push-option merge_request.create --push-option merge_request.merge_when_pipeline_succeeds
