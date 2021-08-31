@@ -3,11 +3,12 @@
     "security.workspace.trust.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.quickSuggestions": false,
-    "editor.codeLens": false,
+	"editor.quickSuggestions": false,
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": false,
 	"editor.detectIndentation": false,
     "extensions.ignoreRecommendations": true,
-    "explorer.confirmDragAndDrop": false
+	"explorer.confirmDragAndDrop": false,
+	"diffEditor.codeLens": true,
+	"search.useGlobalIgnoreFiles": true
 }
