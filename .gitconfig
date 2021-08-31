@@ -42,10 +42,13 @@
 	lz = lazy
 [url "git@gitlab.com"]
 	insteadOf = gl
+	pushInsteadOf = gl
 [url "git@github.com"]
 	insteadOf = gh
+	pushInsteadOf = gh
 [url "git@bitbucket.com"]
 	insteadOf = bb
+	pushInsteadOf = bb
 [includeIf "gitdir:**/gitlab/**"]
 	path = ~/.dotfiles/git/gitlab.gitconfig
 [includeIf "gitdir:**/github/**"]
