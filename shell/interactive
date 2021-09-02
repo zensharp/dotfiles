@@ -1,23 +1,8 @@
-alias cl=clear
-alias catkey='cat ~/.ssh/id_rsa.pub'
 alias tree="tree --dirsfirst"
 alias tree1="tree -L 1"
 alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
-alias gf="git-feature"
-
-resource () { . ${1:-~/$PROFILE}; }
-alias source="resource"
-
-open () { $OPEN ${1:-$PWD}; }
-
-function howami
-{
-	shopt -q login_shell && printf 'login' || printf 'non-login'
-	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
-}
-
 function mksh
 {
 	filename=$(realpath "$1")
@@ -31,7 +16,13 @@ function mksh
 	echo -e "$GREEN... '$filename' [Created]$NC"
 }
 
-if command -v autojump > /dev/null 2>&1
-then
-	
-fi
+# Extras
+alias catkey='cat ~/.ssh/id_rsa.pub'
+open () { $OPEN ${1:-$PWD}; }
+resource () { . ${1:-~/$PROFILE}; }
+alias source="resource"
+function howami
+{
+	shopt -q login_shell && printf 'login' || printf 'non-login'
+	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
+}
