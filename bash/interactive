@@ -65,3 +65,14 @@ fi
 
 # Aliases
 alias ls="ls --color=auto --group-directories-first"
+
+# Applications
+if command -v starship > /dev/null 2>&1
+then
+	eval $(starship init bash)
+fi
+
+if command -v autojump > /dev/null 2>&1
+then
+	. /usr/share/autojump/autojump.bash
+fi
