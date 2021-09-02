@@ -10,5 +10,6 @@
     "extensions.ignoreRecommendations": true,
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.codeLens": true,
-	"search.useGlobalIgnoreFiles": true
+	"search.useGlobalIgnoreFiles": true,
+	"window.zoomLevel": -1
 }
