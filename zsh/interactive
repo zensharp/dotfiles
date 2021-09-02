@@ -1,10 +1,4 @@
-# Customize prompt
-autoload -U colors && colors
-PS1="%{$fg[green]%}%n@%m %{$fg[blue]%}%~ %{$reset_color%}%% "
-
-# Customize directory colors
-eval $(dircolors ~/.dotfiles/.dircolors)
-alias ls='ls --color=auto --group-directories-first'
+echo "sourcing zsh/interactive"
 
 # Keyboard bindings
 autoload -U select-word-style
@@ -12,3 +6,15 @@ select-word-style bash
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
 
+# Enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    eval $(dircolors ~/.dotfiles/.dircolors)
+    alias ls='ls --color=auto --group-directories-first'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+	echo $DIRCOLORS
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
