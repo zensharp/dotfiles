@@ -21,6 +21,8 @@
 	ps = push
 	ft = fetch
 	br = branch
+	mg = merge
+	ff = merge --ff-only
 	cl = clone
 	co = checkout
 	cob = checkout -b
