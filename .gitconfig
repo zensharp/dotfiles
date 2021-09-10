@@ -16,6 +16,14 @@
 	colormovedws = allow-indentation-change
 [http]
 	postBuffer = 524288000
+[color "branch"]
+    current = white
+    local = white
+    remote = black
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = red
 [alias]
 	pl = pull
 	ps = push
