@@ -23,7 +23,7 @@
 [color "status"]
 	added = green
 	changed = yellow
-	untracked = red
+	untracked = black
 [alias]
 	pl = pull
 	ps = push
