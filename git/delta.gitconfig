@@ -1,0 +1,7 @@
+[core]
+	pager = delta
+[delta]
+	side-by-side = false
+	hunk-header-style = omit
+	line-numbers = true
+    line-numbers-left-format = ""

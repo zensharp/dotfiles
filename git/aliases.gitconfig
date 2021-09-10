@@ -1,0 +1,22 @@
+[alias]
+	pl = pull
+	ps = push
+	ft = fetch
+	br = branch
+	mg = merge
+	cl = clone
+	co = checkout
+	cob = checkout -b
+	rb = rebase
+	st = status
+	s = status --short
+	aa = add --all
+	ci = commit
+	cm = commit --message
+	ca = commit --all
+	cam = commit --all --message
+	adog = log --all --decorate --oneline --graph
+	pd = produce
+	pb = publish
+	bw = browse
+	lz = lazy
