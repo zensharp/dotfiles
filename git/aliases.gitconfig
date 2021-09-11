@@ -17,6 +17,8 @@
 	cam = commit --all --message
 	adog = log --all --decorate --oneline --graph
 	pd = produce
-	pb = publish
 	bw = browse
 	lz = lazy
+	pb = publish
+	pbc = publish --create
+	pbca = publish --create --merge-when-pipeline-succeeds
