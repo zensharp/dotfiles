@@ -2,7 +2,6 @@
 	defaultBranch = master
 [core]
 	editor = micro
-	autocrlf = true
 	compression = 0
 [fetch]
 	prune = true

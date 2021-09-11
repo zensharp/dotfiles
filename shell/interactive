@@ -26,3 +26,4 @@ function howami
 	shopt -q login_shell && printf 'login' || printf 'non-login'
 	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
 }
+[[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
