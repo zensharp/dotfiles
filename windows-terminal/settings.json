@@ -22,7 +22,10 @@
             "keys": "ctrl+t"
         },
         {
-            "command": "closeTab",
+            "command": 
+            {
+                "action": "closeTab"
+            },
             "keys": "ctrl+w"
         }
     ],
@@ -57,9 +60,12 @@
                 "closeOnExit": "graceful",
                 "colorScheme": "Retro",
                 "experimental.retroTerminalEffect": true,
-                "fontFace": "Cascadia Mono PL",
-                "fontSize": 18,
-                "fontWeight": "normal",
+                "font": 
+                {
+                    "face": "Cascadia Mono PL",
+                    "size": 18,
+                    "weight": "normal"
+                },
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -78,8 +84,11 @@
                 "colorScheme": "Campbell Powershell",
                 "commandline": "powershell.exe",
                 "experimental.retroTerminalEffect": true,
-                "fontFace": "Cascadia Code",
-                "fontSize": 14,
+                "font": 
+                {
+                    "face": "Cascadia Code",
+                    "size": 14
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
