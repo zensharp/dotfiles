@@ -17,8 +17,6 @@
 [http]
 	postBuffer = 524288000
 [color "branch"]
-    current = white
-    local = white
     remote = black
 [color "status"]
 	added = green
