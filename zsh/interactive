@@ -26,3 +26,9 @@ if command -v autojump > /dev/null 2>&1
 then
 	. /usr/share/autojump/autojump.zsh
 fi
+
+function set_win_title
+{
+    echo -ne "\033]0; $(basename "$PWD") \007"
+}
+precmd_functions+=(set_win_title)
