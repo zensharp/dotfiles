@@ -3,6 +3,7 @@ autoload -U select-word-style
 select-word-style bash
 bindkey "^[[1;5D" backward-word
 bindkey "^[[1;5C" forward-word
+bindkey "^H" backward-kill-word
 
 # Enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
