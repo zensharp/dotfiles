@@ -19,8 +19,9 @@ trim_at = "."
 style = "green"
 
 [directory]
-truncation_length = 6
+truncation_length = 4
 truncate_to_repo = true
+truncation_symbol = "…/"
 style = "blue"
 
 [git_branch]
