@@ -1,6 +1,7 @@
 [init]
 	defaultBranch = master
 [core]
+	whitespace = cr-at-eol
 	editor = micro
 	compression = 0
 [fetch]
