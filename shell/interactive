@@ -27,3 +27,4 @@ function howami
 	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
 }
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
+alias sp=spotify
