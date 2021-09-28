@@ -63,8 +63,8 @@
                 "font": 
                 {
                     "face": "Cascadia Mono PL",
-                    "size": 18,
-                    "weight": "normal"
+                    "size": 16,
+                    "weight": "thin"
                 },
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
