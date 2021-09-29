@@ -1,5 +1,5 @@
 . ~/.dotfiles/shell/env
-. ~/.dotfiles/zsh/env
+. ~/.dotfiles/zshell/env
 . ~/.dotfiles/macOS/env
 
 export PATH="$PATH:$HOME/.dotfiles/bash/bin"

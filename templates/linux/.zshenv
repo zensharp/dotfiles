@@ -1,2 +1,2 @@
 . ~/.dotfiles/shell/env
-. ~/.dotfiles/zsh/env
+. ~/.dotfiles/zshell/env

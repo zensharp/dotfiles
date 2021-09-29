@@ -1,3 +1,3 @@
 . ~/.dotfiles/shell/login
-. ~/.dotfiles/zsh/login
+. ~/.dotfiles/zshell/login
 . ~/.dotfiles/macOS/login
