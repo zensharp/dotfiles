@@ -1,22 +1,16 @@
 [alias]
 	st = status
 	s = status --short
-	cl = clone
 	ft = fetch
 	pl = pull
 	ps = push
-	rb = rebase
-	mg = merge
-	br = branch
 	co = checkout
 	cob = checkout -b
-	si = switch
-	sic = switch -C
+	sw = switch
+	swc = switch -C
 	aa = add --all
-	ci = commit
-	cm = commit --message
-	ca = commit --all
-	cam = commit --all --message
+	cm = commit
+	cma = commit -a
 	adog = log --all --decorate --oneline --graph
 	pd = produce
 	bw = browse
