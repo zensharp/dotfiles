@@ -11,5 +11,6 @@
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.codeLens": true,
 	"search.useGlobalIgnoreFiles": true,
-	"window.zoomLevel": -1
+	"window.zoomLevel": -1,
+	"csharp.referencesCodeLens.enabled": false
 }
