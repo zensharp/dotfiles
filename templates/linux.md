@@ -18,14 +18,14 @@ ln -s $(which fdfind) ~/.local/bin/fd
 
 # Micro
 curl https://getmic.ro | bash && sudo mv micro /usr/bin
-cp ~/.dotfiles/micro/settings.json ~/.config/micro
+cp ~/dotfiles/micro/settings.json ~/.config/micro
 
 # Sift
 curl https://sift-tool.org/downloads/sift/sift_latest_linux_amd64.tar.gz | tar -xz
 cp sift_*/sift ~/.local/bin/sift
 
 # Git
-cp ~/.dotfiles/templates/.gitconfig ~
+cp ~/dotfiles/templates/.gitconfig ~
 
 # Delta
 sudo apt install -y delta

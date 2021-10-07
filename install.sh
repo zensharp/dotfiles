@@ -14,7 +14,7 @@ sudo apt install -y autojump
 
 # Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
-cp ~/.dotfiles/starship/starship.toml ~/.config
+cp ~/dotfiles/starship/starship.toml ~/.config
 
 # FD
 sudo apt install -y fd-find
@@ -22,14 +22,14 @@ ln --symbolic $(which fdfind) ~/.local/bin/fd
 
 # Micro
 curl https://getmic.ro | bash && sudo mv micro /usr/bin
-cp ~/.dotfiles/micro/settings.json ~/.config/micro
+cp ~/dotfiles/micro/settings.json ~/.config/micro
 
 # Sift
 curl https://sift-tool.org/downloads/sift/sift_latest_linux_amd64.tar.gz | tar -xz
 cp sift_*/sift ~/.local/bin/sift
 
 # Git
-cp ~/.dotfiles/templates/.gitconfig ~
+cp ~/dotfiles/templates/.gitconfig ~
 
 # Delta
 wget --output-document delta.deb https://github.com/dandavison/delta/releases/download/0.8.3/git-delta_0.8.3_amd64.deb
