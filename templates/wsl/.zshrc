@@ -1,3 +1,3 @@
-. ~/.dotfiles/shell/interactive
-. ~/.dotfiles/zshell/interactive
-. ~/.dotfiles/wsl/interactive
+. ~/dotfiles/shell/interactive
+. ~/dotfiles/zshell/interactive
+. ~/dotfiles/wsl/interactive

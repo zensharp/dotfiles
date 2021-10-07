@@ -9,7 +9,7 @@
 [pull]
 	ff = only
 [commit]
-	template = ~/.dotfiles/git/.gitmessage
+	template = ~/dotfiles/git/.gitmessage
 [merge]
 	ff = true
 [diff]
@@ -33,9 +33,9 @@
 	insteadOf = bb
 	pushInsteadOf = bb
 [include]
-	path = ~/.dotfiles/git/aliases.gitconfig
-	path = ~/.dotfiles/git/delta.gitconfig
+	path = ~/dotfiles/git/aliases.gitconfig
+	path = ~/dotfiles/git/delta.gitconfig
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/.dotfiles/git/gitlab.gitconfig
+	path = ~/dotfiles/git/gitlab.gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/.dotfiles/git/github.gitconfig
+	path = ~/dotfiles/git/github.gitconfig
