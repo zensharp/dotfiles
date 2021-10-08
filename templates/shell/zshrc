@@ -1,0 +1,6 @@
+# Shell
+. ~/dotfiles/shell/interactive
+
+# ZSH
+. ~/dotfiles/zsh/interactive
+
