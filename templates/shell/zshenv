@@ -1,5 +1,6 @@
-# Unix
+# Shell
 . ~/dotfiles/shell/env
+
 export PATH="$PATH:$HOME/dotfiles/shell/bin"
 
 # ZSH
