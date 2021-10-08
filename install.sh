@@ -50,7 +50,7 @@ pip install spotify-cli
 
 # WSL
 pip3 install --user --upgrade pip
-pip install --user git+https://github.com/cpbotha/xdg-open-wsl.git
+pip install --user 'git+https://github.com/cpbotha/xdg-open-wsl.git'
 
 # NodeJS
 sudo apt install -y npm nodejs
