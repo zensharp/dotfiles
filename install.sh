@@ -59,7 +59,9 @@ sudo npm install --global live-server
 pip install spotify-cli
 
 # Dotfiles
+cp ~/dotfiles/templates/unix/.zshenv ~/.zshenv
+cp ~/dotfiles/templates/unix/.zshrc ~/.zshrc
+cp ~/dotfiles/templates/unix/.zlogin ~/.zlogin
 cp --recursive ~/dotfiles/micro/. ~/.config/micro/
-cp --recursive ~/dotfiles/templates/wsl/. ~/
 cp ~/dotfiles/templates/.gitconfig ~/
 cp ~/dotfiles/starship/starship.toml ~/.config/
