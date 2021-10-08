@@ -1,19 +1,31 @@
 #!/usr/bin/env bash
 
-# *nix
 mkdir -p ~/.local/bin
 mkdir -p ~/.config
 sudo apt update
 
-## Tree
-sudo apt install -y tree
+# *nix
+## Zshell
+sudo apt install -y zsh
+sudo chsh --shell $(which zsh) $(whoami)
 
-## Neofetch
-sudo apt install -y neofetch
+# Frameworks
+## Python
+#sudo apt install -y python3-pip
 
-## Autojump
-sudo apt install -y autojump
+## NodeJS
+sudo apt install -y npm nodejs
 
+## .NET
+wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-5.0
+
+# Applications
 ## Micro
 curl https://getmic.ro | bash
 sudo mv micro /usr/bin
@@ -33,32 +45,16 @@ rm delta.deb
 
 # Bat
 sudo apt install -y bat
-ln -s $(which batcat) ~/.local/bin/bat
+ln --symbolic $(which batcat) ~/.local/bin/bat
 
 ## Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
 
-## Zshell
-sudo apt install -y zsh
-sudo chsh --shell $(which zsh) $(whoami)
-
-## Python
-#sudo apt install -y python3-pip
-
-## NodeJS
-sudo apt install -y npm nodejs
-
-## Spotify
+# Extras
+sudo apt install -y tree
+sudo apt install -y neofetch
+sudo apt install -y autojump
 pip install spotify-cli
-
-## .NET
-wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-rm packages-microsoft-prod.deb
-sudo apt-get update; \
-  sudo apt-get install -y apt-transport-https && \
-  sudo apt-get update && \
-  sudo apt-get install -y dotnet-sdk-5.0
 
 # Dotfiles
 cp --recursive ~/dotfiles/micro/. ~/.config/micro/
