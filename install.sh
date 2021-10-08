@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 mkdir -p ~/.local/bin
+mkdir -p ~/.config
 sudo apt update
 
 # Tree
@@ -14,7 +15,6 @@ sudo apt install -y autojump
 
 # Starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
-cp ~/dotfiles/starship/starship.toml ~/.config/
 
 # FD
 sudo apt install -y fd-find
@@ -28,9 +28,6 @@ cp ~/dotfiles/micro/settings.json ~/.config/micro/
 # Sift
 curl https://sift-tool.org/downloads/sift/sift_latest_linux_amd64.tar.gz | tar -xz
 cp sift_*/sift ~/.local/bin/sift
-
-# Git
-cp ~/dotfiles/templates/.gitconfig ~
 
 # Delta
 wget --output-document delta.deb https://github.com/dandavison/delta/releases/download/0.8.3/git-delta_0.8.3_amd64.deb
@@ -53,3 +50,20 @@ pip install spotify-cli
 
 # WSL
 #pip install --user git+https://github.com/cpbotha/xdg-open-wsl.git
+
+# NodeJS
+sudo apt install -y npm nodejs
+
+# Dotnet
+wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+rm packages-microsoft-prod.deb
+sudo apt-get update; \
+  sudo apt-get install -y apt-transport-https && \
+  sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-5.0
+
+# Profile
+cp ~/dotfiles/templates/.gitconfig ~/
+cp -r ~/dotfiles/templates/wsl/. ~/
+cp ~/dotfiles/starship/starship.toml ~/.config/
