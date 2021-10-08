@@ -64,6 +64,7 @@ sudo apt-get update; \
   sudo apt-get install -y dotnet-sdk-5.0
 
 # Profile
+cp --recursive ~/dotfiles/micro/. ~/.config/micro/
+cp --recursive ~/dotfiles/templates/wsl/. ~/
 cp ~/dotfiles/templates/.gitconfig ~/
-cp -r ~/dotfiles/templates/wsl/. ~/
 cp ~/dotfiles/starship/starship.toml ~/.config/
