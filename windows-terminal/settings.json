@@ -69,7 +69,7 @@
                 "experimental.retroTerminalEffect": true,
                 "font": 
                 {
-                    "face": "Cascadia Mono PL",
+                    "face": "Cascadia Code PL",
                     "size": 16
                 },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
