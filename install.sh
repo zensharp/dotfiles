@@ -43,13 +43,14 @@ sudo apt install -y zsh
 sudo chsh --shell $(which zsh) $(whoami)
 
 # Python
-sudo apt install -y python3-pip
+#sudo apt install -y python3-pip
 
 # Spotify CLI
 pip install spotify-cli
 
 # WSL
-#pip install --user git+https://github.com/cpbotha/xdg-open-wsl.git
+pip3 install --user --upgrade pip
+pip install --user git+https://github.com/cpbotha/xdg-open-wsl.git
 
 # NodeJS
 sudo apt install -y npm nodejs
