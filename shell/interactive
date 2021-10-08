@@ -28,3 +28,4 @@ function howami
 }
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 alias sp=spotify
+alias journal='$(cd ~/journal/jot && jot open today --create)'
