@@ -10,11 +10,11 @@ sudo apt install -y zsh
 sudo chsh --shell $(which zsh) $(whoami)
 
 # Frameworks
-## Python
-#sudo apt install -y python3-pip
-
 ## NodeJS
 sudo apt install -y npm nodejs
+
+## Python
+sudo apt install -y python3-pip
 
 ## .NET
 wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
