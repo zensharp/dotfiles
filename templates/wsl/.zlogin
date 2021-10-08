@@ -1,3 +1,2 @@
-. ~/dotfiles/shell/login
-. ~/dotfiles/zshell/login
+# WSL
 . ~/dotfiles/wsl/login

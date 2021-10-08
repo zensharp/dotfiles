@@ -1,3 +1,2 @@
-. ~/dotfiles/shell/interactive
-. ~/dotfiles/zshell/interactive
+# macOS
 . ~/dotfiles/macOS/interactive
