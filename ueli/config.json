@@ -12,7 +12,13 @@
 			"userInputHeight": 60,
 			"windowWidth": 600,
 			"userInputBorderRadius": "8px",
+			"userInputFontSize": "24px",
+			"userInputFontWeight": "200",
 			"userInputBottomMargin": "2",
+			"searchResultNameFontSize": "16px",
+			"searchResultNameFontWeight": "400",
+			"searchResultDescriptionFontSize": "12px",
+			"searchResultDescriptionFontWeight": "200",
 			"searchResultsBorderRadius": "8px",
 			"scrollbarBorderRadius": "0px"
 		},
@@ -191,6 +197,11 @@
 		"uwpSearchOptions": {
 			"isEnabled": true
 		},
+		"weatherOptions": {
+			"isEnabled": false,
+			"prefix": "wea?",
+			"temperatureUnit": "Celsius"
+		},
 		"websearchOptions": {
 			"isEnabled": true,
 			"webSearchEngines": [
@@ -268,6 +279,18 @@
 					"priority": 0,
 					"url": "spotify:search/{{query}}",
 					"suggestionUrl": ""
+				},
+				{
+					"encodeSearchTerm": true,
+					"icon": {
+						"parameter": "https://raw.githubusercontent.com/winget-run/web/master/public/favicon.ico",
+						"type": "URL"
+					},
+					"isFallback": false,
+					"name": "Winget",
+					"prefix": "wg?",
+					"priority": 0,
+					"url": "https://winget.run/search?query={{query}}"
 				}
 			]
 		},
