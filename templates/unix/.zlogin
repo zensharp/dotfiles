@@ -3,3 +3,4 @@
 
 # ZSH
 . ~/dotfiles/zshell/login
+

@@ -4,3 +4,4 @@ export PATH="$PATH:$HOME/dotfiles/shell/bin"
 
 # ZSH
 . ~/dotfiles/zshell/env
+
