@@ -2,5 +2,5 @@
 . ~/dotfiles/shell/login
 
 # ZSH
-. ~/dotfiles/zshell/login
+. ~/dotfiles/zsh/login
 
