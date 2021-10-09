@@ -10,7 +10,7 @@
 [pull]
 	ff = only
 [commit]
-	template = ~/dotfiles/git/.gitmessage
+	template = ~/dotfiles/git/gitmessage
 [merge]
 	ff = true
 [diff]
