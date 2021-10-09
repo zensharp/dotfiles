@@ -11,6 +11,7 @@
 	aa = add --all
 	cm = commit
 	cma = commit -a
+	amend = commit --amend
 	adog = log --all --decorate --oneline --graph
 	pd = produce
 	bw = browse
