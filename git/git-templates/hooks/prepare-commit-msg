@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+branch=$(git branch --show-current)
+if echo $branch | grep -q '^feature/'
+then
+	name=${branch#feature/}
+	if echo $name | grep -q '^[[:digit:]]*$'
+	then
+		message="Implementing #$name"
+	else
+		message="Implementing feature \"$name\""
+	fi
+else
+	message=""
+fi
+
+sed --in-place "s/#%{git_feature}/$message/" $1
