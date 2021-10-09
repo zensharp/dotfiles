@@ -1,2 +1,3 @@
 export DOTDIR="$HOME/dotfiles"
+export PATH="$PATH:$HOME/.local/bin/git-tools"
 export PATH="$HOME/.local/bin:$PATH"
