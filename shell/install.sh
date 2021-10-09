@@ -46,5 +46,6 @@ sudo apt install -y tree
 sudo apt install -y neofetch
 sudo apt install -y autojump
 sudo npm install --global clipboard-cli
+sudo npm install --global undollar
 sudo npm install --global live-server
 pip install spotify-cli
