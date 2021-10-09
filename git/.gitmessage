@@ -1,8 +1,8 @@
 
-# ¯¯¯¯¯¯ Header: If applied, this commit will ____.
+#¯¯¯¯¯¯ Header: If applied, this commit will ____.
 
 
-# ¯¯¯¯¯¯ Body (optional): Explain why this change is being made
+#¯¯¯¯¯¯ Body: Explain why this change is being made
 
 #%{git_feature}
-# ¯¯¯¯¯¯ Footer (optional): List breaking changes/provide links to any relevant resources
+#¯¯¯¯¯¯ Footer: List issues, breaking changes, etc.
