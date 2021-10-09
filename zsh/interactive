@@ -8,7 +8,7 @@ bindkey "^H" backward-kill-word
 # Enable color support of ls and also add handy aliases
 if command -v dircolors > /dev/null 2>&1
 then
-    eval $(dircolors ~/dotfiles/.dircolors)
+    eval $(dircolors ~/dotfiles/dircolors)
     alias ls='ls --color=auto --group-directories-first'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
