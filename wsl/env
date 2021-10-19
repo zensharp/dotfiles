@@ -5,3 +5,4 @@ else
 fi
 export BROWSER=explorer.exe
 export EDITOR=$OPEN
+export XDG_REPOS_HOME='/mnt/c/users/andrew/repos'
