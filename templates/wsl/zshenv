@@ -2,4 +2,4 @@
 . ~/dotfiles/wsl/env
 
 export PATH="$PATH:$HOME/dotfiles/wsl/bin"
-
+#export XDG_REPOS_HOME='/mnt/c/users/andrew/repos'
