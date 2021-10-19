@@ -13,6 +13,7 @@
 	cma = commit -a
 	amend = commit --amend
 	adog = log --all --decorate --oneline --graph
+	root = rev-parse --show-toplevel
 	pd = produce
 	bw = browse
 	lz = lazy
