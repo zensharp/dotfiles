@@ -4,8 +4,6 @@
 	ft = fetch
 	pl = pull
 	ps = push
-	co = checkout
-	cob = checkout -b
 	sw = switch
 	swc = switch -C
 	aa = add --all
