@@ -4,4 +4,5 @@ else
 	export OPEN=explorer.exe
 fi
 export BROWSER=explorer.exe
+export PLAYER=explorer.exe
 export EDITOR=$OPEN
