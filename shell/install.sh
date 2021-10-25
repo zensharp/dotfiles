@@ -23,9 +23,7 @@ sudo apt-get update; \
 
 # Applications
 ## Micro
-cd /usr/local/bin
-curl https://getmic.ro | bash
-cd -
+~/dotfiles/micro/install.sh
 ## FD
 sudo apt install -y fd-find
 ln --symbolic $(which fdfind) ~/.local/bin/fd

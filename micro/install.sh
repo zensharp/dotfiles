@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-cd /usr/local/bin
+cd ~
 curl https://getmic.ro | bash
+sudo mv 'micro' '/usr/local/bin'
