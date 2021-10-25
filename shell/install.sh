@@ -24,12 +24,16 @@ sudo apt-get update; \
 # Applications
 ## Micro
 ~/dotfiles/micro/install.sh
+~/dotfiles/micro/settings.sh
+## Sift
+~/dotfiles/sift/install.sh
+~/dotfiles/sift/settings.sh
+## Starship
+~/dotfiles/starship/install.sh
+~/dotfiles/starship/settings.sh
 ## FD
 sudo apt install -y fd-find
 ln --symbolic $(which fdfind) ~/.local/bin/fd
-## Sift
-curl https://sift-tool.org/downloads/sift/sift_latest_linux_amd64.tar.gz | tar -xz
-cp sift_*/sift ~/.local/bin/sift
 ## Delta
 wget --output-document delta.deb https://github.com/dandavison/delta/releases/download/0.8.3/git-delta_0.8.3_amd64.deb
 sudo dpkg --install delta.deb
@@ -37,8 +41,6 @@ rm delta.deb
 ## Bat
 sudo apt install -y bat
 ln --symbolic $(which batcat) ~/.local/bin/bat
-## Starship
-sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
 
 # Extras
 sudo apt install -y tree

@@ -65,7 +65,7 @@
                     "window",
                     "taskbar"
                 ],
-                "colorScheme": "Andtech",
+                "colorScheme": "Fall",
                 "experimental.retroTerminalEffect": true,
                 "font": 
                 {
@@ -151,6 +151,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#2B0F00",
+            "black": "#5C412B",
+            "blue": "#3424E3",
+            "brightBlack": "#5C412B",
+            "brightBlue": "#3424E3",
+            "brightCyan": "#62BCF2",
+            "brightGreen": "#52C405",
+            "brightPurple": "#FF7214",
+            "brightRed": "#E33000",
+            "brightWhite": "#FFD7B0",
+            "brightYellow": "#DED500",
+            "cursorColor": "#FFD7B0",
+            "cyan": "#62BCF2",
+            "foreground": "#FFD7B0",
+            "green": "#52C405",
+            "name": "Fall",
+            "purple": "#FF7214",
+            "red": "#E33000",
+            "selectionBackground": "#664905",
+            "white": "#FFD7B0",
+            "yellow": "#DED500"
         },
         {
             "background": "#282C34",
