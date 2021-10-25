@@ -27,6 +27,10 @@
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
+        },
+        {
+			"command": "closeWindow",
+			"keys": "ctrl+shift+q"
         }
     ],
     "copyFormatting": "none",
@@ -153,7 +157,7 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#2B0F00",
+            "background": "#120600",
             "black": "#5C412B",
             "blue": "#3424E3",
             "brightBlack": "#5C412B",
