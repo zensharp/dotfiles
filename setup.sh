@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 ~/dotfiles/shell/install.sh
-~/dotfiles/shell/settings.sh
+~/dotfiles/templates/linux/settings.sh
+
+~/dotfiles/git/settings.sh
+~/dotfiles/starship/settings.sh
