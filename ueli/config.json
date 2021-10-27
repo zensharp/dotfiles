@@ -228,7 +228,7 @@
 					"name": "GitHub",
 					"prefix": "gh?",
 					"priority": 0,
-					"url": "https://github.com/users/AndrewMJordan/search?q={{query}}"
+					"url": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+{{query}}"
 				},
 				{
 					"encodeSearchTerm": true,
