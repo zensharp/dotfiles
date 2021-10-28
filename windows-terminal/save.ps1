@@ -1,0 +1,1 @@
+Copy-Item -Recurse -Force "$env:APPDATA/ueli/config.json" "./"
