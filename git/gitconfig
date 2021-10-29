@@ -19,11 +19,11 @@
 [http]
 	postBuffer = 524288000
 [color "branch"]
-    remote = black
+    remote = black bold
 [color "status"]
 	added = green
 	changed = yellow
-	untracked = black
+	untracked = black bold
 [url "git@gitlab.com"]
 	insteadOf = gl
 	pushInsteadOf = gl
