@@ -2,4 +2,4 @@
 
 cd ~
 curl https://getmic.ro | bash
-sudo mv 'micro' '/usr/local/bin'
+sudo mv 'micro' '/usr/local/bin/'
