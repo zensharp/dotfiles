@@ -24,13 +24,13 @@ sudo apt-get update; \
 # Applications
 ## Micro
 ~/dotfiles/micro/install.sh
-~/dotfiles/micro/settings.sh
+~/dotfiles/micro/apply.sh
 ## Sift
 ~/dotfiles/sift/install.sh
-~/dotfiles/sift/settings.sh
+~/dotfiles/sift/apply.sh
 ## Starship
 ~/dotfiles/starship/install.sh
-~/dotfiles/starship/settings.sh
+~/dotfiles/starship/apply.sh
 ## FD
 sudo apt install -y fd-find
 ln --symbolic $(which fdfind) ~/.local/bin/fd
