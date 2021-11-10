@@ -43,7 +43,7 @@
         "list": 
         [
             {
-                "acrylicOpacity": 0.66000000000000003,
+                "acrylicOpacity": 0.84999999999999998,
                 "antialiasingMode": "cleartype",
                 "bellStyle": 
                 [
@@ -51,7 +51,7 @@
                     "window",
                     "taskbar"
                 ],
-                "colorScheme": "Fall",
+                "colorScheme": "Andtech",
                 "experimental.retroTerminalEffect": true,
                 "font": 
                 {
@@ -341,5 +341,5 @@
             "yellow": "#808000"
         }
     ],
-    "startOnUserLogin": true
+    "startOnUserLogin": false
 }
