@@ -27,6 +27,7 @@ function howami
 	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
 }
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
+alias cdroot='cd $(git root)'
 alias vlc='vlc --playlist-enqueue'
 alias sp=spotify
 alias journal='(cd ~/journal/jot && jot open today --create)'
