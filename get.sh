@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo "Hello World!"
+git clone https://gitlab.com/andtech/dotfiles ~/dotfiles
+~/dotfiles/setup.sh
