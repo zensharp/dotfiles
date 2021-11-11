@@ -4,6 +4,7 @@
 	ft = fetch
 	pl = pull
 	ps = push
+	ff = merge --ff-only
 	sw = switch
 	swc = switch -C
 	aa = add --all
