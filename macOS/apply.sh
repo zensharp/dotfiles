@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cat ~/dotfiles/macOS/env >> ~/.zshenv
-cat ~/dotfiles/macOS/interactive >> ~/.zshrc
-cat ~/dotfiles/macOS/login >> ~/.zlogin
+echo '. ~/dotfiles/macOS/env' >> ~/.zshenv
+echo '. ~/dotfiles/macOS/interactive' >> ~/.zshrc
+echo '. ~/dotfiles/macOS/login' >> ~/.zlogin

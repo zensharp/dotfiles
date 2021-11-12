@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cat ~/dotfiles/linux/env >> ~/.zshenv
-cat ~/dotfiles/linux/interactive >> ~/.zshrc
-cat ~/dotfiles/linux/login >> ~/.zlogin
+echo '. ~/dotfiles/linux/env' >> ~/.zshenv
+echo '. ~/dotfiles/linux/interactive' >> ~/.zshrc
+echo '. ~/dotfiles/linux/login' >> ~/.zlogin
