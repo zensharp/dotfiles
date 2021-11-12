@@ -43,6 +43,7 @@ sudo apt install -y bat
 ln --symbolic $(which batcat) ~/.local/bin/bat
 
 # Extras
+sudo apt install -y unzip
 sudo apt install -y tree
 sudo apt install -y neofetch
 sudo apt install -y autojump
