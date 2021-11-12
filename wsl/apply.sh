@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-cat ~/dotfiles/templates/wsl/zshenv >> ~/.zshenv
-cat ~/dotfiles/templates/wsl/zshrc >> ~/.zshrc
-cat ~/dotfiles/templates/wsl/zlogin >> ~/.zlogin
+cat ~/dotfiles/wsl/env >> ~/.zshenv
+cat ~/dotfiles/wsl/interactive >> ~/.zshrc
+cat ~/dotfiles/wsl/login >> ~/.zlogin

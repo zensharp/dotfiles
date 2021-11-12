@@ -1,6 +1,0 @@
-# Shell
-. ~/dotfiles/shell/login
-
-# ZSH
-. ~/dotfiles/zsh/login
-
