@@ -13,10 +13,13 @@ $ ./setup.sh
 ```
 
 ## Remote Installation (Experimental)
-1. Run the following:
-
 ```
 curl https://gitlab.com/andtech/dotfiles/-/raw/master/get.sh | bash
+```
+
+### Gitpod
+```
+curl https://gitlab.com/andtech/dotfiles/-/raw/master/templates/gitpod/get.sh | bash
 ```
 
 > Refer to the [wiki](https://gitlab.com/andtech/dotfiles/-/wikis/home) for instructions.
