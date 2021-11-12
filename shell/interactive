@@ -3,6 +3,20 @@ alias tree1="tree -L 1"
 alias tree2="tree -L 2"
 alias tree3="tree -L 3"
 alias tree4="tree -L 4"
+
+# Enable color support of ls and also add handy aliases
+if command -v dircolors > /dev/null 2>&1
+then
+    eval $(dircolors ~/dotfiles/shell/dircolors --sh)
+    alias ls='ls --color=auto --group-directories-first'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
 function mksh
 {
 	filename=$(realpath "$1")
