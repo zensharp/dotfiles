@@ -2,7 +2,7 @@
 1. Clone this repository.
 
 ```
-$ git clone https://gitlab.com/andtech/dotfiles ~/dotfiles
+$ git clone https://gitlab.com/andtech/dotfiles.git ~/dotfiles
 ```
 
 2. Run `setup.sh`.
