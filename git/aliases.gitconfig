@@ -6,6 +6,7 @@
 	ps = push
 	nuke = !rm -rf .git
 	ff = merge --ff-only
+	check = diff --check
 	sw = switch
 	swc = switch -C
 	aa = add --all
