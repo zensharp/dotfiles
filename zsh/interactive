@@ -16,6 +16,11 @@ then
 	. /usr/share/autojump/autojump.zsh
 fi
 
+if command -v direnv > /dev/null 2>&1
+then
+	eval "$(direnv hook zsh)"
+fi
+
 function set_win_title
 {
     echo -ne "\033]0; $(basename "$PWD") \007"
