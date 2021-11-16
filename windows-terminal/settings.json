@@ -24,6 +24,17 @@
         {
             "command": 
             {
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "monitor": "any",
+                "name": "_quake",
+                "toggleVisibility": true
+            },
+            "keys": "win+`"
+        },
+        {
+            "command": 
+            {
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
@@ -341,5 +352,6 @@
             "yellow": "#808000"
         }
     ],
-    "startOnUserLogin": false
+    "startOnUserLogin": false,
+    "useAcrylicInTabRow": true
 }
