@@ -23,6 +23,10 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
+        },
+        {
             "command": 
             {
                 "action": "closeTab"
@@ -42,8 +46,7 @@
             "keys": "win+`"
         },
         {
-            "command": "closeWindow",
-            "keys": "ctrl+shift+q"
+            "command": "closeWindow"
         }
     ],
     "alwaysShowNotificationIcon": true,
@@ -375,5 +378,6 @@
         }
     ],
     "startOnUserLogin": true,
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useExisting"
 }
