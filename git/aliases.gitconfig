@@ -9,6 +9,7 @@
 	check = diff --check
 	sw = switch
 	swc = switch -C
+	a = add
 	aa = add --all
 	cm = commit
 	cma = commit -a
