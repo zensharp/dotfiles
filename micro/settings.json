@@ -2,4 +2,5 @@
     "autoclose": false,
     "eofnewline": false,
     "scrollbar": true
+    "mkparents": true
 }
