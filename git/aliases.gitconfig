@@ -4,7 +4,7 @@
 	ft = fetch
 	pl = pull
 	ps = push
-	nuke = !rm -rf .git
+	erase = !rm -rf .git
 	ff = merge --ff-only
 	check = diff --check
 	sw = switch
