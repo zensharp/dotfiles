@@ -1,5 +1,6 @@
-unsetopt autolist
 setopt menu_complete
+unsetopt autolist
+unsetopt nomatch
 
 # Keyboard bindings
 autoload -U select-word-style

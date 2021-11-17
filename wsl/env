@@ -5,5 +5,5 @@ else
 	export OPEN=explorer.exe
 fi
 export BROWSER=explorer.exe
-export PLAYER=vlc.exe
+export PLAYER='vlc.exe --qt-start-minimized'
 export EDITOR=$OPEN
