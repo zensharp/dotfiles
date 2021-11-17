@@ -54,7 +54,7 @@
     "copyOnSelect": true,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
     "launchMode": "maximized",
-    "minimizeToNotificationArea": true,
+    "minimizeToNotificationArea": false,
     "profiles": 
     {
         "defaults": {},
