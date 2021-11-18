@@ -1,5 +1,4 @@
 alias wudo="python3 ~/dotfiles/wsl/bin/wsl-sudo.py"
-alias vlc='vlc.exe'
 
 wslcd () { cd "$(wslpath $1)"; }
 
