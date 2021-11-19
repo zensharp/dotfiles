@@ -1317,7 +1317,7 @@
 [upnp] # Universal Plug'n'Play
 
 # SAT>IP channel list (string)
-#satip-channelist=auto
+satip-channelist=Auto
 
 # Custom SAT>IP channel list URL (string)
 #satip-channellist-url=
@@ -1589,10 +1589,10 @@
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-#skins2-last=
+skins2-last=C:\Users\andrew\Downloads\orion___vlc_skin_by_roshinrocks_d3dd4r7\Orion Blue with close buttons on right side.vlt
 
 # Config of last used skin (string)
-#skins2-config=
+skins2-config=["equalizer" "EQ" 0 0 350 186 0]["fullscreenController" "fswindow" 0 0 435 82 0]["player" "Main" 970 311 624 398 1]["playlist" "plwindow" 0 0 250 250 0]["splayer" "swindow" 0 0 405 69 0]
 
 # Systray icon (boolean)
 #skins2-systray=1
@@ -1648,7 +1648,7 @@
 #qt-recentplay-filter=
 
 # Continue playback? (integer)
-#qt-continue=1
+qt-continue=0
 
 # Activate the updates availability notification (boolean)
 #qt-updates-notif=1
@@ -1690,7 +1690,7 @@ qt-privacy-ask=0
 #qt-icon-change=1
 
 # Maximum Volume displayed (integer)
-#qt-max-volume=125
+qt-max-volume=100
 
 # Fullscreen controller mouse sensitivity (integer)
 #qt-fs-sensitivity=3
@@ -3259,10 +3259,10 @@ stereowiden-dry-mix=0.900000
 [equalizer] # Equalizer with 10 bands
 
 # Equalizer preset (string)
-equalizer-preset=fullbass
+equalizer-preset=headphones
 
 # Bands gain (string)
-equalizer-bands=10.3 11.8 6.9 0.9 -7.3 -9 -5 2.1 9.9 15.7
+equalizer-bands=5.6 6.9 5.2 2.1 0.6 0.2 1.9 3.2 4.3 5.2
 
 # Two pass (boolean)
 #equalizer-2pass=0
@@ -3271,7 +3271,7 @@ equalizer-bands=10.3 11.8 6.9 0.9 -7.3 -9 -5 2.1 9.9 15.7
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-equalizer-preamp=0.000000
+equalizer-preamp=4.000000
 
 [compressor] # Dynamic range compressor
 
@@ -4086,7 +4086,7 @@ audio-filter=equalizer
 #audio-visual=none
 
 # Audio resampler (string)
-#audio-resampler=
+audio-resampler=any
 
 # Enable video (boolean)
 #video=1
@@ -4431,7 +4431,7 @@ audio-filter=equalizer
 #encoder=
 
 # Access module (string)
-#access=
+access=any
 
 # Demux module (string)
 #demux=any
@@ -4476,7 +4476,7 @@ audio-filter=equalizer
 #mux=
 
 # Access output module (string)
-#access_output=
+access_output=any
 
 # Hop limit (TTL) (integer)
 #ttl=-1
@@ -4491,7 +4491,7 @@ audio-filter=equalizer
 #packetizer=
 
 # VoD server module (string)
-#vod-server=
+vod-server=any
 
 # Use a plugins cache (boolean)
 #plugins-cache=1
@@ -4518,7 +4518,7 @@ audio-filter=equalizer
 #repeat=0
 
 # Play and exit (boolean)
-#play-and-exit=0
+play-and-exit=1
 
 # Play and stop (boolean)
 #play-and-stop=0
@@ -4542,13 +4542,13 @@ one-instance=1
 #one-instance-when-started-from-file=1
 
 # Enqueue items into playlist in one instance mode (boolean)
-#playlist-enqueue=0
+playlist-enqueue=1
 
 # Use media library (boolean)
-#media-library=0
+media-library=1
 
 # Display playlist tree (boolean)
-#playlist-tree=0
+playlist-tree=1
 
 # Default stream (string)
 #open=
@@ -4575,7 +4575,7 @@ one-instance=1
 #services-discovery=
 
 # Show advanced options (boolean)
-#advanced=0
+advanced=1
 
 # Interface interaction (boolean)
 #interact=1
