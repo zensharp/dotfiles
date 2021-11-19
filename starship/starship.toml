@@ -12,16 +12,17 @@ style_root = "green"
 style_user = "green"
 show_always = false
 
-[hostname]
+[hostname] 
 ssh_only = false
 format = '[$hostname]($style) in '
 trim_at = "."
 style = "green"
+disabled = true
 
 [directory]
-truncation_length = 4
+truncation_length = 999
 truncate_to_repo = true
-truncation_symbol = "…/"
+truncation_symbol = ""
 style = "blue"
 
 [git_branch]
