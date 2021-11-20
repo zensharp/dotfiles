@@ -2,8 +2,7 @@ setopt menu_complete
 unsetopt autolist
 unsetopt nomatch
 
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
-autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # Keyboard bindings
 autoload -U select-word-style
