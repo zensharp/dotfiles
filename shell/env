@@ -1,5 +1,5 @@
 export DOTDIR="$HOME/dotfiles"
+export PATH="$PATH:$HOME/dotfiles/shell/bin"
 export PATH="$PATH:$HOME/.dotnet/tools"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/.local/bin/git-tools"
-export XDG_MUSIC_DIR="/mnt/e/OneDrive/music"
