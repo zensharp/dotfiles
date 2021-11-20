@@ -6,5 +6,23 @@ using CaseExtensions;
 
 var inputPath = Args[0];
 var outputPath = inputPath.ToKebabCase();
+var tempPath = $"~{inputPath}";
 
-File.Move(inputPath, outputPath);
+if (File.Exists(inputPath))
+{
+	File.Move(inputPath, tempPath);
+	File.Move(tempPath, outputPath);
+
+	Console.ForegroundColor = ConsoleColor.Green;
+	Console.WriteLine($"Renamed to '{outputPath}'");
+	Console.ResetColor();
+}
+else if (Directory.Exists(inputPath))
+{
+	Directory.Move(inputPath, tempPath);
+	Directory.Move(tempPath, outputPath);
+
+	Console.ForegroundColor = ConsoleColor.Green;
+	Console.WriteLine($"Renamed to '{outputPath}'");
+	Console.ResetColor();
+}
