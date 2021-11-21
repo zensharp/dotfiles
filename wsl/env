@@ -7,4 +7,3 @@ fi
 export BROWSER=explorer.exe
 export PLAYER='vlc --qt-start-minimized --playlist-enqueue'
 export EDITOR=$OPEN
-export XDG_MUSIC_DIR="/mnt/e/OneDrive/music"
