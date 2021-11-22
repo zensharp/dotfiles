@@ -22,3 +22,4 @@
 	pb = publish
 	pbc = publish --create
 	pbca = publish --create --merge-when-pipeline-succeeds
+	whoami = !git config user.name && git config user.email
