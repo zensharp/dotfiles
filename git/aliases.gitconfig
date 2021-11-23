@@ -13,6 +13,7 @@
 	aa = add --all
 	cm = commit
 	cma = commit -a
+	cmaa = !git aa && git cm
 	amend = commit --amend
 	adog = log --all --decorate --oneline --graph
 	root = rev-parse --show-toplevel
