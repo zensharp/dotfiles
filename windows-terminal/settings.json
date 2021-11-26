@@ -67,12 +67,7 @@
                 "size": 15
             },
             "opacity": 95,
-            "startingDirectory": null,
-            "unfocusedAppearance": 
-            {
-                "colorScheme": "Andtech Dim",
-                "experimental.retroTerminalEffect": false
-            }
+            "startingDirectory": null
         },
         "list": 
         [
