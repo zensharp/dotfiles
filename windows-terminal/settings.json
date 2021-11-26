@@ -12,19 +12,15 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
         },
         {
             "command": 
@@ -34,11 +30,15 @@
             "keys": "ctrl+w"
         },
         {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
+        },
+        {
             "command": 
             {
                 "action": "globalSummon",
                 "desktop": "toCurrent",
-                "dropdownDuration": 200,
+                "dropdownDuration": 1,
                 "monitor": "toMouse",
                 "name": "_quake",
                 "toggleVisibility": true
@@ -57,19 +57,26 @@
     "minimizeToNotificationArea": false,
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": false,
+            "bellStyle": 
+            [
+                "audible",
+                "taskbar"
+            ],
+            "experimental.retroTerminalEffect": true,
+            "unfocusedAppearance": 
+            {
+                "colorScheme": "Andtech Dim",
+                "experimental.retroTerminalEffect": true
+            }
+        },
         "list": 
         [
             {
-                "antialiasingMode": "cleartype",
-                "bellStyle": 
-                [
-                    "audible",
-                    "window",
-                    "taskbar"
-                ],
+                "antialiasingMode": "grayscale",
                 "colorScheme": "Andtech",
-                "experimental.retroTerminalEffect": true,
                 "font": 
                 {
                     "face": "Cascadia Mono PL",
@@ -78,10 +85,8 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "opacity": 70,
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": null,
-                "useAcrylic": true
+                "startingDirectory": null
             },
             {
                 "colorScheme": "Campbell Powershell",
@@ -118,6 +123,18 @@
                 "opacity": 80,
                 "source": "Windows.Terminal.PowershellCore",
                 "useAcrylic": true
+            },
+            {
+                "guid": "{13ae3fa5-aef4-5067-b130-afab8185cc82}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{31325ae7-4c05-5f73-b6a4-09a4a99ad4d4}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -145,6 +162,29 @@
             "selectionBackground": "#205070",
             "white": "#DADADA",
             "yellow": "#FFFE48"
+        },
+        {
+            "background": "#000000",
+            "black": "#2D3C3D",
+            "blue": "#1A4AA8",
+            "brightBlack": "#2F3E40",
+            "brightBlue": "#1949A6",
+            "brightCyan": "#29A2B3",
+            "brightGreen": "#009C54",
+            "brightPurple": "#AD531D",
+            "brightRed": "#99172C",
+            "brightWhite": "#969696",
+            "brightYellow": "#96962A",
+            "cursorColor": "#A3A3A3",
+            "cyan": "#2DB3C4",
+            "foreground": "#8F8F8F",
+            "green": "#009C54",
+            "name": "Andtech Dim",
+            "purple": "#AD531D",
+            "red": "#A1182F",
+            "selectionBackground": "#15354A",
+            "white": "#ABABAB",
+            "yellow": "#A1A02D"
         },
         {
             "background": "#0C0C0C",
@@ -191,29 +231,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#120600",
-            "black": "#261B12",
-            "blue": "#3424E3",
-            "brightBlack": "#5C412B",
-            "brightBlue": "#3424E3",
-            "brightCyan": "#62BCF2",
-            "brightGreen": "#52C405",
-            "brightPurple": "#FF7214",
-            "brightRed": "#E33000",
-            "brightWhite": "#FFD7B0",
-            "brightYellow": "#DED500",
-            "cursorColor": "#FFD7B0",
-            "cyan": "#62BCF2",
-            "foreground": "#FFD7B0",
-            "green": "#52C405",
-            "name": "Fall",
-            "purple": "#FF7214",
-            "red": "#E33000",
-            "selectionBackground": "#664905",
-            "white": "#FFD7B0",
-            "yellow": "#DED500"
         },
         {
             "background": "#282C34",
@@ -377,7 +394,7 @@
             "yellow": "#808000"
         }
     ],
-    "startOnUserLogin": true,
+    "startOnUserLogin": false,
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"
 }
