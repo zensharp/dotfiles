@@ -1,6 +1,6 @@
 {
     "autoclose": false,
     "eofnewline": false,
-    "scrollbar": true
+    "scrollbar": true,
     "mkparents": true
 }
