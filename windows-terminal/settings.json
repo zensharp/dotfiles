@@ -107,7 +107,7 @@
     "schemes": 
     [
         {
-            "background": "#14151A",
+            "background": "#060311",
             "black": "#567275",
             "blue": "#2770FF",
             "brightBlack": "#567275",
@@ -126,7 +126,7 @@
             "purple": "#FF7A2A",
             "red": "#FF264A",
             "selectionBackground": "#205070",
-            "white": "#DADADA",
+            "white": "#567275",
             "yellow": "#FFFE48"
         },
         {
