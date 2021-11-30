@@ -44,4 +44,8 @@ function howami
 alias cdroot='cd $(git root)'
 alias cb='clipboard'
 alias sp=spotify
-alias journal='(cd ~/journal/jot && jot open today --create)'
+
+function obsidian
+{
+	wslview "obsidian://open?vault=$1"
+}
