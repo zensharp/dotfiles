@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Google",
+		"url": "https://google.com",
+		"searchURL": "https://google.com/search?q=%{query}"
+	},
+	{
+		"name": "YouTube",
+		"url": "https://youtube.com",
+		"searchURL": "https://www.youtube.com/results?search_query=%{query}"
+	},
+	{
+		"name": "Spotify",
+		"url": "spotify:",
+		"searchURL": "spotify:search/%{query}"
+	},
+	{
+		"name": "Obsidian",
+		"url": "obsidian:",
+		"searchURL": "obsidian://open?vault=%{query}"
+	},
+	{
+		"name": "Nuget Gallery",
+		"url": "https://www.nuget.org",
+		"searchURL": "https://www.nuget.org/packages?q=%{query}"
+	},
+	{
+		"name": "Winget Package Browser",
+		"url": "https://winget.run",
+		"searchURL": "https://winget.run/search?query=%{query}"
+	},
+	{
+		"name": "GitHub",
+		"url": "https://github.com",
+		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}"
+	},
+	{
+		"name": "GitLab",
+		"url": "https://gitlab.com",
+		"searchURL": "https://gitlab.com/?name=%{query}"
+	},
+	{
+		"url": "https://brew.sh"
+	}
+]
