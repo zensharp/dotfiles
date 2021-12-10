@@ -361,6 +361,7 @@
         }
     ],
     "startOnUserLogin": false,
+    "trimBlockSelection": true,
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"
 }
