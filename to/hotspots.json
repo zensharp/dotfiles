@@ -20,16 +20,6 @@
 		"searchURL": "obsidian://open?vault=%{query}"
 	},
 	{
-		"name": "Nuget Gallery",
-		"url": "https://www.nuget.org",
-		"searchURL": "https://www.nuget.org/packages?q=%{query}"
-	},
-	{
-		"name": "Winget Package Browser",
-		"url": "https://winget.run",
-		"searchURL": "https://winget.run/search?query=%{query}"
-	},
-	{
 		"name": "GitHub",
 		"url": "https://github.com",
 		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}"
@@ -40,6 +30,7 @@
 		"searchURL": "https://gitlab.com/?name=%{query}"
 	},
 	{
-		"url": "https://brew.sh"
+		"url": "https://amazon.com",
+		"searchURL": "https://amazon.com/s?k=%{query}"
 	}
 ]
