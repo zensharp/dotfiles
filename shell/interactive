@@ -49,3 +49,5 @@ function obsidian
 {
 	wslview "obsidian://open?vault=$1"
 }
+
+export ANDTECH_TO_PATH="$HOME/dotfiles/to"
