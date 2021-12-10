@@ -20,16 +20,6 @@
 		"searchURL": "obsidian://open?vault=%{query}"
 	},
 	{
-		"name": "GitHub",
-		"url": "https://github.com",
-		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}"
-	},
-	{
-		"name": "GitLab",
-		"url": "https://gitlab.com",
-		"searchURL": "https://gitlab.com/?name=%{query}"
-	},
-	{
 		"url": "https://amazon.com",
 		"searchURL": "https://amazon.com/s?k=%{query}"
 	}

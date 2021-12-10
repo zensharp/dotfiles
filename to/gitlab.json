@@ -1,5 +1,10 @@
 [
 	{
+		"name": "GitLab",
+		"url": "https://gitlab.com",
+		"searchURL": "https://gitlab.com/?name=%{query}"
+	},
+	{
 		"url": "https://gitlab.com/andtech"
 	},
 	{

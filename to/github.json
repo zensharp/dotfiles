@@ -1,8 +1,28 @@
 [
 	{
+		"name": "GitHub",
+		"url": "https://github.com",
+		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}"
+	},
+	{
 		"url": "https://gist.github.com"
 	},
 	{
 		"url": "https://github.com/AndrewMJordan"
+	},
+	{
+		"url": "https://github.com/andtechstudios"
+	},
+	{
+		"url": "https://github.com/andtechstudios/dj"
+	},
+	{
+		"url": "https://github.com/andtechstudios/to"
+	},
+	{
+		"url": "https://github.com/andtechstudios/jot"
+	},
+	{
+		"url": "https://github.com/andtechstudios/snip"
 	}
 ]
