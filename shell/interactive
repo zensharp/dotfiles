@@ -1,3 +1,7 @@
+# Environment
+export DIRENV_LOG_FORMAT=
+
+# Aliases
 alias tree="tree --dirsfirst"
 alias tree1="tree -L 1"
 alias tree2="tree -L 2"
