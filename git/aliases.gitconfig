@@ -20,6 +20,7 @@
 	pd = produce
 	bw = browse
 	lz = lazy
+	ls = list
 	pb = publish
 	pbc = publish --create
 	pbca = publish --create --merge-when-pipeline-succeeds
