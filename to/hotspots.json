@@ -2,18 +2,20 @@
 	{
 		"name": "Google",
 		"url": "https://google.com",
-		"searchURL": "https://google.com/search?q=%{query}"
+		"searchURL": "https://google.com/search?q=%{query}",
+		"alias": "g"
 	},
 	{
 		"name": "YouTube",
 		"url": "https://youtube.com",
-		"searchURL": "https://www.youtube.com/results?search_query=%{query}"
+		"searchURL": "https://www.youtube.com/results?search_query=%{query}",
+		"alias": "yt"
 	},
 	{
 		"name": "Spotify",
 		"url": "spotify:",
 		"searchURL": "spotify:search/%{query}",
-		"keywords": "spotify"
+		"alias": "sp"
 	},
 	{
 		"name": "Open Spotify",
@@ -23,7 +25,8 @@
 	{
 		"name": "Obsidian",
 		"url": "obsidian:",
-		"searchURL": "obsidian://open?vault=%{query}"
+		"searchURL": "obsidian://open?vault=%{query}",
+		"alias": "od"
 	},
 	{
 		"url": "https://amazon.com",

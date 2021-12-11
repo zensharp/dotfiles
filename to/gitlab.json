@@ -2,7 +2,8 @@
 	{
 		"name": "GitLab",
 		"url": "https://gitlab.com",
-		"searchURL": "https://gitlab.com/?name=%{query}"
+		"searchURL": "https://gitlab.com/?name=%{query}",
+		"alias": "gl"
 	},
 	{
 		"url": "https://gitlab.com/andtech"

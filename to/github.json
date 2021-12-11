@@ -2,7 +2,8 @@
 	{
 		"name": "GitHub",
 		"url": "https://github.com",
-		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}"
+		"searchURL": "https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}",
+		"alias": "gh"
 	},
 	{
 		"url": "https://gist.github.com"
