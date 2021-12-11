@@ -12,7 +12,13 @@
 	{
 		"name": "Spotify",
 		"url": "spotify:",
-		"searchURL": "spotify:search/%{query}"
+		"searchURL": "spotify:search/%{query}",
+		"keywords": "spotify"
+	},
+	{
+		"name": "Open Spotify",
+		"url": "https://open.spotify.com",
+		"searchURL": "https://open.spotify.com/search/%{query}"
 	},
 	{
 		"name": "Obsidian",
