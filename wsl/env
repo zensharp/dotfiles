@@ -5,5 +5,5 @@ else
 	export OPEN=explorer.exe
 fi
 export BROWSER='wslview'
-export PLAYER='vlc --qt-start-minimized --playlist-enqueue'
+export PLAYER='vlc --qt-start-minimized --playlist-enqueue --no-video'
 export EDITOR=$OPEN
