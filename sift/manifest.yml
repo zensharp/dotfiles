@@ -1,0 +1,4 @@
+destination: ~
+files:
+  - sift.conf
+    - destination: ".sift.conf"

@@ -1,0 +1,4 @@
+include:
+  - gzdoom_portable.ini
+windows:
+  destination: '%localappdata%/Programs/gzdoom'

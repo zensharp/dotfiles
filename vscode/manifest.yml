@@ -1,0 +1,8 @@
+include:
+  - settings.json
+windows:
+  destination: '%appdata%/Code/User'
+macos:
+  destination: ~/Library/Application Support/Code User/settings.json
+linux:
+  destination: $XDG_CONFIG_HOME/Code/User
