@@ -1,3 +1,9 @@
 destination: ~/.atom
 include:
+  - file: packages
   - file: config.cson
+  - file: github.cson
+  - file: keymap.cson
+  - file: snippets.cson
+  - file: styles.less
+  
