@@ -47,7 +47,12 @@
         },
         {
             "command": "closeWindow"
-        }
+        },
+		{ "command": { "action": "moveFocus", "direction": "down" }, "keys": "shift+down" },
+		{ "command": { "action": "moveFocus", "direction": "left" }, "keys": "shift+left" },
+		{ "command": { "action": "moveFocus", "direction": "right" }, "keys": "shift+right" },
+		{ "command": { "action": "moveFocus", "direction": "up" }, "keys": "shift+up" },
+		{ "command": { "action": "moveFocus", "direction": "previous" } }
     ],
     "alwaysShowNotificationIcon": true,
     "copyFormatting": "none",
