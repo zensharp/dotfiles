@@ -5,4 +5,4 @@ windows:
 macos:
   destination: ~/Library/Preferences/org.videolan.vlc
 linux:
-  destination: $XDG_CONFIG_HOME/vlc
+  destination: ~/.config/vlc

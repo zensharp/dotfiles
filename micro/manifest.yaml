@@ -1,1 +1,3 @@
-destination: $XDG_CONFIG_HOME/micro
+include:
+  - file: settings.json
+destination: ~/.config/micro
