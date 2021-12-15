@@ -1,1 +1,5 @@
+destination: ~
+include:
+  - file: gitignore
+    destination: .gitignore
 load_script: git config --global include.path "~/dotfiles/git/gitconfig"
