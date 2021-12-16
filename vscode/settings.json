@@ -5,17 +5,20 @@
     "editor.autoClosingQuotes": "never",
 	"editor.quickSuggestions": false,
     "editor.renderWhitespace": "all",
-    "editor.insertSpaces": false,
-	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
     "extensions.ignoreRecommendations": true,
 	"explorer.confirmDragAndDrop": false,
 	"diffEditor.codeLens": true,
 	"search.useGlobalIgnoreFiles": true,
 	"csharp.referencesCodeLens.enabled": false,
 	"files.hotExit": "off",
-	"workbench.startupEditor": "none",
+	"workbench.startupEditor": "newUntitledFile",
 	"remote.SSH.defaultExtensions": [
 		"gitpod.gitpod-remote-ssh"
 	],
-	"remote.SSH.configFile": "C:\\Users\\andrew\\AppData\\Local\\Temp\\gitpod_ssh_config-9348-332WKt5poKtA"
+	"remote.SSH.configFile": "C:\\Users\\andrew\\AppData\\Local\\Temp\\gitpod_ssh_config-9348-332WKt5poKtA",
+	"explorer.confirmDelete": false,
+	"workbench.editor.closeOnFileDelete": true,
+	"window.restoreWindows": "none",
+	"workbench.editor.untitled.hint": "hidden"
 }
