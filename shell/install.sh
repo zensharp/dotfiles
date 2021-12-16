@@ -14,13 +14,8 @@ sudo apt install -y npm nodejs
 ## Python
 sudo apt install -y python3-pip
 ## .NET
-wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-rm packages-microsoft-prod.deb
-sudo apt-get update; \
-  sudo apt-get install -y apt-transport-https && \
-  sudo apt-get update && \
-  sudo apt-get install -y dotnet-sdk-5.0
+~/dotfiles/dotnet/install.sh
+~/dotfiles/dotnet/apply.sh
 
 # Applications
 ## Micro
