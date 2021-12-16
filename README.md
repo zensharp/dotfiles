@@ -1,7 +1,1 @@
-# Quick Start
-
-### Gitpod
-
-```
-curl https://gitlab.com/andtech/dotfiles/-/raw/master/templates/gitpod/get.sh | bash
-```
+Read the [wiki](https://gitlab.com/andtech/dotfiles/-/wikis) for detailed instructions
