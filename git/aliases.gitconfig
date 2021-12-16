@@ -24,3 +24,4 @@
 	pb = publish
 	pbc = publish --create
 	pbca = publish --create --merge-when-pipeline-succeeds
+	chmod = update-index --chmod

@@ -5,6 +5,7 @@
 	whitespace = cr-at-eol
 	editor = micro
 	compression = 0
+	filemode = false
 [fetch]
 	prune = true
 [pull]
