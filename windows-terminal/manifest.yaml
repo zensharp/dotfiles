@@ -1,4 +1,4 @@
 include:
   - file: settings.json
 windows:
-  destination: '%localappdata%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState'
+  destination: '%localappdata%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState'
