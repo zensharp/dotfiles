@@ -1,6 +1,6 @@
 pages:
   rules:
-    changes: 
+    - changes:
       - site/*
   script: mkdir -p public && mv site/* public/
   artifacts:
