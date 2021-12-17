@@ -1,4 +1,4 @@
 destination: ~
 include:
-  - file: sift.conf
+  - path: sift.conf
     destination: ".sift.conf"

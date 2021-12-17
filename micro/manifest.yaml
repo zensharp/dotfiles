@@ -1,3 +1,3 @@
 include:
-  - file: settings.json
+  - path: settings.json
 destination: ~/.config/micro
