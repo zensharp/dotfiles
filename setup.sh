@@ -23,25 +23,10 @@ case "$(uname -s | tr '[:upper:]' '[:lower:]')" in
 		;;
 esac
 
-if [ "x$platform" = "x" ]; then
+if [[ "$platform" == "unknown" ]]; then
 	echo "[ERROR] Unsupported platform: $platform"
 	exit 1
 fi	
 
 echo "Using platform '$platform'..."
-exit
-case $platform in
-	'gitpod')
-		~/dotfiles/templates/gitpod/setup.sh
-		;;
-	*)
-		echo "ERROR: Only Gitpod installation is supported!"
-		echo "Dotfiles must be manually setup"
-
-		#~/dotfiles/shell/install.sh
-		#~/dotfiles/templates/linux/setup.sh
-
-		#~/dotfiles/git/apply.sh
-		#~/dotfiles/starship/apply.sh
-		;;
-esac
+~/dotfiles/templates/$platform/setup.sh
