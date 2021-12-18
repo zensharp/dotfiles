@@ -20,5 +20,9 @@
 	"explorer.confirmDelete": false,
 	"workbench.editor.closeOnFileDelete": true,
 	"window.restoreWindows": "none",
-	"workbench.editor.untitled.hint": "hidden"
+	"workbench.editor.untitled.hint": "hidden",
+	"explorer.decorations.colors": false,
+	"explorer.decorations.badges": false,
+	"explorer.expandSingleFolderWorkspaces": false,
+	"git.decorations.enabled": false
 }
