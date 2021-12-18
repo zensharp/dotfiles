@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-if [ -z "${GITPOD_WORKSPACE_ID+set}" ]
-then
-	echo "WARNING: Only Gitpod installation is supported!"
-fi
-
 git clone https://gitlab.com/andtech/dotfiles.git ~/dotfiles
-~/dotfiles/templates/gitpod/setup.sh
+
+~/dotfiles/setup.sh
