@@ -21,8 +21,12 @@
 	"workbench.editor.closeOnFileDelete": true,
 	"window.restoreWindows": "none",
 	"workbench.editor.untitled.hint": "hidden",
-	"explorer.decorations.colors": false,
-	"explorer.decorations.badges": false,
 	"explorer.expandSingleFolderWorkspaces": false,
-	"git.decorations.enabled": false
+	"workbench.enableExperiments": false,
+	"workbench.list.smoothScrolling": true,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.decorations.badges": false,
+	"explorer.decorations.badges": false,
+	"workbench.editor.decorations.colors": false,
+	"problems.decorations.enabled": false
 }
