@@ -28,5 +28,5 @@ if [[ "$platform" == "unknown" ]]; then
 	exit 1
 fi	
 
-echo "Using platform '$platform'..."
+echo -e "\033[0;36mSetting up dotfiles for platform '$platform'...\033[0m"
 ~/dotfiles/templates/$platform/setup.sh
