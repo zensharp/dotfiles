@@ -14,6 +14,8 @@
 	cm = commit
 	cma = commit -a
 	cmaa = !git aa && git cm
+	rs = restore
+	rsa = restore *
 	amend = commit --amend
 	adog = log --all --decorate --oneline --graph
 	root = rev-parse --show-toplevel
