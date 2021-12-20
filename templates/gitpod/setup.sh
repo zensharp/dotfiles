@@ -9,6 +9,7 @@
 ~/dotfiles/bat/install.sh
 ~/dotfiles/delta/install.sh
 ~/dotfiles/fd-find/install.sh
+~/dotfiles/sd/install.sh
 ~/dotfiles/sift/install.sh
 ~/dotfiles/starship/install.sh
 #~/dotfiles/misc/install.sh
