@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 
-sudo apt update
-
 ~/dotfiles/shell/apply.sh
 ~/dotfiles/zsh/install.sh
 ~/dotfiles/nodejs/install.sh
 ~/dotfiles/dotnet/install.sh
 ~/dotfiles/micro/install.sh
 ~/dotfiles/git/install.sh
+~/dotfiles/bat/install.sh
+~/dotfiles/delta/install.sh
+~/dotfiles/fd-find/install.sh
 ~/dotfiles/sift/install.sh
 ~/dotfiles/misc/install.sh
 ~/dotfiles/starship/install.sh
 ~/dotfiles/python/install.sh
-~/dotfiles/linux/apply.sh
+~/dotfiles/macos/apply.sh
 echo '#export XDG_REPOS_DIR="$HOME/repos"' >> ~/.zshenv
 echo '#export XDG_MUSIC_DIR="$HOME/music"' >> ~/.zshenv
 echo '#export XDG_DOWNLOAD_DIR="$HOME/downloads"' >> ~/.zshenv
