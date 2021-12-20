@@ -7,6 +7,8 @@ sudo apt update
 ~/dotfiles/misc/install.sh
 ~/dotfiles/git/install.sh
 ~/dotfiles/starship/install.sh
+~/dotfiles/nodejs/install.sh
+~/dotfiles/python/install.sh
 ~/dotfiles/wsl/apply.sh
 echo '#export XDG_REPOS_DIR="/mnt/c/users/andrew/repos"' >> ~/.zshenv
 echo '#export XDG_MUSIC_DIR="/mnt/c/users/andrew/music"' >> ~/.zshenv
