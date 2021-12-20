@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
+sudo apt update
+
 ~/dotfiles/shell/apply.sh
-~/dotfiles/zsh/apply.sh
+~/dotfiles/zsh/install.sh
+~/dotfiles/misc/install.sh
 ~/dotfiles/git/install.sh
-~/dotfiles/git/apply.sh
 ~/dotfiles/starship/install.sh
-~/dotfiles/starship/apply.sh
-#~/dotfiles/fonts/cascadia/install.sh
