@@ -2,9 +2,6 @@
 
 mkdir -p ~/.local/bin
 
-~/dotfiles/micro/install.sh
-~/dotfiles/sift/install.sh
-
 # Essentials
 sudo apt install -y tree
 sudo apt install -y neofetch
