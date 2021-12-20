@@ -15,6 +15,7 @@
 [merge]
 	ff = false
 [diff]
+    context = 1
 	colormoved = dimmed-zebra
 	colormovedws = allow-indentation-change
 [http]
