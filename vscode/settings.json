@@ -28,5 +28,15 @@
 	"workbench.editor.decorations.badges": false,
 	"explorer.decorations.badges": false,
 	"workbench.editor.decorations.colors": false,
-	"problems.decorations.enabled": false
+	"problems.decorations.enabled": false,
+	"workbench.editor.openPositioning": "last",
+	"gitpod.openInStable.neverPrompt": true,
+	"redhat.telemetry.enabled": false,
+	"editor.fontFamily": "Cascadia Mono PL, Consolas, 'Courier New', monospace",
+	"files.autoSave": "off",
+	"workbench.colorCustomizations": {
+		"terminal.ansiMagenta": "#FF8000",
+		"terminal.ansiBrightMagenta": "#FF8000"
+	},
+	"workbench.colorTheme": "Default Dark+"
 }
