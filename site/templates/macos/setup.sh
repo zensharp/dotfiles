@@ -10,8 +10,8 @@
 ~/dotfiles/delta/install.sh
 ~/dotfiles/fd-find/install.sh
 ~/dotfiles/sift/install.sh
-~/dotfiles/misc/install.sh
 ~/dotfiles/starship/install.sh
+~/dotfiles/misc/install.sh
 ~/dotfiles/python/install.sh
 ~/dotfiles/macos/apply.sh
 echo '#export XDG_REPOS_DIR="$HOME/repos"' >> ~/.zshenv

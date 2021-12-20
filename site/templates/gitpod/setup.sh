@@ -10,6 +10,6 @@
 ~/dotfiles/delta/install.sh
 ~/dotfiles/fd-find/install.sh
 ~/dotfiles/sift/install.sh
-~/dotfiles/misc/install.sh
 ~/dotfiles/starship/install.sh
+#~/dotfiles/misc/install.sh
 #~/dotfiles/python/install.sh
