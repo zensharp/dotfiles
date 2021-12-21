@@ -6,10 +6,13 @@
 	editor = micro
 	compression = 0
 	filemode = false
+	excludesFile = ~/dotfiles/git/gitignore
 [fetch]
 	prune = true
 [pull]
 	ff = only
+[push]
+	default = upstream
 [commit]
 	template = ~/dotfiles/git/gitmessage
 [merge]
