@@ -4,6 +4,7 @@
 	ft = fetch
 	pl = pull
 	ps = push
+	pst = push --tags
 	erase = !rm -rf .git
 	ff = merge --ff-only
 	check = diff --check
