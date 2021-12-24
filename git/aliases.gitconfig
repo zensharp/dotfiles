@@ -30,4 +30,4 @@
 	pbca = publish --create --merge-when-pipeline-succeeds
 	chmod = update-index --chmod
 	submodule-init = submodule update --init --recursive
-	submodule-update = git submodule update --recursive --remote
+	submodule-update = submodule update --recursive --remote
