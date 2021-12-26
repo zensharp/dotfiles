@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt update
-sudo apt install -y zsh
+sudo apt -qq update
+sudo apt -qqy install zsh
 sudo chsh --shell $(which zsh) $(whoami)
 ~/dotfiles/zsh/apply.sh
