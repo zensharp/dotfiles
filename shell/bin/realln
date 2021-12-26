@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -eu
+
+targetPath=$(realpath "$1")
+linkPath=$(realpath "$2")
+
+ln -s $targetPath $linkPath
