@@ -2,7 +2,7 @@
 
 ~/dotfiles/shell/apply.sh
 ~/dotfiles/zsh/install.sh
-~/dotfiles/nodejs/install.sh
+~/dotfiles/node/install.sh
 ~/dotfiles/dotnet/install.sh
 ~/dotfiles/micro/install.sh
 ~/dotfiles/git/install.sh
