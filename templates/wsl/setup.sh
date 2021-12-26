@@ -14,7 +14,7 @@
 ~/dotfiles/starship/install.sh
 ~/dotfiles/misc/install.sh
 ~/dotfiles/python/install.sh
-~/dotfiles/wsl/apply.sh
+~/dotfiles/wsl/install.sh
 echo '#export XDG_REPOS_DIR="/mnt/c/users/andrew/repos"' >> ~/.zshenv
 echo '#export XDG_MUSIC_DIR="/mnt/c/users/andrew/music"' >> ~/.zshenv
 echo '#export XDG_DOWNLOAD_DIR="/mnt/c/users/andrew/downloads"' >> ~/.zshenv
