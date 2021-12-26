@@ -1,5 +1,5 @@
 include:
-  - file: vlcrc
+  - path: vlcrc
 windows:
   destination: '%appdata%/vlc'
 macos:
