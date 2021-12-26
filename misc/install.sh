@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 sudo apt update
-
 sudo apt install -y tree
 sudo apt install -y neofetch
 sudo apt install -y autojump

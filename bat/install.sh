@@ -2,5 +2,6 @@
 
 mkdir -p ~/.local/bin
 
+sudo apt update
 sudo apt install -y batcat
 ln --symbolic $(which batcat) ~/.local/bin/bat
