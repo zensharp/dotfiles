@@ -13,6 +13,7 @@
 	ff = only
 [push]
 	default = upstream
+	followTags = true
 [commit]
 	template = ~/dotfiles/git/gitmessage
 [merge]
