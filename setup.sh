@@ -29,4 +29,4 @@ if [[ "$platform" == "unknown" ]]; then
 fi	
 
 echo -e "\033[0;36mSetting up dotfiles for platform '$platform'...\033[0m"
-~/dotfiles/templates/$platform/setup.sh
+time ~/dotfiles/templates/$platform/setup.sh
