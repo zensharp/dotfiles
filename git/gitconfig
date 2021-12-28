@@ -31,14 +31,14 @@
 	changed = yellow
 	untracked = black bold
 [url "git@gitlab.com"]
-	insteadOf = gl
-	pushInsteadOf = gl
+	insteadOf = gitlab
+	pushInsteadOf = gitlab
 [url "git@github.com"]
-	insteadOf = gh
-	pushInsteadOf = gh
+	insteadOf = github
+	pushInsteadOf = github
 [url "git@bitbucket.com"]
-	insteadOf = bb
-	pushInsteadOf = bb
+	insteadOf = bitbucket
+	pushInsteadOf = bitbucket
 [include]
 	path = ~/dotfiles/git/aliases.gitconfig
 	path = ~/dotfiles/git/delta.gitconfig
