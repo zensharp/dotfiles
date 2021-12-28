@@ -69,6 +69,6 @@ function extract
 
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 alias cdroot='cd $(git root)'
-alias cb='clipboard'
+alias cb='$CLIPBOARD'
 
 export ANDTECH_TO_PATH="$HOME/dotfiles/to"
