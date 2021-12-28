@@ -1,4 +1,5 @@
 dir=$(echo $PWD | tr '[:upper:]' '[:lower:]')
 case $dir in
-  /mnt/c/windows/system32* ) cd $HOME ;;
+  /mnt/c/windows* )
+    cd $HOME ;;
 esac
