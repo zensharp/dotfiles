@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- -y
-~/dotfiles/starship/apply.sh
+~/dotfiles/starship/load.sh

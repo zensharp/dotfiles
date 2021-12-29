@@ -4,4 +4,4 @@ cd ~
 curl https://getmic.ro | bash
 sudo mv 'micro' '/usr/local/bin/'
 
-~/dotfiles/micro/apply.sh
+~/dotfiles/micro/load.sh

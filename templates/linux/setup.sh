@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-~/dotfiles/shell/apply.sh
+~/dotfiles/shell/load.sh
 ~/dotfiles/zsh/install.sh
 ~/dotfiles/node/install.sh
 ~/dotfiles/dotnet/install.sh
@@ -14,7 +14,7 @@
 ~/dotfiles/starship/install.sh
 ~/dotfiles/misc/install.sh
 ~/dotfiles/python/install.sh
-~/dotfiles/linux/apply.sh
+~/dotfiles/linux/load.sh
 echo '#export XDG_REPOS_DIR="$HOME/repos"' >> ~/.zshenv
 echo '#export XDG_MUSIC_DIR="$HOME/music"' >> ~/.zshenv
 echo '#export XDG_DOWNLOAD_DIR="$HOME/downloads"' >> ~/.zshenv

@@ -3,4 +3,4 @@
 sudo apt -qq update
 sudo apt -qq install -y zsh
 sudo chsh --shell $(which zsh) $(whoami)
-~/dotfiles/zsh/apply.sh
+~/dotfiles/zsh/load.sh
