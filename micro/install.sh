@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-cd ~
+mkdir -p ~/.local/bin
+
+cd ~/.local/bin
 curl https://getmic.ro | bash
-sudo mv 'micro' '/usr/local/bin/'
+cd -
 
 . ~/dotfiles/micro/load.sh
