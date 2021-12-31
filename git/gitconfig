@@ -43,6 +43,6 @@
 	path = ~/dotfiles/git/aliases.gitconfig
 	path = ~/dotfiles/git/delta.gitconfig
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/dotfiles/git/gitlab.gitconfig
+	path = ~/dotfiles/git/gitlab/gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/dotfiles/git/github.gitconfig
+	path = ~/dotfiles/git/github/gitconfig
