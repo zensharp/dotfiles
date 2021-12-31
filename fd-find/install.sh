@@ -2,6 +2,6 @@
 
 mkdir -p ~/.local/bin
 
-sudo apt-fast -qq update
-sudo apt-fast -qq install -y fd-find
+sudo apt -qq update
+sudo apt -qq install -y fd-find
 ln --symbolic $(which fdfind) ~/.local/bin/fd
