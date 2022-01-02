@@ -32,7 +32,8 @@
 	"workbench.editor.openPositioning": "last",
 	"gitpod.openInStable.neverPrompt": true,
 	"redhat.telemetry.enabled": false,
-	"editor.fontFamily": "Cascadia Mono PL, Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
+	"editor.fontLigatures": true,
 	"files.autoSave": "off",
 	"workbench.colorCustomizations": {
 		"terminal.ansiMagenta": "#FF8000",
