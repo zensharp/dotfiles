@@ -102,8 +102,9 @@
             "experimental.retroTerminalEffect": true,
             "font": 
             {
-                "face": "Cascadia Code PL",
-                "size": 15
+                "face": "Iosevka Term",
+                "size": 17,
+                "weight": "medium"
             },
             "opacity": 95,
             "startingDirectory": null
@@ -145,7 +146,7 @@
     "schemes": 
     [
         {
-            "background": "#060311",
+            "background": "#060816",
             "black": "#567275",
             "blue": "#2770FF",
             "brightBlack": "#567275",
