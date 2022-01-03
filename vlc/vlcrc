@@ -1618,7 +1618,7 @@ skins2-config=["equalizer" "EQ" 0 0 350 186 0]["fullscreenController" "fswindow"
 #qt-system-tray=1
 
 # Show notification popup on track change (integer)
-#qt-notification=1
+qt-notification=0
 
 # Start VLC with only a systray icon (boolean)
 #qt-start-minimized=0
@@ -4524,7 +4524,7 @@ play-and-exit=1
 #play-and-stop=0
 
 # Play and pause (boolean)
-#play-and-pause=0
+play-and-pause=1
 
 # Start paused (boolean)
 #start-paused=0
