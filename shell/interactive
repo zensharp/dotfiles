@@ -71,4 +71,4 @@ function extract
 alias cdroot='cd $(git root)'
 alias cb='$CLIPBOARD'
 
-export ANDTECH_TO_PATH="$HOME/dotfiles/to"
+export ANDTECH_TO_PATH="$HOME/dotfiles/to:$ONEDRIVE/.to"

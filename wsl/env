@@ -8,3 +8,4 @@ export BROWSER='wslview'
 export PLAYER='vlc --qt-start-minimized --playlist-enqueue --no-video'
 export EDITOR=$OPEN
 export CLIPBOARD='clipboard'
+export ONEDRIVE='/mnt/c/users/andrew/OneDrive'
