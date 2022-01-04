@@ -1,11 +1,10 @@
+export WIN_HOME='/mnt/c/users/andrew'
+export ONEDRIVE="$WIN_HOME/OneDrive"
+export XDG_REPOS_DIR="$WIN_HOME/repos"
+export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
 export PATH="$PATH:$HOME/dotfiles/wsl/bin"
-if type "xdg-open" > /dev/null; then
-	export OPEN=xdg-open
-else
-	export OPEN=explorer.exe
-fi
+export OPEN=xdg-open
+export EDITOR=$OPEN
 export BROWSER='wslview'
 export PLAYER='vlc --qt-start-minimized --playlist-enqueue --no-video'
-export EDITOR=$OPEN
 export CLIPBOARD='clipboard'
-export ONEDRIVE='/mnt/c/users/andrew/OneDrive'
