@@ -12,6 +12,8 @@ bindkey '^[[1;5C' forward-word
 bindkey '^H' backward-kill-word
 bindkey '^[[3;5~' kill-word
 bindkey '\e[Z' reverse-menu-complete 
+bindkey '^[[1;3D' beginning-of-line
+bindkey '^[[1;3C' end-of-line
 
 # Applications
 if command -v starship > /dev/null 2>&1
