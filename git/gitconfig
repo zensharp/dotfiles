@@ -1,6 +1,5 @@
 [init]
 	defaultBranch = master
-	templateDir = ~/dotfiles/git/git-templates
 [core]
 	whitespace = cr-at-eol
 	editor = micro
