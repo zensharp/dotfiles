@@ -106,8 +106,9 @@
                 "size": 17,
                 "weight": "medium"
             },
-            "opacity": 95,
-            "startingDirectory": null
+            "opacity": 85,
+            "startingDirectory": null,
+            "useAcrylic": true
         },
         "list": 
         [
@@ -146,7 +147,7 @@
     "schemes": 
     [
         {
-            "background": "#060816",
+            "background": "#000919",
             "black": "#567275",
             "blue": "#2770FF",
             "brightBlack": "#567275",
