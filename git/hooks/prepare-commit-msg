@@ -4,6 +4,10 @@ COMMIT_MSG_FILE=$1
 COMMIT_SOURCE=$2
 SHA1=$3
 
+# Remove default commit string
+/usr/bin/perl -i.bak -ne 'print unless(m/^. Please enter the commit message/..m/^#$/)' "$COMMIT_MSG_FILE"
+
+# Replace issue/feature string
 branch=$(git branch --show-current)
 if echo $branch | grep -q '^feature/'
 then
@@ -17,6 +21,4 @@ then
 else
 	message=""
 fi
-
-sed -i.bak "/# Please enter.*ending of the thing\./ s///" $COMMIT_MSG_FILE
 sed -i.bak "/#%{git_feature}/ s//$message/" $COMMIT_MSG_FILE
