@@ -71,4 +71,9 @@ function extract
 alias cdroot='cd $(git root)'
 alias cb='$CLIPBOARD'
 
+function var
+{
+	eval "echo \$$1"
+}
+
 export ANDTECH_TO_PATH="$HOME/dotfiles/to:$ONEDRIVE/.to"
