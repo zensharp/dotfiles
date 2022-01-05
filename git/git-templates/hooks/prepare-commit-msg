@@ -6,9 +6,9 @@ then
 	name=${branch#feature/}
 	if echo $name | grep -q '^[[:digit:]]*$'
 	then
-		message="Implementing #$name"
+		message="\n\nImplementing #$name"
 	else
-		message="Implementing feature \"$name\""
+		message="\n\nImplementing feature \"$name\""
 	fi
 else
 	message=""
