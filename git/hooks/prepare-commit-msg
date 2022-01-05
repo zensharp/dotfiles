@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+COMMIT_MSG_FILE=$1
+COMMIT_SOURCE=$2
+SHA1=$3
+
 branch=$(git branch --show-current)
 if echo $branch | grep -q '^feature/'
 then
@@ -14,4 +18,5 @@ else
 	message=""
 fi
 
-sed -i.bak "/#%{git_feature}/ s//$message/" $1
+sed -i.bak "/# Please enter.*ending of the thing\./ s///" $COMMIT_MSG_FILE
+sed -i.bak "/#%{git_feature}/ s//$message/" $COMMIT_MSG_FILE

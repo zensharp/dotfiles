@@ -5,8 +5,9 @@
 	whitespace = cr-at-eol
 	editor = micro
 	compression = 0
-	filemode = false
+	hooksPath = ~/dotfiles/git/hooks
 	excludesFile = ~/dotfiles/git/gitignore
+	filemode = false
 [fetch]
 	prune = true
 [pull]
