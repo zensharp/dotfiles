@@ -1,7 +1,9 @@
 {
     "autoclose": false,
     "clipboard": "terminal",
+    "colorscheme": "gotham",
     "eofnewline": false,
     "mkparents": true,
-    "scrollbar": true
+    "scrollbar": true,
+    "softwrap": true
 }
