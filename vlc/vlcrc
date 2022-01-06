@@ -4524,7 +4524,7 @@ play-and-exit=1
 #play-and-stop=0
 
 # Play and pause (boolean)
-play-and-pause=1
+#play-and-pause=0
 
 # Start paused (boolean)
 #start-paused=0
