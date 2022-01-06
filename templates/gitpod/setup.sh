@@ -14,3 +14,5 @@
 . ~/.dotfiles/starship/install.sh
 #. ~/.dotfiles/misc/install.sh
 #. ~/.dotfiles/python/install.sh
+
+exec zsh
