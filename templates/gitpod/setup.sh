@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#. ~/.dotfiles/zsh/install.sh
+. ~/.dotfiles/zsh/install.sh
 . ~/.dotfiles/shell/load.sh
 #. ~/.dotfiles/node/install.sh
 #. ~/.dotfiles/dotnet/install.sh
