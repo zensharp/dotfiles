@@ -1,1 +1,2 @@
 export PROFILE=".zshrc"
+export FPATH="$FPATH:$HOME/dotfiles/zsh/completions"
