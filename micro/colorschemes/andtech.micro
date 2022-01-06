@@ -1,0 +1,42 @@
+color-link default "default"
+color-link comment "grey"
+
+color-link type "blue"
+color-link type.keyword "red"
+color-link type.extended "magenta"
+color-link identifier "default"
+color-link statement "blue"
+
+color-link line-number "#505050"
+color-link current-line-number "#909090"
+color-link cursor-line "#202030"
+
+color-link preproc "FF00FF"
+color-link special "default"
+color-link underlined "yellow"
+color-link error "bold red"
+color-link todo "bold red"
+color-link hlsearch "yellow,#E6DB74"
+color-link tabbar "grey"
+color-link statusline "#505050"
+color-link indent-char "#505050"
+
+#Diff
+color-link diff-added "green"
+color-link diff-modified "yellow"
+color-link diff-deleted "red"
+
+color-link gutter-error "red"
+color-link gutter-warning "yellow"
+
+color-link constant "yellow"
+color-link constant.bool "yellow"
+color-link constant.number "default"
+color-link constant.string "yellow"
+color-link constant.string.char "yellow"
+color-link constant.specialChar "yellow"
+
+color-link color-column "default"
+color-link symbol.operator "default"
+color-link symbol.brackets "default"
+color-link symbol.tag "default"
