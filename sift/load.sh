@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-cp ~/dotfiles/sift/sift.conf ~/.sift.conf
+cp ~/.dotfiles/sift/sift.conf ~/.sift.conf

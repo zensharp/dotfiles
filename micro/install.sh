@@ -6,4 +6,4 @@ cd ~/.local/bin
 curl https://getmic.ro | bash
 cd -
 
-. ~/dotfiles/micro/load.sh
+. ~/.dotfiles/micro/load.sh

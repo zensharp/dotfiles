@@ -6,4 +6,4 @@ curl https://sift-tool.org/downloads/sift/sift_latest_linux_amd64.tar.gz | tar -
 mv sift_*/sift ~/.local/bin/
 rm -rf sift_*
 
-. ~/dotfiles/sift/load.sh
+. ~/.dotfiles/sift/load.sh

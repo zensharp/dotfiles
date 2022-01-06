@@ -1,4 +1,4 @@
-alias wudo="python3 ~/dotfiles/wsl/bin/wsl-sudo.py"
+alias wudo="python3 ~/.dotfiles/wsl/bin/wsl-sudo.py"
 
 wslcd () { cd "$(wslpath $1)"; }
 

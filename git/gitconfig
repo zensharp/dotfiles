@@ -4,8 +4,8 @@
 	whitespace = cr-at-eol
 	editor = micro
 	compression = 0
-	hooksPath = ~/dotfiles/git/hooks
-	excludesFile = ~/dotfiles/git/gitignore
+	hooksPath = ~/.dotfiles/git/hooks
+	excludesFile = ~/.dotfiles/git/gitignore
 	filemode = false
 [fetch]
 	prune = true
@@ -15,7 +15,7 @@
 	default = upstream
 	followTags = true
 [commit]
-	template = ~/dotfiles/git/gitmessage
+	template = ~/.dotfiles/git/gitmessage
 [merge]
 	ff = false
 [diff]
@@ -40,9 +40,9 @@
 	insteadOf = bitbucket
 	pushInsteadOf = bitbucket
 [include]
-	path = ~/dotfiles/git/aliases.gitconfig
-	path = ~/dotfiles/git/delta.gitconfig
+	path = ~/.dotfiles/git/aliases.gitconfig
+	path = ~/.dotfiles/git/delta.gitconfig
 [includeIf "gitdir:**/gitlab/**"]
-	path = ~/dotfiles/git/gitlab/gitconfig
+	path = ~/.dotfiles/git/gitlab/gitconfig
 [includeIf "gitdir:**/github/**"]
-	path = ~/dotfiles/git/github/gitconfig
+	path = ~/.dotfiles/git/github/gitconfig

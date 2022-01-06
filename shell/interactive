@@ -11,7 +11,7 @@ alias tree4="tree -L 4"
 # Enable color support of ls and also add handy aliases
 if command -v dircolors > /dev/null 2>&1
 then
-    eval $(dircolors ~/dotfiles/shell/dircolors --sh)
+    eval $(dircolors ~/.dotfiles/shell/dircolors --sh)
     alias ls='ls --color=auto --group-directories-first'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
@@ -76,4 +76,4 @@ function var
 	eval "echo \$$1"
 }
 
-export ANDTECH_TO_PATH="$HOME/dotfiles/to:$ONEDRIVE/.to"
+export ANDTECH_TO_PATH="$HOME/.dotfiles/to:$ONEDRIVE/.to"
