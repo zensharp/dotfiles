@@ -1,24 +1,27 @@
 color-link default "default"
 color-link comment "grey"
 
-color-link type "blue"
-color-link type.keyword "red"
-color-link type.extended "magenta"
-color-link identifier "default"
-color-link statement "blue"
+# Line numbers
+color-link line-number "grey"
+color-link current-line-number "default"
 
-color-link line-number "#505050"
-color-link current-line-number "#909090"
+# Highlight
 color-link cursor-line "#202030"
+
+color-link type "default"
+color-link type.keyword "default"
+color-link type.extended "default"
+color-link identifier "default"
+color-link statement "default"
 
 color-link preproc "FF00FF"
 color-link special "default"
-color-link underlined "yellow"
-color-link error "bold red"
-color-link todo "bold red"
-color-link hlsearch "yellow,#E6DB74"
+color-link underlined "default"
+color-link error "default"
+color-link todo "default"
+color-link hlsearch "default,#E6DB74"
 color-link tabbar "grey"
-color-link statusline "#505050"
+color-link statusline "blue"
 color-link indent-char "#505050"
 
 #Diff
@@ -30,7 +33,7 @@ color-link gutter-error "red"
 color-link gutter-warning "yellow"
 
 color-link constant "yellow"
-color-link constant.bool "yellow"
+color-link constant.bool "default"
 color-link constant.number "default"
 color-link constant.string "yellow"
 color-link constant.string.char "yellow"
