@@ -8,22 +8,22 @@ $git_branch\
 $character"""
 
 [username]
-style_root = "green"
-style_user = "green"
+style_root = "bold green"
+style_user = "bold green"
 show_always = false
 
 [hostname] 
 ssh_only = false
 format = '[$hostname]($style) in '
 trim_at = "."
-style = "green"
+style = "bold green"
 disabled = true
 
 [directory]
 truncation_length = 999
 truncate_to_repo = true
 truncation_symbol = ""
-style = "blue"
+style = "bold blue"
 
 [git_branch]
 style = "bold purple"
@@ -36,11 +36,11 @@ revert = "REVERTING"
 bisect = "BISECTING"
 am = "AM"
 am_or_rebase = "AM/REBASE"
-style = "purple"
+style = "bold purple"
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = 'purple'
+style = 'bold purple'
 stashed = '\$'
 ahead = '⇡'
 behind = '⇣'

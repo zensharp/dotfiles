@@ -27,8 +27,8 @@
 [color "branch"]
     remote = black bold
 [color "status"]
-	added = green
-	changed = yellow
+	added = green bold
+	changed = yellow bold
 	untracked = black bold
 [url "git@gitlab.com"]
 	insteadOf = gitlab
