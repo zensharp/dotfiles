@@ -1,7 +1,7 @@
 {
     "autoclose": false,
     "clipboard": "terminal",
-    "colorscheme": "andtech",
+    "colorscheme": "minimal",
     "eofnewline": false,
     "mkparents": true,
     "scrollbar": true,
