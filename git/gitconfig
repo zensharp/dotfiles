@@ -25,11 +25,20 @@
 [http]
 	postBuffer = 524288000
 [color "branch"]
+	current = green bold
+	local = white bold
     remote = black bold
 [color "status"]
+	header = white bold
 	added = green bold
+	updated = cyan bold #conflicts resolved
 	changed = yellow bold
 	untracked = black bold
+	branch = green bold
+	nobranch = green bold
+	unmerged = red bold
+[color "diff"]
+	commit = yellow bold
 [url "git@gitlab.com"]
 	insteadOf = gitlab
 	pushInsteadOf = gitlab
