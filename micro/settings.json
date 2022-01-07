@@ -4,6 +4,7 @@
     "colorscheme": "andtech",
     "eofnewline": false,
     "mkparents": true,
+    "ruler": false,
     "scrollbar": true,
     "softwrap": true
 }
