@@ -31,7 +31,7 @@
 [color "status"]
 	header = white bold
 	added = green bold
-	updated = cyan bold #conflicts resolved
+	#updated = cyan bold #staged/conflicts resolved
 	changed = yellow bold
 	untracked = black bold
 	branch = green bold
