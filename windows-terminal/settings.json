@@ -107,6 +107,7 @@
                 "size": 16
             },
             "opacity": 85,
+            "padding": "24",
             "startingDirectory": null,
             "useAcrylic": true
         },
