@@ -1,7 +1,7 @@
 filetype: git-commit
 
 detect:
-    filename: "^(.*[\\/])?(MERGE_MSG)$"
+    filename: "^(.*[\\/])?(COMMIT_EDITMSG|TAG_EDITMSG|MERGE_MSG)$"
 
 rules:
     # File changes
@@ -16,7 +16,7 @@ rules:
     - type.keyword: "^#[[:space:]]On branch [^ ]+"
     - type.keyword: "^#[[:space:]]On branch"
     # Color keywords for closing issues (such as on Github)
-    - type.keyword: "\\b(?i)((fix(es|ed)?|close(s|d)?) #[0-9]+)\\b"
+    - custom.special: "\\b(?i)((fix(es|ed)?|close(s|d)?|implement(s|ed)?) #[0-9]+)\\b"
 
     # Comments
     - comment.line:
