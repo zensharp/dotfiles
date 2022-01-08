@@ -30,7 +30,7 @@ style = "bold blue"
 style = "bold purple"
 
 [git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
+format = '[\[$state( $progress_current/$progress_total)\]]($style) '
 cherry_pick = "CHERRY PICKING"
 rebase = "REBASING"
 merge = "MERGING"
