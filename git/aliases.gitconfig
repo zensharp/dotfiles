@@ -9,6 +9,7 @@
 	erase = !rm -rf .git
 	ff = merge --ff-only
 	check = diff --check
+	squash = rebase -i
 	sw = !git switch $* || git switch master $*
 	swc = switch -C
 	a = add
