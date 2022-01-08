@@ -5,6 +5,7 @@ $username\
 $hostname\
 $directory\
 $git_branch\
+$git_state\
 $character"""
 
 [username]
@@ -29,6 +30,7 @@ style = "bold blue"
 style = "bold purple"
 
 [git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
 cherry_pick = "CHERRY PICKING"
 rebase = "REBASING"
 merge = "MERGING"
@@ -37,6 +39,7 @@ bisect = "BISECTING"
 am = "AM"
 am_or_rebase = "AM/REBASE"
 style = "bold purple"
+disabled = false
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
