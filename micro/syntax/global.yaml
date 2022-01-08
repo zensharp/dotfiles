@@ -5,4 +5,3 @@ detect:
 
 rules:
     - include: git-conflict
-    - include: git-commit
