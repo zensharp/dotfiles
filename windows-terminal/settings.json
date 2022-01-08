@@ -142,15 +142,15 @@
     [
         {
             "background": "#000919",
-            "black": "#202A2B",
+            "black": "#222C3B",
             "blue": "#143880",
-            "brightBlack": "#344547",
+            "brightBlack": "#344159",
             "brightBlue": "#2770FF",
             "brightCyan": "#3BE8FF",
             "brightGreen": "#00F786",
             "brightPurple": "#FF7A2A",
             "brightRed": "#FF264A",
-            "brightWhite": "#FFFFFF",
+            "brightWhite": "#C5DAFF",
             "brightYellow": "#FFFE48",
             "cursorColor": "#DADADA",
             "cyan": "#19646E",
@@ -159,8 +159,8 @@
             "name": "Andtech",
             "purple": "#5E2D10",
             "red": "#751122",
-            "selectionBackground": "#205070",
-            "white": "#666666",
+            "selectionBackground": "#1D54BF",
+            "white": "#6C788C",
             "yellow": "#757521"
         },
         {
