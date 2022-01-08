@@ -1,0 +1,14 @@
+filetype: git-conflict
+
+rules:
+    - git.conflictstart:
+        start: "^<<<<<<< "
+        end: "$"
+        rules: []
+        
+    - git.conflictmid: "^=======$"
+        
+    - git.conflictend:
+        start: "^>>>>>>> "
+        end: "$"
+        rules: []
