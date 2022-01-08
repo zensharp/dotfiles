@@ -1,4 +1,4 @@
-filetype: git-commit
+filetype: git-message
 
 detect:
     filename: "^(.*[\\/])?(COMMIT_EDITMSG|TAG_EDITMSG|MERGE_MSG)$"

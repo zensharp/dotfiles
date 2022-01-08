@@ -1,18 +1,17 @@
+filetype: global
+
 detect:
     filename: ".*"
 
-rules:    
+rules:
     - git.conflictstart:
-        start: "^<<<<<<<"
+        start: "^<<<<<<< "
         end: "$"
         rules: []
         
-    - git.conflictmid:
-        start: "^======="
-        end: "$"
-        rules: []
+    - git.conflictmid: "^=======$"
         
     - git.conflictend:
-        start: "^>>>>>>>"
+        start: "^>>>>>>> "
         end: "$"
         rules: []
