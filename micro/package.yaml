@@ -1,5 +1,5 @@
 include:
   - path: settings.json
   - path: bindings.json
-  - path: colorschemes/andtech.micro
+  - path: colorschemes/minimal.micro
 destination: ~/.config/micro
