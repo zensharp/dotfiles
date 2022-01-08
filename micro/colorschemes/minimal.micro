@@ -44,4 +44,7 @@ color-link symbol.operator "default"
 color-link symbol.brackets "default"
 color-link symbol.tag "default"
 
-color-link custom.special "bold cyan"
+color-link git.issue "bold cyan"
+color-link git.conflictstart "green"
+color-link git.conflictmid "grey"
+color-link git.conflictend "blue"

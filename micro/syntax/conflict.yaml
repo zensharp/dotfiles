@@ -1,0 +1,18 @@
+detect:
+    filename: ".*"
+
+rules:    
+    - git.conflictstart:
+        start: "^<<<<<<<"
+        end: "$"
+        rules: []
+        
+    - git.conflictmid:
+        start: "^======="
+        end: "$"
+        rules: []
+        
+    - git.conflictend:
+        start: "^>>>>>>>"
+        end: "$"
+        rules: []
