@@ -6,6 +6,6 @@
     "mkparents": true,
     "scrollbar": true,
     "softwrap": true,
-    "statusformatl": "$(filename)$(modified)",
+    "statusformatl": "$(modified)$(filename) • $(opt:filetype)",
     "statusformatr": "Line $(line), Column $(col)"
 }

@@ -48,3 +48,5 @@ rules:
         end: "\\*/"
         rules:
             - todo: "(TODO|XXX|FIXME):?"
+
+    - include: git-conflict

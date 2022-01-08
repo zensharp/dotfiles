@@ -1,7 +1,0 @@
-filetype: global
-
-detect:
-    filename: ".*"
-
-rules:
-    - include: git-conflict

@@ -47,3 +47,5 @@ rules:
         start: "`"
         end: "`"
         rules: []
+        
+    - include: git-conflict
