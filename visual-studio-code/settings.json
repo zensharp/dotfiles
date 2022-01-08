@@ -39,5 +39,6 @@
 		"terminal.ansiMagenta": "#FF8000",
 		"terminal.ansiBrightMagenta": "#FF8000"
 	},
-	"workbench.colorTheme": "Default Dark+"
+	"workbench.colorTheme": "Default Dark+",
+	"terminal.integrated.defaultProfile.linux": "zsh",
 }
