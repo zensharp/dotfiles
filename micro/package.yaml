@@ -1,5 +1,6 @@
 include:
   - path: settings.json
   - path: bindings.json
-  - path: colorschemes/minimal.micro
+  - path: colorschemes
+  - path: syntax
 destination: ~/.config/micro
