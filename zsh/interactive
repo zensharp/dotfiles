@@ -3,8 +3,7 @@ unsetopt autolist
 unsetopt nomatch
 
 # Completions
-autoload -Uz compinit select-word-style
-compinit
+autoload -Uz select-word-style
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 select-word-style bash
 
