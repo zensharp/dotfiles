@@ -1,0 +1,17 @@
+#compdef dpm
+
+local line
+
+_arguments -C \
+    "1: :(install)" \
+    "*::arg:->args"
+
+case $line[1] in
+    install)
+        _dpm_install
+    ;;
+esac
+
+function _dpm_install {
+    _arguments "1:name:_path_files -W ~/.dotfiles -/"
+}
