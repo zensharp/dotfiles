@@ -1,7 +1,7 @@
 filetype: git-message
 
 detect:
-    filename: "^(.*[\\/])?(COMMIT_EDITMSG|TAG_EDITMSG|MERGE_MSG)$"
+    filename: "^(.*[\\/])?(COMMIT_EDITMSG|TAG_EDITMSG|MERGE_MSG|git-rebase-todo)$"
 
 rules:
     # File changes
@@ -16,7 +16,7 @@ rules:
     - type.keyword: "^#[[:space:]]On branch [^ ]+"
     - type.keyword: "^#[[:space:]]On branch"
     # Color keywords for closing issues (such as on Github)
-    - git.issue: "\\b(?i)((fix(es|ed)?|close(s|d)?|implement(s|ed)?) (#[0-9]+)|(feature/[^ ]+))\\b"
+    - git.issue: "\\b(?i)((fix(es|ed)?|close(s|d)?|implement(s|ed)?) (#[0-9]+|feature/[^ ]+))\\b"
 
     # Comments
     - comment.line:
