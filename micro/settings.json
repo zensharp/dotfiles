@@ -5,6 +5,7 @@
     "eofnewline": false,
     "mkparents": true,
     "scrollbar": true,
+    "scrollspeed": 1,
     "softwrap": true,
     "statusformatl": "$(modified)$(filename) • $(opt:filetype)",
     "statusformatr": "Line $(line), Column $(col)"
