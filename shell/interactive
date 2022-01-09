@@ -12,7 +12,7 @@ alias tree4="tree -L 4"
 if command -v dircolors > /dev/null 2>&1
 then
     eval $(dircolors ~/.dotfiles/shell/dircolors --sh)
-    alias ls='ls --color=auto --group-directories-first'
+    alias ls='ls --color=auto --group-directories-first -x'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
