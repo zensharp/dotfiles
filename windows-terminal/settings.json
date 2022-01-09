@@ -99,6 +99,7 @@
         "defaults": 
         {
             "bellStyle": "taskbar",
+            "closeOnExit": "always",
             "colorScheme": "Andtech",
             "experimental.retroTerminalEffect": true,
             "font": 
@@ -396,6 +397,7 @@
     ],
     "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
+    "theme": "system",
     "trimBlockSelection": true,
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"

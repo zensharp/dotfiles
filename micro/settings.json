@@ -8,5 +8,5 @@
     "scrollspeed": 1,
     "softwrap": true,
     "statusformatl": "$(filename) $(modified)",
-    "statusformatr": "$(opt:filetype) • Line $(line), Column $(col)"
+    "statusformatr": "Line $(line), Column $(col) • $(opt:filetype)"
 }
