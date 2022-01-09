@@ -41,4 +41,5 @@
 	},
 	"workbench.colorTheme": "Default Dark+",
 	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.cursorStyle": "line",
 }
