@@ -3,6 +3,8 @@
     "clipboard": "terminal",
     "colorscheme": "minimal",
     "eofnewline": false,
+    "indentchar": "→",
+    "matchbrace": false,
     "mkparents": true,
     "scrollbar": true,
     "scrollspeed": 1,

@@ -1,5 +1,6 @@
 color-link default "bold white"
 color-link comment "bold black"
+color-link indent-char "black"
 
 # Line numbers
 color-link line-number "bold black"
@@ -22,7 +23,6 @@ color-link todo "default"
 color-link hlsearch "default,#FF00FF"
 color-link tabbar "bold grey"
 color-link statusline "bold grey"
-color-link indent-char "#FF00FF"
 
 #Diff
 color-link diff-added "bold default"
