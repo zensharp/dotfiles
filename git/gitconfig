@@ -33,7 +33,7 @@
 	added = green bold
 	#updated = cyan bold #staged/conflicts resolved
 	changed = yellow bold
-	untracked = black bold
+	untracked = black
 	branch = green bold
 	nobranch = green bold
 	unmerged = red bold
