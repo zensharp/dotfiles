@@ -107,10 +107,9 @@
                 "face": "Cascadia Code PL",
                 "size": 16
             },
-            "opacity": 85,
+            "opacity": 91,
             "padding": "16",
-            "startingDirectory": null,
-            "useAcrylic": true
+            "startingDirectory": null
         },
         "list": 
         [
@@ -118,7 +117,6 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "opacity": 75,
                 "source": "Windows.Terminal.Wsl"
             },
             {
@@ -143,7 +141,7 @@
     "schemes": 
     [
         {
-            "background": "#101010",
+            "background": "#000001",
             "black": "#202020",
             "blue": "#143880",
             "brightBlack": "#404040",
@@ -377,6 +375,6 @@
     "tabSwitcherMode": "mru",
     "theme": "system",
     "trimBlockSelection": true,
-    "useAcrylicInTabRow": true,
+    "useAcrylicInTabRow": false,
     "windowingBehavior": "useExisting"
 }
