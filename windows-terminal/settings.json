@@ -104,7 +104,7 @@
             "experimental.retroTerminalEffect": true,
             "font": 
             {
-                "face": "Cascadia Code PL",
+                "face": "Cascadia Mono PL",
                 "size": 16
             },
             "opacity": 91,
