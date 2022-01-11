@@ -106,9 +106,9 @@
     {
         "defaults": 
         {
-            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/yokohama.png",
+            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/kicho.png",
             "backgroundImageAlignment": "bottom",
-            "backgroundImageOpacity": 0.92500000000000004,
+            "backgroundImageOpacity": 0.9,
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Andtech",
@@ -118,7 +118,7 @@
                 "face": "Cascadia Mono PL",
                 "size": 16
             },
-            "opacity": 100,
+            "opacity": 0,
             "padding": "16",
             "startingDirectory": null,
             "useAcrylic": true
