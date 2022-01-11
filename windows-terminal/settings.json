@@ -98,6 +98,9 @@
     {
         "defaults": 
         {
+            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/yokohama.png",
+            "backgroundImageAlignment": "bottom",
+            "backgroundImageOpacity": 0.84999999999999998,
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Andtech",
@@ -107,9 +110,10 @@
                 "face": "Cascadia Mono PL",
                 "size": 16
             },
-            "opacity": 91,
+            "opacity": 0,
             "padding": "16",
-            "startingDirectory": null
+            "startingDirectory": null,
+            "useAcrylic": true
         },
         "list": 
         [
@@ -375,6 +379,6 @@
     "tabSwitcherMode": "mru",
     "theme": "system",
     "trimBlockSelection": true,
-    "useAcrylicInTabRow": false,
+    "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"
 }
