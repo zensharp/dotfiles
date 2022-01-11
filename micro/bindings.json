@@ -6,4 +6,6 @@
     "ShiftDelete": "SelectLine,Delete",
     "CtrlUp": "ScrollUp",
     "CtrlDown": "ScrollDown",
+    "Ctrl-j": "EndOfLine,InsertNewline,MoveLinesUp",
+    "Alt-[": "EndOfLine,InsertNewline"
 }

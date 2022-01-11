@@ -86,6 +86,14 @@
                 "action": "moveFocus",
                 "direction": "previous"
             }
+        },
+        {
+            "command":
+            {
+                "action": "sendInput",
+                "input": "\u001b["
+            },
+            "keys": "shift+enter"
         }
     ],
     "alwaysShowNotificationIcon": true,
