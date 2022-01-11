@@ -2,6 +2,7 @@
     "autoclose": false,
     "clipboard": "terminal",
     "colorscheme": "minimal",
+    "diffgutter": true,
     "eofnewline": false,
     "matchbrace": false,
     "mkparents": true,
