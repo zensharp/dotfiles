@@ -110,7 +110,7 @@
                 "face": "Cascadia Mono PL",
                 "size": 16
             },
-            "opacity": 0,
+            "opacity": 100,
             "padding": "16",
             "startingDirectory": null,
             "useAcrylic": true
@@ -122,6 +122,7 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
+                "opacity": 0,
                 "source": "Windows.Terminal.Wsl"
             },
             {
@@ -147,25 +148,25 @@
     [
         {
             "background": "#000001",
-            "black": "#202020",
+            "black": "#19191C",
             "blue": "#143880",
-            "brightBlack": "#404040",
+            "brightBlack": "#3C3C44",
             "brightBlue": "#2770FF",
             "brightCyan": "#3BE8FF",
             "brightGreen": "#00F786",
             "brightPurple": "#FF7A2A",
             "brightRed": "#FF264A",
-            "brightWhite": "#FFFFFF",
+            "brightWhite": "#CCCCD8",
             "brightYellow": "#FFFE48",
-            "cursorColor": "#FFFFFF",
+            "cursorColor": "#CCCCD8",
             "cyan": "#19646E",
-            "foreground": "#FFFFFF",
+            "foreground": "#CCCCD8",
             "green": "#006E3B",
             "name": "Andtech",
             "purple": "#5E2D10",
             "red": "#751122",
             "selectionBackground": "#1D54BF",
-            "white": "#818181",
+            "white": "#7D7D85",
             "yellow": "#757521"
         },
         {
