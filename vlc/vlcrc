@@ -1621,7 +1621,7 @@ skins2-config=["equalizer" "EQ" 0 0 350 186 0]["fullscreenController" "fswindow"
 qt-notification=0
 
 # Start VLC with only a systray icon (boolean)
-#qt-start-minimized=0
+qt-start-minimized=1
 
 # Pause the video playback when minimized (boolean)
 #qt-pause-minimized=0
