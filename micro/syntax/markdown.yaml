@@ -55,7 +55,7 @@ rules:
 
     # Code block
     - default:
-        start: "^```[[:word:]]*$"
+        start: "^```[[:word:]-]*$"
         end: "^```$"
         limit-group: markdown.dim
         rules: []
