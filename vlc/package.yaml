@@ -1,5 +1,6 @@
 include:
   - path: vlcrc
+  - path: vlc-qt-interface.ini
 windows:
   destination: '%appdata%/vlc'
 macos:
