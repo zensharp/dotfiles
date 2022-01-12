@@ -9,16 +9,17 @@ $git_state\
 $character"""
 
 [username]
+format = "[$user]($style) at "
 style_root = "bold green"
 style_user = "bold green"
 show_always = false
 
 [hostname] 
-ssh_only = false
+ssh_only = true
 format = '[$hostname]($style) in '
 trim_at = "."
 style = "bold green"
-disabled = true
+disabled = false
 
 [directory]
 truncation_length = 999
