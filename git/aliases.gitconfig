@@ -7,6 +7,7 @@
 	pst = push --tags
 	psa = !git push && git push --tags
 	erase = !rm -rf .git
+	continue = !git merge --continue || git rebase --continue
 	ff = merge --ff-only
 	check = diff --check
 	squash = rebase -i
