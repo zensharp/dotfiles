@@ -3,7 +3,7 @@
     "CtrlUnderscore": "lua:comment.comment",
     "CtrlDelete": "DeleteWordRight",
     "OldBackspace": "DeleteWordLeft",
-    "ShiftDelete": "SelectLine,Delete",
+    "ShiftDelete": "SelectLine,Delete,EndOfLine,StartOfText",
     "CtrlUp": "ScrollUp",
     "CtrlDown": "ScrollDown",
     "Ctrl-j": "EndOfLine,InsertNewline,MoveLinesUp",
