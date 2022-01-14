@@ -108,7 +108,7 @@
         {
             "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/kicho.png",
             "backgroundImageAlignment": "bottom",
-            "backgroundImageOpacity": 0.9,
+            "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Andtech",
@@ -116,7 +116,7 @@
             "font": 
             {
                 "face": "Cascadia Mono PL",
-                "size": 16
+                "size": 14
             },
             "opacity": 0,
             "padding": "16",
@@ -127,6 +127,10 @@
         [
             {
                 "backgroundImageAlignment": "bottomLeft",
+                "font": 
+                {
+                    "size": 15
+                },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
