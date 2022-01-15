@@ -112,7 +112,7 @@
             "bellStyle": "taskbar",
             "closeOnExit": "always",
             "colorScheme": "Andtech",
-            "experimental.retroTerminalEffect": true,
+            "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "Cascadia Mono PL",
