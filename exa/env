@@ -1,1 +1,12 @@
-export EXA_COLORS='reset:fi=37;;1:pi=37;;1:cd=37;;1:di=33;;1:so=37;;1:ln=36;;1:ex=32;;1:bd=37;;1:or=37;;1:ur=31;;1:uw=32;;1:ux=34;;1:ue=37;;1:gr=37;;1:gw=37;;1:gx=37;;1:tr=37;;1:tw=37;;1:tx=37;;1:su=37;;1:sf=37;;1:xa=37;;1:sn=37;;1:sb=37;;1:df=37;;1:ds=37;;1:uu=37;;1:un=37;;1:gu=37;;1:gn=37;;1:lc=37;;1:lm=37;;1:ga=37;;1:gm=37;;1:gd=37;;1:gv=37;;1:gt=37;;1:xx=37;;1:da=37;;1:in=37;;1:bl=37;;1:hd=37;;1:lp=37;;1:cc=37;;1:bO=31;;1'
+EXA_COLORS="reset"
+# File Class Colors
+EXA_COLORS="$EXA_COLORS:fi=37;;1:pi=37;;1:cd=37;;1:di=33;;1:so=37;;1:ln=36;;1:ex=32;;1:bd=37;;1:or=31;;1"
+## Permissions
+EXA_COLORS="$EXA_COLORS:ur=31;;1:uw=31;;1:ux=31;;1:ue=31;;1:gr=32;;1:gw=32;;1:gx=32;;1:tr=34;;1:tw=34;;1:tx=34;;1"
+EXA_COLORS="$EXA_COLORS:su=37;;1:sf=37;;1:xa=37;;1"
+EXA_COLORS="$EXA_COLORS:sn=37;;1:sb=37;;1:df=37;;1:ds=37;;1:uu=37;;1:un=37;;:gu=37;;1:gn=37;;:lc=37;;1:lm=37;;1"
+## Git
+EXA_COLORS="$EXA_COLORS:ga=37;;1:gm=37;;1:gd=37;;1:gv=37;;1:gt=37;;1"
+EXA_COLORS="$EXA_COLORS:xx=37;;1:da=37;;1:in=37;;1:bl=37;;1:hd=37;;1:lp=37;;1:cc=37;;1:bO=31;;1"
+
+export EXA_COLORS
