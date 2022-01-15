@@ -1,0 +1,8 @@
+include:
+  - path: Layouts
+    destination: Data/Resources/
+  - path: ScriptTemplates
+    destination: Data/Resources/
+
+windows:
+  destination: "%programfiles%/Unity/Hub/Editor/*/"

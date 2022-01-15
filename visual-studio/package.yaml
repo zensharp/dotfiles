@@ -2,4 +2,4 @@ include:
   - path: CurrentSettings.vssettings
 
 windows:
-  destination: "%localappdata%/Microsoft/VisualStudio/17.0_851797c7/Settings"
+  destination: "%localappdata%/Microsoft/VisualStudio/17.*/Settings"
