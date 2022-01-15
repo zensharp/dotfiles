@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+set -e
+
+target=$(realpath $1)
+filename=$(basename $1)
+outputPrefix=${2:-.}
+
+function prepare
+{
+	extension=$1
+	destination="${outputPrefix}/${filename%%$extension}"
+	mkdir -p $destination && cd $destination
+}
+
+case $filename in
+	*.tar.bz2)
+		prepare ".tar.bz2"
+		tar xvjf $target
+		;;
+	*.tar.gz)
+		prepare ".tar.gz"
+		tar xvzf $target
+		;;
+	*.bz2)
+		prepare ".bz2"
+		bunzip2 $target
+		;;
+	*.rar)
+		prepare ".rar"
+		unrar x $target
+		;;
+	*.gz)
+		prepare ".gz"
+		gunzip $target
+		;;
+	*.tar)
+		prepare ".tar"
+		tar xvf $target
+		;;
+	*.tbz2)
+		prepare ".tbz2"
+		tar xvjf $target
+		;;
+	*.tgz)
+		prepare ".tgz"
+		tar xvzf $target
+		;;
+	*.zip)
+		prepare ".zip"
+		unzip $target
+		;;
+	*.Z)
+		prepare ".Z"
+		uncompress $target
+		;;
+	*.7z)
+		prepare ".7z"
+		7z x $target
+		;;
+	*)
+		echo "'$filename' cannot be extracted via 'extract'"
+		;;
+esac
