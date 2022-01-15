@@ -1,2 +1,3 @@
-alias ls='exa --group-directories-first --across --time-style long-iso'
-alias tree='exa --group-directories-first --tree --ignore-glob .git'
+alias EXA='exa --time-style iso --group-directories-first --across'
+alias ls='EXA'
+alias tree='EXA --tree --ignore-glob .git'
