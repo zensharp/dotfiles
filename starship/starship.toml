@@ -9,7 +9,7 @@ $git_state\
 $character"""
 
 [username]
-format = "[$user]($style) at "
+format = "[$user@]($style)"
 style_root = "bold green"
 style_user = "bold green"
 show_always = false
