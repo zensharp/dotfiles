@@ -12,7 +12,7 @@ EXA_COLORS="${EXA_COLORS}:lc=37;;1:lm=37;;1"
 ## Git
 EXA_COLORS="${EXA_COLORS}:ga=37;;0:gm=33;;1:gd=31;;1:gv=33;;1:gt=33;;1"
 ## Details and Metadata
-EXA_COLORS="${EXA_COLORS}:xx=37;;1:da=37;;1:in=37;;1:bl=37;;1:hd=37;;04:lp=37;;1:cc=37;;1"
+EXA_COLORS="${EXA_COLORS}:xx=37;;1:da=37;;1:in=37;;1:bl=37;;1:hd=37;;1;4:lp=37;;1:cc=37;;1"
 ## Overlays
 EXA_COLORS="${EXA_COLORS}:bO=31;;1"
 
