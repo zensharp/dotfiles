@@ -43,5 +43,3 @@ function var
 }
 
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/.to"
-
-alias todo='$EDITOR $TODO'
