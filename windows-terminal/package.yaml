@@ -1,7 +1,6 @@
 include:
   - path: settings.json
     destination: LocalState/
-  - path: backgrounds/yokohama.png
-  - path: backgrounds/kicho.png
+  - path: backgrounds
 windows:
   destination: '%localappdata%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe'
