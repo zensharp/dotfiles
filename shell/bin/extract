@@ -25,6 +25,7 @@ case $filename in
 	*.tar.xz)
 		prepare ".tar.xz"
 		tar xf $target
+		;;
 	*.bz2)
 		prepare ".bz2"
 		bunzip2 $target
