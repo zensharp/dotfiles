@@ -1,6 +1,7 @@
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/.dotfiles/shell/bin"
 export PATH="$PATH:$HOME/.local/bin/git-tools"
+export EDITOR="micro"
 export XDG_REPOS_DIR="$HOME/repos"
 export XDG_DOWNLOAD_DIR="$HOME/repos"
 export XDG_MUSIC_DIR="/mnt/share/music"

@@ -1,4 +1,4 @@
-	# Environment
+# Environment
 export DIRENV_LOG_FORMAT=
 
 # Enable color support of ls and also add handy aliases
@@ -43,3 +43,5 @@ function var
 }
 
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/.to"
+
+alias todo='$EDITOR $TODO'

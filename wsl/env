@@ -4,7 +4,6 @@ export XDG_REPOS_DIR="$WIN_HOME/repos"
 export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
 export PATH="$PATH:$HOME/.dotfiles/wsl/bin"
 export OPEN='xdg-open'
-export EDITOR=$OPEN
 export VISUAL=$OPEN
 export BROWSER='explorer.exe'
 export PLAYER='vlc --qt-start-minimized --playlist-enqueue --no-video'
