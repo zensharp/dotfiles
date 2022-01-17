@@ -51,7 +51,10 @@ color-link git.conflict ",red"
 color-link git.conflictstart "green"
 color-link git.conflictend "blue"
 
+# Markdown
 color-link markdown.dim "white"
+color-link markdown.heading "brightcyan"
+color-link markdown.list "brightblue"
 color-link markdown.table "white"
 color-link markdown.quote "default"
 color-link blue "brightblue"

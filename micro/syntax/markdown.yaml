@@ -6,11 +6,10 @@ detect:
 rules:
     - include: git-conflict
 
-    # Header
-    - default:
-        start: "^#{1,6}"
+    # Heading
+    - markdown.heading:
+        start: "^#{1,6}\\s+"
         end: "$"
-        limit-group: markdown.dim
         rules: []
 
     # Horizontal Rule
@@ -20,7 +19,7 @@ rules:
     - default:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+"
         end: "$"
-        limit-group: blue
+        limit-group: markdown.list
         rules: []
 
     # Italic
