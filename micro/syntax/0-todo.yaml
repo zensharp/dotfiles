@@ -1,0 +1,26 @@
+filetype: todo
+
+detect:
+    filename: "todo\\.(md|txt)$"
+
+rules:
+    # Task
+    - brightwhite:
+        start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[\\s*\\]"
+        end: "$"
+        limit-group: brightwhite
+        rules: []
+    - green:
+        start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[x\\]"
+        end: "$"
+        limit-group: brightgreen
+        rules: []
+        
+    # Heading
+    - comment:
+        start: "^#{1,6}\\s+"
+        end: "$"
+        rules: []
+
+    # External  
+    - include: git-conflict
