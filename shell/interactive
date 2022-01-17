@@ -25,8 +25,7 @@ function mksh
 # Extras
 alias catkey='cat ~/.ssh/id_rsa.pub'
 open () { $OPEN ${1:-$PWD}; }
-resource () { . ${1:-~/$PROFILE}; }
-alias source="resource"
+
 function howami
 {
 	shopt -q login_shell && printf 'login' || printf 'non-login'
