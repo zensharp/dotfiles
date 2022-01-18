@@ -57,3 +57,9 @@ color-link markdown.heading "brightcyan"
 color-link markdown.list "brightblue"
 color-link markdown.table "white"
 color-link markdown.quote "default"
+
+# Tasks
+color-link task.completed "green"
+color-link task.completed.limit "brightgreen"
+color-link task.inprogress "default"
+color-link task.blocked "brightyellow"

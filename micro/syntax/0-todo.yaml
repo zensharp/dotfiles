@@ -5,15 +5,22 @@ detect:
 
 rules:
     # Task
-    - brightwhite:
+    - default:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[\\s*\\]"
         end: "$"
-        limit-group: brightwhite
         rules: []
-    - green:
+    - task.completed:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[x\\]"
         end: "$"
-        limit-group: brightgreen
+        limit-group: task.completed.limit
+        rules: []
+    - task.inprogress:
+        start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[-\\]"
+        end: "$"
+        rules: []
+    - task.blocked:
+        start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[!\\]"
+        end: "$"
         rules: []
         
     # Heading
