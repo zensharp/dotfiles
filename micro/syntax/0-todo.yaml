@@ -8,20 +8,24 @@ rules:
     - default:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[\\s*\\]"
         end: "$"
-        rules: []
+        rules:
+            - include: tags
     - task.completed:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[x\\]"
         end: "$"
         limit-group: task.completed.limit
-        rules: []
+        rules:
+            - include: tags
     - task.inprogress:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[-\\]"
         end: "$"
-        rules: []
+        rules:
+            - include: tags
     - task.blocked:
         start: "^\\s*([*-]|[[:digit:]]\\.)\\s+\\[!\\]"
         end: "$"
-        rules: []
+        rules:
+            - include: tags
         
     # Heading
     - comment:
