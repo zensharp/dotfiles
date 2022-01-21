@@ -19,3 +19,5 @@
   alias: od
 - url: https://amazon.com
   searchURL: https://amazon.com/s?k=%{query}
+- url: https://hub.docker.com
+  searchURL: https://hub.docker.com/search?q=%{query}
