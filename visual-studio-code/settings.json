@@ -24,7 +24,6 @@
 	"explorer.expandSingleFolderWorkspaces": false,
 	"workbench.enableExperiments": false,
 	"workbench.list.smoothScrolling": true,
-	"workbench.editor.enablePreview": false,
 	"workbench.editor.decorations.badges": false,
 	"explorer.decorations.badges": false,
 	"workbench.editor.decorations.colors": false,
