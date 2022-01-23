@@ -4,3 +4,5 @@ include:
 
 windows:
   destination: "%programfiles%/Unity/Hub/Editor/*/Editor/Data/Resources"
+macos:
+  destination: "/Applications/Unity/Hub/Editor/*/Unity.app/Contents/Resources"
