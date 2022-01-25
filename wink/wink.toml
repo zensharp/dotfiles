@@ -1,0 +1,8 @@
+default = "playpause"
+
+[alias]
+p = "playpause"
+s = "stop"
+b = "previous"
+n = "next"
+m = "mute"
