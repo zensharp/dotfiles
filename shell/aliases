@@ -1,0 +1,4 @@
+alias wn=wink
+alias catkey='cat ~/.ssh/id_rsa.pub'
+alias cdroot='cd $(git root)'
+alias cb='$CLIPBOARD'

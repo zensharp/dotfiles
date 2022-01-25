@@ -1,3 +1,5 @@
+. ~/.dotfiles/shell/aliases
+
 # Environment
 export DIRENV_LOG_FORMAT=
 
@@ -23,18 +25,9 @@ function mksh
 }
 
 # Extras
-alias catkey='cat ~/.ssh/id_rsa.pub'
 open () { $OPEN ${1:-$PWD}; }
 
-function howami
-{
-	shopt -q login_shell && printf 'login' || printf 'non-login'
-	[[ $- == *i* ]] && echo ' interactive' || echo ' non-interactive'
-}
-
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
-alias cdroot='cd $(git root)'
-alias cb='$CLIPBOARD'
 
 function var
 {
