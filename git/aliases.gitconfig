@@ -7,6 +7,7 @@
 	pst = push --tags
 	psa = !git push && git push --tags
 	pop = reset HEAD~1
+	url = ls-remote --get-url origin
 	erase = !rm -rf .git
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	ff = merge --ff-only
