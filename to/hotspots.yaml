@@ -21,3 +21,5 @@
   searchURL: https://amazon.com/s?k=%{query}
 - url: https://hub.docker.com
   searchURL: https://hub.docker.com/search?q=%{query}
+- url: https://github.com/jamie-pate/flipflop-windows-wheel
+  alias: flip

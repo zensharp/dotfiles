@@ -13,6 +13,8 @@
 	ff = merge --ff-only
 	check = diff --check
 	squash = rebase -i
+	br = branch
+	bra = branch --all
 	sw = !git switch $* || git switch master $*
 	swc = switch -C
 	a = add

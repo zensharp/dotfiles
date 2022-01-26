@@ -31,7 +31,7 @@
 	"workbench.editor.openPositioning": "last",
 	"gitpod.openInStable.neverPrompt": true,
 	"redhat.telemetry.enabled": false,
-	"editor.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "Iosevka SS16 SemiBold, Cascadia Code PL, Consolas, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"files.autoSave": "off",
 	"workbench.colorCustomizations": {
@@ -41,4 +41,5 @@
 	"workbench.colorTheme": "Default Dark+",
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.cursorStyle": "line",
+	"editor.fontSize": 15,
 }
