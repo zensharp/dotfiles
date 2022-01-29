@@ -6,6 +6,7 @@ winget install --exact --id Bitwarden.Bitwarden
 winget install --exact --id Mozilla.Firefox
 winget install --exact --id Google.Chrome
 winget install --exact --id Notepads.Notepads
+winget install --exact --id Obsidian.Obsidian
 winget install --exact --id Discord.Discord
 winget install --exact --id SlackTechnologies.Slack
 

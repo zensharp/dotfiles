@@ -35,3 +35,4 @@ function var
 }
 
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/.to"
+export TODO="$ONEDRIVE/todo.md"
