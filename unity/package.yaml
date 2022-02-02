@@ -1,6 +1,8 @@
 include:
   - path: Layouts/*
   - path: ScriptTemplates/*
+  - path: shortcuts/*
+    destination: %appdata%/Unity/Editor-5.x/Preferences/shortcuts/default/
 
 windows:
   destination: "%programfiles%/Unity/Hub/Editor/*/Editor/Data/Resources"
