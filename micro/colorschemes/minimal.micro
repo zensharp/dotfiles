@@ -1,5 +1,5 @@
 color-link default "default"
-color-link comment "black"
+color-link comment "brightblack"
 color-link indent-char "brightblack"
 color-link hlsearch ",blue"
 
@@ -7,8 +7,8 @@ color-link hlsearch ",blue"
 color-link statusline "brightblack"
 
 # Line numbers
-color-link line-number "brightblack"
-color-link current-line-number "white"
+color-link line-number "black"
+color-link current-line-number "brightblack"
 
 # Highlight
 color-link cursor-line ""
@@ -55,10 +55,10 @@ color-link git.conflictend "blue"
 color-link tag "brightblue,blue"
 
 # Markdown
-color-link markdown.dim "white"
-color-link markdown.heading "brightcyan"
-color-link markdown.list "brightblue"
-color-link markdown.table "white"
+color-link markdown.dim "default"
+color-link markdown.heading "brightwhite"
+color-link markdown.list "brightblack"
+color-link markdown.table "brightblack"
 color-link markdown.quote "default"
 
 # Tasks
