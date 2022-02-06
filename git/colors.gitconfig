@@ -1,0 +1,13 @@
+[color "branch"]
+	current = green bold
+    remote = black bold
+[color "status"]
+	added = green bold
+	#updated = cyan bold #staged/conflicts resolved
+	changed = yellow bold
+	untracked = black bold
+	branch = green bold
+	nobranch = green bold
+	unmerged = red bold
+[color "diff"]
+	commit = yellow bold

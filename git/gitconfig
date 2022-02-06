@@ -1,3 +1,11 @@
+[include]
+	path = ~/.dotfiles/git/aliases.gitconfig
+	path = ~/.dotfiles/git/delta.gitconfig
+	path = ~/.dotfiles/git/colors.gitconfig
+[includeIf "gitdir:**/gitlab/**"]
+	path = ~/.dotfiles/git/gitlab/gitconfig
+[includeIf "gitdir:**/github/**"]
+	path = ~/.dotfiles/git/github/gitconfig
 [init]
 	defaultBranch = master
 [core]
@@ -24,21 +32,6 @@
 	colormovedws = allow-indentation-change
 [http]
 	postBuffer = 524288000
-[color "branch"]
-	current = green bold
-	local = white bold
-    remote = black bold
-[color "status"]
-	header = white bold
-	added = green bold
-	#updated = cyan bold #staged/conflicts resolved
-	changed = yellow bold
-	untracked = black bold
-	branch = green bold
-	nobranch = green bold
-	unmerged = red bold
-[color "diff"]
-	commit = yellow bold
 [url "git@gitlab.com"]
 	insteadOf = gitlab
 	pushInsteadOf = gitlab
@@ -48,10 +41,3 @@
 [url "git@bitbucket.com"]
 	insteadOf = bitbucket
 	pushInsteadOf = bitbucket
-[include]
-	path = ~/.dotfiles/git/aliases.gitconfig
-	path = ~/.dotfiles/git/delta.gitconfig
-[includeIf "gitdir:**/gitlab/**"]
-	path = ~/.dotfiles/git/gitlab/gitconfig
-[includeIf "gitdir:**/github/**"]
-	path = ~/.dotfiles/git/github/gitconfig
