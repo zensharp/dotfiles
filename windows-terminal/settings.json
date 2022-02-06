@@ -14,14 +14,26 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "up"
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "toMouse",
+                "name": "_quake",
+                "toggleVisibility": true
             },
-            "keys": "shift+up"
+            "keys": "win+`"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "shift+up"
         },
         {
             "command": 
@@ -42,19 +54,14 @@
             "keys": "ctrl+shift+q"
         },
         {
-            "command": 
-            {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 1,
-                "monitor": "toMouse",
-                "name": "_quake",
-                "toggleVisibility": true
-            },
-            "keys": "win+`"
+            "command": "closeWindow"
         },
         {
-            "command": "closeWindow"
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "previous"
+            }
         },
         {
             "command": 
@@ -79,13 +86,6 @@
                 "direction": "down"
             },
             "keys": "shift+down"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "previous"
-            }
         },
         {
             "command": 
