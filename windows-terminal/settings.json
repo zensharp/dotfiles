@@ -12,6 +12,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "globalSummon",
@@ -22,10 +26,6 @@
                 "toggleVisibility": true
             },
             "keys": "win+`"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -60,16 +60,16 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "previous"
-            }
+                "direction": "left"
+            },
+            "keys": "shift+left"
         },
         {
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
+                "direction": "previous"
+            }
         },
         {
             "command": 
@@ -119,7 +119,7 @@
                 "size": 14
             },
             "opacity": 0,
-            "padding": "16",
+            "padding": "12",
             "startingDirectory": null,
             "useAcrylic": true
         },
@@ -393,6 +393,6 @@
     "tabSwitcherMode": "mru",
     "theme": "system",
     "trimBlockSelection": true,
-    "useAcrylicInTabRow": true,
+    "useAcrylicInTabRow": false,
     "windowingBehavior": "useExisting"
 }
