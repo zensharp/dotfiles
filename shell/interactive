@@ -3,13 +3,11 @@
 # Environment
 export DIRENV_LOG_FORMAT=
 
-# Enable color support of ls and also add handy aliases
-if command -v dircolors > /dev/null 2>&1
-then
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
-fi
+# List coloring
+alias ls='ls --color=always --group-directories-first --across'
+alias grep='grep --color=always'
+alias fgrep='fgrep --color=always'
+alias egrep='egrep --color=always'
 
 function mksh
 {

@@ -1,6 +1,4 @@
-EXA_COLORS="reset"
-# File Class Colors
-EXA_COLORS="${EXA_COLORS}:fi=38;;1:pi=38;;1:cd=38;;1:di=33;;1:so=38;;1:ln=36;;1:ex=32;;1:bd=38;;1:or=31;;1"
+EXA_COLORS="reset:$LS_COLORS"
 ## Permissions
 EXA_COLORS="${EXA_COLORS}:ur=31;;1:uw=31;;1:ux=31;;1:ue=31;;1:gr=32;;1:gw=32;;1:gx=32;;1:tr=34;;1:tw=34;;1:tx=34;;1:su=38;;1:sf=38;;1:xa=38;;1"
 ## File Sizes

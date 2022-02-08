@@ -5,3 +5,6 @@ export EDITOR="micro"
 export XDG_REPOS_DIR="$HOME/repos"
 export XDG_DOWNLOAD_DIR="$HOME/repos"
 export XDG_MUSIC_DIR="/mnt/share/music"
+
+# ls coloring
+export LS_COLORS="fi=38;;1:pi=38;;1:cd=38;;1:di=33;;1:so=38;;1:ln=36;;1:ex=32;;1:bd=38;;1:or=31;;1"
