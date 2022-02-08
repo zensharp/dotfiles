@@ -3,8 +3,10 @@
 # Environment
 export DIRENV_LOG_FORMAT=
 
+# ls
+alias ls='${LS:-ls} --color=always --group-directories-first -x --time-style iso'
+
 # List coloring
-alias ls='ls --color=always --group-directories-first --across'
 alias grep='grep --color=always'
 alias fgrep='fgrep --color=always'
 alias egrep='egrep --color=always'

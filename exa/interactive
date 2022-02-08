@@ -1,3 +1,0 @@
-alias EXA='exa --time-style iso --group-directories-first --across'
-alias ls='EXA'
-alias tree='EXA --tree --ignore-glob .git'

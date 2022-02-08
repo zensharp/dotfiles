@@ -18,3 +18,7 @@ EXA_COLORS="${EXA_COLORS}:bO=31;;1"
 EXA_COLORS="${EXA_COLORS}:.*=30;;1"
 
 export EXA_COLORS
+
+# Override commands
+export LS=exa
+alias tree='exa --tree --ignore-glob .git'
