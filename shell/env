@@ -1,3 +1,5 @@
+. ~/.dotfiles/shell/colors
+
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/.dotfiles/shell/bin"
 export PATH="$PATH:$HOME/.local/bin/git-tools"
