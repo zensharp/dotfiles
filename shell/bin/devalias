@@ -17,4 +17,3 @@ path=$(realpath $path)
 
 command="alias $name=$path"
 echo -e $GREEN$command$CLEAR
-eval $command
