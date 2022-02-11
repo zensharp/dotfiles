@@ -37,3 +37,4 @@
 	chmod = update-index --chmod
 	submodule-init = submodule update --init --recursive
 	submodule-update = submodule update --recursive --remote
+	code = !code $(git root)
