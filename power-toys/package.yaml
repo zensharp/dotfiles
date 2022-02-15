@@ -1,0 +1,7 @@
+include:
+  - path: settings.json
+  - path: Keyboard Manager/default.json
+  - path: PowerToys Run/settings.json
+
+windows:
+  destination: "%localappdata%/Microsoft/PowerToys"
