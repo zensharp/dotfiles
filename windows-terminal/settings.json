@@ -12,10 +12,6 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "globalSummon",
@@ -26,6 +22,10 @@
                 "toggleVisibility": true
             },
             "keys": "win+`"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -60,16 +60,16 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
+                "direction": "previous"
+            }
         },
         {
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "previous"
-            }
+                "direction": "left"
+            },
+            "keys": "shift+left"
         },
         {
             "command": 
@@ -120,7 +120,7 @@
             },
             "opacity": 0,
             "padding": "12",
-            "startingDirectory": null,
+            "startingDirectory": "~",
             "useAcrylic": true
         },
         "list": 
