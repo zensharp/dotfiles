@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Code Quality Widget Fix
 // @namespace    Andtech
-// @version      0.3.9
+// @version      0.3.10
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
 // @downloadurl  https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
@@ -19,7 +19,7 @@
     async function getCodeQuality() {
         console.log("Tamper Monkey Script loaded");
         
-        sleep(2000)
+        await sleep(2000)
         /* get code quality report for this issue */
         var cqurl = window.location.href + "/codequality_reports.json";
         const response = await fetch(cqurl);
