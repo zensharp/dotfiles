@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Code Quality Widget Fix
 // @namespace    Andtech
-// @version      0.3.7
+// @version      0.3.8
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
 // @downloadurl  https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
@@ -30,7 +30,7 @@
         }
     
         /* add the info to the already-displayed text */
-        var el = document.querySelector("div[data-testid='report-section-code-text']");
+        var el = $("div[data-testid='report-section-code-text']")
         alert(el.innerText);
         el.innerText += "\nResolved: " + fixed_err + "  New: " + new_err;
         el.innerText += "\nChange: " + (delta);
