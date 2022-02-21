@@ -2,7 +2,7 @@
 // @name         Code Quality Widget Fix
 // @namespace    Andtech
 // @author       andtech
-// @version      0.3.12
+// @version      0.3.13
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @run-at       document-end
 // @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
@@ -36,7 +36,7 @@
         var fixed_err = report.resolved_errors.length;
 
         /* add the info to the already-displayed text */
-        el.innerText += "(Fixed: " + fixed_err + "  New: " + new_err + ")";
+        el.innerText += " (Fixed: " + fixed_err + "  New: " + new_err + ")";
 
         console.log("Tamper Monkey completed");
     }
