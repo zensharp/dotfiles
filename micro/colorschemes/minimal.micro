@@ -1,10 +1,10 @@
 color-link default "default"
 color-link comment "brightblack"
-color-link indent-char "brightblack"
+color-link indent-char "black"
 color-link hlsearch ",blue"
 
 # Status line
-color-link cursor-line "black"
+color-link cursor-line "default"
 color-link statusline "black"
 color-link line-number "black"
 color-link current-line-number "brightblack,black"
