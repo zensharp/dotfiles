@@ -90,6 +90,14 @@
         {
             "command": 
             {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+k"
+        },
+        {
+            "command": 
+            {
                 "action": "sendInput",
                 "input": "\u001b["
             },
