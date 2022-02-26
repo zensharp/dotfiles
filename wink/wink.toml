@@ -1,4 +1,4 @@
-default = "playpause"
+default = "next"
 
 [alias]
 p = "playpause"
