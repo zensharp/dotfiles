@@ -3,3 +3,4 @@ alias catkey='cat ~/.ssh/id_rsa.pub'
 alias cdroot='cd $(git root)'
 alias cb='$CLIPBOARD'
 alias wn=wink
+alias cls="clear; printf '\033[3J'"
