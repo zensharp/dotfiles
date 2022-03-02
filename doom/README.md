@@ -1,7 +1,12 @@
 # Installation
+1. Install GZDOOM via [chocolatey](https://community.chocolatey.org/packages/gzdoom).
 1. Create a folder at `~/doom`.
-2. Create a folder at `~/doom/wads/iwad`. Place all your IWADs here.
-3. Create a folder at `~/doom/Save`.
+1. Create a folder at `~/doom/wads/iwad`. Place all your IWADs here.
+1. Create a folder at `~/doom/Save`.
+
+```
+> choco install gzdoom
+```
 
 ## Example Doom Directory
 ```
