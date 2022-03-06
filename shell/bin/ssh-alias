@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -e
+
+printf "Hostname: "
+read hostname
+printf "Friendly name: "
+read name
+printf "Username: "
+read user
+
+printf "Host $name\n\tHostName $hostname\n\tUser $user\n" >> ~/.ssh/config
+
+echo -e "${GREEN}Host '$name' added to '$HOME/.ssh/config' config!${CLEAR}"
