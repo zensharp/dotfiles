@@ -30,6 +30,14 @@
         {
             "command": 
             {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+k"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "up"
             },
@@ -90,14 +98,6 @@
         {
             "command": 
             {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "keys": "ctrl+k"
-        },
-        {
-            "command": 
-            {
                 "action": "sendInput",
                 "input": "\u001b["
             },
@@ -128,7 +128,7 @@
             },
             "opacity": 0,
             "padding": "12",
-            "startingDirectory": "~",
+            "startingDirectory": ".",
             "useAcrylic": true
         },
         "list": 
