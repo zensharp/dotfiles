@@ -2,7 +2,7 @@
 
 set -e
 
-printf "Hostname: "
+printf "Address: "
 read hostname
 printf "Friendly name: "
 read name
