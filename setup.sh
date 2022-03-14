@@ -28,6 +28,7 @@ if [[ "$platform" == "unknown" ]]; then
 	exit 1
 fi	
 
+echo -e "\033[0;35mLite mode enabled!\033[0m"
 echo -e "\033[0;36mSetting up dotfiles for platform '$platform'...\033[0m"
 
 ln -s "$HOME/.dotfiles" "$HOME/dotfiles"
