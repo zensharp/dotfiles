@@ -17,7 +17,7 @@ then
 	##. ~/.dotfiles/node/setup.sh				# already included in 'gitpod/workspace-full'
 	##. ~/.dotfiles/python/setup.sh			# already included in 'gitpod/workspace-full'
 	. ~/.dotfiles/dotnet/setup.sh
-	. ~/.dotfiles/misc/install.sh
+	. ~/.dotfiles/misc/setup.sh
 fi
 
 exec zsh

@@ -17,7 +17,7 @@ then
 	. ~/.dotfiles/node/setup.sh
 	. ~/.dotfiles/python/setup.sh
 	. ~/.dotfiles/dotnet/setup.sh
-	. ~/.dotfiles/misc/install.sh
+	. ~/.dotfiles/misc/setup.sh
 fi
 
 . ~/.dotfiles/macos/load.sh
