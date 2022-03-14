@@ -1,6 +1,7 @@
 pages:
   rules:
-    - changes:
+    - if: $CI_PIPELINE_SOURCE == $CI_DEFAULT_BRANCH
+      changes:
       - .site
   script: mv .site/ public/
   artifacts:
