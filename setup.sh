@@ -29,7 +29,7 @@ then
 	exit 1
 fi
 
-if $DOTFILES_SKIP
+if [ $DOTFILES_SKIP ]
 then
 	echo -e "\033[0;35mSkipping dotfiles!\033[0m"
 	exit 0
