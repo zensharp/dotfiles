@@ -15,7 +15,7 @@ then
 	. ~/.dotfiles/bat/setup.sh
 	. ~/.dotfiles/sd/setup.sh
 	##. ~/.dotfiles/node/setup.sh				# already included in 'gitpod/workspace-full'
-	##. ~/.dotfiles/python/install.sh			# already included in 'gitpod/workspace-full'
+	##. ~/.dotfiles/python/setup.sh			# already included in 'gitpod/workspace-full'
 	. ~/.dotfiles/dotnet/install.sh
 	. ~/.dotfiles/dotnet/install-extras.sh
 	. ~/.dotfiles/misc/install.sh

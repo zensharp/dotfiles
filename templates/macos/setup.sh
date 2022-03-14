@@ -15,7 +15,7 @@ then
 	. ~/.dotfiles/bat/setup.sh
 	. ~/.dotfiles/sd/setup.sh
 	. ~/.dotfiles/node/setup.sh
-	. ~/.dotfiles/python/install.sh
+	. ~/.dotfiles/python/setup.sh
 	. ~/.dotfiles/dotnet/install.sh
 	. ~/.dotfiles/dotnet/install-extras.sh
 	. ~/.dotfiles/misc/install.sh
