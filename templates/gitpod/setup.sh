@@ -13,8 +13,8 @@
 if [ ! DOTFILES_LITE ]
 then
 	. ~/.dotfiles/bat/setup.sh
-	. ~/.dotfiles/sd/install.sh
-	##. ~/.dotfiles/node/install.sh				# already included in 'gitpod/workspace-full'
+	. ~/.dotfiles/sd/setup.sh
+	##. ~/.dotfiles/node/setup.sh				# already included in 'gitpod/workspace-full'
 	##. ~/.dotfiles/python/install.sh			# already included in 'gitpod/workspace-full'
 	. ~/.dotfiles/dotnet/install.sh
 	. ~/.dotfiles/dotnet/install-extras.sh

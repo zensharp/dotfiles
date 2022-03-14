@@ -13,8 +13,8 @@
 if [ ! DOTFILES_LITE ]
 then
 	. ~/.dotfiles/bat/setup.sh
-	. ~/.dotfiles/sd/install.sh
-	. ~/.dotfiles/node/install.sh
+	. ~/.dotfiles/sd/setup.sh
+	. ~/.dotfiles/node/setup.sh
 	. ~/.dotfiles/python/install.sh
 	. ~/.dotfiles/dotnet/install.sh
 	. ~/.dotfiles/dotnet/install-extras.sh
