@@ -3,7 +3,7 @@
 . ~/.dotfiles/shell/setup.sh
 . ~/.dotfiles/zsh/setup.sh
 . ~/.dotfiles/git/setup.sh
-##. ~/.dotfiles/micro/install.sh				# not supported in browser
+##. ~/.dotfiles/micro/setup.sh					# not supported in browser
 . ~/.dotfiles/starship/install.sh
 . ~/.dotfiles/sift/install.sh
 . ~/.dotfiles/fd-find/install.sh
