@@ -10,7 +10,7 @@
 . ~/.dotfiles/delta/setup.sh
 . ~/.dotfiles/exa/setup.sh
 
-if [ ! DOTFILES_LITE ]
+if [ ! $DOTFILES_LITE ]
 then
 	. ~/.dotfiles/bat/setup.sh
 	. ~/.dotfiles/sd/setup.sh
@@ -21,3 +21,5 @@ then
 fi
 
 . ~/.dotfiles/macos/setup.sh
+
+exec zsh
