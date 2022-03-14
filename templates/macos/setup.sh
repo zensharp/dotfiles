@@ -16,8 +16,7 @@ then
 	. ~/.dotfiles/sd/setup.sh
 	. ~/.dotfiles/node/setup.sh
 	. ~/.dotfiles/python/setup.sh
-	. ~/.dotfiles/dotnet/install.sh
-	. ~/.dotfiles/dotnet/install-extras.sh
+	. ~/.dotfiles/dotnet/setup.sh
 	. ~/.dotfiles/misc/install.sh
 fi
 
