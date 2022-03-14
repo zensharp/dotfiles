@@ -6,7 +6,7 @@
 . ~/.dotfiles/micro/setup.sh
 . ~/.dotfiles/starship/setup.sh
 . ~/.dotfiles/sift/setup.sh
-. ~/.dotfiles/fd-find/install.sh
+. ~/.dotfiles/fd-find/setup.sh
 . ~/.dotfiles/delta/install.sh
 . ~/.dotfiles/exa/setup.sh
 
