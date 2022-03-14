@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-sudo apt -qq update
-sudo apt -qq install -y zsh
+sudo apt-get -qq update
+sudo apt-get -qq install -y zsh
