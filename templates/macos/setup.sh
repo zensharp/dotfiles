@@ -20,4 +20,4 @@ then
 	. ~/.dotfiles/misc/setup.sh
 fi
 
-. ~/.dotfiles/macos/load.sh
+. ~/.dotfiles/macos/setup.sh
