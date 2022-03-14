@@ -12,7 +12,7 @@
 
 if [ ! DOTFILES_LITE ]
 then
-	. ~/.dotfiles/bat/install.sh
+	. ~/.dotfiles/bat/setup.sh
 	. ~/.dotfiles/sd/install.sh
 	. ~/.dotfiles/node/install.sh
 	. ~/.dotfiles/python/install.sh

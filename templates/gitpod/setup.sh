@@ -12,7 +12,7 @@
 
 if [ ! DOTFILES_LITE ]
 then
-	. ~/.dotfiles/bat/install.sh
+	. ~/.dotfiles/bat/setup.sh
 	. ~/.dotfiles/sd/install.sh
 	##. ~/.dotfiles/node/install.sh				# already included in 'gitpod/workspace-full'
 	##. ~/.dotfiles/python/install.sh			# already included in 'gitpod/workspace-full'
