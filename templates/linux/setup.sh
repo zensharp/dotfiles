@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/shell/load.sh
+. ~/.dotfiles/shell/setup.sh
 . ~/.dotfiles/zsh/install.sh
 . ~/.dotfiles/git/setup.sh
 . ~/.dotfiles/micro/install.sh
