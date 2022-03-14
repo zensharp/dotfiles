@@ -2,6 +2,6 @@ pages:
   rules:
     - changes:
       - .site/*
-  script: mkdir -p public && mv .site/* public/
+  script: mv .site/ public/
   artifacts:
     paths: [public]
