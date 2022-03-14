@@ -1,7 +1,7 @@
 # Quick Start
 
 ```
-curl get.andtech.me | bash
+curl dotfiles.andtech.me | bash
 ```
 
 > **WARNING:** Be careful running scripts from the internet! You should always preview the script **before** executing it.
