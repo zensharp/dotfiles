@@ -1,7 +1,7 @@
 pages:
   rules:
     - changes:
-      - .site/*
+      - .site
   script: mv .site/ public/
   artifacts:
     paths: [public]
