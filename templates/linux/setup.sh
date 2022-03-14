@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 . ~/.dotfiles/shell/setup.sh
-. ~/.dotfiles/zsh/install.sh
+. ~/.dotfiles/zsh/setup.sh
 . ~/.dotfiles/git/setup.sh
 . ~/.dotfiles/micro/install.sh
 . ~/.dotfiles/starship/install.sh
