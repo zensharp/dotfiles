@@ -2,6 +2,7 @@
 
 dpm install -s micro
 dpm install -s starship
+dpm install sift linux
 dpm install -s visual-studio-code --wsl
 dpm install -s windows-terminal --wsl
 dpm install vlc --wsl

@@ -2,20 +2,23 @@
 
 . ~/.dotfiles/shell/load.sh
 . ~/.dotfiles/zsh/install.sh
-##. ~/.dotfiles/node/install.sh
+. ~/.dotfiles/git/setup.sh
+##. ~/.dotfiles/micro/install.sh				# not supported in browser
+. ~/.dotfiles/starship/install.sh
+. ~/.dotfiles/sift/install.sh
+. ~/.dotfiles/fd-find/install.sh
+. ~/.dotfiles/delta/install.sh
+. ~/.dotfiles/exa/setup.sh
+
 if [ ! DOTFILES_LITE ]
 then
-	. ~/.dotfiles/dotnet/install.sh
-	##. ~/.dotfiles/micro/install.sh
-	. ~/.dotfiles/git/install.sh
 	. ~/.dotfiles/bat/install.sh
-	. ~/.dotfiles/delta/install.sh
-	. ~/.dotfiles/fd-find/install.sh
 	. ~/.dotfiles/sd/install.sh
-	. ~/.dotfiles/sift/install.sh
-	. ~/.dotfiles/starship/install.sh
-	#. ~/.dotfiles/misc/install.sh
-	#. ~/.dotfiles/python/install.sh
+	##. ~/.dotfiles/node/install.sh				# already included in 'gitpod/workspace-full'
+	##. ~/.dotfiles/python/install.sh			# already included in 'gitpod/workspace-full'
+	. ~/.dotfiles/dotnet/install.sh
+	. ~/.dotfiles/dotnet/install-extras.sh
+	. ~/.dotfiles/misc/install.sh
 fi
 
 exec zsh

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-dpm ~/micro linux
-dpm ~/sift linux
-dpm ~/starship linux
-dpm ~/windows-terminal wsl
-dpm ~/visual-studio-code wsl
-dpm ~/vlc wsl
+dpm install micro linux
+dpm install sift linux
+dpm install starship linux
+dpm install windows-terminal wsl
+dpm install visual-studio-code wsl
+dpm install vlc wsl
