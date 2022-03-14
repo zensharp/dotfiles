@@ -8,3 +8,11 @@ alias sv='live-server'
 
 alias -g -- '--skip-ci=-o ci.variable="CI_SKIP=1"'
 alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
+
+if ! command -v cheat &> /dev/null
+then
+	function cheat
+	{
+		curl "https://cheat.sh/$1"
+	}
+fi
