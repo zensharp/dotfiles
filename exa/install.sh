@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if ! command -v brew &> /dev/null
+if command -v brew &> /dev/null
 then
 	brew install exa
 else
