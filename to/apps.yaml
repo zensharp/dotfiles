@@ -6,3 +6,5 @@
 - url: https://tree.nathanfriend.io
 - url: https://desmos.com/calculator
 - url: https://tuner-online.com/
+- url: https://api.ipify.org
+  alias: ip
