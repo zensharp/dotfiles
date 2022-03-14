@@ -4,7 +4,7 @@
 . ~/.dotfiles/zsh/setup.sh
 . ~/.dotfiles/git/setup.sh
 . ~/.dotfiles/micro/setup.sh
-. ~/.dotfiles/starship/install.sh
+. ~/.dotfiles/starship/setup.sh
 . ~/.dotfiles/sift/install.sh
 . ~/.dotfiles/fd-find/install.sh
 . ~/.dotfiles/delta/install.sh
