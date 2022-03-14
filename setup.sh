@@ -35,7 +35,10 @@ then
 	exit 0
 fi
 
-echo -e "\033[0;35mLite mode enabled!\033[0m"
+if [ $DOTFILES_LITE ]
+then
+	echo -e "\033[0;35mLite mode enabled!\033[0m"
+fi
 echo -e "\033[0;36mSetting up dotfiles for platform '$platform'...\033[0m"
 
 ln -s "$HOME/.dotfiles" "$HOME/dotfiles"
