@@ -1,19 +1,25 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/zsh/install.sh
-. ~/.dotfiles/shell/load.sh
-. ~/.dotfiles/node/install.sh
-. ~/.dotfiles/dotnet/install.sh
-. ~/.dotfiles/micro/install.sh
-. ~/.dotfiles/git/install.sh
-. ~/.dotfiles/bat/install.sh
-. ~/.dotfiles/delta/install.sh
-. ~/.dotfiles/fd-find/install.sh
-. ~/.dotfiles/sd/install.sh
-. ~/.dotfiles/sift/install.sh
-. ~/.dotfiles/starship/install.sh
-. ~/.dotfiles/misc/install.sh
-. ~/.dotfiles/python/install.sh
-. ~/.dotfiles/wsl/install.sh
+. ~/.dotfiles/shell/setup.sh
+. ~/.dotfiles/zsh/setup.sh
+. ~/.dotfiles/git/setup.sh
+. ~/.dotfiles/micro/setup.sh
+. ~/.dotfiles/starship/setup.sh
+. ~/.dotfiles/sift/setup.sh
+. ~/.dotfiles/fd-find/setup.sh
+. ~/.dotfiles/delta/setup.sh
+. ~/.dotfiles/exa/setup.sh
 
-#~/.dotfiles/dotnet/install-extras.sh
+if [ ! $DOTFILES_LITE ]
+then
+	. ~/.dotfiles/bat/setup.sh
+	. ~/.dotfiles/sd/setup.sh
+	. ~/.dotfiles/node/setup.sh
+	. ~/.dotfiles/python/setup.sh
+	. ~/.dotfiles/dotnet/setup.sh
+	. ~/.dotfiles/misc/setup.sh
+fi
+
+. ~/.dotfiles/wsl/setup.sh
+
+exec zsh
