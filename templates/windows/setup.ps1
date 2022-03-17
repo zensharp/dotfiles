@@ -18,8 +18,10 @@ winget install --exact --id Microsoft.VisualStudioCode
 winget install --exact --id UnityTechnologies.UnityHub
 
 # Entertainment
+winget install --exact --id Nvidia.GeForceExperience
+winget install --exact --id StartIsBack.StartAllBack
+winget install --exact --id Microsoft.PowerToys
 winget install --exact --id Spotify.Spotify
 winget install --exact --id ImageLine.FLStudio
 winget install --exact --id Valve.Steam
 winget install --exact --id Blizzard.BattleNet
-winget install --exact --id Nvidia.GeForceExperience
