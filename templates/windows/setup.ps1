@@ -15,7 +15,7 @@ winget install --exact --id Microsoft.dotnet
 winget install --exact --id Microsoft.PowerShell
 winget install --exact --id Microsoft.VisualStudio.2022.Community
 winget install --exact --id Microsoft.VisualStudioCode
-winget install --exact --id UnityTechnologies.UnityHub
+winget install --exact --id UnityTechnologies.UnityHub --force
 
 # Entertainment
 winget install --exact --id Nvidia.GeForceExperience
