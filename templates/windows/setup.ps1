@@ -4,7 +4,7 @@ winget install --exact --id HermannSchinagl.LinkShellExtension
 winget install --exact --id VideoLAN.VLC
 winget install --exact --id Bitwarden.Bitwarden
 winget install --exact --id Mozilla.Firefox
-winget install --exact --id Google.Chrome
+winget install --exact --id Google.Chrome --force
 winget install --exact --id Notepads.Notepads
 winget install --exact --id Obsidian.Obsidian
 winget install --exact --id Discord.Discord
