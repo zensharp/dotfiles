@@ -9,6 +9,7 @@ winget install --exact --id Notepads.Notepads
 winget install --exact --id Obsidian.Obsidian
 winget install --exact --id Discord.Discord
 winget install --exact --id SlackTechnologies.Slack
+winget install --exact --id 7Zip.7Zip
 
 # Development
 winget install --exact --id Microsoft.dotnet
