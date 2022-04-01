@@ -1,5 +1,0 @@
-include:
-  - path: default.yml
-
-windows:
-  destination: "%appdata%/espanso"
