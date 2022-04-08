@@ -9,6 +9,7 @@
 	bwa = browse actions
 	bwi = browse issues
 	bwp = browse pipelines
+	bwmr = browse merge_requests
 	bww = browse wikis
 	check = diff --check
 	chmod = update-index --chmod
