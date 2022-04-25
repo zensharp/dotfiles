@@ -25,7 +25,7 @@ function mksh
 }
 
 # Extras
-open () { $OPEN ${1:-$PWD}; }
+open () { eval "$OPEN ${1:-$PWD}"; }
 
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
