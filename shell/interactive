@@ -34,5 +34,5 @@ function var
 	eval "echo \$$1"
 }
 
-export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/.to"
+export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to"
 export TODO="$ONEDRIVE/todo.md"
