@@ -20,4 +20,6 @@ then
 	. ~/.dotfiles/misc/setup.sh
 fi
 
+. ~/.dotfiles/gitpod/setup.sh
+
 exec zsh
