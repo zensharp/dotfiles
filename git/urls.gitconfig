@@ -1,0 +1,9 @@
+[url "git@github.com:andrewmjordan/"]
+	insteadOf = andrewmjordan:
+	pushInsteadOf = andrewmjordan:
+[url "git@github.com:andtechstudios/"]
+	insteadOf = andtechstudios:
+	pushInsteadOf = andtechstudios:
+[url "git@gitlab.com:andtech/"]
+	insteadOf = andtech:
+	pushInsteadOf = andtech:

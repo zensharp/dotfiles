@@ -1,7 +1,8 @@
 [include]
 	path = ~/.dotfiles/git/aliases.gitconfig
-	path = ~/.dotfiles/git/delta.gitconfig
 	path = ~/.dotfiles/git/colors.gitconfig
+	path = ~/.dotfiles/git/delta.gitconfig
+	path = ~/.dotfiles/git/urls.gitconfig
 [includeIf "gitdir:**/gitlab/**"]
 	path = ~/.dotfiles/git/gitlab/gitconfig
 [includeIf "gitdir:**/github/**"]
