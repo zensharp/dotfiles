@@ -6,6 +6,7 @@ alias cb='$CLIPBOARD'
 alias wn=wink
 alias cls="clear; printf '\033[3J'"
 alias sv='live-server'
+alias fd='fd -I'
 
 alias -g -- '--skip-ci=-o ci.variable="CI_SKIP=1"'
 alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
