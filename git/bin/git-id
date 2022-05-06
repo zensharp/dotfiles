@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+hostname="${1}"
+if [ -z "$hostname" ]
+then
+	echo "Usage: git id <[gitlab | github]>"
+	exit 1
+fi
+
+~/.dotfiles/git/$hostname/load.sh

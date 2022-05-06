@@ -8,3 +8,4 @@ export VISUAL=$OPEN
 export BROWSER='wsl-browse.sh'
 export PLAYER='vlc --qt-start-minimized --playlist-enqueue --no-video'
 export CLIPBOARD='clipboard'
+export DOCKER_HOST=tcp://localhost:2375
