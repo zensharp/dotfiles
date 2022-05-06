@@ -45,4 +45,3 @@
 	submodule-update = submodule update --recursive --remote
 	sw = !git switch $* || git switch master $*
 	swc = switch -C
-	url = ls-remote --get-url origin
