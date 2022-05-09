@@ -1,3 +1,4 @@
+. ~/.dotfiles/shell/functions
 . ~/.dotfiles/shell/aliases
 
 # Environment
@@ -5,34 +6,13 @@ export DIRENV_LOG_FORMAT=
 
 # ls
 alias ls='${LS:-ls} --color=always --group-directories-first -x --time-style iso'
-
-# List coloring
 alias grep='grep --color=always'
 alias fgrep='fgrep --color=always'
 alias egrep='egrep --color=always'
 
-function mksh
-{
-	filename=$(realpath "$1")
-	GREEN='\033[0;32m'
-	NC='\033[0m'
-
-	echo "Creating $filename"
-	$( var='#!/usr/bin/env bash\n\necho "Hello World!"'; printf '%b\n' "$var" > "$filename" )
-	chmod +x "$filename"
-
-	echo -e "$GREEN... '$filename' [Created]$NC"
-}
-
 # Extras
-open () { eval "$OPEN ${1:-$PWD}"; }
-
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
-function var
-{
-	eval "echo \$$1"
-}
-
+# OneDrive defaults
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to"
 export TODO="$ONEDRIVE/todo.md"

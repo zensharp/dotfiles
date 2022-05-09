@@ -1,22 +1,20 @@
-alias g=git
-alias m=micro
-alias ssh-cat='cat ~/.ssh/id_rsa.pub'
-alias cdroot='cd $(git root)'
+# Wrappers
+function open { eval "$OPEN ${1:-$PWD}"; }
 alias cb='$CLIPBOARD'
-alias wn=wink
-alias cls="clear; printf '\033[3J'"
-alias sv='live-server'
-alias fd='fd -I'
+alias serve=live-server
 
+# Alterations
+alias fd='fd -I'
 alias -g -- '--skip-ci=-o ci.variable="CI_SKIP=1"'
 alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
 
-function cheat.sh
-{
-	curl "https://cheat.sh/$1"
-}
+# Utilities
+alias cls="clear; printf '\033[3J'"
+alias ssh-cat='cat ~/.ssh/id_rsa.pub'
+alias cdroot='cd $(git root)'
 
-function ipify
-{
-	curl "https://api.ipify.org/"
-}
+# Abbreviations of common commands
+alias g=git
+alias m=micro
+alias u=unity
+alias wn=wink

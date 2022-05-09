@@ -1,0 +1,49 @@
+
+function var
+{
+	eval "echo \$$1"
+}
+
+function mksh
+{
+	filename=$(realpath "$1")
+	GREEN='\033[0;32m'
+	NC='\033[0m'
+
+	echo "Creating $filename"
+	$( var='#!/usr/bin/env bash\n\necho "Hello World!"'; printf '%b\n' "$var" > "$filename" )
+	chmod +x "$filename"
+
+	echo -e "$GREEN... '$filename' [Created]$NC"
+}
+
+function unity
+{
+	project=${1:-main}
+
+	if goo "unity" &> /dev/null
+	then
+		exit 0
+	fi
+	if goo "unity/$project" &> /dev/null
+	then
+		exit 0
+	fi
+	if goo "$project" &> /dev/null
+	then
+		exit 0
+	fi
+
+	echo "${RED}No Unity projects found!${CLEAR}"
+}
+
+# API
+function cheat.sh
+{
+	curl "https://cheat.sh/$1"
+}
+
+function ipify
+{
+	curl "https://api.ipify.org/"
+}
