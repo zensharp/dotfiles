@@ -4,6 +4,12 @@ function var
 	eval "echo \$$1"
 }
 
+function random
+{
+	length=${1:-32}
+	echo $RANDOM | md5sum | head -c $length
+}
+
 function mksh
 {
 	filename=$(realpath "$1")
