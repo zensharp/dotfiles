@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -eu
+
+name="$1"
+name="${name%.exe}"
+executable="$name.exe"
+executable="$(which $executable)" || { echo -e "${RED}No such executable '${name}.exe'!${CLEAR}"; exit 1; }
+
+dir=$(dirname "$executable")
+
+cd "$dir"
+
+wsl-sudo.py mkshim "$name"
