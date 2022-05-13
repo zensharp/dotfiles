@@ -1,5 +1,6 @@
 . ~/.dotfiles/shell/functions
 . ~/.dotfiles/shell/aliases
+. ~/.dotfiles/shell/zoxide/interactive
 
 # Environment
 export DIRENV_LOG_FORMAT=
