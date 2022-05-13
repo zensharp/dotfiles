@@ -15,7 +15,9 @@ alias cdroot='cd $(git root)'
 
 # Abbreviations of common commands
 alias g=git
-alias m=micro
 alias j=z
+alias o=open
+alias m=micro
 alias u=unity
 alias wn=wink
+
