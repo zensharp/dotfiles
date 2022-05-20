@@ -3,3 +3,5 @@
 	* wsl
 	* winget
 	* vlc
+	* wiztree
+	* docfx
