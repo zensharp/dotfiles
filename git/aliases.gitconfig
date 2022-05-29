@@ -20,6 +20,7 @@
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	df = diff
 	dp = deposit
+	empty = commit --allow-empty -m 'empty commit'
 	erase = !rm -rf .git
 	ff = merge --ff-only
 	ft = fetch
