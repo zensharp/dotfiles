@@ -2,7 +2,7 @@
 // @name         Code Quality Widget Fix
 // @namespace    Andtech
 // @author       andtech
-// @version      0.3.13
+// @version      0.4.0
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @run-at       document-end
 // @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
@@ -33,10 +33,10 @@
         console.log("Code Quality json loaded");
 
         var new_err = report.new_errors.length;
-        var fixed_err = report.resolved_errors.length;
+        var resolved_err = report.resolved_errors.length;
+        var current_err = resolved_err + report.existing_errors.length;
 
-        /* add the info to the already-displayed text */
-        el.innerText += " (Fixed: " + fixed_err + "  New: " + new_err + ")";
+        el.innerHTML = "This merge request will fix <b>" + resolved_err + " of " + current_err + " existing errors</b>, and will introduce <b>" + new_err + " new degredations</b>.";
 
         console.log("Tamper Monkey completed");
     }
