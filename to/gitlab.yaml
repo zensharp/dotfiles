@@ -3,6 +3,7 @@
   searchURL: https://gitlab.com/?name=%{query}
   alias: gl
 - url: https://gitlab.com/-/profile/keys
+- url: https://gitlab.com/-/profile/personal_access_tokens
 - url: https://gitlab.com/andtech
 - url: https://gitlab.com/andtech/dotfiles
 - url: https://gitlab.com/andtech/backpack

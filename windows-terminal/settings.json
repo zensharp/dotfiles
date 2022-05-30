@@ -12,10 +12,6 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "globalSummon",
@@ -26,6 +22,10 @@
                 "toggleVisibility": true
             },
             "keys": "win+`"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -68,16 +68,16 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
+                "direction": "previous"
+            }
         },
         {
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "previous"
-            }
+                "direction": "left"
+            },
+            "keys": "shift+left"
         },
         {
             "command": 
@@ -118,7 +118,7 @@
             "backgroundImageAlignment": "bottom",
             "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
-            "closeOnExit": "always",
+            "closeOnExit": "never",
             "colorScheme": "Andtech",
             "experimental.retroTerminalEffect": false,
             "font": 
@@ -135,6 +135,7 @@
         [
             {
                 "backgroundImageAlignment": "bottomLeft",
+                "experimental.retroTerminalEffect": true,
                 "font": 
                 {
                     "size": 15
