@@ -43,7 +43,7 @@ color-link symbol.operator "default"
 color-link symbol.brackets "default"
 color-link symbol.tag "default"
 
-color-link git.issue "bold cyan"
+color-link git.issue "bold magenta"
 color-link git.conflict ",red"
 color-link git.conflictstart "green"
 color-link git.conflictend "blue"
