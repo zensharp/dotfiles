@@ -2,7 +2,7 @@
 // @name         Code Quality Widget Fix
 // @namespace    Andtech
 // @author       andtech
-// @version      0.4.1
+// @version      0.4.2
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @run-at       document-end
 // @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
@@ -40,6 +40,7 @@
         var new_suffix = new_err == 1 ? "" : "s";
 
         el.innerHTML = "This merge request would fix <b>" + resolved_err + " of " + current_err + " existing error" + total_suffix +"</b> and introduce <b>" + new_err + " new degredation" + new_suffix + "</b>.";
+        el.innerHTML += " (<a href=" + cqurl + ">View Raw</a>)";
 
         console.log("Tamper Monkey completed");
     }
