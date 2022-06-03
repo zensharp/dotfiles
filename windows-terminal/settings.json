@@ -118,7 +118,6 @@
             "backgroundImageAlignment": "bottom",
             "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
-            "closeOnExit": "never",
             "colorScheme": "Andtech",
             "experimental.retroTerminalEffect": false,
             "font": 
