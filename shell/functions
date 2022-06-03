@@ -29,15 +29,15 @@ function unity
 
 	if goo "unity" &> /dev/null
 	then
-		exit 0
+		exit
 	fi
 	if goo "unity/$project" &> /dev/null
 	then
-		exit 0
+		exit
 	fi
 	if goo "$project" &> /dev/null
 	then
-		exit 0
+		exit
 	fi
 
 	echo "${RED}No Unity projects found!${CLEAR}"
