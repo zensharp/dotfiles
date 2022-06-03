@@ -24,6 +24,7 @@
 	erase = !rm -rf .git
 	ff = merge --ff-only
 	ft = fetch
+	fts = !git fetch && git sweep
 	ls = list
 	lz = lazy
 	pb = publish
