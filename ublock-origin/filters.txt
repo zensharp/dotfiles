@@ -7,5 +7,4 @@ google.*##[id^="eob_"]
 youtube.com###secondary
 youtube.com###comments
 youtube.com###ticket-shelf
-youtube.com##ytd-merch-shelf-renderer
-youtube.com##ytd-browse
+youtube.com##ytd-two-column-browse-results-renderer
