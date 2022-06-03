@@ -1,0 +1,9 @@
+# Google
+## Disable "People Also Searched For"
+google.*##[id^="eob_"]
+
+# Youtube
+## Districtionless Mode
+youtube.com###secondary
+youtube.com###comments
+youtube.com###ticket-shelf
