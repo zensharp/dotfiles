@@ -25,6 +25,7 @@
 	ff = merge --ff-only
 	ft = fetch
 	fts = !git fetch && git sweep
+	lint = !glab ci lint
 	ls = list
 	lz = lazy
 	pb = publish
