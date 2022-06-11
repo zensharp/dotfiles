@@ -27,7 +27,7 @@ function unity
 {
 	project=${1:-main}
 
-	if goo "unity" &> /dev/null
+	if goo "$project" &> /dev/null
 	then
 		exit
 	fi
@@ -35,7 +35,7 @@ function unity
 	then
 		exit
 	fi
-	if goo "$project" &> /dev/null
+	if goo "unity" &> /dev/null
 	then
 		exit
 	fi

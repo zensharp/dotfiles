@@ -1,6 +1,5 @@
 . ~/.dotfiles/shell/functions
-. ~/.dotfiles/shell/aliases
-. ~/.dotfiles/shell/zoxide/interactive
+. ~/.dotfiles/shell/aliases/**/*
 
 # Environment
 export DIRENV_LOG_FORMAT=
@@ -17,3 +16,5 @@ alias egrep='egrep --color=always'
 # OneDrive defaults
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to"
 export TODO="$ONEDRIVE/todo.md"
+
+. ~/.dotfiles/shell/zoxide/interactive

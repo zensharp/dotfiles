@@ -1,4 +1,5 @@
 . ~/.dotfiles/shell/colors
+. ~/.dotfiles/shell/zoxide/env
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/.dotfiles/shell/bin"
