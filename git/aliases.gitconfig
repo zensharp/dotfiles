@@ -33,6 +33,7 @@
 	pbca = publish --create --merge-when-pipeline-succeeds
 	pd = produce
 	pl = pull
+	plr = pull --rebase
 	pop = reset HEAD~1
 	ps = push
 	psa = !git push && git push --tags

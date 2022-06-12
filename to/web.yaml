@@ -25,8 +25,9 @@
   alias: flip
 - url: https://itch.io
 - url: https://app.nuclino.com
-- url: https://gitpod.io/projects
 - url: https://my.vultr.com
 - url: https://cloud.digitalocean.com/projects
   alias: do
+- url: https://gitpod.io/projects
+  alias: gp
 - url: https://gitpod.io/#https://github.com/andrewmjordan/gitpad/tree/master
