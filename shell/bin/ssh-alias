@@ -4,7 +4,7 @@ set -e
 
 printf "Address: "
 read hostname
-printf "Friendly name: "
+printf "Alias: "
 read name
 printf "Username: "
 read user
