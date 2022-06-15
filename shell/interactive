@@ -1,5 +1,9 @@
 . ~/.dotfiles/shell/functions
-. ~/.dotfiles/shell/aliases/**/*
+
+for file in ~/.dotfiles/shell/aliases/**/*
+do
+	. $file
+done
 
 # Environment
 export DIRENV_LOG_FORMAT=
