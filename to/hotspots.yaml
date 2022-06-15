@@ -1,0 +1,74 @@
+# Package Management
+- url: https://brew.sh
+- name: Nuget Gallery
+  url: https://www.nuget.org
+  searchURL: https://www.nuget.org/packages?q=%{query}
+- name: Winget Package Browser
+  url: https://winget.run
+  searchURL: https://winget.run/search?query=%{query}
+- name: Chocolatey
+  url: https://chocolatey.org
+  searchURL: https://community.chocolatey.org/packages?q=%{query}
+- url: https://gitlab.com/andtech/pkg
+  searchURL: https://gitlab.com/andtech/pkg/-/packages?search[]=%{query}
+# Development
+- url: https://gitpod.io/projects
+  alias: gp
+- url: https://my.vultr.com
+- url: https://cloud.digitalocean.com/projects
+  alias: do
+- url: https://www.toptal.com/developers/gitignore
+- url: https://api.ipify.org
+  alias: ip
+## GitLab
+- name: GitLab
+  url: https://gitlab.com
+  searchURL: https://gitlab.com/?name=%{query}
+  alias: gl
+- url: https://gitlab.com/-/profile/keys
+- url: https://gitlab.com/-/profile/personal_access_tokens
+## GitHub
+- name: GitHub
+  url: https://github.com
+  searchURL: https://github.com/search?q=user%3A%40me+user%3Aandtechstudios+%{query}
+  alias: gh
+- url: https://github.com/settings/keys
+- url: https://gist.github.com
+# Search Engines
+- name: Google
+  url: https://google.com
+  searchURL: https://google.com/search?q=%{query}
+  alias: g
+- name: YouTube
+  url: https://youtube.com
+  searchURL: https://www.youtube.com/results?search_query=%{query}
+  alias: yt
+- name: Spotify
+  url: 'spotify:'
+  searchURL: spotify:search/%{query}
+  alias: sp
+- name: Open Spotify
+  url: https://open.spotify.com
+  searchURL: https://open.spotify.com/search/%{query}
+- url: https://hub.docker.com
+  searchURL: https://hub.docker.com/search?q=%{query}
+- url: https://amazon.com
+  searchURL: https://amazon.com/s?k=%{query}
+- name: Obsidian
+  url: 'obsidian:'
+  searchURL: obsidian://open?vault=%{query}
+  alias: od
+# Web apps
+- url: http://regexstorm.net/tester
+- url: http://dillinger.io
+- url: https://editor.mergely.com
+- url: https://nimbletext.com/Live
+- url: https://tree.nathanfriend.io
+- url: https://desmos.com/calculator
+- url: https://tuner-online.com/
+- url: https://replit.com
+# Miscellaneous
+- url: https://github.com/jamie-pate/flipflop-windows-wheel
+  alias: flip
+- url: https://gitpod.io/#https://github.com/andrewmjordan/gitpad/tree/master
+  alias: gitpad

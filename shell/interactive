@@ -14,7 +14,7 @@ alias egrep='egrep --color=always'
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
 # OneDrive defaults
-export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to"
+export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to:$ONEDRIVE/dotfiles/to/bookmarks"
 export TODO="$ONEDRIVE/todo.md"
 
 . ~/.dotfiles/shell/zoxide/interactive
