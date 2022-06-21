@@ -11,6 +11,8 @@
   searchURL: https://community.chocolatey.org/packages?q=%{query}
 - url: https://gitlab.com/andtech/pkg
   searchURL: https://gitlab.com/andtech/pkg/-/packages?search[]=%{query}
+- url: https://webinstall.dev/
+  alias: webi
 # Development
 - url: https://gitpod.io/projects
   alias: gp
