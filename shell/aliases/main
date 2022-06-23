@@ -15,6 +15,7 @@ alias cdroot='cd $(git root)'
 alias whereami='cat /etc/hostname'
 
 # Abbreviations of common commands
+alias dc=docker-compose
 alias g=git
 alias j=z
 alias o=open
