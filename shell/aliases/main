@@ -5,7 +5,7 @@ alias serve=live-server
 
 # Alterations
 alias fd='fd -I'
-alias -g -- '--skip-ci=-o ci.variable="CI_SKIP=1"'
+alias -g -- '--no-ci=-o ci.variable="CI_SKIP=1"'
 alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
 
 # Utilities
