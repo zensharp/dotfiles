@@ -12,6 +12,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": 
             {
                 "action": "globalSummon",
@@ -22,10 +26,6 @@
                 "toggleVisibility": true
             },
             "keys": "win+`"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -68,16 +68,16 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "previous"
-            }
+                "direction": "left"
+            },
+            "keys": "shift+left"
         },
         {
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
+                "direction": "previous"
+            }
         },
         {
             "command": 
@@ -397,7 +397,7 @@
             "yellow": "#808000"
         }
     ],
-    "startOnUserLogin": true,
+    "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "system",
     "trimBlockSelection": true,
