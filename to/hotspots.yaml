@@ -74,3 +74,5 @@
   alias: flip
 - url: https://gitpod.io/#https://github.com/andrewmjordan/gitpad/tree/master
   alias: gitpad
+- url: https://feedly.com
+  alias: rss
