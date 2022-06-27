@@ -45,6 +45,7 @@
 	s = status --short
 	squash = rebase -i
 	st = status
+	stash-keep = "!f() { set -e; git stash push $@; git stash apply; }; f"
 	submodule-init = submodule update --init --recursive
 	submodule-update = submodule update --recursive --remote
 	sw = !git switch $* || git switch master $*

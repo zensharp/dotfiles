@@ -76,3 +76,5 @@
   alias: gitpad
 - url: https://feedly.com
   alias: rss
+- url: https://tailscale.com/admin
+  alias: vpn
