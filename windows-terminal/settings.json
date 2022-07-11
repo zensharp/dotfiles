@@ -18,14 +18,9 @@
         {
             "command": 
             {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 1,
-                "monitor": "toMouse",
-                "name": "_quake",
-                "toggleVisibility": true
+                "action": "newTab"
             },
-            "keys": "win+`"
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -38,9 +33,14 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "toMouse",
+                "name": "_quake",
+                "toggleVisibility": true
             },
-            "keys": "ctrl+t"
+            "keys": "win+`"
         },
         {
             "command": 
@@ -106,7 +106,7 @@
     ],
     "alwaysShowNotificationIcon": true,
     "copyFormatting": "none",
-    "copyOnSelect": true,
+    "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
     "launchMode": "maximized",
     "minimizeToNotificationArea": false,
