@@ -30,14 +30,6 @@
         {
             "command": 
             {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "keys": "ctrl+k"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "up"
             },
@@ -49,6 +41,30 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "shift+down"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "shift+left"
+        },
+        {
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+k"
         },
         {
             "command": 
@@ -68,14 +84,6 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
                 "direction": "previous"
             }
         },
@@ -86,14 +94,6 @@
                 "direction": "right"
             },
             "keys": "shift+right"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "shift+down"
         },
         {
             "command": 
@@ -114,7 +114,7 @@
     {
         "defaults": 
         {
-            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/kicho.png",
+            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/haze.jpg",
             "backgroundImageAlignment": "bottom",
             "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
@@ -127,7 +127,6 @@
             },
             "opacity": 0,
             "padding": "12",
-            "startingDirectory": ".",
             "useAcrylic": true
         },
         "list": 
@@ -401,6 +400,6 @@
     "tabSwitcherMode": "mru",
     "theme": "system",
     "trimBlockSelection": true,
-    "useAcrylicInTabRow": false,
+    "useAcrylicInTabRow": true,
     "windowingBehavior": "useExisting"
 }
