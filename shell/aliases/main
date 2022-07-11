@@ -2,6 +2,7 @@
 function open { eval "$OPEN ${1:-$PWD}"; }
 alias cb='$CLIPBOARD'
 alias serve=live-server
+alias browse='$BROWSER'
 
 # Alterations
 alias fd='fd -I'
@@ -15,6 +16,7 @@ alias cdroot='cd $(git root)'
 alias whereami='cat /etc/hostname'
 
 # Abbreviations of common commands
+alias b=browse
 alias dc=docker-compose
 alias g=git
 alias j=z

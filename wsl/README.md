@@ -2,6 +2,6 @@
 * Create shims for the following:
 	* wsl
 	* winget
+	* tailscale
 	* vlc
-	* wiztree
 	* docfx
