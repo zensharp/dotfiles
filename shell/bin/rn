@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -u
+
+INPUT=$1
+shift
+ARGUMENTS=$@
+
+DIRECTORY=$(dirname -- "$INPUT")
+FILENAME=$(basename -- "$INPUT")
+EXTENSION="${FILENAME##*.}"
+
+eval "mv \"$INPUT\" \"$DIRECTORY/$ARGUMENTS.$EXTENSION\""
