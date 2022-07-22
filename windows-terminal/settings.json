@@ -18,14 +18,9 @@
         {
             "command": 
             {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 1,
-                "monitor": "toMouse",
-                "name": "_quake",
-                "toggleVisibility": true
+                "action": "newTab"
             },
-            "keys": "win+`"
+            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -38,9 +33,14 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "toMouse",
+                "name": "_quake",
+                "toggleVisibility": true
             },
-            "keys": "ctrl+t"
+            "keys": "win+`"
         },
         {
             "command": 
@@ -127,6 +127,7 @@
             },
             "opacity": 0,
             "padding": "12",
+            "startingDirectory": ".",
             "useAcrylic": true
         },
         "list": 
