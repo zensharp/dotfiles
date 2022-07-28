@@ -402,5 +402,5 @@
     "theme": "system",
     "trimBlockSelection": true,
     "useAcrylicInTabRow": false,
-    "windowingBehavior": "useExisting"
+    "windowingBehavior": "useNew"
 }

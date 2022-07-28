@@ -1,5 +1,15 @@
-*Zone.Identifier
+# Obsidian
 .obsidian/
+
+# Unity
+Temp/
+Temp.meta
+
+# macOS
 .DS_Store
 ._.DS_Store
+
+# Miscellaneous
 .temp/
+*Zone.Identifier
+
