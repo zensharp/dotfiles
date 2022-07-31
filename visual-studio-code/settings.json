@@ -42,9 +42,11 @@
 	"terminal.integrated.cursorStyle": "line",
 	"editor.fontSize": 15,
 	"glassit.alpha": 246,
-	"terminal.integrated.gpuAcceleration": "off",
 	"vscode_vibrancy.opacity": 0.1,
 	"vscode_vibrancy.theme": "Default Dark",
 	"omnisharp.useModernNet": false,
 	"editor.formatOnType": true,
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.smoothScrolling": true,
 }
