@@ -10,6 +10,7 @@ winget install --exact --id Obsidian.Obsidian
 winget install --exact --id Discord.Discord
 winget install --exact --id SlackTechnologies.Slack
 winget install --exact --id 7Zip.7Zip
+winget install --exact --id valinet.ExplorerPatcher.Prerelease
 
 # Development
 winget install --exact --id Microsoft.dotnet
@@ -20,7 +21,6 @@ winget install --exact --id UnityTechnologies.UnityHub --force
 
 # Entertainment
 winget install --exact --id Nvidia.GeForceExperience
-winget install --exact --id StartIsBack.StartAllBack
 winget install --exact --id Microsoft.PowerToys
 winget install --exact --id Spotify.Spotify
 winget install --exact --id ImageLine.FLStudio
