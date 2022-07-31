@@ -25,22 +25,28 @@ function mksh
 
 function unity
 {
+	set +m
+
 	project=${1:-main}
 
-	if goo "$project" &> /dev/null
+	if [ -d "$project" ]
 	then
-		exit
-	fi
-	if goo "unity/$project" &> /dev/null
+		echo -e "${GREEN}Now opening Unity project at '$PWD/$project'...${CLEAR}"
+		goo "$project" &
+		sleep 1
+	elif [ -d "unity/$project" ]
 	then
-		exit
-	fi
-	if goo "unity" &> /dev/null
+		echo -e "${GREEN}Now opening Unity project at '$PWD/unity/$project'...${CLEAR}"
+		goo "unity/$project" &
+		sleep 1
+	elif [ -d "unity" ]
 	then
-		exit
+		echo -e "${GREEN}Now opening Unity project at '$PWD/unity'...${CLEAR}"
+		goo "unity" &
+		sleep 1
+	else
+		echo "${RED}No Unity projects found!${CLEAR}"
 	fi
-
-	echo "${RED}No Unity projects found!${CLEAR}"
 }
 
 # API
