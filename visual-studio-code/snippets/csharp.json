@@ -1,0 +1,12 @@
+{
+	"Cancellation Token Parameter": {
+		"prefix": ["ctp"],
+		"body": ["CancellationToken cancellationToken = default"],
+		"description": "A CancellationToken paremeter"
+	},
+	"Cancellation Token Argument": {
+		"prefix": ["ct"],
+		"body": ["cancellationToken: cancellationToken"],
+		"description": "A CancellationToken paremeter"
+	}
+}

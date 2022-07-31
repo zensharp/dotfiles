@@ -3,7 +3,6 @@
     "security.workspace.trust.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-	"editor.quickSuggestions": false,
     "editor.renderWhitespace": "all",
 	"editor.insertSpaces": false,
     "extensions.ignoreRecommendations": true,
@@ -47,4 +46,5 @@
 	"vscode_vibrancy.opacity": 0.1,
 	"vscode_vibrancy.theme": "Default Dark",
 	"window.zoomLevel": -1,
+	"omnisharp.useModernNet": false,
 }

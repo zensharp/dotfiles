@@ -1,0 +1,8 @@
+[
+	{
+		"key": "ctrl+enter",
+		"command": "editor.action.insertSnippet",
+		"when": "editorTextFocus",
+		"args": { "snippet": "\n{\n\t$0\n}" }
+	},
+]

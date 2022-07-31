@@ -1,5 +1,7 @@
 include:
   - path: settings.json
+  - path: keybindings.json
+  - path: snippets
 windows:
   destination: '%appdata%/Code/User'
 macos:
