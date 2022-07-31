@@ -41,11 +41,10 @@
 	"terminal.integrated.defaultProfile.linux": "zsh",
 	"terminal.integrated.cursorStyle": "line",
 	"editor.fontSize": 15,
-	"glassit.alpha": 220,
+	"glassit.alpha": 246,
 	"terminal.integrated.gpuAcceleration": "off",
 	"vscode_vibrancy.opacity": 0.1,
 	"vscode_vibrancy.theme": "Default Dark",
-	"window.zoomLevel": -1,
 	"omnisharp.useModernNet": false,
 	"editor.formatOnType": true,
 }
