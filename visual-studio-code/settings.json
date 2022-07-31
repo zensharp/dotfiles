@@ -47,4 +47,5 @@
 	"vscode_vibrancy.theme": "Default Dark",
 	"window.zoomLevel": -1,
 	"omnisharp.useModernNet": false,
+	"editor.formatOnType": true,
 }
