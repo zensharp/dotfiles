@@ -21,12 +21,9 @@
     "files.hotExit": "off",
     "gitpod.openInStable.neverPrompt": true,
     "omnisharp.useModernNet": false,
+    "omnisharp.useGlobalMono": "always",
     "problems.decorations.enabled": false,
     "redhat.telemetry.enabled": false,
-    "remote.SSH.configFile": "C:\\Users\\andrew\\AppData\\Local\\Temp\\gitpod_ssh_config-9348-332WKt5poKtA",
-    "remote.SSH.defaultExtensions": [
-        "gitpod.gitpod-remote-ssh"
-    ],
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -45,5 +42,6 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.matchBrackets": "never"
 }
