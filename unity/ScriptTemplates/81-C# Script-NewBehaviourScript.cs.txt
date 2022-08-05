@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class #SCRIPTNAME# : MonoBehaviour
 {
-	#NOTRIM#
+		#NOTRIM#
 }
 #ROOTNAMESPACEEND#
