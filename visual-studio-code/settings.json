@@ -44,4 +44,7 @@
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "newUntitledFile",
     "editor.matchBrackets": "never"
+    "remote.SSH.remotePlatform": {
+        "andtechstudios-dj-htpgk2gxdi3": "linux"
+    }
 }
