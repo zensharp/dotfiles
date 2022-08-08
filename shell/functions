@@ -33,17 +33,17 @@ function unity
 	then
 		echo -e "${GREEN}Now opening Unity project at '$PWD/$project'...${CLEAR}"
 		goo "$project" &
-		sleep 1
+		sleep 0.2
 	elif [ -d "unity/$project" ]
 	then
 		echo -e "${GREEN}Now opening Unity project at '$PWD/unity/$project'...${CLEAR}"
 		goo "unity/$project" &
-		sleep 1
+		sleep 0.2
 	elif [ -d "unity" ]
 	then
 		echo -e "${GREEN}Now opening Unity project at '$PWD/unity'...${CLEAR}"
 		goo "unity" &
-		sleep 1
+		sleep 0.2
 	else
 		echo "${RED}No Unity projects found!${CLEAR}"
 	fi
