@@ -7,7 +7,6 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.fontFamily": "Iosevka SS16 SemiBold, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.fontSize": 15,
     "editor.formatOnType": true,
     "editor.insertSpaces": false,
     "editor.renderWhitespace": "all",
@@ -20,7 +19,8 @@
     "files.autoSave": "off",
     "files.hotExit": "off",
     "gitpod.openInStable.neverPrompt": true,
-    "omnisharp.useModernNet": false,
+    "omnisharp.useModernNet": true,
+    "omnisharp.monoPath": "C:/Program Files/Mono/bin/mono.exe",
     "omnisharp.useGlobalMono": "always",
     "problems.decorations.enabled": false,
     "redhat.telemetry.enabled": false,
@@ -32,7 +32,10 @@
     "window.restoreWindows": "none",
     "workbench.colorCustomizations": {
         "terminal.ansiBrightMagenta": "#FF8000",
-        "terminal.ansiMagenta": "#FF8000"
+        "terminal.ansiMagenta": "#FF8000",
+        "editorSuggestWidget.background": "#141414e0",
+        "editorWidget.background": "#141414e0",
+        "editorHoverWidget.background": "#141414e0",
     },
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.closeOnFileDelete": true,
@@ -43,8 +46,6 @@
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.matchBrackets": "never"
-    "remote.SSH.remotePlatform": {
-        "andtechstudios-dj-htpgk2gxdi3": "linux"
-    }
+    "editor.tabSize": 3,
+    "editor.fontSize": 16
 }
