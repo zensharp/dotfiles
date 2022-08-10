@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Cancellation Token Argument</Title>
+			<Shortcut>ct</Shortcut>
+			<Description>Code snippet to insert a cancellation token argument.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+<![CDATA[cancellationToken: $tokenName$]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>tokenName</ID>
+					<ToolTip>Name of the CancellationToken variable.</ToolTip>
+					<Default>cancellationToken</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.Threading</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
