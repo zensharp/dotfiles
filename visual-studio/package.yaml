@@ -1,5 +1,7 @@
 include:
   - path: CurrentSettings.vssettings
+#  - path: snippets
+#    destination: "%userprofile%/Documents/Visual Studio */Code Snippets/Visual C#/My Code Snippets"
 
 windows:
   destination: "%localappdata%/Microsoft/VisualStudio/17.*/Settings"
