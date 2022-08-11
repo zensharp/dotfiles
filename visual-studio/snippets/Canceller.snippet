@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Canceller</Title>
+			<Shortcut>canceller</Shortcut>
+			<Description>Code snippet to insert a Canceller.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+<![CDATA[private readonly Canceller $variableName$ = new Canceller();]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>variableName</ID>
+					<ToolTip>Name of the Canceller variable.</ToolTip>
+					<Default>canceller</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>Cyberstar.Common</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
