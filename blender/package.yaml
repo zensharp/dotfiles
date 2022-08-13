@@ -1,0 +1,4 @@
+include:
+  - path: userpref.blend
+windows:
+  destination: '%appdata%/Blender Foundation/Blender/**/config'
