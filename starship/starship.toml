@@ -22,7 +22,7 @@ style = "bold green"
 disabled = false
 
 [directory]
-truncation_length = 999
+truncation_length = 5
 truncate_to_repo = true
 truncation_symbol = ""
 style = "bold blue"
