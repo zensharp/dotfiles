@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Component Type</Title>
+			<Shortcut>component</Shortcut>
+			<Description>Code snippet to insert Component type.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+<![CDATA[internal class $name$
+{
+	private readonly $ownerType$ owner;
+
+	public $name$($ownerType$ owner)
+	{
+		this.owner = owner;
+	}
+}
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Class name.</ToolTip>
+					<Default>MyComponent</Default>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Owner type name.</ToolTip>
+					<Default>Owner</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
