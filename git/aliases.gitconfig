@@ -8,7 +8,9 @@
 	bw = browse
 	bwa = browse actions
 	bwi = browse issues
-	bwp = browse pipelines
+	bwp = browse pipelines/$BRANCH/latest
+	bwpa = browse pipelines
+	bwpl = browse pipelines/latest
 	bwmr = browse merge_requests
 	bww = browse wikis
 	check = diff --check
