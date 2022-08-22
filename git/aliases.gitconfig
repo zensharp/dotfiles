@@ -7,11 +7,13 @@
 	bra = branch --all
 	bw = browse
 	bwa = browse actions
+	bwe = browse edit
 	bwi = browse issues
 	bwp = browse pipelines/$BRANCH/latest
 	bwpa = browse pipelines
 	bwpl = browse pipelines/latest
 	bwmr = browse merge_requests
+	bws = browse settings
 	bww = browse wikis
 	check = diff --check
 	chmod = update-index --chmod
