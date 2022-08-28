@@ -9,9 +9,8 @@
 	bwa = browse actions
 	bwe = browse edit
 	bwi = browse issues
-	bwp = browse pipelines/$BRANCH/latest
-	bwpa = browse pipelines
-	bwpl = browse pipelines/latest
+	bwp = browse pipelines
+	bwpl = browse pipelines/$BRANCH/latest
 	bwmr = browse merge_requests
 	bws = browse settings
 	bww = browse wikis
