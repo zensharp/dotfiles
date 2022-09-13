@@ -114,12 +114,11 @@
     {
         "defaults": 
         {
-            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/haze.jpg",
+            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/zune.png",
             "backgroundImageAlignment": "bottom",
             "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
-            "colorScheme": "Andtech",
-            "experimental.retroTerminalEffect": true,
+            "colorScheme": "Zune",
             "font": 
             {
                 "face": "Cascadia Mono PL",
@@ -417,6 +416,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#000001",
+            "black": "#3B332E",
+            "blue": "#4823AB",
+            "brightBlack": "#5C4539",
+            "brightBlue": "#6B34FF",
+            "brightCyan": "#67ACFF",
+            "brightGreen": "#BBF548",
+            "brightPurple": "#FF8C4D",
+            "brightRed": "#D93C6B",
+            "brightWhite": "#F1F1FF",
+            "brightYellow": "#FFE84F",
+            "cursorColor": "#CFCFDB",
+            "cyan": "#406B9E",
+            "foreground": "#BCBCC7",
+            "green": "#75992D",
+            "name": "Zune",
+            "purple": "#854928",
+            "red": "#912848",
+            "selectionBackground": "#1D54BF",
+            "white": "#A1A1AB",
+            "yellow": "#9C8E30"
         }
     ],
     "startOnUserLogin": false,
