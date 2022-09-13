@@ -13,3 +13,5 @@ Temp.meta
 .temp/
 *Zone.Identifier
 
+# GitLab Runner
+/builds/
