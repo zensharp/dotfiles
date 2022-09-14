@@ -1,5 +1,8 @@
 # Wrappers
-function open { eval "$OPEN ${1:-$PWD}"; }
+function open
+{
+	eval "$OPEN \"${1:-$PWD}\"";
+}
 alias cb='$CLIPBOARD'
 alias serve=live-server
 alias browse='$BROWSER'
