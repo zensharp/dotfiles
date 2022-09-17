@@ -6,18 +6,6 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": 
-            {
                 "action": "globalSummon",
                 "desktop": "toCurrent",
                 "dropdownDuration": 1,
@@ -31,9 +19,33 @@
             "command": 
             {
                 "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "shift+down"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
                 "direction": "up"
             },
             "keys": "shift+up"
+        },
+        {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -41,14 +53,6 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "shift+down"
         },
         {
             "command": 
@@ -69,13 +73,17 @@
         {
             "command": 
             {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "shift+right"
+        },
+        {
+            "command": 
+            {
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
         },
         {
             "command": "closeWindow"
@@ -90,14 +98,6 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "shift+right"
-        },
-        {
-            "command": 
-            {
                 "action": "sendInput",
                 "input": "\u001b["
             },
@@ -105,6 +105,7 @@
         }
     ],
     "alwaysShowNotificationIcon": true,
+    "autoHideWindow": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -424,7 +425,7 @@
             "brightBlack": "#5C4539",
             "brightBlue": "#6B34FF",
             "brightCyan": "#67ACFF",
-            "brightGreen": "#BBF548",
+            "brightGreen": "#7FF245",
             "brightPurple": "#FF8C4D",
             "brightRed": "#D93C6B",
             "brightWhite": "#F1F1FF",
@@ -432,7 +433,7 @@
             "cursorColor": "#CFCFDB",
             "cyan": "#406B9E",
             "foreground": "#BCBCC7",
-            "green": "#75992D",
+            "green": "#539E2D",
             "name": "Zune",
             "purple": "#854928",
             "red": "#912848",
@@ -444,6 +445,7 @@
     "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "system",
+    "themes": [],
     "trimBlockSelection": true,
     "useAcrylicInTabRow": false,
     "windowingBehavior": "useNew"
