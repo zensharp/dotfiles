@@ -5,4 +5,14 @@
 		"when": "editorTextFocus",
 		"args": { "snippet": "\n{\n\t$0\n}" }
 	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletFocus"
+	}
 ]
