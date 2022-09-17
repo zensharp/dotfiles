@@ -37,7 +37,6 @@
         "editorWidget.background": "#141414e0",
         "editorHoverWidget.background": "#141414e0",
     },
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.closeOnFileDelete": true,
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
@@ -47,5 +46,6 @@
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "newUntitledFile",
     "editor.tabSize": 3,
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Nord"
 }
