@@ -10,16 +10,17 @@
 			</SnippetTypes>
 		</Header>
 		<Snippet>
-			<Code Language="CSharp">
+			<Code Language="CSharp" Kind="type decl">
 <![CDATA[internal class $name$
 {
 	private readonly $ownerType$ owner;
+	$end$
 
 	public $name$($ownerType$ owner)
 	{
 		this.owner = owner;
 	}
-}
+}]]>
 			</Code>
 			<Declarations>
 				<Literal>
@@ -28,7 +29,7 @@
 					<Default>MyComponent</Default>
 				</Literal>
 				<Literal>
-					<ID>name</ID>
+					<ID>ownerType</ID>
 					<ToolTip>Owner type name.</ToolTip>
 					<Default>Owner</Default>
 				</Literal>
