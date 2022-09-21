@@ -115,18 +115,15 @@
     {
         "defaults": 
         {
-            "backgroundImage": "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/backgrounds/zune.png",
-            "backgroundImageAlignment": "bottom",
-            "backgroundImageOpacity": 0.90000000000000002,
             "bellStyle": "taskbar",
-            "colorScheme": "Zune",
+            "colorScheme": "Nord",
             "font": 
             {
                 "face": "Cascadia Mono PL",
                 "size": 14
             },
-            "opacity": 0,
-            "padding": "12",
+            "opacity": 85,
+            "padding": "8",
             "startingDirectory": ".",
             "useAcrylic": true
         },
@@ -141,7 +138,6 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "opacity": 0,
                 "source": "Windows.Terminal.Wsl"
             },
             {
@@ -235,7 +231,7 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#2E3440",
+            "background": "#262C36",
             "black": "#3B4252",
             "blue": "#81A1C1",
             "brightBlack": "#4C566A",
@@ -444,8 +440,28 @@
     ],
     "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
-    "theme": "system",
-    "themes": [],
+    "theme": "Nord",
+    "themes": 
+    [
+        {
+            "name": "Nord",
+            "tab": 
+            {
+                "background": "#434C5EFF",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": "#2E3440FF",
+                "unfocusedBackground": "#2E3440FF"
+            },
+            "window": 
+            {
+                "applicationTheme": "dark"
+            }
+        }
+    ],
     "trimBlockSelection": true,
     "useAcrylicInTabRow": false,
     "windowingBehavior": "useNew"
