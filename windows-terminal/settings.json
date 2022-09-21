@@ -447,14 +447,14 @@
             "name": "Nord",
             "tab": 
             {
-                "background": "#434C5EFF",
+                "background": "#4c566a",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
             "tabRow": 
             {
-                "background": "#2E3440FF",
-                "unfocusedBackground": "#2E3440FF"
+                "background": "#3b4252",
+                "unfocusedBackground": "#3b4252"
             },
             "window": 
             {
