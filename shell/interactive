@@ -20,5 +20,6 @@ alias egrep='egrep --color=always'
 # OneDrive defaults
 export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to:$ONEDRIVE/dotfiles/to/bookmarks"
 export TODO="$ONEDRIVE/todo.md"
+export PATH="$PATH:$ONEDRIVE/dotfiles/bin"
 
 . ~/.dotfiles/shell/zoxide/interactive
