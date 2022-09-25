@@ -1,6 +1,10 @@
 include:
   - path: settings.json
+    symlink: true
   - path: bindings.json
+    symlink: true
   - path: colorschemes
+    symlink: true
   - path: syntax
+    symlink: true
 destination: ~/.config/micro
