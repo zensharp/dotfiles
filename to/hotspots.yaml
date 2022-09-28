@@ -19,6 +19,8 @@
 - url: https://my.vultr.com
 - url: https://cloud.digitalocean.com/projects
   alias: do
+- url: https://dash.cloudflare.com
+  alias: cf
 - url: https://www.toptal.com/developers/gitignore
 - url: https://api.ipify.org
   alias: ip

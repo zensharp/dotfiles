@@ -2,8 +2,10 @@
 .obsidian/
 
 # Unity
-Temp/
-Temp.meta
+**/Assets/Temp/
+**/Assets/Temp.meta
+**/Assets/User/
+**/Assets/User.meta
 
 # macOS
 .DS_Store
