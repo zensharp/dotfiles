@@ -1,3 +1,15 @@
+# Core
+function check
+{
+	if command -v "$1" &> /dev/null
+	then
+		echo "true"
+	else
+		echo "false"
+	fi
+}
+
+# Core
 . ~/.dotfiles/shell/colors
 . ~/.dotfiles/shell/zoxide/env
 
