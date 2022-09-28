@@ -2,6 +2,9 @@ setopt menu_complete
 unsetopt autolist
 unsetopt nomatch
 
+# Prompt
+PROMPT='%F{green}%n@%m%f: %F{blue}%~%f '
+
 # Completions
 autoload -Uz select-word-style
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
