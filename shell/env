@@ -9,9 +9,15 @@ function check
 	fi
 }
 
+function dot-source
+{
+	if $(check $2); then
+		. ~/.dotfiles/$2/$1
+	fi
+}
+
 # Core
 . ~/.dotfiles/shell/colors
-. ~/.dotfiles/shell/zoxide/env
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:$HOME/.dotfiles/shell/bin"
