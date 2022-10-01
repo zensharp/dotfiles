@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+set -u
+
+SRC=$1
+shift
+DEST=$1
+shift
+
+## Parse source
+SRC_DIR=$(dirname -- "$SRC")
+SRC_BASENAME=$(basename -- "$SRC")
+SRC_EXT="${SRC_BASENAME##*.}"
+SRC_BASENAME="${SRC_BASENAME%.*}"
+if [ "$SRC_EXT" = "$SRC_BASENAME" ]
+then
+	SRC_EXT=""
+fi
+
+## Parse destination
+DEST_DIR=$(dirname -- "$DEST")
+DEST_BASENAME=$(basename -- "$DEST")
+DEST_EXT="${DEST_BASENAME##*.}"
+DEST_BASENAME="${DEST_BASENAME%.*}"
+if [ "$DEST_EXT" = "$DEST_BASENAME" ]
+then
+	DEST_EXT=""
+fi
+if [[ -z $DEST_EXT ]]
+then
+	### Fallback to source extension
+	DEST_EXT=$SRC_EXT
+fi
+
+## Append extension
+if [[ -n $DEST_EXT ]]
+then
+	DEST=$SRC_DIR/$DEST_DIR/$DEST_BASENAME.$DEST_EXT
+else
+	DEST=$SRC_DIR/$DEST_DIR/$DEST_BASENAME
+fi
+
+## Move
+TEMP="$SRC.temp"
+mv "$SRC" "$TEMP"
+mv "$TEMP" "$DEST"
