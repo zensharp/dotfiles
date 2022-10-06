@@ -9,8 +9,8 @@ curl dotfiles.andtech.me | bash
 Or install manually:
 
 ```
-git clone https://gitlab.com/andtech/dotfiles $HOME/.dotfiles
+git clone https://github.com/zensharp/dotfiles $HOME/.dotfiles
 ~/.dotfiles/setup.sh
 ```
 
-Read the [wiki](https://gitlab.com/andtech/dotfiles/-/wikis) for detailed instructions
+Read the [wiki](https://github.com/zensharp/dotfiles/wiki) for detailed instructions
