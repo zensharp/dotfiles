@@ -72,6 +72,7 @@
 - url: https://tuner-online.com/
 - url: https://replit.com
 - url: https://usevia.app
+  executable: chrome
 # Miscellaneous
 - url: https://github.com/jamie-pate/flipflop-windows-wheel
   alias: flip
