@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Code Quality Widget Fix
-// @namespace    Andtech
-// @author       andtech
+// @namespace    ZenSharp
+// @author       zensharp
 // @version      0.4.2
 // @match        https://gitlab.com/*/-/merge_requests/*
 // @run-at       document-end
-// @updateurl    https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
-// @downloadurl  https://gitlab.com/andtech/dotfiles/-/raw/master/tampermonkey/codequality.js
+// @updateurl    https://raw.githubusercontent.com/zensharp/dotfiles/master/tampermonkey/codequality.js
+// @downloadurl  https://raw.githubusercontent.com/zensharp/dotfiles/master/tampermonkey/codequality.js
 // @description  See https://gitlab.com/gitlab-org/gitlab/-/issues/244338#note_720313480
 // ==/UserScript==
 
