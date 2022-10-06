@@ -7,8 +7,8 @@
 	path = ~/.dotfiles/git/gitlab.com/gitconfig
 [includeIf "gitdir:**/github.com/**"]
 	path = ~/.dotfiles/git/github.com/gitconfig
-[includeIf "gitdir:**/*andtech.me/**"]
-	path = ~/.dotfiles/git/andtech.me/gitconfig
+[includeIf "gitdir:**/gitlab.andtech.me/**"]
+	path = ~/.dotfiles/git/gitlab.andtech.me/gitconfig
 [init]
 	defaultBranch = master
 [core]
