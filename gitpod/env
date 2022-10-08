@@ -1,1 +1,5 @@
+unset GIT_AUTHOR_EMAIL
+unset GIT_AUTHOR_NAME
+unset GIT_COMMITTER_EMAIL
+
 export OPEN='gp open'
