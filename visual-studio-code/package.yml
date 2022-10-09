@@ -1,10 +1,14 @@
 include:
   - path: settings.json
+    symlink: true
   - path: keybindings.json
+    symlink: true
   - path: snippets
+    symlink: true
 windows:
   destination: '%appdata%/Code/User'
 macos:
   destination: ~/Library/Application Support/Code User/settings.json
 linux:
   destination: ~/.config/Code/User
+
