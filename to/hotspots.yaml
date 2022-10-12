@@ -9,8 +9,8 @@
 - name: Chocolatey
   url: https://chocolatey.org
   searchURL: https://community.chocolatey.org/packages?q=%{query}
-- url: https://gitlab.com/andtech/pkg
-  searchURL: https://gitlab.com/andtech/pkg/-/packages?search[]=%{query}
+- url: https://gitlab.com/andtechstudios/pkg
+  searchURL: https://gitlab.com/andtechstudios/pkg/-/packages?search[]=%{query}
 - url: https://webinstall.dev/
   alias: webi
 # Development
