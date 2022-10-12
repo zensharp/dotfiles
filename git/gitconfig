@@ -36,14 +36,14 @@
 [http]
 	postBuffer = 524288000
 [url "git@gitlab.com"]
-	insteadOf = gitlab.com
-	pushInsteadOf = gitlab.com
+	insteadOf = gitlab
+	pushInsteadOf = gitlab
 [url "git@github.com"]
-	insteadOf = github.com
-	pushInsteadOf = github.com
+	insteadOf = github
+	pushInsteadOf = github
 [url "git@bitbucket.org"]
-	insteadOf = bitbucket.org
-	pushInsteadOf = bitbucket.org
+	insteadOf = bitbucket
+	pushInsteadOf = bitbucket
 [url "git@gitlab.andtech.me"]
-	insteadOf = andtech.me
-	pushInsteadOf = andtech.me
+	insteadOf = andtech
+	pushInsteadOf = andtech
