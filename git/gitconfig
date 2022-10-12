@@ -45,5 +45,5 @@
 	insteadOf = bitbucket.org
 	pushInsteadOf = bitbucket.org
 [url "git@gitlab.andtech.me"]
-	insteadOf = gitlab.andtech.me
-	pushInsteadOf = gitlab.andtech.me
+	insteadOf = andtech.me
+	pushInsteadOf = andtech.me
