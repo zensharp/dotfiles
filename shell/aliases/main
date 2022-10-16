@@ -22,14 +22,15 @@ alias -s git="git deposit"
 
 # Abbreviations of common commands
 alias b=browse
+alias c=caddy
 alias dc=docker-compose
 alias dcud=docker-compose up -d
 alias dcudf=docker-compose up -d --force-recreati
 alias dcl=docker-compose logs -f
 alias g=git
 alias j=z
-alias o=open
 alias m=micro
+alias o=open
+alias ts=tailscale
 alias u=unity
 alias wn=wink
-alias ts=tailscale
