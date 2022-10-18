@@ -18,9 +18,14 @@ alias ssh-cat='cat ~/.ssh/id_rsa.pub'
 alias cdroot='cd $(git root)'
 alias whereami='cat /etc/hostname'
 
+alias -s git="git deposit"
+
 # Abbreviations of common commands
 alias b=browse
 alias dc=docker-compose
+alias dcud=docker-compose up -d
+alias dcudf=docker-compose up -d --force-recreati
+alias dcl=docker-compose logs -f
 alias g=git
 alias j=z
 alias o=open
