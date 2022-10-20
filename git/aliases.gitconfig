@@ -33,10 +33,10 @@
 	lint = !glab ci lint
 	ls = list
 	lz = lazy
+	lzp = !git lazy && git push
 	pb = publish
 	pbc = publish --create
 	pbca = publish --create --merge-when-pipeline-succeeds
-	pd = produce
 	pl = pull
 	plr = pull --rebase
 	pop = reset HEAD~1
@@ -45,8 +45,6 @@
 	psd = push -o ci.variable=CI_ENVIRONMENT_DEPLOY_AUTO=1
 	pst = push --tags
 	root = rev-parse --show-toplevel
-	rs = restore
-	rsa = restore *
 	s = status --short
 	squash = rebase -i
 	st = status
