@@ -1,3 +1,5 @@
+- url: https://www.nordtheme.com/#palettes-modularity
+  alias: nord
 # Package Management
 - url: https://brew.sh
 - name: Nuget Gallery

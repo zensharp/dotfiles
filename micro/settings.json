@@ -6,6 +6,7 @@
     "indentchar": "→",
     "matchbrace": false,
     "mkparents": true,
+    "parsecursor": true,
     "scrollbar": true,
     "scrollspeed": 1,
     "softwrap": true,

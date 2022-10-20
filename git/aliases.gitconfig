@@ -20,6 +20,7 @@
 	cm = commit
 	cma = commit -a
 	cmaa = !git aa && git cm
+	cmm = commit-inline
 	code = !cd $(git root) && code .
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	df = diff
