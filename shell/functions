@@ -28,7 +28,6 @@ function cdx
 	if [ $# -eq 0 ]
 	then
 		GIT_ROOT=$(git rev-parse --show-toplevel) &> /dev/null || GIT_ROOT=''
-		echo $GIT_ROOT
 		if [ "$GIT_ROOT" != "$PWD" ]
 		then
 			\cd $GIT_ROOT
