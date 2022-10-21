@@ -7,7 +7,7 @@ GREEN='\033[0;32m'
 NC='\033[0m'
 
 echo "Creating shimfile $filename"
-$( var='#!/usr/bin/env bash\n\neval "\"$0.exe\" $*"'; printf '%b\n' "$var" > "$filename" )
+$( var='#!/usr/bin/env bash\n\neval "\"$0.exe\" \"$*\""'; printf '%b\n' "$var" > "$filename" )
 chmod +x "$filename"
 
 echo -e "$GREEN... '$filename' [Created]$NC"
