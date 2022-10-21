@@ -15,7 +15,6 @@ alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
 # Utilities
 alias cls="clear; printf '\033[3J'"
 alias ssh-cat='cat ~/.ssh/id_rsa.pub'
-alias cdroot='cd $(git root)'
 alias whereami='cat /etc/hostname'
 
 alias -s git="git deposit"

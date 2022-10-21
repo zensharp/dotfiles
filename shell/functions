@@ -23,6 +23,24 @@ function mksh
 	echo -e "$GREEN... '$filename' [Created]$NC"
 }
 
+function cdx
+{
+	if [ $# -eq 0 ]
+	then
+		GIT_ROOT=$(git rev-parse --show-toplevel) &> /dev/null || GIT_ROOT=''
+		echo $GIT_ROOT
+		if [ "$GIT_ROOT" != "$PWD" ]
+		then
+			\cd $GIT_ROOT
+		else
+			\cd $HOME
+		fi
+	else
+		\cd "$*"
+	fi
+}
+alias cd=cdx
+
 function unity
 {
 	set +m
