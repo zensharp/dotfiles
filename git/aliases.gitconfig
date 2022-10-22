@@ -7,6 +7,7 @@
 	bra = branch --all
 	bw = browse
 	bwa = browse actions
+	bwb = browse boards
 	bwe = browse edit
 	bwi = browse issues
 	bwj = browse -/jobs
