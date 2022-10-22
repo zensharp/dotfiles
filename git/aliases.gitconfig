@@ -7,9 +7,9 @@
 	bra = branch --all
 	bw = browse
 	bwa = browse actions
-	bwb = browse boards
+	bwb = browse -/boards
 	bwe = browse edit
-	bwi = browse issues
+	bwi = browse -/issues
 	bwj = browse -/jobs
 	bwp = browse pipelines
 	bwpl = browse pipelines/$BRANCH/latest
