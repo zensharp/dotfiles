@@ -23,7 +23,7 @@ function mksh
 	echo -e "$GREEN... '$filename' [Created]$NC"
 }
 
-function cdx
+function cd+
 {
 	if [ $# -eq 0 ]
 	then
@@ -38,7 +38,7 @@ function cdx
 		\cd "$*"
 	fi
 }
-alias cd=cdx
+alias cd=cd+
 
 function unity
 {

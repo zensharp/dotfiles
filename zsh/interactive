@@ -67,3 +67,5 @@ function take() {
     takedir "$@"
   fi
 }
+
+compctl -g '*(-/)' + -g '.*(-/)' + -k '(..)' cd rmdir cd+
