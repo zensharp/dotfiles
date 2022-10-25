@@ -27,12 +27,12 @@ function cd+
 {
 	if [ $# -eq 0 ]
 	then
-		GIT_ROOT=$(git rev-parse --show-toplevel) &> /dev/null || GIT_ROOT=''
-		if [ "$GIT_ROOT" = "$PWD" ]
+		CD_ROOT=$(git rev-parse --show-toplevel) &> /dev/null || CD_ROOT="$HOME"
+		if [ "$CD_ROOT" = "$PWD" ]
 		then
 			\cd "$HOME"
 		else
-			\cd "$GIT_ROOT"
+			\cd "$CD_ROOT"
 		fi
 	else
 		\cd "$*"
