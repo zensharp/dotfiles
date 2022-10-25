@@ -17,8 +17,6 @@ alias cls="clear; printf '\033[3J'"
 alias ssh-cat='cat ~/.ssh/id_rsa.pub'
 alias whereami='cat /etc/hostname'
 
-alias -s git="git deposit"
-
 # Abbreviations of common commands
 alias b=browse
 alias c=caddy
@@ -33,3 +31,8 @@ alias o=open
 alias ts=tailscale
 alias u=unity
 alias wn=wink
+
+# Misc
+alias readme="walk-up README.md ${READER:-cat} README.md"
+alias make="walk-up Makefile \make"
+alias -s git="git deposit"
