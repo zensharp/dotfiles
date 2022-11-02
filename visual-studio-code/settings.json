@@ -61,5 +61,6 @@
     "editor.fontSize": 16,
     "workbench.colorTheme": "Nord",
     "editor.wordWrap": "on",
+    "window.zoomLevel": 1,
     
 }

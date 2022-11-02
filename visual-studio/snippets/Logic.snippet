@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>Component Type</Title>
-			<Shortcut>component</Shortcut>
-			<Description>Code snippet to insert Component type.</Description>
+			<Title>Logic Type</Title>
+			<Shortcut>logic</Shortcut>
+			<Description>Code snippet to insert Logic type.</Description>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
 			</SnippetTypes>
@@ -13,8 +13,7 @@
 			<Code Language="CSharp" Kind="type decl">
 <![CDATA[internal class $name$
 {
-	private readonly $ownerType$ owner;
-	$end$
+	private readonly $ownerType$ owner;$end$
 
 	public $name$($ownerType$ owner)
 	{
@@ -26,7 +25,7 @@
 				<Literal>
 					<ID>name</ID>
 					<ToolTip>Class name.</ToolTip>
-					<Default>MyComponent</Default>
+					<Default>MyLogic</Default>
 				</Literal>
 				<Literal>
 					<ID>ownerType</ID>
