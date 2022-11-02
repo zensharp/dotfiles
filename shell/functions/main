@@ -1,4 +1,9 @@
 
+function open
+{
+	eval "$OPEN \"${1:-$PWD}\"";
+}
+
 function var
 {
 	eval "echo \$$1"

@@ -1,4 +1,7 @@
-. ~/.dotfiles/shell/functions
+for file in ~/.dotfiles/shell/functions/**/*
+do
+	. $file
+done
 
 for file in ~/.dotfiles/shell/aliases/**/*
 do

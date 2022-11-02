@@ -1,0 +1,26 @@
+
+function dev-shim
+{
+	BINARY=$1
+	NAME=$2
+
+	set -eu
+
+	for f in $(find . -name "$BINARY" -type f)
+	do
+		f=$(realpath "$f")
+	
+		DIR=$(dirname $f)
+		export PATH="$DIR:$PATH"
+
+		if [ -z "$NAME" ]
+		then
+			echo "Prepended '$f' to session PATH!"
+		else
+			SHIM=$DIR/$NAME
+			rm "$SHIM"
+			ln -s "$f" "$SHIM"
+			echo "Created shim '$NAME' for '$f'!"
+		fi
+	done
+}
