@@ -3,3 +3,5 @@ unset GIT_AUTHOR_NAME
 unset GIT_COMMITTER_EMAIL
 
 export OPEN='gp open'
+
+alias micro='code'

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo '. ~/.dotfiles/gitpod/env' >> ~/.zshenv
-echo '. ~/.dotfiles/gitpod/interactive' >> ~/.zshrc
-echo '. ~/.dotfiles/gitpod/login' >> ~/.zlogin
+echo '. ~/.dotfiles/templates/gitpod/env' >> ~/.zshenv
+echo '. ~/.dotfiles/templates/gitpod/interactive' >> ~/.zshrc
+echo '. ~/.dotfiles/templates/gitpod/login' >> ~/.zlogin
