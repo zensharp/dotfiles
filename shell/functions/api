@@ -1,0 +1,9 @@
+function cheat.sh
+{
+	curl "https://cheat.sh/$1"
+}
+
+function ipify
+{
+	curl "https://api.ipify.org/"
+}

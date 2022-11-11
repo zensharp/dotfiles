@@ -1,31 +1,28 @@
 alias b="to boards"
 alias bg="to boards -g"
-alias c=caddy
+alias c="caddy"
 alias cb='$CLIPBOARD'
-alias dj='dj --no-metadata'
-alias dc=docker-compose
-alias dcud=docker-compose up -d
-alias dcudf=docker-compose up -d --force-recreati
-alias dcl=docker-compose logs -f
-alias g=git
+alias dj="dj --no-metadata"
+alias dc="docker-compose"
+alias dcl="docker-compose logs -f"
+alias dcud="docker-compose up -d"
+alias dcudf="docker-compose up -d --force-recreate"
+alias fd="fd -I"
+alias g="git"
 alias -s git="git deposit"
-alias j=z
-alias m=micro
+alias j="z"
+alias m="micro"
 alias make="walk-up Makefile \make"
-alias o=open
+alias o="open"
 alias readme="walk-up README.md ${READER:-cat} README.md"
-alias serve=live-server
+alias serve="live-server"
 alias sp="spotify"
-alias ssh-cat='cat ~/.ssh/id_rsa.pub'
+alias ssh-cat="cat ~/.ssh/id_rsa.pub"
 alias todo="to todo"
 alias ts="tailscale"
-alias u=unity
-alias w='to wiki'
-alias wg='to wiki -g'
-alias wn=wink
-alias whereami='cat /etc/hostname'
+alias u="unity"
+alias w="to wiki"
+alias wg="to wiki -g"
+alias wn="wink"
+alias whereami="cat /etc/hostname"
 
-# Alterations
-alias fd='fd -I'
-alias -g -- '--no-ci=-o ci.variable="CI_SKIP=1"'
-alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'

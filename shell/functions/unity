@@ -1,0 +1,25 @@
+function unity
+{
+	set +m
+
+	project=${1:-main}
+
+	if [ -d "$project" ]
+	then
+		echo -e "${GREEN}Now opening Unity project at '$PWD/$project'...${CLEAR}"
+		goo "$project" &
+		sleep 0.2
+	elif [ -d "unity/$project" ]
+	then
+		echo -e "${GREEN}Now opening Unity project at '$PWD/unity/$project'...${CLEAR}"
+		goo "unity/$project" &
+		sleep 0.2
+	elif [ -d "unity" ]
+	then
+		echo -e "${GREEN}Now opening Unity project at '$PWD/unity'...${CLEAR}"
+		goo "unity" &
+		sleep 0.2
+	else
+		echo "${RED}No Unity projects found!${CLEAR}"
+	fi
+}

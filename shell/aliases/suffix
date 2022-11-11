@@ -1,0 +1,2 @@
+alias -g -- '--no-ci=-o ci.variable="CI_SKIP=1"'
+alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
