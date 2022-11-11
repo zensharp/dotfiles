@@ -61,6 +61,7 @@
     "editor.fontSize": 16,
     "workbench.colorTheme": "Nord",
     "editor.wordWrap": "on",
-    "window.zoomLevel": 1,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
     
 }
