@@ -32,3 +32,11 @@ function cd+
 	fi
 }
 alias cd=cd+
+
+function source-if
+{
+	if has "$1"
+	then
+		. ~/.dotfiles/$1/$2
+	fi
+}

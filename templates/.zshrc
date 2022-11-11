@@ -1,6 +1,6 @@
 . ~/.dotfiles/shell/interactive
 . ~/.dotfiles/zsh/interactive
 
-dot-source interactive exa
-dot-source interactive zoxide
-dot-source interactive dotnet
+source-if exa interactive
+source-if zoxide interactive
+source-if dotnet interactive

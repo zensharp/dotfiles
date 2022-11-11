@@ -1,6 +1,6 @@
 . ~/.dotfiles/shell/env
 . ~/.dotfiles/zsh/env
 
-dot-source env exa
-dot-source env zoxide
-dot-source env dotnet
+source-if exa env
+source-if zoxide env
+. ~/.dotfiles/dotnet/env
