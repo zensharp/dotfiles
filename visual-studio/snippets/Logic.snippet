@@ -11,13 +11,13 @@
 		</Header>
 		<Snippet>
 			<Code Language="CSharp" Kind="type decl">
-<![CDATA[internal class $name$
+<![CDATA[public class $name$ : Logic<$ownerType$>
 {
-	private readonly $ownerType$ owner;$end$
+	private readonly $ownerType$ owner;
 
-	public $name$($ownerType$ owner)
+	public $name$($ownerType$ owner) : base(owner)
 	{
-		this.owner = owner;
+		$end$
 	}
 }]]>
 			</Code>
@@ -33,6 +33,11 @@
 					<Default>Owner</Default>
 				</Literal>
 			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>Cyberstar.Common</Namespace>
+				</Import>
+			</Imports>
 		</Snippet>
 	</CodeSnippet>
 </CodeSnippets>

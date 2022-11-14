@@ -4,3 +4,4 @@
 key_delay: 10
 inject_delay: 1000
 search_shortcut: ALT+SHIFT+SPACE
+show_notifications: false
