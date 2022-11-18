@@ -119,8 +119,9 @@
             "colorScheme": "Nord",
             "font": 
             {
-                "face": "Cascadia Mono PL",
-                "size": 14.0
+                "face": "Iosevka Term SS16",
+                "size": 14.0,
+                "weight": "bold"
             },
             "opacity": 85,
             "padding": "8",
