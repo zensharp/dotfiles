@@ -16,4 +16,4 @@ path=$(find **/bin/**/"$target")
 path=$(realpath $path)
 
 command="alias $name=$path"
-echo -e $GREEN$command$CLEAR
+echo -e $command
