@@ -12,5 +12,6 @@
     "softwrap": true,
     "statusformatl": "$(filename) $(modified)",
     "statusformatr": "Line $(line), Column $(col) • $(opt:filetype)",
+    "tabsize": 2,
     "useprimary": false
 }
