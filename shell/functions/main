@@ -40,3 +40,8 @@ function source-if
 		. ~/.dotfiles/$1/$2
 	fi
 }
+
+function evalias
+{
+	eval $(devalias "$1" "$2")
+}
