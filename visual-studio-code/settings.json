@@ -63,6 +63,12 @@
     "editor.wordWrap": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "remote.SSH.remotePlatform": {
+        "zensharp-gitpad-26e3prrxvo1.ssh.ws-us77.gitpod.io": "linux"
+    },
     
 }
