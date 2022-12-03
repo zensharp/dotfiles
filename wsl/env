@@ -1,5 +1,4 @@
 export WIN_HOME='/mnt/c/users/andrew'
-export ONEDRIVE="$WIN_HOME/OneDrive"
 export XDG_REPOS_DIR="$WIN_HOME/repos"
 export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
 export PATH="$PATH:$HOME/.dotfiles/wsl/bin"

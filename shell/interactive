@@ -16,6 +16,6 @@ alias egrep='egrep --color=always'
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
 # OneDrive defaults
-export TOPATH="$HOME/.dotfiles/to:$ONEDRIVE/dotfiles/to:$ONEDRIVE/dotfiles/to/bookmarks"
-export TODO="$ONEDRIVE/todo.md"
-export PATH="$PATH:$ONEDRIVE/dotfiles/bin"
+export TOPATH="$HOME/.dotfiles/to:$HOME/cloud/dotfiles/to:$HOME/cloud/dotfiles/to/bookmarks"
+export TODO="$HOME/cloud/todo.md"
+export PATH="$PATH:$HOME/cloud/dotfiles/bin"
