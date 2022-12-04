@@ -3,7 +3,7 @@
 	path = ~/.dotfiles/git/colors.gitconfig
 	path = ~/.dotfiles/git/delta.gitconfig
 	path = ~/.dotfiles/git/urls.gitconfig
-	path = ~/cloud/dotfiles/git/gitconfig
+	path = ~/onedrive/dotfiles/git/gitconfig
 [includeIf "gitdir:**/gitlab.com/**"]
 	path = ~/.dotfiles/git/gitlab.com/gitconfig
 [includeIf "gitdir:**/github.com/**"]
