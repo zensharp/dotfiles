@@ -1,0 +1,40 @@
+# Setup
+## Operating System
+1. Create the first user with a Microsoft account.
+1. Create a second user in [Settings](ms-settings:otherusers). Promote to "Administrator" account.
+1. Restart.
+1. Login as the second user.
+1. Delete original account in [Settings](ms-settings:otherusers).
+1. Optional: [Sign in with Microsoft Account](ms-settings:yourinfo)
+1. Delete previous versions of Windows in [Settings](ms-settings:storagerecommendations)
+1. [Install Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/).
+1. Login to Firefox account.
+1. Login to password manager.
+1. Invert scroll direction ([jamie-pate/flipflop-windows-wheel](https://github.com/jamie-pate/flipflop-windows-wheel))
+1. Disable disk sleeping (?).
+1. Uninstall McAfee.
+
+# Settings
+| Path | Name | Value |
+| --- | --- | --- |
+| [Time & Language > Language & Region > Regional format](ms-settings:regionformatting) | Short date | 2017-04-05 |
+| [Time & Language > Language & Region > Regional format](ms-settings:regionformatting) | Short time | 09:40 |
+| [Time & Language > Language & Region > Regional format](ms-settings:regionformatting) | Long time | 09:40:07 |
+| [Accessibility > Visual Effects]( 	ms-settings:easeofaccess-visualeffects) | Always show scrollbars | On |
+| [System > Multitasking](ms-settings:multitasking) > Snap windows | When I snap a window, show what I can snap next to it | false |
+| [System > Multitasking](ms-settings:multitasking) > Alt + Tab | Open windows only | false |
+| [Bluetooth & devices > Touchpad](ms-settings:devices-touchpad) > Taps | Touchpad sensitivity | Most sensitive |
+| [Bluetooth & devices > Touchpad](ms-settings:devices-touchpad) > Taps | Press the lower right corner of the touchpad to right-click | false |
+| [Bluetooth & devices > Mouse](ms-settings:easeofaccess-mousepointer) > Related settings | Additional mouse settings |  |
+| [System > Display > Related settings > Advanced display](ms-settings:display-advanced) | Choose a refresh rate | <match your monitors refresh rate> |
+| Control Panel\Hardware and Sound\Power Options\System Settings | When I press the power button: | Sleep |
+| [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Search | Off |
+| [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Widgets| Off |
+| [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Chat | Off |
+| [Personalization > Colors](ms-settings:personalization-colors) | Accent color | Manual (#5679a4)
+
+# See Also
+* [WSL Setup](https://github.com/zensharp/dotfiles/wiki/WSL-Setup)
+
+# References
+* [Windows Settings URLs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
