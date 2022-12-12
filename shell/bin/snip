@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+# Variables
+SNIPBOARD=${XDG_SNIPBOARD:-$HOME/.snipboard}
+PICK_OP=false
+DROP_OP=false
+COPY_MODE=false
+SYMLINK_MODE=false
+
+# Parse command line
+while test $# -gt 0
+do
+	case "$1" in
+		-c)
+				COPY_MODE=true
+				;;
+		-s)
+				SYMLINK_MODE=true
+				;;
+		--*)
+				echo "Unknown option $1"
+				exit 1
+				;;
+		*)
+				TARGETS+=("$1")
+				PICK_OP=true
+				;;
+	esac
+	shift
+done
+
+# Begin code
+set -eu
+
+if "$PICK_OP"
+then
+	printf "" > "$SNIPBOARD"
+	for TARGET in "${TARGETS[@]}"
+	do
+		TARGET=$(realpath $TARGET)
+		echo "$TARGET" >> "$SNIPBOARD"
+		echo -e "$GREEN'$TARGET' added to snipboard!${CLEAR}"
+	done
+else
+	while IFS= read -r TARGET
+	do
+		NAME=$(basename $TARGET)
+		if "$COPY_MODE"
+		then
+			cp -r $TARGET ./$NAME
+			echo -e "$GREEN'$TARGET' copied from snipboard!${CLEAR}"
+		elif "$SYMLINK_MODE"
+		then
+			ln -s $TARGET ./$NAME
+			echo -e "$GREEN'$TARGET' linked from snipboard!${CLEAR}"
+		else
+			mv $TARGET ./$NAME
+			echo -e "$GREEN'$TARGET' moved from snipboard!${CLEAR}"
+		fi
+	done < "$SNIPBOARD"
+fi
