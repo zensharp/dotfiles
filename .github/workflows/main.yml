@@ -3,10 +3,8 @@ on:
     branches:
       - master
 
-
-
 jobs:
-  Deploy Wiki:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
