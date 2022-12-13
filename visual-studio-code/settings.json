@@ -5,7 +5,7 @@
     "editor.autoClosingQuotes": "never",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": true,
-    "editor.fontFamily": "Iosevka SS16 SemiBold, Cascadia Code PL, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Iosevka Custom SemiBold, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.formatOnType": true,
     "editor.insertSpaces": false,
