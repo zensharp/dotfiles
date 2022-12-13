@@ -1,8 +1,15 @@
 - [README](README.md)
 
-- Applications
-  - [Unity](applications/unity.md)
-  - [Visual Studio](applications/visual-studio.md)
+- Misc
+  - [Doom](misc/doom.md)
+  - [Iosevka](misc/iosevka.md)
+  - [Qmk](misc/qmk.md)
+  - [Start All Back](misc/start-all-back.md)
+  - [Unity](misc/unity.md)
+  - [Visual Studio](misc/visual-studio.md)
+  - [Vlc](misc/vlc.md)
+  - [Windows](misc/windows.md)
+  - [Wsl](misc/wsl.md)
 
 - Os
   - [Macos](os/macos.md)
@@ -11,7 +18,7 @@
 
 - Playbooks
   - [Before You Reset](playbooks/before-you-reset.md)
-  - [Windows](playbooks/windows.md)
+  - [Windows Setup](playbooks/windows-setup.md)
 
 - Reference
   - [Aliases](reference/aliases.md)

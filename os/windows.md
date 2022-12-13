@@ -1,12 +1,8 @@
+> [!TIP]
+> There is a playbook for Windows setup [here](/playbooks/windows-setup).
+
 # Setup
 ## Operating System
-1. Create the first user with a Microsoft account.
-1. Create a second user in [Settings](ms-settings:otherusers). Promote to "Administrator" account.
-1. Restart.
-1. Login as the second user.
-1. Delete original account in [Settings](ms-settings:otherusers).
-1. Optional: [Sign in with Microsoft Account](ms-settings:yourinfo)
-1. Delete previous versions of Windows in [Settings](ms-settings:storagerecommendations)
 1. [Install Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/).
 1. Login to Firefox account.
 1. Login to password manager.
@@ -32,9 +28,6 @@
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Widgets| Off |
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Chat | Off |
 | [Personalization > Colors](ms-settings:personalization-colors) | Accent color | Manual (#5679a4)
-
-# See Also
-* [WSL Setup](https://github.com/zensharp/dotfiles/wiki/WSL-Setup)
 
 # References
 * [Windows Settings URLs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
