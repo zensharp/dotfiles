@@ -1,4 +1,8 @@
-# Installation
+> [!TIP]
+> There is a playbook for Windows setup [here](/playbooks/windows-setup).
+
+# Setup
+## Installation
 1. Activate the WSL Feature.
 2. Install WSL.
 3. Install a distrubition.
