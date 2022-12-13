@@ -1,4 +1,4 @@
-These settings must be manually configured.
+These settings might need to be manually configured.
 
 ## Environment
 | Setting | Value |
