@@ -1,12 +1,14 @@
-These settings might need to be manually configured.
+> [!TIP]
+> Importing settings manually via **Tools > Import and Export Settings...** seems to be the best way to load settings into Visual Studio.
 
+# Setup
 ## Environment
 | Setting | Value |
 | --- | --- |
 | **General > Show status bar** | `false` |
 | **Tabs and Windows > Insert new tabs to the right of existing tabs** | `true` |
 | **Tabs and Windows > Show pinned tabs in a separate row** | `true` |
-| **Fonts and Colors > Font** | `Cascadia Mono` |
+| **Fonts and Colors > Font** | `Iosevka Custom Semibold` |
 | **Projects and Solution > Show output when build starts** | 'false' |
 
 ## Text Editor
