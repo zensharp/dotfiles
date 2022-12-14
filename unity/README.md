@@ -12,7 +12,7 @@
 | **Colors > Scene > Wireframe Overlay** | `5E779B` |
 
 > [!NOTE]
-> Using `System Font` improved readability between character such as `I`, `l`, and `11.
+> Using `System Font` improves readability between character such as `I`, `l`, and `1`.
 
 # Search
 | Name | Value |
