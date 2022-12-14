@@ -7,8 +7,12 @@
 | **General > Script Changes While Playing** | `Stop Playing and Recompile` |
 | **General > Editor Font** | `System Font` |
 | **General > Busy Progress Delay** | `0.1` |
+| **General > Create Game View On Play** | `false` |
 | **Scene View > General > Create Objects at Origin** | `true` |
 | **Colors > Scene > Wireframe Overlay** | `5E779B` |
+
+> [!NOTE]
+> Using `System Font` improved readability between character such as `I`, `l`, and `11.
 
 # Search
 | Name | Value |
