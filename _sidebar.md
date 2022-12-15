@@ -4,7 +4,6 @@
   - [Doom](misc/doom.md)
   - [Iosevka](misc/iosevka.md)
   - [Qmk](misc/qmk.md)
-  - [Start All Back](misc/start-all-back.md)
   - [Unity](misc/unity.md)
   - [Visual Studio](misc/visual-studio.md)
   - [Vlc](misc/vlc.md)
