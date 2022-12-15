@@ -1,9 +1,0 @@
-destination: ~/.atom
-include:
-  - path: packages
-  - path: config.cson
-  - path: github.cson
-  - path: keymap.cson
-  - path: snippets.cson
-  - path: styles.less
-  
