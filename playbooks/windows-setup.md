@@ -13,11 +13,13 @@
 1. Optional: [Sign in with Microsoft Account](ms-settings:yourinfo)
 
 ## Windows
-1. Install Windows as usual ([instructions](/os/windows#setup))
+1. Setup Windows as usual ([instructions](/os/windows#setup))
 
 ## WSL
-1. Install WSL ([instructions](/os/wsl#setup))
+1. Setup WSL ([instructions](/os/wsl#setup))
 
 ## Dotfiles
-1. Install dotfiles on WSL.
+1. Setup dotfiles on WSL.
 
+## Misc
+1. Install [iCloud](https://www.microsoft.com/store/apps/9PKTQ5699M62).

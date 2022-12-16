@@ -2,15 +2,15 @@
 > There is a playbook for Windows setup [here](/playbooks/windows-setup).
 
 # Setup
-## Operating System
+## Shell
+1. [Install Tailscale](https://tailscale.com/download/).
 1. [Install Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/).
 1. Login to Firefox account.
-1. Login to password manager.
 1. Invert scroll direction ([jamie-pate/flipflop-windows-wheel](https://github.com/jamie-pate/flipflop-windows-wheel))
 1. Disable disk sleeping (?).
 1. Uninstall McAfee.
 
-# Settings
+## Settings
 | Path | Name | Value |
 | --- | --- | --- |
 | [Time & Language > Language & Region > Regional format](ms-settings:regionformatting) | Short date | 2017-04-05 |
@@ -27,7 +27,7 @@
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Search | Off |
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Widgets| Off |
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Chat | Off |
-| [Personalization > Colors](ms-settings:personalization-colors) | Accent color | Manual (#5679a4)
+| [Personalization > Colors](ms-settings:personalization-colors) | Accent color | Manual (#5679a4) |
 
 # References
 * [Windows Settings URLs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)
