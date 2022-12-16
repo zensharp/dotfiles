@@ -1,14 +1,14 @@
 - [README](README.md)
 
-- Misc
-  - [Doom](misc/doom.md)
-  - [Iosevka](misc/iosevka.md)
-  - [Qmk](misc/qmk.md)
-  - [Unity](misc/unity.md)
-  - [Visual Studio](misc/visual-studio.md)
-  - [Vlc](misc/vlc.md)
-  - [Windows](misc/windows.md)
-  - [Wsl](misc/wsl.md)
+- Apps
+  - [Doom](apps/doom.md)
+  - [Iosevka](apps/iosevka.md)
+  - [Qmk](apps/qmk.md)
+  - [Unity](apps/unity.md)
+  - [Visual Studio](apps/visual-studio.md)
+  - [Vlc](apps/vlc.md)
+  - [Windows](apps/windows.md)
+  - [Wsl](apps/wsl.md)
 
 - Os
   - [Macos](os/macos.md)
