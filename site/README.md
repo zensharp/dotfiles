@@ -2,7 +2,7 @@
 
 ---
 
-[Windows](/os/windows.md)  •  [macOS](/os/macos.md)  •  [Linux](/os/linux)
+[Windows](/playbooks/windows-setup.md)  •  [macOS](/os/macos.md)  •  [Linux](/os/linux)
 
 # Quick Start
 ```

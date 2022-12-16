@@ -1,28 +1,24 @@
-# Essentials
-winget install --exact --id Microsoft.WindowsTerminal.Preview
-winget install --exact --id HermannSchinagl.LinkShellExtension
-winget install --exact --id VideoLAN.VLC
-winget install --exact --id Bitwarden.Bitwarden
-winget install --exact --id Mozilla.Firefox
-winget install --exact --id Google.Chrome --force
-winget install --exact --id Notepads.Notepads
-winget install --exact --id Obsidian.Obsidian
-winget install --exact --id Discord.Discord
-winget install --exact --id SlackTechnologies.Slack
-winget install --exact --id 7Zip.7Zip
-winget install --exact --id valinet.ExplorerPatcher.Prerelease
-
-# Development
-winget install --exact --id Microsoft.dotnet
-winget install --exact --id Microsoft.PowerShell
-winget install --exact --id Microsoft.VisualStudio.2022.Community
-winget install --exact --id Microsoft.VisualStudioCode
-winget install --exact --id UnityTechnologies.UnityHub --force
-
-# Entertainment
-winget install --exact --id Nvidia.GeForceExperience
-winget install --exact --id Microsoft.PowerToys
-winget install --exact --id Spotify.Spotify
-winget install --exact --id ImageLine.FLStudio
-winget install --exact --id Valve.Steam
-winget install --exact --id Blizzard.BattleNet
+winget install -e --id Bitwarden.Bitwarden
+winget install -e --id BlastApps.FluentSearch
+winget install -e --id Discord.Discord
+winget install -e --id Google.Chrome --force
+winget install -e --id HermannSchinagl.LinkShellExtension
+winget install -e --id ImageLine.FLStudio
+winget install -e --id ItchIo.Itch
+winget install -e --id mcmilk.7zip-zstd
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Microsoft.VisualStudio.2022.Community
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Microsoft.WindowsTerminal.Preview
+winget install -e --id Microsoft.dotnet
+winget install -e --id Mozilla.Firefox
+winget install -e --id Nextcloud.NextcloudDesktop
+winget install -e --id Nvidia.GeForceExperience
+winget install -e --id Obsidian.Obsidian
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id Spotify.Spotify
+winget install -e --id UnityTechnologies.UnityHub --force
+winget install -e --id Valve.Steam
+winget install -e --id VideoLAN.VLC
+winget install -e --id tailscale.tailscale
+winget install -e --id valinet.ExplorerPatcher.Prerelease
