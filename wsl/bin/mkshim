@@ -2,12 +2,16 @@
 
 set -eu
 
-filename=$(realpath "$1")
+FILENAME=$(realpath "$1")
 GREEN='\033[0;32m'
 NC='\033[0m'
 
-echo "Creating shimfile $filename"
-$( var='#!/usr/bin/env bash\n\neval "\"$0.exe\" \"$*\""'; printf '%b\n' "$var" > "$filename" )
-chmod +x "$filename"
+echo "Creating shimfile $FILENAME"
 
-echo -e "$GREEN... '$filename' [Created]$NC"
+cat > $FILENAME << EOL
+#!/usr/bin/env bash
+eval $0.exe "$@"
+EOL
+chmod +x "$FILENAME"
+
+echo -e "$GREEN... '$FILENAME' [Created]$NC"
