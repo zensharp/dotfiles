@@ -1,4 +1,5 @@
 winget install -e --id Bitwarden.Bitwarden
+winget install -e --id BlenderFoundation.Blender
 winget install -e --id BlastApps.FluentSearch
 winget install -e --id Discord.Discord
 winget install -e --id Google.Chrome --force
@@ -15,6 +16,7 @@ winget install -e --id Mozilla.Firefox
 winget install -e --id Nextcloud.NextcloudDesktop
 winget install -e --id Nvidia.GeForceExperience
 winget install -e --id Obsidian.Obsidian
+winget install -e --id Project64.Project64
 winget install -e --id SlackTechnologies.Slack
 winget install -e --id Spotify.Spotify
 winget install -e --id UnityTechnologies.UnityHub --force
