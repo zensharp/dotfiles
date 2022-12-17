@@ -8,9 +8,10 @@ NC='\033[0m'
 
 echo "Creating shimfile $FILENAME"
 
-cat > $FILENAME << EOL
+cat > "$FILENAME" << EOL
 #!/usr/bin/env bash
-eval $0.exe "$@"
+BINARY=\$(basename -- "\$0")
+eval "\$BINARY.exe" "\$@"
 EOL
 chmod +x "$FILENAME"
 

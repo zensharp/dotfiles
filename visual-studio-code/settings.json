@@ -63,7 +63,6 @@
     "editor.wordWrap": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1,
     "remote.SSH.defaultExtensions": [
         "gitpod.gitpod-remote-ssh"
     ],
