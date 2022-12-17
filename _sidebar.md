@@ -3,6 +3,7 @@
 - Apps
   - [Doom](apps/doom.md)
   - [Iosevka](apps/iosevka.md)
+  - [Project64](apps/project64.md)
   - [Qmk](apps/qmk.md)
   - [Unity](apps/unity.md)
   - [Visual Studio](apps/visual-studio.md)
