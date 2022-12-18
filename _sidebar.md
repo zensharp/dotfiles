@@ -18,6 +18,7 @@
 
 - Playbooks
   - [Before You Reset](playbooks/before-you-reset.md)
+  - [Titan Emal](playbooks/titan-emal.md)
   - [Windows Setup](playbooks/windows-setup.md)
 
 - Reference
