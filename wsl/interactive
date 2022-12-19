@@ -1,6 +1,6 @@
 alias wudo="python3 ~/.dotfiles/wsl/bin/wsl-sudo.py"
 
-wslcd () { cd "$(wslpath $1)"; }
+wsl-cd () { cd "$(wslpath $1)"; }
 
 # zsh only
 [[ -n "$WT_SESSION" ]] && {
