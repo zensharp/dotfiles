@@ -10,8 +10,8 @@ echo "Creating shimfile $FILENAME"
 
 cat > "$FILENAME" << EOL
 #!/usr/bin/env bash
-BINARY=\$(basename -- "\$0")
-eval "\$BINARY.exe" "\$@"
+
+eval "\$(basename -- "\$0").exe" "\$@"
 EOL
 chmod +x "$FILENAME"
 
