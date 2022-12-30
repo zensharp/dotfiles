@@ -22,9 +22,9 @@ style = "bold green"
 disabled = false
 
 [directory]
-truncation_length = 5
+truncation_length = 4
 truncate_to_repo = true
-truncation_symbol = ""
+truncation_symbol = "…/"
 style = "bold blue"
 
 [git_branch]
