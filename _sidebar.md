@@ -4,6 +4,7 @@
   - [Doom](apps/doom.md)
   - [Fl Studio](apps/fl-studio.md)
   - [Iosevka](apps/iosevka.md)
+  - [Pandoc](apps/pandoc.md)
   - [Project64](apps/project64.md)
   - [Qmk](apps/qmk.md)
   - [Unity](apps/unity.md)
