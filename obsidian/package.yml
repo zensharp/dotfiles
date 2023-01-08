@@ -3,4 +3,4 @@ include:
       destination: .obsidian
       symlink: true
 
-destination: "./"
+destination: "."
