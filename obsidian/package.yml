@@ -1,5 +1,6 @@
 include:
     - path: obsidian
       destination: .obsidian
+      symlink: true
 
 destination: "./"
