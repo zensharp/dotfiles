@@ -1,6 +1,10 @@
 {
-  "baseFontSize": 16,
+  "accentColor": "",
+  "monospaceFontFamily": "Iosevka Custom",
+  "showViewHeader": true,
+  "nativeMenus": false,
   "translucency": true,
   "cssTheme": "Minimal",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "Iosevka Custom"
 }
