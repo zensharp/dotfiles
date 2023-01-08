@@ -19,3 +19,4 @@ alias egrep='egrep --color=always'
 export TOPATH="$HOME/.dotfiles/to:$HOME/onedrive/dotfiles/to:$HOME/onedrive/dotfiles/to/bookmarks"
 export TODO="$HOME/onedrive/todo.md"
 export PATH="$PATH:$HOME/onedrive/dotfiles/bin"
+export JOT_DIR="$XDG_REPOS_DIR/gitlab.com/zensharp/brain/backpack/journal"
