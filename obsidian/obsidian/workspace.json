@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "03fc72a1fcc2b354",
+        "id": "ae2dbde0f2e548a8",
         "type": "tabs",
         "children": [
           {
-            "id": "c921033d60854d32",
+            "id": "c0e9d66a5386ebfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/home.md",
-                "mode": "source",
+                "file": "alpha/general.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/home.md",
+                "file": "alpha/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo/home.md",
+                "file": "alpha/general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/home.md"
+                "file": "alpha/general.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c921033d60854d32",
+  "active": "c0e9d66a5386ebfb",
   "lastOpenFiles": [
-    "todo/cooking.md",
-    "todo/home.md",
+    "alpha/autonomy.md",
+    "README.md",
     "todo/backlog.md",
-    "todo/zencloud/home.md",
     "todo/andtech.todo.md",
-    "todo/ongoing.md",
-    "todo/shopping.md",
-    "todo/projects.md",
-    "todo/zencloud/media.md",
-    "todo/productions.md"
+    "private/cheatsheets/sql-lite.md",
+    "private/dirt.md",
+    "workspaces/lightprobe.md",
+    "journal/_index.md",
+    "todo/home.md",
+    "todo/cooking.md"
   ]
 }
