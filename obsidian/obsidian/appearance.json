@@ -6,5 +6,8 @@
   "translucency": true,
   "cssTheme": "Minimal",
   "theme": "obsidian",
-  "textFontFamily": "Iosevka Custom"
+  "textFontFamily": "Iosevka Custom",
+  "enabledCssSnippets": [
+    "lines"
+  ]
 }

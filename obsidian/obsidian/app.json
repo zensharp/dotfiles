@@ -1,7 +1,7 @@
 {
   "livePreview": false,
-  "showLineNumber": false,
-  "readableLineLength": true,
+  "showLineNumber": true,
+  "readableLineLength": false,
   "strictLineBreaks": false,
   "showFrontmatter": false,
   "autoPairMarkdown": false,
