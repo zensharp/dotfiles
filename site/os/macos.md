@@ -30,5 +30,8 @@ $ brew install --cask macdown
 ## Recovery Mode - Apple Silicon
 * Shut down the device. Then, hold the power button until recovery options appears.
 
+## AirMessage
+* Add AirMessage to "Login Items".
+
 # References
 * [Remap Windows keyboards to match Mac keyboard layout](https://9to5mac.com/2016/03/17/how-to-remap-windows-keyboard-buttons-match-mac-layout/)
