@@ -7,13 +7,13 @@
 
 # Layers
 
-| Number | Purpose | Triggered By | Remarks | Examples |
-| --- | --- | --- | --- | --- |
-| 0 | Base (Mac) | Hardware switch |  |  |
-| 1 | Base (Windows) | Hardware switch |  |  |
-| 2 | Numerical | fn1 | Numpad |  |
-| 3 | Meta 1 | Left alt | Quick actions | Arrow keys |
-| 4 | Meta 2 | Super key |  | Home, End, Page Down, Page Up |
+| Number | Trigger Method | Left hand | Right hand |
+| --- | --- | --- | --- |
+| 0 | Hardware switch | Base (macOS) | Base |
+| 1 | Hardware switch | Base (Windows) |  |
+| 2 | fn1 |  | Numpad |
+| 3 | Left alt | Media Keys | Arrow keys, edit keys |
+| 4 | Super key |  | Home, End, Page Down, Page Up |
 
 ## Misc
 * Instead of the usual vim-style navigation key arrangement, IJKL minimizes finger movements (and is more intuitive)
