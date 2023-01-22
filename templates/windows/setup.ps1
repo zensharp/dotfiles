@@ -21,6 +21,6 @@ winget install -e --id SlackTechnologies.Slack
 winget install -e --id Spotify.Spotify
 winget install -e --id UnityTechnologies.UnityHub --force
 winget install -e --id Valve.Steam
-winget install -e --id VideoLAN.VLC
+winget install -e --id VideoLAN.VLC.Nightly
 winget install -e --id tailscale.tailscale
 winget install -e --id valinet.ExplorerPatcher.Prerelease
