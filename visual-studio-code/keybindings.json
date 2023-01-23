@@ -14,5 +14,10 @@
 		"key": "ctrl+shift+n",
 		"command": "explorer.newFolder",
 		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+y",
+		"command": "-workbench.debug.action.toggleRepl",
+		"when": "workbench.panel.repl.view.active"
 	}
 ]
