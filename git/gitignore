@@ -1,6 +1,8 @@
 version.properties
 nohup.out
 
+[gG]itignored/
+
 # Obsidian
 .obsidian/
 
