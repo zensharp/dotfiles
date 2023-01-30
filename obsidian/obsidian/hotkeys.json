@@ -1,10 +1,19 @@
 {
-  "editor:swap-line-up": [
+  "switcher:open": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "ArrowUp"
+      "key": "P"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ],
   "editor:swap-line-down": [
@@ -13,6 +22,14 @@
         "Alt"
       ],
       "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
     }
   ]
 }

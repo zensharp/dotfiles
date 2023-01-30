@@ -1,14 +1,4 @@
 {
-  "livePreview": false,
-  "showLineNumber": true,
-  "readableLineLength": false,
-  "strictLineBreaks": false,
-  "showFrontmatter": false,
-  "autoPairMarkdown": false,
   "autoPairBrackets": false,
-  "smartIndentList": true,
-  "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
-  "showInlineTitle": false,
-  "promptDelete": false
+  "autoPairMarkdown": false
 }
