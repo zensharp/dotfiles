@@ -1,5 +1,3 @@
-alias b="to boards"
-alias bg="to boards -g"
 alias c="caddy"
 alias cb='$CLIPBOARD'
 alias dj="dj --no-metadata"
@@ -19,7 +17,5 @@ alias sp="spotify"
 alias ssh-cat="cat ~/.ssh/id_rsa.pub"
 alias ts="tailscale"
 alias u="unity"
-alias w="to wiki"
-alias wg="to wiki -g"
 alias wn="wink"
 alias whereami="cat /etc/hostname"
