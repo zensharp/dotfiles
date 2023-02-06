@@ -54,5 +54,5 @@
 	stash-keep = "!f() { set -e; git stash push $@; git stash apply; }; f"
 	submodule-init = submodule update --init --recursive
 	submodule-update = submodule update --recursive --remote
-	sw = !git switch "$*" || git switch master "$*"
+	sw = !git switch "$*" || git switch main "$*"
 	swc = switch -C

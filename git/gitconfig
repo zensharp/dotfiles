@@ -11,7 +11,7 @@
 [includeIf "gitdir:**/gitlab.andtech.me/**"]
 	path = ~/.dotfiles/git/gitlab.andtech.me/gitconfig
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [core]
 	whitespace = cr-at-eol
 	editor = micro
