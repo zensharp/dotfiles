@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd $HOME/.dotfiles/windows/bin
+powershell.exe -ExecutionPolicy Bypass -File ./toast.ps1 "$1" "$2"

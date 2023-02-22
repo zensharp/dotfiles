@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -eu
+
+BINARY=$1
+VERB=$2
+SUBCOMMAND=$BINARY-$VERB
+
+shift
+shift
+
+if command -v "$SUBCOMMAND" &> /dev/null
+then
+	eval "$SUBCOMMAND" "$*"
+else
+	eval "$BINARY" "$VERB" "$*"
+fi
