@@ -1,4 +1,5 @@
 {
   "autoPairBrackets": false,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "promptDelete": false
 }
