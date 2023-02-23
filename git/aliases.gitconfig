@@ -18,7 +18,6 @@
 	bww = browse wikis
 	check = diff --check
 	chmod = update-index --chmod
-	clear = !cd $(git root) && git restore .
 	clr = clear
 	clna = clean -ffdx
 	cm = commit
