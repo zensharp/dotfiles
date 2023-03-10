@@ -8,8 +8,8 @@
 	path = ~/.dotfiles/git/gitlab.com/gitconfig
 [includeIf "gitdir:**/github.com/**"]
 	path = ~/.dotfiles/git/github.com/gitconfig
-[includeIf "gitdir:**/gitlab.andtech.me/**"]
-	path = ~/.dotfiles/git/gitlab.andtech.me/gitconfig
+[includeIf "gitdir:**/gitlab.zensharp.net/**"]
+	path = ~/.dotfiles/git/gitlab.zensharp.net/gitconfig
 [init]
 	defaultBranch = main
 [core]
