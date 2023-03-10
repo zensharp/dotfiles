@@ -20,3 +20,6 @@ export TOPATH="$HOME/.dotfiles/to:$HOME/onedrive/dotfiles/to:$HOME/onedrive/dotf
 export TODO="$HOME/onedrive/todo.md"
 export PATH="$PATH:$HOME/onedrive/dotfiles/bin"
 export JOT_DIR="$XDG_REPOS_DIR/gitlab.com/zenpoint/brain/backpack/journal"
+
+# Subcommands
+alias goo="subcommand goo"
