@@ -1,3 +1,5 @@
 [user]
 	name = Zensharp
 	email = 8265381-andtech@users.noreply.gitlab.com
+[alias]
+	bws = browse edit

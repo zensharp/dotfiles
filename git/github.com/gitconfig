@@ -1,3 +1,5 @@
 [user]
 	name = Zensharp
 	email = 48300131+zensharp@users.noreply.github.com
+[alias]
+	bwp = browse actions
