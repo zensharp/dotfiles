@@ -19,7 +19,6 @@
 	check = diff --check
 	chmod = update-index --chmod
 	clr = clear
-	clna = clean -ffdx
 	cm = commit
 	cma = commit -a
 	cmaa = !git aa && git cm
@@ -36,16 +35,13 @@
 	lint = !glab ci lint
 	ls = list
 	lz = lazy
-	lzp = !git lazy && git push
+	lzps = !git lazy && git push
 	pb = publish
-	pbc = publish --create
-	pbca = publish --create --merge-when-pipeline-succeeds
+	pbmr = publish --create
 	pl = pull
-	plr = pull --rebase
 	pop = reset HEAD~1
 	ps = push
 	psa = !git push && git push --tags
-	psd = push -o ci.variable=CI_ENVIRONMENT_DEPLOY_AUTO=1
 	pst = push --tags
 	s = status --short
 	squash = rebase -i
