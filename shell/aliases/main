@@ -19,3 +19,4 @@ alias ts="tailscale"
 alias u="unity"
 alias wn="wink"
 alias whereami="cat /etc/hostname"
+alias dp='cd $(cat $XDG_REPOS_DIR/.git-deposit)'
