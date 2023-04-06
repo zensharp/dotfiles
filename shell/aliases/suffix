@@ -1,4 +1,4 @@
-SKIP_OPTIONS='--skip-ci=-o ci.skip -o ci.variable="CI_SKIP=1"'
+SKIP_OPTIONS='-o ci.skip -o ci.variable="CI_SKIP=1"'
 alias -g -- "--skip-ci=$SKIP_OPTIONS"
 alias -g -- '--deploy=-o ci.variable="CI_ENVIRONMENT_DEPLOY_AUTO=1"'
 # Legacy aliases. Prefer above versions
