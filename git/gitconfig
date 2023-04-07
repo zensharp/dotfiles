@@ -3,7 +3,7 @@
 	path = ~/.dotfiles/git/colors.gitconfig
 	path = ~/.dotfiles/git/delta.gitconfig
 	path = ~/.dotfiles/git/urls.gitconfig
-	path = ~/onedrive/dotfiles/git/gitconfig
+	path = ~/OneDrive/dotfiles/git/gitconfig
 [includeIf "gitdir:**/gitlab.com/**"]
 	path = ~/.dotfiles/git/gitlab.com/gitconfig
 [includeIf "gitdir:**/github.com/**"]
@@ -46,3 +46,4 @@
 [url "git@gitlab.andtech.me"]
 	insteadOf = andtech.me
 	pushInsteadOf = andtech.me
+

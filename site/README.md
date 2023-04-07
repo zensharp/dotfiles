@@ -10,3 +10,8 @@ $ git clone https://github.com/zensharp/dotfiles
 $ cd dotfiles
 $ ./setup.sh
 ```
+
+# Misc
+* Place OneDrive (or symlink) at `~/OneDrive`.
+* Place Nextcloud (or symlink) at `~/Nextcloud`.
+* Place Owncloud (or symlink) at `~/Owncloud`.

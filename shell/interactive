@@ -16,9 +16,9 @@ alias egrep='egrep --color=always'
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
 # OneDrive defaults
-export TOPATH="$HOME/.dotfiles/to:$HOME/onedrive/dotfiles/to:$HOME/onedrive/dotfiles/to/bookmarks"
-export TODO="$HOME/onedrive/todo.md"
-export PATH="$PATH:$HOME/onedrive/dotfiles/bin"
+export TOPATH="$HOME/.dotfiles/to:$HOME/OneDrive/dotfiles/to:$HOME/OneDrive/dotfiles/to/bookmarks"
+export TODO="$HOME/OneDrive/todo.md"
+export PATH="$PATH:$HOME/OneDrive/dotfiles/bin"
 export JOT_DIR="$XDG_REPOS_DIR/gitlab.com/zenpoint/brain/backpack/journal"
 
 # Subcommands

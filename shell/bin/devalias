@@ -12,7 +12,7 @@ then
 	exit -1
 fi
 
-for f in $(find . -type f -iname "$target" -wholename "*/bin/Debug/*" )
+for f in $(find . -type f -iname "$target" -wholename "*/bin/*" )
 {
 	path=$(realpath $f)
 	command="alias $name=$path"
