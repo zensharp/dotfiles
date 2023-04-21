@@ -37,7 +37,6 @@
 	lz = lazy
 	lzps = !git lazy && git push
 	pb = publish
-	pbmr = publish --create
 	pl = pull
 	pop = reset HEAD~1
 	ps = push
