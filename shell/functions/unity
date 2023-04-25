@@ -20,6 +20,8 @@ function unity
 		goo "unity" &
 		sleep 0.2
 	else
-		echo "${RED}No Unity projects found!${CLEAR}"
+		echo -e "${GREEN}Now opening Unity project at '$PWD'...${CLEAR}" || echo "${RED}No Unity projects detected!${CLEAR}"
+		goo "." &
+		sleep 0.2
 	fi
 }
