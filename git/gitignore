@@ -11,8 +11,8 @@ nohup.out
 **/Assets/Temp.meta
 **/Assets/User/
 **/Assets/User.meta
-unity/shared
-unity/shared/
+unity/dependencies
+unity/dependencies/
 
 # macOS
 .DS_Store

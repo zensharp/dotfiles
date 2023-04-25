@@ -1,3 +1,4 @@
+alias b="$BROWSER obsidian://open?vault=Brain"
 alias c="caddy"
 alias cb='$CLIPBOARD'
 alias dj="dj --no-metadata"
