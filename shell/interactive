@@ -19,7 +19,7 @@ alias egrep='egrep --color=always'
 export TOPATH="$HOME/.dotfiles/to:$HOME/OneDrive/dotfiles/to:$HOME/OneDrive/dotfiles/to/bookmarks"
 export TODO="$HOME/OneDrive/todo.md"
 export PATH="$PATH:$HOME/OneDrive/dotfiles/bin"
-export JOT_DIR="$HOME/brain/journal"
+export JOT_DIR="$HOME/brain/garden/journal"
 
 # Subcommands
 alias goo="subcommand goo"
