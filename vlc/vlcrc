@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.16
+###  vlc 4.0.0-dev
 ###
 
 ###
@@ -18,7 +18,7 @@
 #effect-height=500
 
 # FFT window (string)
-#effect-fft-window=flat
+#effect-fft-window=none
 
 # Kaiser window parameter (float)
 #effect-kaiser-param=3.000000
@@ -120,9 +120,6 @@
 
 # Active windows (string)
 #wall-active=
-
-# Element aspect ratio (string)
-#wall-element-aspect=16:9
 
 [panoramix] # Panoramix: wall with overlap video filter
 
@@ -239,77 +236,288 @@
 # Chroma (string)
 #vmem-chroma=RV16
 
+[splitter] # Video splitter display plugin
+
+# Video splitter module (string)
+#video-splitter=none
+
 [vdummy] # Dummy video output
 
 # Dummy image chroma format (string)
 #dummy-chroma=
 
+[placebo] # libplacebo video output
+
+# GPU instance provider (string)
+#pl-gpu=any
+
+# Custom shader (string)
+#pl-user-shader=
+
+# Upscaler preset (integer)
+#pl-upscaler-preset=0
+
+# Downscaler preset (integer)
+#pl-downscaler-preset=0
+
+# Scaler LUT size (integer)
+#pl-lut-entries=64
+
+# Anti-ringing strength (float)
+#pl-antiringing=0.000000
+
+# Use sigmoidization when upscaling (boolean)
+#pl-sigmoid=1
+
+# Sigmoid center (float)
+#pl-sigmoid-center=0.750000
+
+# Sigmoid slope (float)
+#pl-sigmoid-slope=6.500000
+
+# Enable debanding (boolean)
+#pl-debanding=0
+
+# Debanding iterations (integer)
+#pl-iterations=1
+
+# Gradient threshold (float)
+#pl-threshold=4.000000
+
+# Search radius (float)
+#pl-radius=16.000000
+
+# Grain strength (float)
+#pl-grain=6.000000
+
+# Display output colorspace (integer)
+#pl-output-hint=1
+
+# Rendering intent for color conversion (integer)
+#pl-rendering-intent=1
+
+# Tone-mapping function (integer)
+#pl-tone-mapping-function=0
+
+# Tone-mapping parameter (float)
+#pl-tone-mapping-param=0.000000
+
+# Tone-mapping mode (integer)
+#pl-tone-mapping-mode=0
+
+# Out-of-gamut handling (integer)
+#pl-gamut-mode=0
+
+# Inverse tone-mapping (boolean)
+#pl-inverse-tone-mapping=0
+
+# Channel crosstalk (float)
+#pl-crosstalk=0.040000
+
+# Override detected display primaries (integer)
+#pl-target-prim=0
+
+# Override detected display gamma (integer)
+#pl-target-trc=0
+
+# Custom LUT file (.cube) (string)
+#pl-lut-file=
+
+# Custom LUT type (integer)
+#pl-lut-mode=0
+
+# HDR peak detection period (float)
+#pl-peak-period=100.000000
+
+# Scene change lower threshold (float)
+#pl-scene-threshold-low=5.500000
+
+# Scene change upper threshold (float)
+#pl-scene-threshold-high=10.000000
+
+# Dithering algorithm (integer)
+#pl-dither=-1
+
+# Dither LUT size (log 2) (integer)
+#pl-dither-size=6
+
+# Temporal dithering (boolean)
+#pl-temporal-dither=0
+
+# Dither depth override (0 = auto) (integer)
+#pl-dither-depth=0
+
+# Kernel function (integer)
+#pl-upscaler-kernel=1
+
+# Window function (integer)
+#pl-upscaler-window=0
+
+# Use as EWA / Polar filter (boolean)
+#pl-upscaler-polar=0
+
+# Clamping coefficient (float)
+#pl-upscaler-clamp=0.000000
+
+# Blur/Sharpen coefficient (float)
+#pl-upscaler-blur=1.000000
+
+# Taper width (float)
+#pl-upscaler-taper=0.000000
+
+# Kernel function (integer)
+#pl-downscaler-kernel=1
+
+# Window function (integer)
+#pl-downscaler-window=0
+
+# Use as EWA / Polar filter (boolean)
+#pl-downscaler-polar=0
+
+# Clamping coefficient (float)
+#pl-downscaler-clamp=0.000000
+
+# Blur/Sharpen coefficient (float)
+#pl-downscaler-blur=1.000000
+
+# Taper width (float)
+#pl-downscaler-taper=0.000000
+
+# Disable anti-aliasing when downscaling (boolean)
+#pl-skip-aa=0
+
+# Cut-off value for polar samplers (float)
+#pl-polar-cutoff=0.001000
+
+# Force GPU built-in sampling for overlay textures (boolean)
+#pl-overlay-direct=0
+
+# Don't linearize before scaling (boolean)
+#pl-disable-linear=0
+
+# Force the use of general-purpose scalers (boolean)
+#pl-force-general=0
+
+# Allow delaying peak detection by up to one frame (boolean)
+#pl-delayed-peak=0
+
+[placebo_gl] # OpenGL based GPU instance
+
+# OpenGL extension (string)
+#pl-gl=any
+
+# Allow software rasterizers (boolean)
+#gl-allow-sw=0
+
+# Maximum frame latency (integer)
+#gl-swap-depth=0
+
 [gl] # OpenGL video output
 
 # OpenGL extension (string)
-#gl=
+#gl=any
 
-# Open GL/GLES hardware converter (string)
-#glconv=
+# Open GL/GLES hardware interop (string)
+#glinterop=any
+
+# OpenGL upscaler (integer)
+#gl-upscaler=0
+
+# OpenGL downscaler (integer)
+#gl-downscaler=0
 
 # Rendering intent for color conversion (integer)
-#rendering-intent=1
+#gl-rendering-intent=1
 
-# Display primaries (integer)
-#target-prim=0
-
-# Display gamma / transfer function (integer)
-#target-trc=0
-
-# Tone-mapping algorithm (integer)
-#tone-mapping=3
+# Tone-mapping function (integer)
+#gl-tone-mapping-function=0
 
 # Tone-mapping parameter (float)
-#tone-mapping-param=0.000000
+#gl-tone-mapping-param=0.000000
 
-# Highlight clipped pixels (boolean)
-#tone-mapping-warn=0
+# Tone-mapping mode (integer)
+#gl-tone-mapping-mode=0
+
+# Out-of-gamut handling (integer)
+#gl-gamut-mode=0
+
+# Inverse tone-mapping (boolean)
+#gl-inverse-tone-mapping=0
+
+# Channel crosstalk (float)
+#gl-crosstalk=0.040000
+
+# Override detected display primaries (integer)
+#target-prim=0
+
+# Override detected display gamma (integer)
+#target-trc=0
 
 # Dithering algorithm (integer)
 #dither-algo=-1
 
-# Dither depth override (0 = framebuffer depth) (integer)
+# Dither depth override (0 = auto) (integer)
 #dither-depth=0
 
-# Tone-mapping desaturation coefficient (float)
-#tone-mapping-desat=0.500000
+# Custom LUT file (.cube) (string)
+#gl-lut-file=
 
 [glwin32] # OpenGL video output for Windows
 
-# Open GL/GLES hardware converter (string)
-#glconv=
+# Open GL/GLES hardware interop (string)
+#glinterop=any
+
+# OpenGL upscaler (integer)
+#gl-upscaler=0
+
+# OpenGL downscaler (integer)
+#gl-downscaler=0
 
 # Rendering intent for color conversion (integer)
-#rendering-intent=1
+#gl-rendering-intent=1
 
-# Display primaries (integer)
-#target-prim=0
-
-# Display gamma / transfer function (integer)
-#target-trc=0
-
-# Tone-mapping algorithm (integer)
-#tone-mapping=3
+# Tone-mapping function (integer)
+#gl-tone-mapping-function=0
 
 # Tone-mapping parameter (float)
-#tone-mapping-param=0.000000
+#gl-tone-mapping-param=0.000000
 
-# Highlight clipped pixels (boolean)
-#tone-mapping-warn=0
+# Tone-mapping mode (integer)
+#gl-tone-mapping-mode=0
+
+# Out-of-gamut handling (integer)
+#gl-gamut-mode=0
+
+# Inverse tone-mapping (boolean)
+#gl-inverse-tone-mapping=0
+
+# Channel crosstalk (float)
+#gl-crosstalk=0.040000
+
+# Override detected display primaries (integer)
+#target-prim=0
+
+# Override detected display gamma (integer)
+#target-trc=0
 
 # Dithering algorithm (integer)
 #dither-algo=-1
 
-# Dither depth override (0 = framebuffer depth) (integer)
+# Dither depth override (0 = auto) (integer)
 #dither-depth=0
 
-# Tone-mapping desaturation coefficient (float)
-#tone-mapping-desat=0.500000
+# Custom LUT file (.cube) (string)
+#gl-lut-file=
+
+[glinterop_dxva2] # DXVA2 surface converter
+
+# Use DXVA-HD for color conversion (boolean)
+#direct3d9-dxvahd=1
+
+[glfilter_draw] # glfilter_draw
+
+# VFlip the video (boolean)
+#draw-vflip=0
 
 [flaschen] # Flaschen-Taschen video output
 
@@ -322,29 +530,24 @@
 # Height (integer)
 #flaschen-height=20
 
+# Offset X (integer)
+#flaschen-offset-x=0
+
+# Offset Y (integer)
+#flaschen-offset-y=0
+
+# Offset Z (integer)
+#flaschen-offset-z=0
+
 [drawable] # Embedded window video
-
-[directdraw] # DirectX (DirectDraw) video output
-
-# Use hardware YUV->RGB conversions (boolean)
-#directx-hw-yuv=1
-
-# Overlay video output (boolean)
-#directx-overlay=1
-
-# Use video buffers in system memory (boolean)
-#directx-use-sysmem=0
-
-# Use triple buffering for overlays (boolean)
-#directx-3buffering=1
-
-# Name of desired display device (string)
-#directx-device=
 
 [direct3d9] # Direct3D9 video output
 
 # Use hardware blending support (boolean)
 #direct3d9-hw-blending=1
+
+# Use hardware YUV to RGB conversions (boolean)
+#directx-hw-yuv=1
 
 # Pixel Shader (string)
 #direct3d9-shader=
@@ -352,10 +555,48 @@
 # Path to HLSL file (string)
 #direct3d9-shader-file=
 
+# Use DXVA-HD for color conversion (boolean)
+#direct3d9-dxvahd=1
+
 [direct3d11] # Direct3D11 video output
 
 # Use hardware blending support (boolean)
 #direct3d11-hw-blending=1
+
+[decklinkoutput] # Output module to write to Blackmagic SDI card
+
+# Output card (integer)
+#decklink-output-card-index=0
+
+# Video connection (string)
+#decklink-vout-video-connection=sdi
+
+# Desired output mode (string)
+#decklink-vout-mode=
+
+# 10 bits (boolean)
+#decklink-vout-tenbits=1
+
+# Timelength after which we assume there is no signal. (integer)
+#decklink-vout-nosignal-delay=5
+
+# Active Format Descriptor line (integer)
+#decklink-vout-afd-line=16
+
+# Active Format Descriptor value (integer)
+#decklink-vout-afd=8
+
+# Aspect Ratio (integer)
+#decklink-vout-ar=1
+
+# Picture to display on input signal loss (string)
+#decklink-vout-nosignal-image=
+
+# Audio samplerate (Hz) (integer)
+#decklink-aout-audio-rate=48000
+
+# Number of audio channels (integer)
+#decklink-aout-audio-channels=2
 
 [transform] # Video transformation filter
 
@@ -448,6 +689,14 @@
 # Posterize level (integer)
 #posterize-level=6
 
+[pl_scale] # OpenGL scaler
+
+# OpenGL upscaler (integer)
+#plscale-upscaler=0
+
+# OpenGL downscaler (integer)
+#plscale-downscaler=0
+
 [motionblur] # Motion blur filter
 
 # Blur factor (1-127) (integer)
@@ -491,8 +740,8 @@
 # Distort mode (string)
 #gradient-mode=gradient
 
-# Gradient image type (integer)
-#gradient-type=0
+# Keep color (boolean)
+#gradient-color=0
 
 # Apply cartoon effect (boolean)
 #gradient-cartoon=1
@@ -514,6 +763,20 @@
 
 # Frame rate (string)
 #fps-fps=
+
+[formatcrop] # Video cropping filter
+
+# Pixels to crop from top (integer)
+#formatcrop-top=0
+
+# Pixels to crop from bottom (integer)
+#formatcrop-bottom=0
+
+# Pixels to crop from left (integer)
+#formatcrop-left=0
+
+# Pixels to crop from right (integer)
+#formatcrop-right=0
 
 [extract] # Extract RGB component video filter
 
@@ -641,10 +904,10 @@
 # Gradient threshold (integer)
 #ball-gradient-threshold=40
 
-# Edge visible (boolean)
+# Set edge visibility (boolean)
 #ball-edge-visible=1
 
-[antiflicker] # antiflicker video filter
+[antiflicker] # Antiflicker video filter
 
 # Window size (integer)
 #antiflicker-window-size=10
@@ -679,9 +942,6 @@
 # Image gamma (0-10) (float)
 #gamma=1.000000
 
-# Brightness threshold (boolean)
-#brightness-threshold=0
-
 [swscale] # Video scaling filter
 
 # Scaling mode (integer)
@@ -699,12 +959,6 @@
 
 # Monospace Font (string)
 #freetype-monofont=Courier New
-
-# Font size in pixels (integer)
-#freetype-fontsize=0
-
-# Relative font size (integer)
-#freetype-rel-fontsize=0
 
 # Text opacity (integer)
 #freetype-opacity=255
@@ -742,16 +996,36 @@
 # Shadow distance (float)
 #freetype-shadow-distance=0.060000
 
+# Cache size (integer)
+#freetype-cache-size=200
+
 # Use YUVP renderer (boolean)
 #freetype-yuvp=0
 
 # Text direction (integer)
 #freetype-text-direction=0
 
-[stream_out_transcode] # Transcode stream output
+[udp] # UDP stream output
+
+# Use libavformat (boolean)
+#sout-udp-avformat=0
+
+# Destination (string)
+#sout-udp-dst=
+
+# SAP announcement (boolean)
+#sout-udp-sap=0
+
+# SAP name (string)
+#sout-udp-name=
+
+# SAP description (string)
+#sout-udp-description=
+
+[transcode] # Transcode stream output
 
 # Video encoder (string)
-#sout-transcode-venc=
+#sout-transcode-venc=none
 
 # Destination video codec (string)
 #sout-transcode-vcodec=
@@ -787,7 +1061,7 @@
 #sout-transcode-vfilter=
 
 # Audio encoder (string)
-#sout-transcode-aenc=
+#sout-transcode-aenc=none
 
 # Destination audio codec (string)
 #sout-transcode-acodec=
@@ -808,12 +1082,12 @@
 #sout-transcode-afilter=
 
 # Subtitle encoder (string)
-#sout-transcode-senc=
+#sout-transcode-senc=none
 
 # Destination subtitle codec (string)
 #sout-transcode-scodec=
 
-# Destination subtitle codec (boolean)
+# Subtitle overlay (boolean)
 #sout-transcode-soverlay=0
 
 # Overlays (string)
@@ -824,9 +1098,6 @@
 
 # Picture pool size (integer)
 #sout-transcode-pool-size=10
-
-# High priority (boolean)
-#sout-transcode-high-priority=0
 
 [stats] # Writes statistic info about stream
 
@@ -853,21 +1124,6 @@
 # Filename for stream (helper setting for dst) (string)
 #sout-standard-path=
 
-# SAP announcing (boolean)
-#sout-standard-sap=0
-
-# Session name (string)
-#sout-standard-name=
-
-# Session description (string)
-#sout-standard-description=
-
-# Session URL (string)
-#sout-standard-url=
-
-# Session email (string)
-#sout-standard-email=
-
 [smem] # Stream output to memory buffer
 
 # Time Synchronized output (boolean)
@@ -886,6 +1142,41 @@
 
 # Language (string)
 #sout-setlang-lang=eng
+
+[stream_out_sdi] # SDI stream output
+
+# Output card (integer)
+#sdiout-card-index=0
+
+# Video connection (string)
+#sdiout-video-connection=sdi
+
+# Desired output mode (string)
+#sdiout-mode=
+
+# 10 bits (boolean)
+#sdiout-tenbits=1
+
+# Timelength after which we assume there is no signal. (integer)
+#sdiout-nosignal-delay=5
+
+# Active Format Descriptor line (integer)
+#sdiout-afd-line=16
+
+# Active Format Descriptor value (integer)
+#sdiout-afd=8
+
+# Aspect Ratio (integer)
+#sdiout-ar=1
+
+# Picture to display on input signal loss (string)
+#sdiout-nosignal-image=
+
+# Number of audio channels (integer)
+#sdiout-channels=2
+
+# Audio channels configuration (Default, single, auto) (string)
+#sdiout-audio=
 
 [stream_out_rtp] # RTP stream output
 
@@ -910,12 +1201,6 @@
 # Session description (string)
 #sout-rtp-description=
 
-# Session URL (string)
-#sout-rtp-url=
-
-# Session email (string)
-#sout-rtp-email=
-
 # Transport protocol (string)
 #sout-rtp-proto=udp
 
@@ -937,15 +1222,6 @@
 # Caching value (ms) (integer)
 #sout-rtp-caching=300
 
-# SRTP key (hexadecimal) (string)
-#sout-rtp-key=
-
-# SRTP salt (hexadecimal) (string)
-#sout-rtp-salt=
-
-# MP4A LATM (boolean)
-#sout-rtp-mp4a-latm=0
-
 # RTSP session timeout (s) (integer)
 #rtsp-timeout=60
 
@@ -954,6 +1230,15 @@
 
 # Password (string)
 #sout-rtsp-pwd=
+
+# SRTP key (hexadecimal) (string)
+#sout-rtp-key=
+
+# SRTP salt (hexadecimal) (string)
+#sout-rtp-salt=
+
+# MP4A LATM (boolean)
+#sout-rtp-mp4a-latm=0
 
 [record] # Record stream output
 
@@ -1052,7 +1337,7 @@
 #sout-chromecast-http-port=8010
 
 # Performance warning (integer)
-#sout-chromecast-show-perf-warning=1
+#sout-renderer-show-perf-warning=1
 
 # Enable Audio passthrough (boolean)
 #sout-chromecast-audio-passthrough=0
@@ -1096,9 +1381,6 @@
 # Buffer size (integer)
 #prefetch-buffer-size=16384
 
-# Read size (integer)
-#prefetch-read-size=16777216
-
 # Seek threshold (integer)
 #prefetch-seek-threshold=16384
 
@@ -1136,7 +1418,7 @@
 # Y offset (integer)
 #rss-y=0
 
-# Text position (integer)
+# Position (integer)
 #rss-position=-1
 
 # Opacity (integer)
@@ -1162,32 +1444,6 @@
 
 # Title display mode (integer)
 #rss-title=-1
-
-[remoteosd] # Remote-OSD over VNC
-
-# VNC Host (string)
-#rmtosd-host=myvdr
-
-# VNC Port (integer)
-#rmtosd-port=20001
-
-# VNC Password (string)
-#rmtosd-password=
-
-# VNC poll interval (integer)
-#rmtosd-update=1000
-
-# VNC polling (boolean)
-#rmtosd-vnc-polling=0
-
-# Mouse events (boolean)
-#rmtosd-mouse-events=0
-
-# Key events (boolean)
-#rmtosd-key-events=0
-
-# Alpha transparency value (default 255) (integer)
-#rmtosd-alpha=255
 
 [mosaic] # Mosaic video sub source
 
@@ -1253,7 +1509,7 @@
 # Y offset (integer)
 #marq-y=0
 
-# Marquee position (integer)
+# Position (integer)
 #marq-position=-1
 
 # Opacity (integer)
@@ -1276,36 +1532,36 @@
 # Logo filenames (string)
 #logo-file=
 
-# X coordinate (integer)
+# X offset (integer)
 #logo-x=-1
 
-# Y coordinate (integer)
+# Y offset (integer)
 #logo-y=-1
 
-# Logo individual image time in ms (integer)
+# Display time in ms (integer)
 #logo-delay=1000
 
-# Logo animation # of loops (integer)
+# Animation loops (integer)
 #logo-repeat=-1
 
-# Opacity of the logo (integer)
+# Opacity (integer)
 #logo-opacity=255
 
-# Logo position (integer)
+# Position (integer)
 #logo-position=-1
 
 [audiobargraph_v] # Audio Bar Graph Video sub source
 
-# X coordinate (integer)
-#audiobargraph_v-x=0
+# X offset (integer)
+#audiobargraph_v-x=-1
 
-# Y coordinate (integer)
-#audiobargraph_v-y=0
+# Y offset (integer)
+#audiobargraph_v-y=-1
 
-# Transparency of the bargraph (integer)
-#audiobargraph_v-transparency=255
+# Opacity (integer)
+#audiobargraph_v-opacity=255
 
-# Bargraph position (integer)
+# Position (integer)
 #audiobargraph_v-position=-1
 
 # Bar width in pixel (integer)
@@ -1317,10 +1573,37 @@
 [upnp] # Universal Plug'n'Play
 
 # SAT>IP channel list (string)
-satip-channelist=Auto
+#satip-channelist=auto
 
 # Custom SAT>IP channel list URL (string)
 #satip-channellist-url=
+
+# IP Address (string)
+#sout-dlna-ip=
+
+# UPnP Renderer port (integer)
+#sout-dlna-port=0
+
+# HTTP port (integer)
+#sout-dlna-http-port=7070
+
+# Video (boolean)
+#sout-dlna-video=1
+
+# base URL (string)
+#sout-dlna-base_url=
+
+# description URL (string)
+#sout-dlna-url=
+
+# Performance warning (integer)
+#sout-renderer-show-perf-warning=1
+
+# Enable Audio passthrough (boolean)
+#sout-dlna-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-dlna-conversion-quality=1
 
 [sap] # Network streams (SAP)
 
@@ -1329,12 +1612,6 @@ satip-channelist=Auto
 
 # SAP timeout (seconds) (integer)
 #sap-timeout=1800
-
-# Try to parse the announce (boolean)
-#sap-parse=1
-
-# SAP Strict mode (boolean)
-#sap-strict=0
 
 [podcast] # Podcasts
 
@@ -1345,6 +1622,11 @@ satip-channelist=Auto
 
 # Sync on Intra Frame (boolean)
 #packetizer-mpegvideo-sync-iframe=0
+
+[nvdec] # NVDEC video decoder
+
+# Integrated deinterlacing (integer)
+#nvdec-deint=1
 
 [mux_ts] # TS muxer (libdvbpsi)
 
@@ -1393,12 +1675,6 @@ satip-channelist=Auto
 # PCR interval (ms) (integer)
 #sout-ts-pcr=70
 
-# Minimum B (deprecated) (integer)
-#sout-ts-bmin=0
-
-# Maximum B (deprecated) (integer)
-#sout-ts-bmax=0
-
 # DTS delay (ms) (integer)
 #sout-ts-dts-delay=400
 
@@ -1439,7 +1715,7 @@ satip-channelist=Auto
 [mp4] # MP4/MOV muxer
 
 # Create "Fast Start" files (boolean)
-#sout-mp4-faststart=1
+#sout-mp4-faststart=0
 
 [avi] # AVI muxer
 
@@ -1465,7 +1741,7 @@ satip-channelist=Auto
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.16 Vetinari
+#sout-avi-encoder=VLC Media Player - 4.0.0-dev Otto Chriek
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1493,18 +1769,10 @@ satip-channelist=Auto
 # Bitrate override (integer)
 #sout-asf-bitrate-override=0
 
-[rtsp] # Legacy RTSP VoD server
+[medialibrary] # Organize your media
 
-# MUX for RAW RTSP transport (string)
-#rtsp-raw-mux=ts
-
-# Maximum number of connections (integer)
-#rtsp-throttle-users=0
-
-# Sets the timeout option in the RTSP session string (integer)
-#rtsp-session-timeout=5
-
-[logger] # File logging
+# Extra verbose media library logs (boolean)
+#ml-verbose=0
 
 [gnutls] # GNU TLS transport layer security
 
@@ -1535,6 +1803,9 @@ satip-channelist=Auto
 
 [lua] # Lua interpreter
 
+# Enable Lua plugins (boolean)
+#lua=1
+
 # Lua interface (string)
 #lua-intf=dummy
 
@@ -1550,12 +1821,6 @@ satip-channelist=Auto
 # Directory index (boolean)
 #http-index=0
 
-# TCP command input (string)
-#rc-host=
-
-# CLI input (string)
-#cli-host=
-
 # Host (string)
 #telnet-host=localhost
 
@@ -1564,6 +1829,11 @@ satip-channelist=Auto
 
 # Password (string)
 #telnet-password=
+
+[json] # JSON tracer
+
+# Log filename (string)
+#json-tracer-file=
 
 [file] # File logger
 
@@ -1589,10 +1859,10 @@ satip-channelist=Auto
 [skins2] # Skinnable Interface
 
 # Skin to use (string)
-skins2-last=C:\Users\andrew\Downloads\orion___vlc_skin_by_roshinrocks_d3dd4r7\Orion Blue with close buttons on right side.vlt
+#skins2-last=
 
 # Config of last used skin (string)
-skins2-config=["equalizer" "EQ" 0 0 350 186 0]["fullscreenController" "fswindow" 0 0 435 82 0]["player" "Main" 970 311 624 398 1]["playlist" "plwindow" 0 0 250 250 0]["splayer" "swindow" 0 0 405 69 0]
+#skins2-config=
 
 # Systray icon (boolean)
 #skins2-systray=1
@@ -1621,7 +1891,7 @@ skins2-config=["equalizer" "EQ" 0 0 350 186 0]["fullscreenController" "fswindow"
 qt-notification=0
 
 # Start VLC with only a systray icon (boolean)
-qt-start-minimized=1
+#qt-start-minimized=0
 
 # Pause the video playback when minimized (boolean)
 #qt-pause-minimized=0
@@ -1641,14 +1911,8 @@ qt-start-minimized=1
 # Show a controller in fullscreen mode (boolean)
 #qt-fs-controller=1
 
-# Save the recently played items in the menu (boolean)
-#qt-recentplay=1
-
-# List of words separated by | to filter (string)
-#qt-recentplay-filter=
-
-# Continue playback? (integer)
-qt-continue=0
+# Select Qt video integration backend (string)
+#qt-compositor=auto
 
 # Activate the updates availability notification (boolean)
 #qt-updates-notif=1
@@ -1659,17 +1923,23 @@ qt-continue=0
 # Ignore keyboard volume buttons. (boolean)
 #qt-disable-volume-keys=1
 
+# Enable window titlebar (boolean)
+qt-titlebar=1
+
+# Show the menu bar (boolean)
+qt-menubar=1
+
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
 
-# Show advanced preferences over simple ones (boolean)
-#qt-advanced-pref=0
+# Pin video controls (boolean)
+#qt-pin-controls=0
+
+# Select the initial preferences view (integer)
+#qt-initial-prefs-view=0
 
 # Show unimportant error and warnings dialogs (boolean)
 #qt-error-dialogs=1
-
-# Define the colors of the volume slider (string)
-#qt-slider-colours=153;210;153;20;210;20;255;199;15;245;39;29
 
 # Ask for network policy at start (boolean)
 qt-privacy-ask=0
@@ -1690,13 +1960,16 @@ qt-privacy-ask=0
 #qt-icon-change=1
 
 # Maximum Volume displayed (integer)
-qt-max-volume=100
+#qt-max-volume=125
 
 # Fullscreen controller mouse sensitivity (integer)
 #qt-fs-sensitivity=3
 
 # When to raise the interface (integer)
 #qt-auto-raise=1
+
+# Use smooth scrolling in Flickable based views (boolean)
+#qt-smooth-scrolling=1
 
 [vc1] # VC1 video demuxer
 
@@ -1744,13 +2017,10 @@ qt-max-volume=100
 # Try to fix too early PCR (or late DTS) (boolean)
 #ts-pcr-offsetfix=1
 
+# Offset in ms for generated PCR (integer)
+#ts-generated-pcr-offset=120
+
 [subtitle] # Text subtitle parser
-
-# Frames per Second (float)
-#sub-fps=0.000000
-
-# Subtitle delay (integer)
-#sub-delay=0
 
 # Subtitle format (string)
 #sub-type=auto
@@ -1804,13 +2074,16 @@ qt-max-volume=100
 # Skip ads (boolean)
 #playlist-skip-ads=1
 
-# Show shoutcast adult content (boolean)
-#shoutcast-show-adult=0
-
 [mp4] # MP4 stream demuxer
 
 # M4A audio only (boolean)
 #mp4-m4a-audioonly=0
+
+# Handle edit list (boolean)
+#mp4-editlist=1
+
+# Duration in seconds (float)
+#heif-image-duration=10.000000
 
 [mod] # MOD demuxer (libmodplug)
 
@@ -1905,11 +2178,6 @@ qt-max-volume=100
 # Frames per Second (float)
 #es-fps=25.000000
 
-[diracsys] # Dirac video demuxer
-
-# Value to adjust dts by (integer)
-#dirac-dts-offset=0
-
 [demuxdump] # File dumper
 
 # Dump module (string)
@@ -1972,9 +2240,6 @@ qt-max-volume=100
 # Image gamma (0-10) (float)
 #gamma=1.000000
 
-# Brightness threshold (boolean)
-#brightness-threshold=0
-
 [d3d11_filters] # Direct3D11 adjust filter
 
 # Image contrast (0-2) (float)
@@ -1992,10 +2257,7 @@ qt-max-volume=100
 # Image gamma (0-10) (float)
 #gamma=1.000000
 
-# Brightness threshold (boolean)
-#brightness-threshold=0
-
-[oldrc] # Remote control interface
+[cli] # Remote control interface
 
 # Show stream position (boolean)
 #rc-show-pos=0
@@ -2023,17 +2285,6 @@ qt-max-volume=100
 # Extra interface modules (string)
 #ntservice-extraintf=
 
-[netsync] # Network synchronization
-
-# Network master clock (boolean)
-#netsync-master=0
-
-# Master server IP address (string)
-#netsync-master-ip=
-
-# UDP timeout (in ms) (integer)
-#netsync-timeout=500
-
 [gestures] # Mouse gestures control interface
 
 # Motion threshold (10-100) (integer)
@@ -2044,16 +2295,13 @@ qt-max-volume=100
 
 [dummy] # Dummy interface
 
-# Do not open a DOS command box interface (boolean)
-#dummy-quiet=0
-
 [zvbi] # VBI and Teletext decoder
 
 # Teletext page (integer)
 #vbi-page=100
 
 # Opacity (boolean)
-#vbi-opaque=0
+#vbi-opaque=1
 
 # Teletext alignment (integer)
 #vbi-position=8
@@ -2527,7 +2775,7 @@ qt-max-volume=100
 [vpx] # WebM video decoder
 
 # Quality mode (integer)
-#sout-vpx-quality-mode=1000000
+#sout-vpx-quality-mode=0
 
 [vorbis] # Vorbis audio decoder
 
@@ -2569,8 +2817,6 @@ qt-max-volume=100
 
 # Encoding quality (integer)
 #sout-theora-quality=2
-
-[svcdsub] # Philips OGT (SVCD subtitle) decoder
 
 [subsusf] # USF subtitles decoder
 
@@ -2714,6 +2960,20 @@ qt-max-volume=100
 # Force Profile (string)
 #sout-schro-force-profile=
 
+[rav1e] # rav1e video encoder
+
+# Profile (integer)
+#sout-rav1e-profile=0
+
+# Bit Depth (integer)
+#sout-rav1e-bitdepth=8
+
+# Tile Rows (in log2 units) (integer)
+#sout-rav1e-tile-rows=0
+
+# Tile Columns (in log2 units) (integer)
+#sout-rav1e-tile-columns=0
+
 [qsv] # Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)
 
 # Enable software mode (boolean)
@@ -2843,9 +3103,6 @@ qt-max-volume=100
 # Frames Threads (integer)
 #dav1d-thread-frames=0
 
-# Tiles Threads (integer)
-#dav1d-thread-tiles=0
-
 [cc] # Closed Captions decoder
 
 # Opacity (boolean)
@@ -2874,9 +3131,6 @@ qt-max-volume=100
 # Skip idct (default=0) (integer)
 #avcodec-skip-idct=0
 
-# Allow speed tricks (boolean)
-#avcodec-fast=0
-
 # Skip the loop filter for H.264 decoding (integer)
 #avcodec-skiploopfilter=0
 
@@ -2885,9 +3139,6 @@ qt-max-volume=100
 
 # Codec name (string)
 #avcodec-codec=
-
-# Hardware decoding (string)
-#avcodec-hw=any
 
 # Threads (integer)
 #avcodec-threads=0
@@ -3005,6 +3256,61 @@ qt-max-volume=100
 # Use Core Text renderer (boolean)
 #aribsub-use-coretext=0
 
+[aribcaption] # ARIB caption renderer
+
+# Text rendering backend (integer)
+#aribcaption-rendering-backend=0
+
+# Font (string)
+#aribcaption-font=MS Gothic
+
+# Replace known DRCS (boolean)
+#aribcaption-replace-drcs=1
+
+# Force stroke text (boolean)
+#aribcaption-force-stroke-text=0
+
+# Ignore background (boolean)
+#aribcaption-ignore-background=0
+
+# Ignore ruby (furigana) (boolean)
+#aribcaption-ignore-ruby=0
+
+# Fadeout (boolean)
+#aribcaption-fadeout=0
+
+# Stroke width (float)
+#aribcaption-stroke-width=1.500000
+
+[aom] # AOM video decoder
+
+# Profile (integer)
+#sout-aom-profile=0
+
+# Bit Depth (integer)
+#sout-aom-bitdepth=8
+
+# Tile Rows (in log2 units) (integer)
+#sout-aom-tile-rows=0
+
+# Tile Columns (in log2 units) (integer)
+#sout-aom-tile-columns=0
+
+# Speed setting (integer)
+#sout-aom-cpu-used=1
+
+# Maximum number of lookahead frames (integer)
+#sout-aom-lag-in-frames=19
+
+# Usage (integer)
+#sout-aom-usage=0
+
+# Rate control mode (integer)
+#sout-aom-rate-control=1
+
+# Row Multithreading (boolean)
+#sout-aom-row-mt=0
+
 [a52] # ATSC A/52 (AC-3) audio decoder
 
 # A/52 dynamic range compression (boolean)
@@ -3013,7 +3319,7 @@ qt-max-volume=100
 [waveout] # WaveOut audio output
 
 # Select Audio Device (string)
-#waveout-audio-device=wavemapper
+waveout-audio-device=
 
 # Audio volume (float)
 #waveout-volume=1.000000
@@ -3023,6 +3329,11 @@ qt-max-volume=100
 
 # Audio output channels (integer)
 #waveout-audio-channels=9
+
+[wasapi] # Windows Audio Session API output
+
+# Use exclusive mode (boolean)
+#wasapi-exclusive=0
 
 [mmdevice] # Windows Multimedia Device output
 
@@ -3037,20 +3348,6 @@ qt-max-volume=100
 
 # Audio volume (float)
 #mmdevice-volume=1.000000
-
-[directsound] # DirectX audio output
-
-# Output device (string)
-#directx-audio-device=
-
-# Use float32 output (boolean)
-#directx-audio-float32=1
-
-# Speaker configuration (string)
-#directx-audio-speaker=Windows default
-
-# Audio volume (float)
-#directx-volume=1.000000
 
 [amem] # Audio memory output
 
@@ -3080,16 +3377,21 @@ qt-max-volume=100
 [stereo_widen] # Simple stereo widening effect
 
 # Delay time (float)
-stereowiden-delay=90.000000
+#stereowiden-delay=20.000000
 
 # Feedback gain (float)
-stereowiden-feedback=0.700000
+#stereowiden-feedback=0.300000
 
 # Crossfeed (float)
-stereowiden-crossfeed=0.800000
+#stereowiden-crossfeed=0.300000
 
 # Dry mix (float)
-stereowiden-dry-mix=0.900000
+#stereowiden-dry-mix=0.800000
+
+[stereo_pan] # Perform Stereo Panning
+
+# Pan control (float)
+#pan-control=0.500000
 
 [speex_resampler] # Speex resampler
 
@@ -3115,11 +3417,13 @@ stereowiden-dry-mix=0.900000
 
 [spatialaudio] # Ambisonics renderer and binauralizer
 
-# Headphones mode (binaural) (boolean)
-#spatialaudio-headphones=0
-
 # HRTF file for the binauralization (string)
 #hrtf-file=
+
+[soxr] # soxr
+
+# Resampling quality (integer)
+#soxr-resampler-quality=2
 
 [scaletempo] # Audio tempo scaler synched with rate
 
@@ -3259,10 +3563,10 @@ stereowiden-dry-mix=0.900000
 [equalizer] # Equalizer with 10 bands
 
 # Equalizer preset (string)
-equalizer-preset=headphones
+#equalizer-preset=flat
 
 # Bands gain (string)
-equalizer-bands=5.6 6.9 5.2 2.1 0.6 0.2 1.9 3.2 4.3 5.2
+#equalizer-bands=
 
 # Two pass (boolean)
 #equalizer-2pass=0
@@ -3271,7 +3575,12 @@ equalizer-bands=5.6 6.9 5.2 2.1 0.6 0.2 1.9 3.2 4.3 5.2
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-equalizer-preamp=4.000000
+#equalizer-preamp=12.000000
+
+[ebur128] # EBU R128 standard for loudness normalisation
+
+# Mode (integer)
+#ebur128-mode=0
 
 [compressor] # Dynamic range compressor
 
@@ -3336,30 +3645,28 @@ equalizer-preamp=4.000000
 # Time between two alarm messages in ms (integer)
 #audiobargraph_a-repetition_time=2000
 
-[udp] # UDP stream output
-
-# Caching value (ms) (integer)
-#sout-udp-caching=300
-
-# Group packets (integer)
-#sout-udp-group=1
-
 [access_output_srt] # SRT stream output
 
-# SRT chunk size (bytes) (integer)
-#chunk-size=1316
-
 # Return poll wait after timeout milliseconds (-1 = infinite) (integer)
-#poll-timeout=100
+#poll-timeout=-1
 
 # SRT latency (ms) (integer)
-#latency=125
+#latency=120
 
 # Password for stream encryption (string)
 #passphrase=
 
+# SRT maximum payload size (bytes) (integer)
+#payload-size=1316
+
+# SRT maximum bandwidth ceiling (bytes) (integer)
+#bandwidth-overhead-limit=25
+
 # Crypto key length in bytes (integer)
 #key-length=16
+
+#  SRT Stream ID (string)
+#streamid=
 
 [access_output_shout] # IceCAST output
 
@@ -3376,7 +3683,7 @@ equalizer-preamp=4.000000
 #sout-shout-genre=Alternative
 
 # URL description (string)
-#sout-shout-url=http://www.videolan.org/vlc
+#sout-shout-url=https://www.videolan.org/vlc
 
 # Bitrate (string)
 #sout-shout-bitrate=
@@ -3395,20 +3702,62 @@ equalizer-preamp=4.000000
 
 [access_output_rist] # RIST stream output
 
-# RIST target packet size (bytes) (integer)
-#sout-rist-packet-size=1328
+# RIST target payload size (bytes) (integer)
+#sout-rist-packet-size=1316
 
-# RIST data output caching size (ms) (integer)
-#sout-rist-caching=50
+# Virtual Source Port (integer)
+#sout-rist-virt-src-port=1971
+
+# Virtual Destination Port (integer)
+#sout-rist-virt-dst-port=1968
+
+# Multipeer mode (integer)
+#sout-rist-multipeer-mode=0
+
+# Second peer URL (string)
+#sout-rist-peer-url2=
+
+# Third peer URL (string)
+#sout-rist-peer-url3=
+
+# Fourth peer URL (string)
+#sout-rist-peer-url4=
+
+# Max bitrate in Kbps (integer)
+#sout-rist-bandwidth=100000
+
+# RIST nack minimum retry interval (ms) (integer)
+#sout-rist-retry-interval=50
+
+# RIST reorder buffer size (ms) (integer)
+#sout-rist-reorder-buffer=25
+
+# RIST maximum retry count (integer)
+#sout-rist-max-retries=20
+
+# Verbose level (integer)
+#sout-rist-verbose-level=6
 
 # RIST retry-buffer queue size (ms) (integer)
-#sout-rist-buffer-size=0
+#sout-rist-latency=1000
 
-# SSRC used in RTP output (default is random, i.e. 0) (integer)
-#sout-rist-ssrc=0
+# Peer cname (string)
+#sout-rist-cname=
 
-# Stream name (string)
-#sout-rist-stream-name=
+# Rist Profile (integer)
+#sout-rist-profile=1
+
+# Shared Secret (string)
+#sout-rist-secret=
+
+# Encryption type (integer)
+#sout-rist-aes-type=0
+
+# Username used for stream authentication (string)
+#sout-rist-username=
+
+# Password used for stream authentication (string)
+#sout-rist-password=
 
 [access_output_livehttp] # HTTP Live streaming output
 
@@ -3476,6 +3825,14 @@ equalizer-preamp=4.000000
 # Format time and date (boolean)
 #sout-file-format=0
 
+[access_http_put] # HTTP PUT stream output
+
+# Username (string)
+#sout-http-put-user=
+
+# Password (string)
+#sout-http-put-pwd=
+
 [vnc] # VNC client access
 
 # Username (string)
@@ -3516,17 +3873,7 @@ equalizer-preamp=4.000000
 # Frame rate (float)
 #vdr-fps=25.000000
 
-[udp] # UDP input
-
-# UDP Source timeout (sec) (integer)
-#udp-timeout=-1
-
-[timecode] # Time code subpicture elementary stream generator
-
-# Frame rate (string)
-#timecode-fps=25/1
-
-[smb] # SMB input
+[unc] # UNC input
 
 # Username (string)
 #smb-user=
@@ -3536,6 +3883,16 @@ equalizer-preamp=4.000000
 
 # SMB domain (string)
 #smb-domain=
+
+[udp] # UDP input
+
+# UDP Source timeout (sec) (integer)
+#udp-timeout=-1
+
+[timecode] # Time code subpicture elementary stream generator
+
+# Frame rate (string)
+#timecode-fps=25/1
 
 [shm] # Shared memory framebuffer
 
@@ -3561,6 +3918,9 @@ equalizer-preamp=4.000000
 
 # Password (string)
 #sftp-pwd=
+
+# Private key file (string)
+#sftp-privatekey=
 
 [screen] # Screen Input
 
@@ -3589,9 +3949,6 @@ equalizer-preamp=4.000000
 #screen-fragment-size=0
 
 [satip] # SAT>IP Receiver Plugin
-
-# Receive buffer (integer)
-#satip-buffer=4194304
 
 # Request multicast stream (boolean)
 #satip-multicast=0
@@ -3622,37 +3979,67 @@ equalizer-preamp=4.000000
 # Maximum RTP sequence number misordering (integer)
 #rtp-max-misorder=100
 
-# RTP payload format assumed for dynamic payloads (string)
-#rtp-dynamic-pt=
-
 [rist] # RIST input
 
-# RIST maximum packet size (bytes) (integer)
-#packet-size=1472
-
 # RIST demux/decode maximum jitter (default is 5ms) (integer)
-#maximum-jitter=5
-
-# RIST latency (ms) (integer)
-#latency=1000
-
-# RIST nack retry interval (ms) (integer)
-#retry-interval=132
-
-# RIST reorder buffer (ms) (integer)
-#reorder-buffer=70
-
-# RIST maximum retry count (integer)
-#max-retries=10
+#rist-maximum-jitter=5
 
 # RIST nack type, 0 = range, 1 = bitmask. Default is range (integer)
-#nack-type=0
+#rist-nack-type=0
 
-# Disable NACK output packets (boolean)
-#disable-nacks=0
+# Virtual Destination Port Filter (integer)
+#rist-virt-dst-port=0
 
-# Do not check for a valid rtcp message from the encoder (boolean)
-#mcast-blind-nacks=0
+# RIST maximum packet size (bytes) (integer)
+#rist-packet-size=10000
+
+# Second peer URL (string)
+#rist-peer-url2=
+
+# Third peer URL (string)
+#rist-peer-url3=
+
+# Fourth peer URL (string)
+#rist-peer-url4=
+
+# Max bitrate in Kbps (integer)
+#rist-bandwidth=100000
+
+# RIST nack minimum retry interval (ms) (integer)
+#rist-retry-interval=50
+
+# RIST reorder buffer size (ms) (integer)
+#rist-reorder-buffer=25
+
+# RIST maximum retry count (integer)
+#rist-max-retries=20
+
+# Verbose level (integer)
+#rist-verbose-level=6
+
+# RIST retry-buffer queue size (ms) (integer)
+#rist-latency=0
+
+# Peer cname (string)
+#rist-cname=
+
+# Rist Profile (integer)
+#rist-profile=1
+
+# Shared Secret (string)
+#rist-secret=
+
+# Encryption type (integer)
+#rist-aes-type=0
+
+# Timing mode (integer)
+#rist-timing-mode=0
+
+# Username used for stream authentication (string)
+#rist-username=
+
+# Password used for stream authentication (string)
+#rist-password=
 
 [nfs] # NFS input
 
@@ -3699,12 +4086,12 @@ equalizer-preamp=4.000000
 # Region code (string)
 #bluray-region=B
 
-[http] # HTTP input
+[oldhttp] # HTTP input
 
 # Auto re-connect (boolean)
 #http-reconnect=0
 
-[access] # HTTPS input
+[http] # HTTPS input
 
 # Cookies forwarding (boolean)
 #http-forward-cookies=1
@@ -3762,7 +4149,7 @@ equalizer-preamp=4.000000
 #dvb-bandwidth=0
 
 # Transmission mode (integer)
-#dvb-transmission=0
+#dvb-transmission=-1
 
 # Guard interval (string)
 #dvb-guard=
@@ -3839,9 +4226,6 @@ equalizer-preamp=4.000000
 # Polarization (Voltage) (string)
 #dvb-polarization=
 
-#  (integer)
-#dvb-voltage=13
-
 # Local oscillator low frequency (kHz) (integer)
 #dvb-lnb-low=0
 
@@ -3904,14 +4288,8 @@ equalizer-preamp=4.000000
 # Tuner TV Channel (integer)
 #dshow-tuner-channel=0
 
-# Tuner Frequency (integer)
-#dshow-tuner-frequency=0
-
 # Tuner country code (integer)
 #dshow-tuner-country=0
-
-# Video standard (integer)
-#dshow-tuner-standard=0
 
 # Tuner input type (integer)
 #dshow-tuner-input=0
@@ -3940,6 +4318,32 @@ equalizer-preamp=4.000000
 # Audio bits per sample (integer)
 #dshow-audio-bitspersample=0
 
+[decklink] # Blackmagic DeckLink SDI input
+
+# Input card to use (integer)
+#decklink-card-index=0
+
+# Desired input video mode. Leave empty for autodetection. (string)
+#decklink-mode=
+
+# Audio connection (string)
+#decklink-audio-connection=
+
+# Audio samplerate (Hz) (integer)
+#decklink-audio-rate=48000
+
+# Number of audio channels (integer)
+#decklink-audio-channels=2
+
+# Video connection (string)
+#decklink-video-connection=
+
+# Aspect ratio (string)
+#decklink-aspect-ratio=
+
+# 10 bits (boolean)
+#decklink-tenbits=0
+
 [dcp] # Digital Cinema Package module
 
 # KDM file (string)
@@ -3950,11 +4354,22 @@ equalizer-preamp=4.000000
 # Audio CD device (string)
 #cd-audio=D:
 
+# Musicbrainz Server (string)
+#musicbrainz-server=musicbrainz.org
+
 # CDDB Server (string)
 #cddb-server=freedb.videolan.org
 
 # CDDB port (integer)
 #cddb-port=80
+
+[amt] # AMT input
+
+# Native multicast timeout (sec) (integer)
+#amt-native-timeout=5
+
+# AMT relay (IP address or FQDN) (string)
+#amt-relay=amt-relay.m2icast.net
 
 [wasapi] # Windows Audio Session API input
 
@@ -3963,20 +4378,20 @@ equalizer-preamp=4.000000
 
 [access_srt] # SRT input
 
-# SRT chunk size (bytes) (integer)
-#chunk-size=1316
-
 # Return poll wait after timeout milliseconds (-1 = infinite) (integer)
 #poll-timeout=-1
 
 # SRT latency (ms) (integer)
-#latency=125
+#latency=120
 
 # Password for stream encryption (string)
 #passphrase=
 
 # Crypto key length in bytes (integer)
 #key-length=16
+
+#  SRT Stream ID (string)
+#streamid=
 
 [access_mms] # Microsoft Media Server (MMS) input
 
@@ -4044,7 +4459,7 @@ equalizer-preamp=4.000000
 #volume-step=12.800000
 
 # Remember the audio volume (boolean)
-#volume-save=1
+volume-save=0
 
 # Force S/PDIF support (boolean)
 #spdif=0
@@ -4054,6 +4469,9 @@ equalizer-preamp=4.000000
 
 # Stereo audio output mode (integer)
 #stereo-mode=0
+
+# Audio mix mode (integer)
+#mix-mode=0
 
 # Audio desynchronization compensation (integer)
 #audio-desync=0
@@ -4074,19 +4492,22 @@ equalizer-preamp=4.000000
 #audio-time-stretch=1
 
 # Audio output module (string)
-#aout=
+#aout=any
 
 # Media role (string)
 #role=video
 
+# Enable bit-exact mode (pure mode) (boolean)
+#audio-bitexact=0
+
 # Audio filters (string)
-audio-filter=equalizer
+#audio-filter=
 
 # Audio visualizations (string)
 #audio-visual=none
 
 # Audio resampler (string)
-audio-resampler=any
+#audio-resampler=any
 
 # Enable video (boolean)
 #video=1
@@ -4124,7 +4545,7 @@ audio-resampler=any
 # Enable wallpaper mode (boolean)
 #video-wallpaper=0
 
-# Disable screensaver (boolean)
+# Disable screensaver (integer)
 #disable-screensaver=1
 
 # Show media title on video (boolean)
@@ -4184,6 +4605,9 @@ audio-resampler=any
 # Video Auto Scaling (boolean)
 #autoscale=1
 
+# Video fitting (integer)
+#fit=1
+
 # Monitor pixel aspect ratio (string)
 #monitor-par=
 
@@ -4211,14 +4635,14 @@ audio-resampler=any
 # Deinterlace mode (string)
 #deinterlace-mode=auto
 
+# Deinterlace filter (string)
+#deinterlace-filter=deinterlace
+
 # Video output module (string)
-#vout=
+#vout=any
 
 # Video filter module (string)
 #video-filter=
-
-# Video splitter module (string)
-#video-splitter=
 
 # Enable sub-pictures (boolean)
 #spu=1
@@ -4227,7 +4651,13 @@ audio-resampler=any
 #osd=1
 
 # Text rendering module (string)
-#text-renderer=
+#text-renderer=any
+
+# Subtitle Frames per Second (float)
+#sub-fps=0.000000
+
+# Subtitle delay (integer)
+#sub-delay=0
 
 # Use subtitle file (string)
 #sub-file=
@@ -4244,17 +4674,29 @@ audio-resampler=any
 # Force subtitle position (integer)
 #sub-margin=0
 
+# Subtitles text scaling factor (integer)
+#sub-text-scale=100
+
 # Subpictures source module (string)
 #sub-source=
 
 # Subpictures filter module (string)
 #sub-filter=
 
+# Position of secondary subtitles (integer)
+#secondary-sub-alignment=-1
+
+# Force secondary subtitle position (integer)
+#secondary-sub-margin=100
+
 # Program (integer)
 #program=0
 
 # Programs (string)
 #programs=
+
+# Video track (integer)
+#video-track=-1
 
 # Audio track (integer)
 #audio-track=-1
@@ -4271,17 +4713,23 @@ audio-resampler=any
 # Menu language (string)
 #menu-language=
 
-# Audio track ID (integer)
-#audio-track-id=-1
+# Video track ID (string)
+#video-track-id=
 
-# Subtitle track ID (integer)
-#sub-track-id=-1
+# Audio track ID (string)
+#audio-track-id=
+
+# Subtitle track ID (string)
+#sub-track-id=
 
 # Preferred Closed Captions decoder (integer)
 #captions=608
 
 # Preferred video resolution (integer)
 #preferred-resolution=-1
+
+# Low delay mode (boolean)
+#low-delay=0
 
 # Input repetitions (integer)
 #input-repeat=0
@@ -4309,6 +4757,15 @@ audio-resampler=any
 
 # Bookmarks list for a stream (string)
 #bookmarks=
+
+# Save recently played items (boolean)
+#save-recentplay=1
+
+# Continue playback (integer)
+#restore-playback-pos=1
+
+# Resume last playback states (boolean)
+#restore-playback-states=0
 
 # DVD device (string)
 #dvd=
@@ -4403,8 +4860,8 @@ audio-resampler=any
 # Clock jitter (integer)
 #clock-jitter=5000
 
-# Network synchronisation (boolean)
-#network-synchronisation=0
+# Clock master source (string)
+#clock-master=auto
 
 # Record directory (string)
 #input-record-path=
@@ -4421,26 +4878,23 @@ audio-resampler=any
 # Change title according to current media (string)
 #input-title-format=$Z
 
-# Disable all lua plugins (boolean)
-#lua=1
-
-# Preferred decoders list (string)
-#codec=
-
-# Preferred encoders list (string)
-#encoder=
-
-# Access module (string)
-access=any
-
 # Demux module (string)
 #demux=any
 
-# Stream filter module (string)
-#stream-filter=
-
 # Demux filter module (string)
 #demux-filter=
+
+# Preferred decoders list (string)
+#codec=any
+
+# Enable hardware decoders (boolean)
+#hw-dec=1
+
+# Preferred decoder hardware device (string)
+#dec-dev=any
+
+# Stream filter module (string)
+#stream-filter=
 
 # Default stream output chain (string)
 #sout=
@@ -4472,12 +4926,6 @@ access=any
 # SAP announcement interval (integer)
 #sap-interval=5
 
-# Mux module (string)
-#mux=
-
-# Access output module (string)
-access_output=any
-
 # Hop limit (TTL) (integer)
 #ttl=-1
 
@@ -4488,16 +4936,10 @@ access_output=any
 #dscp=0
 
 # Preferred packetizer list (string)
-#packetizer=
+#packetizer=any
 
-# VoD server module (string)
-vod-server=any
-
-# Use a plugins cache (boolean)
-#plugins-cache=1
-
-# Scan for new plugins (boolean)
-#plugins-scan=1
+# Tracer module (string)
+#tracer=none
 
 # Preferred keystore list (string)
 #keystore=
@@ -4506,7 +4948,7 @@ vod-server=any
 #high-priority=0
 
 # Clock source (string)
-#clock-source=
+#clock-source=perf
 
 # Play files randomly forever (boolean)
 #random=0
@@ -4545,10 +4987,10 @@ one-instance=1
 playlist-enqueue=1
 
 # Use media library (boolean)
-media-library=1
+#media-library=0
 
 # Display playlist tree (boolean)
-playlist-tree=1
+#playlist-tree=0
 
 # Default stream (string)
 #open=
@@ -4558,6 +5000,12 @@ playlist-tree=1
 
 # Preparsing timeout (integer)
 #preparse-timeout=5000
+
+# Preparsing threads (integer)
+#preparse-threads=1
+
+# Fetch-art threads (integer)
+#fetch-art-threads=1
 
 # Allow metadata network access (boolean)
 #metadata-network-access=0
@@ -4574,8 +5022,38 @@ playlist-tree=1
 # Services discovery modules (string)
 #services-discovery=
 
-# Show advanced options (boolean)
-advanced=1
+# Playlist bookmark 1 (string)
+#bookmark1=
+
+# Playlist bookmark 2 (string)
+#bookmark2=
+
+# Playlist bookmark 3 (string)
+#bookmark3=
+
+# Playlist bookmark 4 (string)
+#bookmark4=
+
+# Playlist bookmark 5 (string)
+#bookmark5=
+
+# Playlist bookmark 6 (string)
+#bookmark6=
+
+# Playlist bookmark 7 (string)
+#bookmark7=
+
+# Playlist bookmark 8 (string)
+#bookmark8=
+
+# Playlist bookmark 9 (string)
+#bookmark9=
+
+# Playlist bookmark 10 (string)
+#bookmark10=
+
+# Color messages (boolean)
+#color=1
 
 # Interface interaction (boolean)
 #interact=1
@@ -4910,6 +5388,12 @@ global-key-stop=Media Stop
 # Toggle subtitles (string)
 #key-subtitle-toggle=Shift+v
 
+# Toggle secondary subtitle control (string)
+#global-key-subtitle-control-secondary=
+
+# Toggle secondary subtitle control (string)
+#key-subtitle-control-secondary=Ctrl+Shift+v
+
 # Cycle next program Service ID (string)
 #global-key-program-sid-next=
 
@@ -5120,6 +5604,30 @@ global-key-stop=Media Stop
 # 2:1 Double (string)
 #key-zoom-double=Alt+4
 
+# Clear the playlist (string)
+#global-key-clear-playlist=
+
+# Clear the playlist (string)
+#key-clear-playlist=Ctrl+w
+
+# Reset subtitles text scale (string)
+#global-key-subtitle-text-scale-normal=
+
+# Reset subtitles text scale (string)
+#key-subtitle-text-scale-normal=Ctrl+0
+
+# Scale down subtitles text (string)
+#global-key-subtitle-text-scale-up=
+
+# Scale down subtitles text (string)
+#key-subtitle-text-scale-up=Ctrl+Mouse Wheel Up
+
+# Scale up subtitles text (string)
+#global-key-subtitle-text-scale-down=
+
+# Scale up subtitles text (string)
+#key-subtitle-text-scale-down=Ctrl+Mouse Wheel Down
+
 # Very short jump length (integer)
 #extrashort-jump-size=3
 
@@ -5251,58 +5759,4 @@ global-key-stop=Media Stop
 
 # Play playlist bookmark 10 (string)
 #key-play-bookmark10=F10
-
-# Clear the playlist (string)
-#global-key-clear-playlist=
-
-# Clear the playlist (string)
-#key-clear-playlist=Ctrl+w
-
-# Reset subtitles text scale (string)
-#global-key-subtitle-text-scale-normal=
-
-# Reset subtitles text scale (string)
-#key-subtitle-text-scale-normal=Ctrl+0
-
-# Scale down subtitles text (string)
-#global-key-subtitle-text-scale-up=
-
-# Scale down subtitles text (string)
-#key-subtitle-text-scale-up=Ctrl+Mouse Wheel Up
-
-# Scale up subtitles text (string)
-#global-key-subtitle-text-scale-down=
-
-# Scale up subtitles text (string)
-#key-subtitle-text-scale-down=Ctrl+Mouse Wheel Down
-
-# Playlist bookmark 1 (string)
-#bookmark1=
-
-# Playlist bookmark 2 (string)
-#bookmark2=
-
-# Playlist bookmark 3 (string)
-#bookmark3=
-
-# Playlist bookmark 4 (string)
-#bookmark4=
-
-# Playlist bookmark 5 (string)
-#bookmark5=
-
-# Playlist bookmark 6 (string)
-#bookmark6=
-
-# Playlist bookmark 7 (string)
-#bookmark7=
-
-# Playlist bookmark 8 (string)
-#bookmark8=
-
-# Playlist bookmark 9 (string)
-#bookmark9=
-
-# Playlist bookmark 10 (string)
-#bookmark10=
 
