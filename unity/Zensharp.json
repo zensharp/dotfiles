@@ -1,0 +1,251 @@
+{
+    "m_Id": "zensharp",
+    "m_ParentId": "",
+    "m_Entries": [
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Show in Explorer"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 101,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/File/Force Save"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 115,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/File/Save As..."
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Create/C# Script"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 110,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/File/New Scene"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/GameObject/Create Empty"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Create/Folder"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 110,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Help/Search Contextual"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Play"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 113,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Pause"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 119,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Andtech/Summon Console"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Console"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 96,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/GameObject/Align With View"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 102,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Select Prefab Root"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Project Settings..."
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 44,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Preferences..."
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 44,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Game"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 52,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Scene"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 53,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Hierarchy"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 50,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Inspector"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 51,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Window/General/Project"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 49,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Step"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 101,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Redo"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 122,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/GameObject/Create Empty Parent"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 103,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Search All..."
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 112,
+                    "m_Modifiers": 2
+                }
+            ]
+        }
+    ]
+}
