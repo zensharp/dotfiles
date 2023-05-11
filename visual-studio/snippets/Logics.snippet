@@ -4,7 +4,7 @@
 		<Header>
 			<Title>Logics Block</Title>
 			<Shortcut>logics</Shortcut>
-			<Description>Code snippet to insert Logicsmethod.</Description>
+			<Description>Code snippet to insert Logics.</Description>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
 			</SnippetTypes>
@@ -14,9 +14,20 @@
 <![CDATA[public readonly Logics Logic;
 public class Logics
 {
-	$end$
+
+	public Logics($ownerType$ owner)
+	{
+		$end$
+	}
 }]]>
 			</Code>
+			<Declarations>
+				<Literal>
+					<ID>ownerType</ID>
+					<ToolTip>Owner type name.</ToolTip>
+					<Default>Owner</Default>
+				</Literal>
+			</Declarations>
 		</Snippet>
 	</CodeSnippet>
 </CodeSnippets>

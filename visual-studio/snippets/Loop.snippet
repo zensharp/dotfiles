@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>UniTask Loop</Title>
+			<Shortcut>loop</Shortcut>
+			<Description>Code snippet to insert UniTask loop.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp" Kind="method decl">
+<![CDATA[async UniTask $methodName$(CancellationToken cancellationToken = default)
+{
+	while (true)
+	{
+		await UniTask.Yield(PlayerLoopTiming.FixedUpdate, cancellationToken: cancellationToken);
+		
+		$end$
+	}
+}]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Method Name name.</ToolTip>
+					<Default>FixedLoopAsync</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.Threading</Namespace>
+					<Namespace>System.Collections</Namespace>
+				</Import>
+				<Import>
+					<Namespace>Cysharp.Threading.Tasks</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
