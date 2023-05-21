@@ -2,10 +2,16 @@
 
 set -eu
 
-target=$1
+TARGET=$1
 
-name=$(basename "$target")
-path=$(dirname "$target")
-name=${name#.}
+FILE=$(basename "$TARGET")
+DIR=$(dirname "$TARGET")
+FILE=${FILE#.}
 
-mv "$target" "$path/$name"
+if [ -e "$TARGET" ]
+then
+	mv "$TARGET" "$DIR/$FILE"
+elif [ -e ".$TARGET" ]
+then
+	mv ".$TARGET" "$DIR/$FILE"
+fi

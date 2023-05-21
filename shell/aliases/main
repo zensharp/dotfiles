@@ -1,4 +1,3 @@
-alias b="$BROWSER obsidian://open?vault=Brain"
 alias c="caddy"
 alias cb='$CLIPBOARD'
 alias dj="dj --no-metadata"
@@ -11,7 +10,7 @@ alias -s git="git deposit"
 alias j="z"
 alias m="micro"
 alias make="walk-up Makefile \make"
-alias o="open"
+alias o='$BROWSER obsidian://open?vault=Brain'
 alias readme="walk-up README.md ${READER:-cat} README.md"
 alias serve="live-server"
 alias sp="spotify"

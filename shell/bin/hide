@@ -2,10 +2,10 @@
 
 set -eu
 
-target=$1
+TARGET=$1
 
-name=$(basename "$target")
-path=$(dirname "$target")
-name=${name#.}
+NAME=$(basename "$TARGET")
+DIR=$(dirname "$TARGET")
+NAME=${NAME#.}
 
-mv "$target" "$path/.$name"
+mv "$TARGET" "$DIR/.$NAME"
