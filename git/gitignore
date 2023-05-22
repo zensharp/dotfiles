@@ -4,6 +4,9 @@ nohup.out
 [gG]itignored/
 [gG]itignored.*/
 
+[bB]ackup/
+[bB]ackups/
+
 # Obsidian
 .obsidian/
 
@@ -24,4 +27,4 @@ unity/dependencies/
 *Zone.Identifier
 
 # GitLab Runner
-/builds/
+builds/

@@ -11,11 +11,11 @@
 	bwe = browse edit
 	bwi = browse -/issues
 	bwj = browse -/jobs
-	bwp = browse pipelines
-	bwpl = browse pipelines/$BRANCH/latest
-	bwmr = browse merge_requests
-	bws = browse settings
-	bww = browse wikis
+	bwp = browse -/pipelines
+	bwpl = browse -/pipelines/$BRANCH/latest
+	bwmr = browse -/merge_requests
+	bws = browse -/settings
+	bww = browse -/wikis
 	check = diff --check
 	chmod = update-index --chmod
 	clr = clear
