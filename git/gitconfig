@@ -29,7 +29,7 @@
 [commit]
 	template = ~/.dotfiles/git/gitmessage
 [diff]
-    context = 1
+	context = 1
 	colormoved = dimmed-zebra
 	colormovedws = allow-indentation-change
 [http]
@@ -46,4 +46,3 @@
 [url "git@gitlab.andtech.me"]
 	insteadOf = andtech.me
 	pushInsteadOf = andtech.me
-

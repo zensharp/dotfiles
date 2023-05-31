@@ -11,4 +11,4 @@ dir=$(dirname "$executable")
 
 cd "$dir"
 
-wsl-sudo.py mkshim "$name"
+wsl-sudo.py mkshim-bash "$name"
