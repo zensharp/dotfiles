@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>UniTask.Yield Method</Title>
+			<Shortcut>yield</Shortcut>
+			<Description>Code snippet to insert Yield UniTask method.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp" Kind="method decl">
+<![CDATA[UniTask.Yield($playerLoopTiming$, cancellationToken: cancellationToken);$end$]]></Code>
+			<Declarations>
+				<Literal>
+					<ID>playerLoopTiming</ID>
+					<ToolTip>PlayerLoopTiming value.</ToolTip>
+					<Default>PlayerLoopTiming.FixedUpdate</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.Threading</Namespace>
+				</Import>
+				<Import>
+					<Namespace>Cysharp.Threading.Tasks</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

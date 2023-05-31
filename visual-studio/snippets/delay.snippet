@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>UniTask.Delay Method</Title>
+			<Shortcut>delay</Shortcut>
+			<Description>Code snippet to insert Delay UniTask method.</Description>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp" Kind="method decl">
+<![CDATA[UniTask.Delay($milliseconds, delayTiming: $delayTiming$, cancellationToken: cancellationToken);$end$]]></Code>
+			<Declarations>
+				<Literal>
+					<ID>delay</ID>
+					<ToolTip>Milliseconds delay.</ToolTip>
+					<Default>1000</Default>
+				</Literal>
+				<Literal>
+					<ID>delayTiming</ID>
+					<ToolTip>DelayTiming value.</ToolTip>
+					<Default>DelayTiming.FixedUpdate</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.Threading</Namespace>
+				</Import>
+				<Import>
+					<Namespace>Cysharp.Threading.Tasks</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
