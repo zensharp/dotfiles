@@ -5,7 +5,7 @@ function open
 
 function mksh
 {
-	filename=$(realpath "$1")
+	filename=$PWD/$1
 	GREEN='\033[0;32m'
 	NC='\033[0m'
 

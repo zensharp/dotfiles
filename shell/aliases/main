@@ -1,9 +1,10 @@
 alias c="caddy"
 alias cb='$CLIPBOARD'
 alias dj="dj --no-metadata"
-alias dc="docker-compose"
-alias dcl="docker-compose logs -f"
-alias dcr="docker-compose up --force-recreate"
+alias dc="docker compose"
+alias dcl="docker compose logs -f"
+alias dcr="docker compose up --force-recreate"
+alias docker-compose="docker compose"
 alias fd="fd -I"
 alias g="git"
 alias -s git="git deposit"
