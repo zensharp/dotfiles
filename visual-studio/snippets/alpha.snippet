@@ -2,8 +2,8 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
 	<CodeSnippet Format="1.0.0">
 		<Header>
-			<Title>UniTask.Delay Method</Title>
-			<Shortcut>delay</Shortcut>
+			<Title>AlphaEnumerable Loop</Title>
+			<Shortcut>fora</Shortcut>
 			<Description>Code snippet to insert Delay UniTask method.</Description>
 			<SnippetTypes>
 				<SnippetType>Expansion</SnippetType>
@@ -11,16 +11,24 @@
 		</Header>
 		<Snippet>
 			<Code Language="CSharp" Kind="method decl">
-<![CDATA[UniTask.Delay($delay$, delayTiming: $delayTiming$, cancellationToken: cancellationToken);$end$]]></Code>
+<![CDATA[foreach (var a in AlphaEnumerable.$ease$($duration$))
+{
+	await UniTask.Yield($timing$, cancellationToken: cancellationToken);$end$
+}]]></Code>
 			<Declarations>
 				<Literal>
-					<ID>delay</ID>
-					<ToolTip>Milliseconds delay.</ToolTip>
-					<Default>1000</Default>
+					<ID>ease</ID>
+					<ToolTip>Ease type.</ToolTip>
+					<Default>Linear</Default>
 				</Literal>
 				<Literal>
-					<ID>delayTiming</ID>
-					<ToolTip>DelayTiming value.</ToolTip>
+					<ID>duration</ID>
+					<ToolTip>Animation duration.</ToolTip>
+					<Default>1f</Default>
+				</Literal>
+				<Literal>
+					<ID>timing</ID>
+					<ToolTip>PlayerLoopTiming value.</ToolTip>
 					<Default>PlayerLoopTiming.FixedUpdate</Default>
 				</Literal>
 			</Declarations>
