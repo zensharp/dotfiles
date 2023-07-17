@@ -7,6 +7,7 @@
   - [Pandoc](apps/pandoc.md)
   - [Project64](apps/project64.md)
   - [Qmk](apps/qmk.md)
+  - [Sift](apps/sift.md)
   - [Unity](apps/unity.md)
   - [Visual Studio](apps/visual-studio.md)
   - [Vlc](apps/vlc.md)
