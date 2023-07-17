@@ -11,7 +11,7 @@ alias -s git="git deposit"
 alias j="z"
 alias m="micro"
 alias make="walk-up Makefile \make"
-alias o='$BROWSER obsidian://open?vault=Brain'
+alias o='open'
 alias readme="walk-up README.md ${READER:-cat} README.md"
 alias serve="live-server"
 alias sp="spotify"
