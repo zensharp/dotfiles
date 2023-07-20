@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+PREFIX=""
+SUFFIX=""
+
+function append
+{
+	if [ -z "$SUFFIX" ]
+	then
+		SUFFIX="$@"
+	else
+		SUFFIX="$SUFFIX $@"
+	fi
+}
+function prepend
+{
+	if [ -z "$PREFIX" ]
+	then
+		PREFIX="$@"
+	else
+		PREFIX="$PREFIX $@"
+	fi
+}
+
+COUNT=$1
+
+while IFS= read -r LINE; do
+	while IFS=' ' read -ra TOKENS; do
+		for TOKEN in "${TOKENS[@]}"; do
+			if [ "$COUNT" -gt 0 ]; then
+				prepend $TOKEN
+				((COUNT -= 1))
+			else
+				append $TOKEN
+			fi
+		done
+	done <<< "$LINE"
+done
+
+echo "$PREFIX \"$SUFFIX\""
