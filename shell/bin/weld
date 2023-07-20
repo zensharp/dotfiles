@@ -23,18 +23,21 @@ function prepend
 }
 
 COUNT=$1
+shift
 
-while IFS= read -r LINE; do
-	while IFS=' ' read -ra TOKENS; do
-		for TOKEN in "${TOKENS[@]}"; do
+for TOKEN in "$@"; do
+	case $TOKEN in
+		--)
+			;;
+		*)
 			if [ "$COUNT" -gt 0 ]; then
 				prepend $TOKEN
 				((COUNT -= 1))
 			else
 				append $TOKEN
 			fi
-		done
-	done <<< "$LINE"
+			;;
+	esac
 done
 
 echo "$PREFIX \"$SUFFIX\""
