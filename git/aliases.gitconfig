@@ -15,13 +15,12 @@
 	bs = browse -/settings
 	bw = browse -/wikis
 	bra = branch --all
+	c = commit+
 	check = diff --check
 	chmod = update-index --chmod
 	clr = clear
-	cm = commit
-	cma = commit -a
-	cmaa = !git aa && git cm
-	cmm = commit-inline
+	ca = !git add -u && git commit+
+	caa = !git add -A && git commit+
 	code = !cd $(git root) && code .
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	df = diff
