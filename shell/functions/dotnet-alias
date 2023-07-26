@@ -1,0 +1,26 @@
+
+function dotnet-alias
+{
+	set -e
+	#shopt -s globstar
+
+	NAME=$1
+	TARGET=$2
+
+	if [ -z "$NAME" ] || [ -z "$TARGET" ]
+	then
+		echo "Usage: dotnet-alias <name> <target>"
+	else
+		for f in $(find . -type f -iname "$TARGET" -wholename "*/bin/*" )
+		{
+			BINARY=$(realpath $f)
+			BINARY_SHORT=$(realpath $f --relative-to .)
+			COMMAND="alias $NAME=$BINARY"
+			COMMAND_SHORT="alias $NAME=$BINARY_SHORT"
+			echo -e $COMMAND_SHORT
+
+			eval $COMMAND
+			echo -e "${GREEN}Created alias '$NAME' for '$TARGET'!${CLEAR}"
+		}
+	fi
+}
