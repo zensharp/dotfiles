@@ -15,6 +15,7 @@ export READER=mdcat
 export XDG_DOWNLOAD_DIR="$HOME/repos"
 export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
+export CLIPDROP_URL="https://clipdrop.zensharp.net"
 
 # Coloring
 export LS_COLORS="fi=38;01:pi=38;01:cd=38;01:di=33;01:so=38;01:ln=36;01:ex=32;01:bd=38;01:or=31;01"

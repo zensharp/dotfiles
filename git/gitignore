@@ -1,11 +1,11 @@
-version.properties
-nohup.out
-
 [gG]itignored/
 [gG]itignored.*/
-
 [bB]ackup/
 [bB]ackups/
+*.git
+
+version.properties
+nohup.out
 
 # Obsidian
 .obsidian/

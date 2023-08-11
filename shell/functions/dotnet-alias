@@ -1,9 +1,6 @@
 
 function dotnet-alias
 {
-	set -e
-	#shopt -s globstar
-
 	NAME=$1
 	TARGET=$2
 

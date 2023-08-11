@@ -1,5 +1,6 @@
 alias c="caddy"
 alias cb='$CLIPBOARD'
+alias clipdrop='clipdrop.sh'
 alias dj="dj --no-metadata"
 alias dc="docker compose"
 alias dcl="docker compose logs -f"

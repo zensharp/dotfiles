@@ -70,5 +70,6 @@
     "security.allowedUNCHosts": [
         "100.118.6.126",
         "wsl.localhost"
-    ]
+    ],
+    "window.zoomLevel": 1
 }
