@@ -6,6 +6,8 @@ chsh -s $(which zsh)
 
 . ~/dotfiles/templates/core/setup.sh
 
+zget dotnet
+
 # WSL Utilities
 sudo apt install -y gnupg2 apt-transport-https
 wget -O - https://pkg.wslutiliti.es/public.key | sudo tee -a /etc/apt/trusted.gpg.d/wslu.asc
