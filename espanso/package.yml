@@ -1,8 +1,0 @@
-include:
-  - path: config
-    symlink: false
-  - path: match
-    symlink: false
-
-windows:
-  destination: '%appdata%/espanso'

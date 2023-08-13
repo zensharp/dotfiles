@@ -1,5 +1,0 @@
-include:
-  - path: prefs
-
-windows:
-  destination: "%appdata%/Spotify/Users/*"

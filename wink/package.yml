@@ -1,5 +1,0 @@
-include:
-  - path: wink.toml
-
-windows:
-  destination: ~/.config
