@@ -6,17 +6,21 @@ then
 	exit 0
 fi
 
-# Environment
+# Begin code
+DOTFILES_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+if [ ! -d "$HOME/dotfiles" ]; then
+    ln -s $DOTFILES_DIR $HOME/dotfiles
+fi
 . ~/dotfiles/scripts/dotinfo.sh
 echo -e "\033[0;36mInstalling dotfiles for platform '$PLATFORM' ($OS)...\033[0m"
 case "$PLATFORM" in
     "mac")
-		~/dotfiles/templates/mac/setup.sh
-        ;;
+		  ~/dotfiles/templates/mac/setup.sh
+      ;;
     "linux")
-		~/dotfiles/templates/ubuntu/setup.sh
-        ;;
+		  ~/dotfiles/templates/ubuntu/setup.sh
+      ;;
     "wsl")
-		~/dotfiles/templates/wsl/setup.sh
-        ;;
+		  ~/dotfiles/templates/wsl/setup.sh
+      ;;
 esac
