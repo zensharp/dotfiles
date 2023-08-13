@@ -1,23 +1,23 @@
 [include]
-	path = ~/.dotfiles/git/aliases.gitconfig
-	path = ~/.dotfiles/git/colors.gitconfig
-	path = ~/.dotfiles/git/delta.gitconfig
-	path = ~/.dotfiles/git/urls.gitconfig
+	path = ~/dotfiles/git/aliases.gitconfig
+	path = ~/dotfiles/git/colors.gitconfig
+	path = ~/dotfiles/git/delta.gitconfig
+	path = ~/dotfiles/git/urls.gitconfig
 	path = ~/OneDrive/dotfiles/git/gitconfig
 [includeIf "gitdir:**/gitlab.com/**"]
-	path = ~/.dotfiles/git/gitlab.com/gitconfig
+	path = ~/dotfiles/git/gitlab.com/gitconfig
 [includeIf "gitdir:**/github.com/**"]
-	path = ~/.dotfiles/git/github.com/gitconfig
+	path = ~/dotfiles/git/github.com/gitconfig
 [includeIf "gitdir:**/gitlab.zensharp.net/**"]
-	path = ~/.dotfiles/git/gitlab.zensharp.net/gitconfig
+	path = ~/dotfiles/git/gitlab.zensharp.net/gitconfig
 [init]
 	defaultBranch = main
 [core]
 	whitespace = cr-at-eol
 	editor = micro
 	compression = 0
-	hooksPath = ~/.dotfiles/git/hooks
-	excludesFile = ~/.dotfiles/git/gitignore
+	hooksPath = ~/dotfiles/git/hooks
+	excludesFile = ~/dotfiles/git/gitignore
 	filemode = false
 [fetch]
 	prune = true
@@ -27,7 +27,7 @@
 	default = upstream
 	followTags = true
 [commit]
-	template = ~/.dotfiles/git/gitmessage
+	template = ~/dotfiles/git/gitmessage
 [diff]
 	context = 1
 	colormoved = dimmed-zebra

@@ -1,4 +1,4 @@
-for file in ~/.dotfiles/shell/aliases/**/*
+for file in ~/dotfiles/shell/aliases/**/*
 do
 	. $file
 done
@@ -16,7 +16,7 @@ alias egrep='egrep --color=always'
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
 
 # OneDrive defaults
-export TOPATH="$HOME/.dotfiles/to:$HOME/OneDrive/dotfiles/to:$HOME/OneDrive/dotfiles/to/bookmarks"
+export TOPATH="$HOME/dotfiles/to:$HOME/OneDrive/dotfiles/to:$HOME/OneDrive/dotfiles/to/bookmarks"
 export TODO="$HOME/OneDrive/todo.md"
 export PATH="$PATH:$HOME/OneDrive/dotfiles/bin"
 export JOT_DIR="$HOME/Nextcloud/Brain/me/journal"

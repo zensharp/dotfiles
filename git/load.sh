@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-git config --global include.path "~/.dotfiles/git/gitconfig"
+git config --global include.path "~/dotfiles/git/gitconfig"

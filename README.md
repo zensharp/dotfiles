@@ -1,8 +1,8 @@
 # Quick Start
 
 ```
-git clone https://github.com/zensharp/dotfiles $HOME/.dotfiles
-~/.dotfiles/setup.sh
+git clone https://github.com/zensharp/dotfiles
+~/dotfiles/setup.sh
 ```
 
 > **WARNING:** Be careful running scripts from the internet! You should always preview the script **before** executing it.

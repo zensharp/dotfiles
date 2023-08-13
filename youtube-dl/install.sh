@@ -5,4 +5,4 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo apt-get install -y ffmpeg
 
-. ~/.dotfiles/youtube-dl/load.sh
+. ~/dotfiles/youtube-dl/load.sh

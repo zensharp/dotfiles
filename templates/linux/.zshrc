@@ -1,3 +1,3 @@
-. ~/.dotfiles/templates/.zshrc
+. ~/dotfiles/templates/.zshrc
 
-. ~/.dotfiles/linux/interactive
+. ~/dotfiles/linux/interactive

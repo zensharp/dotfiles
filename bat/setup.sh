@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/bat/install.sh
+. ~/dotfiles/bat/install.sh

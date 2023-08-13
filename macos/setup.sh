@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/macos/load.sh
+. ~/dotfiles/macos/load.sh

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo '. ~/.dotfiles/youtube-dl/interactive' >> ~/.zshrc
+echo '. ~/dotfiles/youtube-dl/interactive' >> ~/.zshrc

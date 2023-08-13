@@ -41,6 +41,5 @@ then
 fi
 echo -e "\033[0;36mSetting up dotfiles for platform '$platform'...\033[0m"
 
-ln -s "$HOME/.dotfiles" "$HOME/dotfiles"
-export PATH="$PATH:$HOME/.dotfiles/shell/bin"
-time "$HOME/.dotfiles/templates/$platform/setup.sh"
+export PATH="$PATH:$HOME/dotfiles/shell/bin"
+$HOME/dotfiles/templates/$platform/setup.sh

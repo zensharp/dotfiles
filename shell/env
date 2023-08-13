@@ -1,15 +1,15 @@
 # Dotfiles
-for file in ~/.dotfiles/shell/functions/**/*
+for file in ~/dotfiles/shell/functions/**/*
 do
 	. $file
 done
-. ~/.dotfiles/shell/colors
+. ~/dotfiles/shell/colors
 
 # Misc
 export EDITOR="micro"
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$PATH:$HOME/.dotfiles/shell/bin"
-export PATH="$PATH:$HOME/.dotfiles/git/bin"
+export PATH="$PATH:$HOME/dotfiles/shell/bin"
+export PATH="$PATH:$HOME/dotfiles/git/bin"
 export PATH="$PATH:$HOME/.local/bin/git-tools"
 export READER=mdcat
 export XDG_DOWNLOAD_DIR="$HOME/repos"

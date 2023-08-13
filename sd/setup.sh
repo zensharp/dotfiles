@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/sd/install.sh
+. ~/dotfiles/sd/install.sh

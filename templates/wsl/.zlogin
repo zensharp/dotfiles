@@ -1,3 +1,3 @@
-. ~/.dotfiles/templates/.zlogin
+. ~/dotfiles/templates/.zlogin
 
-. ~/.dotfiles/wsl/login
+. ~/dotfiles/wsl/login

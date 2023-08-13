@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-. ~/.dotfiles/gitpod/load.sh
+. ~/dotfiles/gitpod/load.sh

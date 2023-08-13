@@ -1,5 +1,5 @@
-. ~/.dotfiles/shell/interactive
-. ~/.dotfiles/zsh/interactive
+. ~/dotfiles/shell/interactive
+. ~/dotfiles/zsh/interactive
 
 source-if exa interactive
 source-if zoxide interactive

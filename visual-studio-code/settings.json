@@ -1,6 +1,5 @@
 {
     "terminal.integrated.sendKeybindingsToShell": true,
-    "csharp.referencesCodeLens.enabled": false,
     "diffEditor.codeLens": true,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
@@ -71,5 +70,8 @@
         "100.118.6.126",
         "wsl.localhost"
     ],
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "dotnet.codeLens.enableReferencesCodeLens": false,"remote.SSH.remotePlatform": {
+        "coder-vscode--ajordan--arctic": "linux"
+    }
 }

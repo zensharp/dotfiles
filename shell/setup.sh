@@ -2,4 +2,4 @@
 
 sudo apt-get install -y unzip
 
-. ~/.dotfiles/shell/load.sh
+. ~/dotfiles/shell/load.sh

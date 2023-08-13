@@ -1,7 +1,7 @@
 export WIN_HOME='/mnt/c/users/andrew'
 export XDG_REPOS_DIR="$WIN_HOME/repos"
 export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
-export PATH="$PATH:$HOME/.dotfiles/wsl/bin"
+export PATH="$PATH:$HOME/dotfiles/wsl/bin"
 export OPEN='xdg-open'
 export VISUAL=$OPEN
 export BROWSER='wsl-browse.sh'

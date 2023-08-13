@@ -1,3 +1,3 @@
-. ~/.dotfiles/templates/.zshenv
+. ~/dotfiles/templates/.zshenv
 
-. ~/.dotfiles/wsl/env
+. ~/dotfiles/wsl/env
