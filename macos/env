@@ -1,3 +1,0 @@
-export OPEN='/usr/bin/open'
-export BROWSER=$OPEN
-export CLIPBOARD='pbcopy'

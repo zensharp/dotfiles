@@ -1,0 +1,3 @@
+# Google
+## Disable "People Also Searched For"
+google.*##[id^="eob_"]

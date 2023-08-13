@@ -1,5 +1,0 @@
-dir=$(echo $PWD | tr '[:upper:]' '[:lower:]')
-case $dir in
-  /mnt/c/windows* )
-    cd $HOME ;;
-esac

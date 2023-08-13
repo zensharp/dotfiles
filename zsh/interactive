@@ -5,6 +5,12 @@ unsetopt nomatch
 # Prompt
 PROMPT='%F{green}%n@%m%f: %F{blue}%~%f '
 
+function set_win_title
+{
+    echo -ne "\033]0; $(basename "$PWD") \007"
+}
+precmd_functions+=(set_win_title)
+
 # Completions
 autoload -U compinit
 compinit
@@ -20,23 +26,6 @@ bindkey '^[[3;5~' kill-word
 bindkey '\e[Z' reverse-menu-complete 
 bindkey '^[[1;3D' beginning-of-line
 bindkey '^[[1;3C' end-of-line
-
-# Applications
-if command -v starship > /dev/null 2>&1
-then
-	eval "$(starship init zsh)"
-fi
-
-if command -v direnv > /dev/null 2>&1
-then
-	eval "$(direnv hook zsh)"
-fi
-
-function set_win_title
-{
-    echo -ne "\033]0; $(basename "$PWD") \007"
-}
-precmd_functions+=(set_win_title)
 
 # Oh-My-Zsh Take Functions
 function mkcd takedir() {
