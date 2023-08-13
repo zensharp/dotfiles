@@ -1,7 +1,7 @@
 # Quick Start
 
 ```
-git clone https://github.com/zensharp/dotfiles
+git clone https://github.com/zensharp/dotfiles $HOME/dotfiles
 ~/dotfiles/setup.sh
 ```
 
