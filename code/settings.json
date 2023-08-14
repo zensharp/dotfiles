@@ -71,5 +71,8 @@
         "wsl.localhost"
     ],
     "window.zoomLevel": 1,
-    "dotnet.codeLens.enableReferencesCodeLens": false,"remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux"}
+    "dotnet.codeLens.enableReferencesCodeLens": false,"remote.SSH.remotePlatform": {
+        "coder-vscode--ajordan--arctic": "linux",
+        "coder-vscode--ajordan--alps": "linux"
+    }
 }

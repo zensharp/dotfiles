@@ -68,3 +68,7 @@ source-if /etc/profile.d/golang_path.sh
 export DOTNET_ROOT=$HOME/dotnet
 export PATH="$PATH:$DOTNET_ROOT"
 export PATH="$PATH:$HOME/.dotnet/tools"
+
+unset GIT_AUTHOR_NAME
+unset GIT_AUTHOR_EMAIL
+unset GIT_COMMITER_EMAIL
