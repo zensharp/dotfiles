@@ -72,3 +72,13 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 unset GIT_AUTHOR_NAME
 unset GIT_AUTHOR_EMAIL
 unset GIT_COMMITER_EMAIL
+
+for TAG in $(echo $DOT_TAGS | sed "s/,/ /g")
+do
+	case $TAG in
+		"remote" | "code")
+			alias micro=code
+			alias open=code
+			;;
+	esac
+done

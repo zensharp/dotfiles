@@ -22,8 +22,10 @@ brew install bat
 brew install exa
 brew install fd
 brew install git-delta
+brew install make
 brew install micro
 brew install neofetch
+brew install npm
 brew install sd
 brew install sift
 brew install starship
