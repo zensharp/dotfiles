@@ -3,7 +3,7 @@
 . ~/dotfiles/scripts/dotinfo.sh
 
 # Begin code
-echo ". ~/dotfiles/zshlogin" >> "$HOME/.zlogin"
+echo ". ~/dotfiles/zlogin" >> "$HOME/.zlogin"
 echo ". ~/dotfiles/zshenv" >> "$HOME/.zshenv"
 echo ". ~/dotfiles/zshrc" >> "$HOME/.zshrc"
 git clone https://github.com/zensharp/git-tools ~/.local/bin/git-tools

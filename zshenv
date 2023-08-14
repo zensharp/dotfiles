@@ -65,7 +65,7 @@ export _ZO_RESOLVE_SYMLINKS=1
 ## go
 source-if /etc/profile.d/golang_path.sh
 ## dotnet
-export DOTNET_ROOT=$HOME/dotnet
+export DOTNET_ROOT="$HOME/.dotnet"
 export PATH="$PATH:$DOTNET_ROOT"
 export PATH="$PATH:$HOME/.dotnet/tools"
 
