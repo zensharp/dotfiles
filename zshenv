@@ -66,8 +66,7 @@ export _ZO_RESOLVE_SYMLINKS=1
 source-if /etc/profile.d/golang_path.sh
 ## dotnet
 export DOTNET_ROOT="$HOME/.dotnet"
-export PATH="$PATH:$DOTNET_ROOT"
-export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
 
 unset GIT_AUTHOR_NAME
 unset GIT_AUTHOR_EMAIL

@@ -19,7 +19,6 @@
     "files.autoSave": "off",
     "files.hotExit": "off",
     "gitpod.openInStable.neverPrompt": true,
-    "omnisharp.useModernNet": true,
     "omnisharp.monoPath": "C:/Program Files/Mono/bin/mono.exe",
     "omnisharp.useGlobalMono": "always",
     "problems.decorations.enabled": false,
@@ -70,6 +69,12 @@
         "100.118.6.126",
         "wsl.localhost"
     ],
-    "window.zoomLevel": 1,
-    "dotnet.codeLens.enableReferencesCodeLens": false,"remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux","coder-vscode--ajordan--alps":"linux","coder-vscode--zensharp--tatooine":"linux"}
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux","coder-vscode--ajordan--alps":"linux","coder-vscode--zensharp--tatooine":"linux"},
+    "omnisharp.analyzeOpenDocumentsOnly": true,
+    "omnisharp.dotNetCliPaths": [
+        "/home/coder/.dotnet"
+    ],
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.sdkPath": "/home/coder/.dotnet/sdk/6.0.413"
 }
