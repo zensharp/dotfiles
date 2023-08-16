@@ -23,4 +23,7 @@ case "$PLATFORM" in
     "wsl")
 		  ~/dotfiles/templates/wsl/setup.sh
       ;;
+     "gitpod")
+		  ~/dotfiles/templates/gitpod/setup.sh
+		  ;;
 esac
