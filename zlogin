@@ -16,3 +16,7 @@ case "$PLATFORM" in
         esac
         ;;
 esac
+
+if test -f "$HOME/OneDrive/dotfiles/zlogin"; then
+	. ~/OneDrive/dotfiles/zlogin
+fi

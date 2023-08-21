@@ -17,6 +17,7 @@ case "$PLATFORM" in
         eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         ;;
     wsl)
+				export WIN_HOME="/mnt/c/Users/$USER"
         export OPEN='xdg-open'
         export BROWSER='wsl-browse.sh'
         export CLIPBOARD='clipboard'
@@ -81,3 +82,22 @@ do
 			;;
 	esac
 done
+
+# Misc
+export TOPATH="$HOME/dotfiles/to"
+if test -f "$HOME/OneDrive/dotfiles/zshenv"; then
+	. ~/OneDrive/dotfiles/zshenv
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+

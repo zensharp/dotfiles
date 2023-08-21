@@ -26,3 +26,7 @@ esac
 eval "$(starship init zsh)"
 ## zoxide
 eval "$(zoxide init zsh)"
+
+if test -f "$HOME/OneDrive/dotfiles/zshrc"; then
+	. ~/OneDrive/dotfiles/zshrc
+fi

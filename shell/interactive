@@ -5,7 +5,6 @@ done
 
 # Environment
 export DIRENV_LOG_FORMAT=
-
 # ls
 alias ls='${LS:-ls} --color=always --group-directories-first -x --time-style iso'
 alias grep='grep --color=always'
@@ -14,12 +13,6 @@ alias egrep='egrep --color=always'
 
 # Extras
 [[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
-
-# OneDrive defaults
-export TOPATH="$HOME/dotfiles/to:$HOME/OneDrive/dotfiles/to:$HOME/OneDrive/dotfiles/to/bookmarks"
-export TODO="$HOME/OneDrive/todo.md"
-export PATH="$PATH:$HOME/OneDrive/dotfiles/bin"
-export JOT_DIR="$HOME/Nextcloud/Brain/me/journal"
 
 # Subcommands
 alias goo="subcommand goo"
