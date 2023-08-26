@@ -9,6 +9,7 @@ echo ". ~/dotfiles/zshrc" >> "$HOME/.zshrc"
 git clone https://github.com/zensharp/git-tools ~/.local/bin/git-tools
 curl https://get.zensharp.net | bash
 export PATH="$PATH:$HOME/.local/bin"
+export HOMEBREW_NO_INSTALL_CLEANUP="TRUE"
 zget brew
 case "$PLATFORM" in
     "linux")
