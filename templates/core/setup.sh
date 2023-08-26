@@ -3,9 +3,15 @@
 . ~/dotfiles/scripts/dotinfo.sh
 
 # Begin code
-echo ". ~/dotfiles/zlogin" >> "$HOME/.zlogin"
-echo ". ~/dotfiles/zshenv" >> "$HOME/.zshenv"
-echo ". ~/dotfiles/zshrc" >> "$HOME/.zshrc"
+function insert() {
+  touch "$2"
+  if ! grep -q "$1" "$2"; then
+    echo "$1" "$2"
+  fi
+}
+insert ". ~/dotfiles/zlogin" "$HOME/.zlogin"
+insert ". ~/dotfiles/zshenv" "$HOME/.zshenv"
+insert ". ~/dotfiles/zshrc" "$HOME/.zshrc"
 git clone https://github.com/zensharp/git-tools ~/.local/bin/git-tools
 curl https://get.zensharp.net | bash
 export PATH="$PATH:$HOME/.local/bin"
