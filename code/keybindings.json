@@ -19,5 +19,19 @@
 		"key": "ctrl+shift+y",
 		"command": "-workbench.debug.action.toggleRepl",
 		"when": "workbench.panel.repl.view.active"
+	},
+	{
+		"key": "cmd+e",
+		"command": "-actions.findWithSelection"
+	},
+	{
+		"key": "cmd+e",
+		"command": "markdown.showPreviewToSide",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
+	},
+	{
+		"key": "cmd+k v",
+		"command": "-markdown.showPreviewToSide",
+		"when": "!notebookEditorFocused && editorLangId == 'markdown'"
 	}
 ]
