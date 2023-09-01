@@ -2,6 +2,8 @@
 export XDG_DOWNLOAD_DIR="$HOME/downloads"
 export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
+export JOT_DIR="$HOME/Nextcloud/Brain/General/me/journal"
+export TOPATH="$TOPATH:$HOME/to"
 
 # Dotfiles
 for file in ~/dotfiles/shell/functions/**/*
@@ -12,10 +14,10 @@ done
 
 
 # Misc
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin/git-tools"
 export PATH="$PATH:$HOME/dotfiles/shell/bin"
 export PATH="$PATH:$HOME/dotfiles/git/bin"
-export PATH="$PATH:$HOME/.local/bin/git-tools"
+export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="micro"
 export READER=mdcat
 export CLIPDROP_URL="https://clipdrop.zensharp.net"

@@ -84,20 +84,6 @@ do
 done
 
 # Misc
-export TOPATH="$HOME/dotfiles/to"
 if test -f "$HOME/OneDrive/dotfiles/zshenv"; then
 	. ~/OneDrive/dotfiles/zshenv
 fi
-
-
-
-
-
-
-
-
-
-
-
-
-

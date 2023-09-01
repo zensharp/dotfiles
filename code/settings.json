@@ -17,11 +17,7 @@
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "off",
     "files.hotExit": "off",
-    "gitpod.openInStable.neverPrompt": true,
-    "omnisharp.monoPath": "C:/Program Files/Mono/bin/mono.exe",
-    "omnisharp.useGlobalMono": "always",
     "problems.decorations.enabled": false,
-    "redhat.telemetry.enabled": false,
     "search.useGlobalIgnoreFiles": true,
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
@@ -60,23 +56,16 @@
     "workbench.startupEditor": "newUntitledFile",
     "editor.tabSize": 3,
     "editor.fontSize": 16,
-    "workbench.colorTheme": "Nord",
     "editor.wordWrap": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
     "editor.wordBasedSuggestions": false,
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
-    "security.allowedUNCHosts": [
-        "100.118.6.126",
-        "wsl.localhost"
-    ],
     "dotnet.codeLens.enableReferencesCodeLens": false,
     "remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux","coder-vscode--ajordan--alps":"linux","coder-vscode--zensharp--tatooine":"linux"},
-    "omnisharp.analyzeOpenDocumentsOnly": true,
-    "omnisharp.dotNetCliPaths": [
-        "/home/coder/.dotnet"
-    ],
     "dotnet.server.useOmnisharp": true,
-    "omnisharp.sdkPath": "/home/coder/.dotnet/sdk/6.0.413"
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Cascadia Mono PL",
 }
