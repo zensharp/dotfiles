@@ -67,5 +67,5 @@
     "dotnet.server.useOmnisharp": true,
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    "terminal.integrated.fontFamily": "Cascadia Mono PL"
 }
