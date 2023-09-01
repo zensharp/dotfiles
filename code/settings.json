@@ -1,5 +1,4 @@
 {
-    "terminal.integrated.sendKeybindingsToShell": true,
     "diffEditor.codeLens": true,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
@@ -28,6 +27,9 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpenView"
+    ],
     "window.restoreWindows": "none",
     "workbench.colorCustomizations": {
         "terminal.ansiBrightMagenta": "#FF8000",
