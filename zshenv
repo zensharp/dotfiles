@@ -87,3 +87,9 @@ done
 if test -f "$HOME/OneDrive/dotfiles/zshenv"; then
 	. ~/OneDrive/dotfiles/zshenv
 fi
+
+case "$TERM_PROGRAM" in
+	vscode)
+		export OPEN="vscode"
+		;;
+esac
