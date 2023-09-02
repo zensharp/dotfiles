@@ -90,6 +90,6 @@ fi
 
 case "$TERM_PROGRAM" in
 	vscode)
-		export OPEN="vscode"
+		export OPEN="code"
 		;;
 esac
