@@ -63,9 +63,40 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
     "dotnet.codeLens.enableReferencesCodeLens": false,
-    "remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux","coder-vscode--ajordan--alps":"linux","coder-vscode--zensharp--tatooine":"linux"},
+    "remote.SSH.remotePlatform": {
+        "coder-vscode--ajordan--arctic": "linux",
+        "coder-vscode--ajordan--alps": "linux",
+        "coder-vscode--zensharp--tatooine": "linux",
+        "zenon": "linux"
+    },
     "dotnet.server.useOmnisharp": true,
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Cascadia Mono PL"
+    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.cursorBlinking": true
 }
