@@ -1,11 +1,11 @@
-* [ ] Backup `~/.ssh/`.
-* [ ] Backup `~/.upmconfig`.
-* [ ] Push changes from all repositories.
+* [ ] Push changes from all git repos.
 * [ ] Save files from Desktop.
 * [ ] Save files from Downloads.
-* [ ] Backup Unity preferences.
+* [ ] Backup `~/.ssh/config`.
+* [ ] Backup `~/.upmconfig`.
 * [ ] Backup Unity layouts.
 * [ ] Backup Unity bindings.
+* [ ] Backup Unity preferences.
 * [ ] Backup Blender preferences.
 
 > [!NOTE]
