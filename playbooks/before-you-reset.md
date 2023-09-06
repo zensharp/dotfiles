@@ -1,9 +1,12 @@
-* [ ] Backup `~/.ssh/`.
-* [ ] Backup profiles (`~/.zshenv`, `~/.zshrc`, `~/.zlogin`)
-* [ ] Backup `~/.upmconfig`.
+* [ ] Push changes from all git repos.
 * [ ] Save files from Desktop.
-* [ ] Save files from Download.
-* [ ] Push changes from all repositories.
+* [ ] Save files from Downloads.
+* [ ] Backup `~/.ssh/config`.
+* [ ] Backup `~/.upmconfig`.
+* [ ] Backup Unity layouts.
+* [ ] Backup Unity bindings.
+* [ ] Backup Unity preferences.
+* [ ] Backup Blender preferences.
 
 > [!NOTE]
 > Remember that you will be logged out of all sessions in all web browsers.
