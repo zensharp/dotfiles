@@ -6,7 +6,7 @@
 function insert() {
   touch "$2"
   if ! grep -q "$1" "$2"; then
-    echo "$1" "$2"
+    echo "$1" > "$2"
   fi
 }
 insert ". ~/dotfiles/zlogin" "$HOME/.zlogin"
@@ -18,11 +18,11 @@ export PATH="$PATH:$HOME/.local/bin"
 export HOMEBREW_NO_INSTALL_CLEANUP="TRUE"
 zget brew
 case "$PLATFORM" in
-    "linux")
-        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    "darwin")
+        eval "$(/opt/homebrew/bin/brew shellenv)"
         ;;
     *)
-        eval "$(/opt/homebrew/bin/brew shellenv)"
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         ;;
 esac
 brew install bat
