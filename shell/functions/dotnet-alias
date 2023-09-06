@@ -14,7 +14,7 @@ function dotnet-alias
 			BINARY_SHORT=$(realpath $f --relative-to .)
 			COMMAND="alias $NAME=$BINARY"
 			COMMAND_SHORT="alias $NAME=$BINARY_SHORT"
-			echo -e $COMMAND_SHORT
+			echo -e $COMMAND
 
 			eval $COMMAND
 			echo -e "${GREEN}Created alias '$NAME' for '$TARGET'!${CLEAR}"

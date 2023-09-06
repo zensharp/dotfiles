@@ -69,7 +69,6 @@
         "coder-vscode--zensharp--tatooine": "linux",
         "zenon": "linux"
     },
-    "dotnet.server.useOmnisharp": true,
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Cascadia Mono PL",
@@ -98,5 +97,7 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "terminal.integrated.cursorBlinking": true
+    "terminal.integrated.cursorBlinking": true,
+    "csharp.showOmnisharpLogOnError": false,
+    "dotnet.server.useOmnisharp": true
 }
