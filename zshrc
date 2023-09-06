@@ -4,6 +4,7 @@
 # Environment
 case "$PLATFORM" in
     mac)
+        alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
         ;;
     linux)
         ;;
