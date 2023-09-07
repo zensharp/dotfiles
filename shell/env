@@ -3,7 +3,7 @@ export XDG_DOWNLOAD_DIR="$HOME/downloads"
 export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
 export JOT_DIR="$HOME/Nextcloud/Brain/General/me/journal"
-export TOPATH="$TOPATH:$HOME/to"
+export TOPATH="$TOPATH:$HOME/dotfiles/to"
 
 # Dotfiles
 for file in ~/dotfiles/shell/functions/**/*

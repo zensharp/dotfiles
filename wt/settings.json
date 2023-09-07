@@ -6,14 +6,10 @@
         {
             "command": 
             {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 1,
-                "monitor": "toMouse",
-                "name": "_quake",
-                "toggleVisibility": true
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "win+`"
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -26,10 +22,22 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "toMouse",
+                "name": "_quake",
+                "toggleVisibility": true
             },
-            "keys": "ctrl+c"
+            "keys": "win+`"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
         },
         {
             "command": 
@@ -38,14 +46,6 @@
                 "direction": "up"
             },
             "keys": "shift+up"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -181,6 +181,12 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
