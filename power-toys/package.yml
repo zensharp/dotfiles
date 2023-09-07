@@ -1,6 +1,7 @@
 include:
   - path: settings.json
   - path: Keyboard Manager/default.json
+  - path: Keyboard Manager/settings.json
   - path: PowerToys Run/settings.json
 
 windows:
