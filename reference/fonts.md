@@ -1,6 +1,6 @@
 | Environment | Font | Asset Name | Ligatures |
 | --- | --- | --- | --- |
-| Text Editor | Iosevka (Custom) | N/A | No |
+| Text Editor | [Iosevka (Custom)](https://github.com/zensharp/dotfiles/blob/main/misc/fonts/iosevka/iosevka-custom-semibold.ttf) | N/A | No |
 |  | Iosevka SS16 | super-ttc-sgr-iosevka-ss16 | No |
 | Terminal | Iosevka Term SS16 |  super-ttc-sgr-iosevka-term-ss16-16.7.0.zip | Yes |
 
@@ -9,4 +9,3 @@
 
 # See Also
 * [Iosevka - Releases](https://github.com/be5invis/Iosevka/releases/latest)
-* [dotfiles/Iosevka](/misc/iosevka)
