@@ -14,5 +14,4 @@ echo "deb https://pkg.wslutiliti.es/debian bullseye main" | sudo tee -a /etc/apt
 sudo apt update
 sudo apt install -y wslu
 # Misc
-pip3 install --user --upgrade pip
-pip install --user 'git+https://github.com/cpbotha/xdg-open-wsl.git'
+pip3 install --user 'git+https://github.com/cpbotha/xdg-open-wsl.git'
