@@ -31,6 +31,8 @@
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Widgets| Off |
 | [Personalization > Taskbar](ms-settings:taskbar) > Taskbar items | Chat | Off |
 | [Personalization > Colors](ms-settings:personalization-colors) | Accent color | Manual (#5679a4) |
+| Apps > Advanced app settings > App execution aliases | Terminal | Off |
+| Apps > Advanced app settings > App execution aliases | Terminal Preview | On |
 
 # References
 * [Windows Settings URLs](https://docs.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app)

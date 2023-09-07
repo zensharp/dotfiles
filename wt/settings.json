@@ -6,10 +6,14 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "toMouse",
+                "name": "_quake",
+                "toggleVisibility": true
             },
-            "keys": "ctrl+c"
+            "keys": "win+`"
         },
         {
             "command": 
@@ -22,22 +26,10 @@
         {
             "command": 
             {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 1,
-                "monitor": "toMouse",
-                "name": "_quake",
-                "toggleVisibility": true
+                "action": "copy",
+                "singleLine": false
             },
-            "keys": "win+`"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -46,6 +38,14 @@
                 "direction": "up"
             },
             "keys": "shift+up"
+        },
+        {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -111,6 +111,12 @@
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
     "launchMode": "maximized",
     "minimizeToNotificationArea": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -159,10 +165,22 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
+                "guid": "{0bc8bd56-f44f-54c3-98cc-5c59539c2211}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{79b8c3a1-baee-51b1-a73a-a89daa04ba69}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
@@ -399,6 +417,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -465,7 +506,8 @@
             },
             "window": 
             {
-                "applicationTheme": "dark"
+                "applicationTheme": "dark",
+                "useMica": false
             }
         }
     ],

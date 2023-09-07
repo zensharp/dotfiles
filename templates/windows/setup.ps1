@@ -1,6 +1,5 @@
 winget install -e --id Bitwarden.Bitwarden
 winget install -e --id BlenderFoundation.Blender
-winget install -e --id BlastApps.FluentSearch
 winget install -e --id Discord.Discord
 winget install -e --id Google.Chrome --force
 winget install -e --id HermannSchinagl.LinkShellExtension
