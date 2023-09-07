@@ -15,8 +15,9 @@
   - [Windows](apps/windows.md)
   - [Wsl](apps/wsl.md)
 
+- [Core](core.md)
+
 - Os
-  - [Core](os/core.md)
   - [Macos](os/macos.md)
   - [Windows](os/windows.md)
   - [Wsl](os/wsl.md)
