@@ -3,10 +3,13 @@
 
 # Setup
 ## Shell
-1. [Install Tailscale](https://tailscale.com/download/).
-1. [Install Firefox](https://www.mozilla.org/en-US/firefox/download/thanks/).
-1. Login to Firefox account.
+1. Install [App Installer](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1)
+1. `winget install -e --id Git.Git --accept-source-agreements`
+1. `git clone https://github.com/zensharp/dotfiles`.
+1. Open a PowerShell as administrator.
+1. `set-executionpolicy remotesigned`
 1. Invert scroll direction ([jamie-pate/flipflop-windows-wheel](https://github.com/jamie-pate/flipflop-windows-wheel))
+1. Login to Firefox account.
 1. Disable disk sleeping (?).
 1. Uninstall McAfee.
 
