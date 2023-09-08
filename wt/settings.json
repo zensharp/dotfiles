@@ -6,14 +6,6 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "down"
             },
@@ -32,12 +24,12 @@
             "keys": "win+`"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -46,6 +38,14 @@
                 "direction": "up"
             },
             "keys": "shift+up"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
         },
         {
             "command": 
@@ -73,17 +73,17 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "right"
+                "action": "closeTab"
             },
-            "keys": "shift+right"
+            "keys": "ctrl+w"
         },
         {
             "command": 
             {
-                "action": "closeTab"
+                "action": "moveFocus",
+                "direction": "right"
             },
-            "keys": "ctrl+w"
+            "keys": "shift+right"
         },
         {
             "command": "closeWindow"
@@ -106,6 +106,7 @@
     ],
     "alwaysShowNotificationIcon": true,
     "autoHideWindow": false,
+    "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -492,7 +493,7 @@
             "yellow": "#9C8E30"
         }
     ],
-    "startOnUserLogin": false,
+    "startOnUserLogin": true,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 

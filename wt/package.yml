@@ -1,6 +1,7 @@
 include:
   - path: settings.json
     destination: LocalState/
+    symlink: true
   - path: backgrounds
 windows:
   destination: '%localappdata%/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe'

@@ -1,5 +1,6 @@
 include:
   - path: Layouts/*
+    destination: Layouts
   - path: ScriptTemplates/*
 
 windows:

@@ -1,3 +1,5 @@
 include:
   - path: shortcuts/*
-    destination: "%appdata%/Unity/Editor-5.x/Preferences/shortcuts/"
+
+windows:
+  destination: "%appdata%/Unity/Editor-5.x/Preferences/shortcuts/"
