@@ -99,5 +99,8 @@
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.cursorBlinking": true,
     "csharp.showOmnisharpLogOnError": false,
-    "dotnet.server.useOmnisharp": true
+    "dotnet.server.useOmnisharp": true,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ]
 }

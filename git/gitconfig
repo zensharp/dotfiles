@@ -16,7 +16,7 @@
 	defaultBranch = main
 [core]
 	whitespace = cr-at-eol
-	editor = micro
+	editor = gitline
 	compression = 0
 	hooksPath = ~/dotfiles/git/hooks
 	excludesFile = ~/dotfiles/git/gitignore

@@ -11,6 +11,7 @@
 	bwj = browse -/jobs
 	bwp = browse -/pipelines
 	bwpl = browse -/pipelines/$BRANCH/latest
+	bwpe = browse -/ci/editor
 	bwmr = browse -/merge_requests
 	bws = browse -/settings
 	bww = browse -/wikis
