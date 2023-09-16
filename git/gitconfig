@@ -10,6 +10,8 @@
 	path = ~/dotfiles/git/github.com/gitconfig
 [includeIf "gitdir:**/gitlab.zensharp.net/**"]
 	path = ~/dotfiles/git/gitlab.zensharp.net/gitconfig
+[advice]
+	waitingForEditor = false
 [init]
 	defaultBranch = main
 [core]
