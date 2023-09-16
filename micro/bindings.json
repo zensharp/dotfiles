@@ -7,6 +7,5 @@
     "CtrlUp": "ScrollUp",
     "CtrlDown": "ScrollDown",
     "Alt-[": "EndOfLine,InsertNewline,MoveLinesUp",
-    "Ctrl-j": "EndOfLine,InsertNewline",
-    "Alt-s": "Save,Quit"
+    "Ctrl-j": "EndOfLine,InsertNewline"
 }

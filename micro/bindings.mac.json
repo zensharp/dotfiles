@@ -1,0 +1,16 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlUnderscore": "lua:comment.comment",
+    "Alt-Backspace": "DeleteWordLeft",
+    "Delete": "DeleteWordRight",
+    "Alt-Left": "WordLeft",
+    "Alt-Right": "WordRight",
+    "Ctrl-Left": "StartOfText",
+    "Ctrl-Right": "EndOfLine",
+    "ShiftDelete": "SelectLine,Delete,EndOfLine,StartOfText",
+    "CtrlUp": "ScrollUp",
+    "CtrlDown": "ScrollDown",
+    "Alt-[": "EndOfLine,InsertNewline,MoveLinesUp",
+    "Ctrl-j": "EndOfLine,InsertNewline",
+    "Alt-s": "Save,Quit"
+}
