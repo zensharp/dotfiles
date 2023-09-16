@@ -2,8 +2,6 @@
 export XDG_DOWNLOAD_DIR="$HOME/downloads"
 export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
-export JOT_DIR="$HOME/Nextcloud/Brain/General/me/journal"
-export TOPATH="$TOPATH:$HOME/dotfiles/to"
 
 # Dotfiles
 for file in ~/dotfiles/shell/functions/**/*
@@ -11,7 +9,6 @@ do
 	. $file
 done
 . ~/dotfiles/shell/colors
-
 
 # Misc
 export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin/git-tools"
@@ -21,6 +18,9 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="micro"
 export READER=mdcat
 export CLIPDROP_URL="https://clipdrop.zensharp.net"
+export JOT_DIR="$HOME/Nextcloud/Brain/General/me/journal"
+export TOPATH="$TOPATH:$HOME/dotfiles/to"
+export TODO="$HOME/Nextcloud/Brain/General/me/issues/todo.md"
 
 # Coloring
 export LS_COLORS="fi=38;01:pi=38;01:cd=38;01:di=33;01:so=38;01:ln=36;01:ex=32;01:bd=38;01:or=31;01"
