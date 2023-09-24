@@ -1,6 +1,7 @@
 - [README](README.md)
 
 - Apps
+  - [Code](apps/code.md)
   - [Doom](apps/doom.md)
   - [Fl Studio](apps/fl-studio.md)
   - [Iosevka](apps/iosevka.md)
