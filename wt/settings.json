@@ -6,10 +6,29 @@
         {
             "command": 
             {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "down"
             },
             "keys": "shift+down"
+        },
+        {
+            "command": "quit",
+            "keys": "ctrl+shift+q"
         },
         {
             "command": 
@@ -24,12 +43,8 @@
             "keys": "win+`"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -38,21 +53,6 @@
                 "direction": "up"
             },
             "keys": "shift+up"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "quit",
-            "keys": "ctrl+shift+q"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "keys": "ctrl+t"
         },
         {
             "command": 
@@ -65,17 +65,17 @@
         {
             "command": 
             {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "keys": "ctrl+k"
+                "action": "moveFocus",
+                "direction": "previous"
+            }
         },
         {
             "command": 
             {
-                "action": "closeTab"
+                "action": "clearBuffer",
+                "clear": "all"
             },
-            "keys": "ctrl+w"
+            "keys": "ctrl+k"
         },
         {
             "command": 
@@ -86,14 +86,14 @@
             "keys": "shift+right"
         },
         {
-            "command": "closeWindow"
-        },
-        {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "previous"
-            }
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
+        },
+        {
+            "command": "closeWindow"
         },
         {
             "command": 
@@ -519,6 +519,6 @@
         }
     ],
     "trimBlockSelection": true,
-    "useAcrylicInTabRow": false,
+    "useAcrylicInTabRow": true,
     "windowingBehavior": "useNew"
 }
