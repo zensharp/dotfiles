@@ -30,6 +30,7 @@
 	followTags = true
 [commit]
 	template = ~/dotfiles/git/gitmessage
+	status = false
 [diff]
 	context = 1
 	colormoved = dimmed-zebra
