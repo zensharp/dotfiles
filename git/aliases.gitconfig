@@ -28,6 +28,7 @@
 	dp = deposit
 	empty = commit --allow-empty -m 'empty commit'
 	erase = !rm -rf .git
+	f = feature
 	ff = merge --ff-only
 	ft = fetch
 	fts = !git fetch && git sweep
