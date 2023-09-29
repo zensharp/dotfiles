@@ -1,6 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
     "actions": 
     [
         {
@@ -14,6 +14,14 @@
         {
             "command": 
             {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "shift+down"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
@@ -22,13 +30,44 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "down"
+                "direction": "left"
             },
-            "keys": "shift+down"
+            "keys": "shift+left"
+        },
+        {
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+k"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "shift+right"
         },
         {
             "command": "quit",
             "keys": "ctrl+shift+q"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "shift+up"
         },
         {
             "command": 
@@ -50,47 +89,8 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "up"
-            },
-            "keys": "shift+up"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "shift+left"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
                 "direction": "previous"
             }
-        },
-        {
-            "command": 
-            {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "keys": "ctrl+k"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "shift+right"
-        },
-        {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "keys": "ctrl+w"
         },
         {
             "command": "closeWindow"
@@ -263,7 +263,7 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#262C36",
+            "background": "#14171C",
             "black": "#3B4252",
             "blue": "#576C82",
             "brightBlack": "#4C566A",
@@ -503,6 +503,7 @@
             "tab": 
             {
                 "background": "#4C566AFF",
+                "iconStyle": "default",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
@@ -514,6 +515,9 @@
             "window": 
             {
                 "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
                 "useMica": false
             }
         }
