@@ -40,8 +40,7 @@
 	pl = pull
 	pop = reset HEAD~1
 	ps = push
-	psa = !git push && git push --tags
-	pst = push --tags
+	pst = !git push && git push --tags
 	s = status
 	ss = status --short
 	squash = rebase -i
