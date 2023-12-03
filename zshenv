@@ -20,7 +20,7 @@ case "$PLATFORM" in
 				export WIN_HOME="/mnt/c/Users/$USER"
         export OPEN='xdg-open'
         export BROWSER='wsl-browse.sh'
-        export CLIPBOARD='clipboard'
+        export CLIPBOARD='clip.exe'
         export VISUAL=$OPEN
         export XDG_REPOS_DIR="$WIN_HOME/repos"
         export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
