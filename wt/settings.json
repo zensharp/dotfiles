@@ -14,14 +14,6 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "shift+down"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
@@ -30,17 +22,9 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
+                "direction": "down"
             },
-            "keys": "shift+left"
-        },
-        {
-            "command": 
-            {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "keys": "ctrl+k"
+            "keys": "shift+down"
         },
         {
             "command": 
@@ -64,10 +48,30 @@
         {
             "command": 
             {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "keys": "ctrl+k"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "shift+left"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "up"
             },
             "keys": "shift+up"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -75,15 +79,11 @@
                 "action": "globalSummon",
                 "desktop": "toCurrent",
                 "dropdownDuration": 1,
-                "monitor": "toMouse",
+                "monitor": "any",
                 "name": "_quake",
                 "toggleVisibility": true
             },
             "keys": "win+`"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -493,7 +493,7 @@
             "yellow": "#9C8E30"
         }
     ],
-    "startOnUserLogin": true,
+    "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 
