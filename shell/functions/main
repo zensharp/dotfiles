@@ -16,17 +16,22 @@ function mksh
 	echo -e "$GREEN... '$filename' [Created]$NC"
 }
 
+function findtop
+(
+	\cd ${1:-.}
+	DIR=$(git rev-parse --show-toplevel 2> /dev/null)
+	echo ${DIR:-$HOME}
+)
 function cd+
 {
 	if [ $# -eq 0 ]
 	then
-		CD_ROOT=$(git rev-parse --show-toplevel) &> /dev/null || CD_ROOT="$HOME"
+		CD_ROOT=$(findtop .)
 		if [ "$CD_ROOT" = "$PWD" ]
 		then
-			\cd "$HOME"
-		else
-			\cd "$CD_ROOT"
+			CD_ROOT=$(findtop ..)
 		fi
+		\cd "$CD_ROOT"
 	else
 		\cd "$*"
 	fi
