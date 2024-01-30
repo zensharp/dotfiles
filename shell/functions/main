@@ -17,11 +17,12 @@ function mksh
 }
 
 function findtop
-(
-	\cd ${1:-.}
-	DIR=$(git rev-parse --show-toplevel 2> /dev/null)
-	echo ${DIR:-$HOME}
-)
+{
+	\cd ${1:-.} &> /dev/null
+	DIR="$(git rev-parse --show-toplevel 2> /dev/null)"
+	echo "${DIR:-$HOME}"
+	\cd - &> /dev/null
+}
 function cd+
 {
 	if [ $# -eq 0 ]
