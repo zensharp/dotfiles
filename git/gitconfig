@@ -15,12 +15,13 @@
 [init]
 	defaultBranch = main
 [core]
-	whitespace = cr-at-eol
-	editor = gitline
 	compression = 0
-	hooksPath = ~/dotfiles/git/hooks
+	editor = gitline
 	excludesFile = ~/dotfiles/git/gitignore
 	filemode = false
+	hooksPath = ~/dotfiles/git/hooks
+	ignorecase = true
+	whitespace = cr-at-eol
 [fetch]
 	prune = true
 [pull]

@@ -78,7 +78,7 @@
             {
                 "action": "globalSummon",
                 "desktop": "toCurrent",
-                "dropdownDuration": 1,
+                "dropdownDuration": 0,
                 "monitor": "any",
                 "name": "_quake",
                 "toggleVisibility": true
