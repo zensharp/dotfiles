@@ -8,6 +8,7 @@
   - [Pandoc](apps/pandoc.md)
   - [Project64](apps/project64.md)
   - [Qmk](apps/qmk.md)
+  - [Retroarch](apps/retroarch.md)
   - [Shell](apps/shell.md)
   - [Sift](apps/sift.md)
   - [Unity](apps/unity.md)
