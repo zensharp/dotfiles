@@ -11,7 +11,7 @@ done
 . ~/dotfiles/shell/colors
 
 # Misc
-export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/.local/bin/git-tools"
+export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/dotfiles/git-tools"
 export PATH="$PATH:$HOME/dotfiles/shell/bin"
 export PATH="$PATH:$HOME/dotfiles/git/bin"
 export PATH="$HOME/.local/bin:$PATH"
