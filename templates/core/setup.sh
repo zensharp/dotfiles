@@ -25,8 +25,10 @@ case "$PLATFORM" in
         eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         ;;
 esac
+curl -sS https://starship.rs/install.sh | sh
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 brew install bat
-brew install exa
+brew install eza
 brew install fd
 brew install git-delta
 brew install make
@@ -35,8 +37,6 @@ brew install neofetch
 brew install npm
 brew install sd
 brew install sift
-brew install starship
-brew install zoxide
 ~/dotfiles/git/load.sh
 ~/dotfiles/micro/load.sh
 ~/dotfiles/sift/load.sh

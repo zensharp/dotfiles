@@ -56,8 +56,8 @@ EXA_COLORS="${EXA_COLORS}:bO=31;;1"
 EXA_COLORS="${EXA_COLORS}:.*=30;;1"
 export EXA_COLORS
 ### Override commands
-export LS=exa
-alias tree='exa --tree --group-directories-first --ignore-glob .git'
+export LS=eza
+alias tree='eza --tree --group-directories-first --ignore-glob .git'
 ## zoxide
 export _ZO_ECHO=1
 export _ZO_RESOLVE_SYMLINKS=1
