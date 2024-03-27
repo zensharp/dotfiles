@@ -11,7 +11,7 @@
 		</Header>
 		<Snippet>
 			<Code Language="CSharp" Kind="method decl">
-<![CDATA[Debug.DrawRay($origin$, $direction$, $color$, $duration$);$end$]]>
+<![CDATA[Debug.DrawRay($origin$, $direction$, $color$, $duration$, $depthTest$);$end$]]>
 			</Code>
 			<Declarations>
 				<Literal>
@@ -33,6 +33,11 @@
 					<ID>duration</ID>
 					<ToolTip>Ray duration.</ToolTip>
 					<Default>Time.deltaTime</Default>
+				</Literal>
+				<Literal>
+					<ID>depthTest</ID>
+					<ToolTip>Use depth testing.</ToolTip>
+					<Default>true</Default>
 				</Literal>
 			</Declarations>
 			<Imports>

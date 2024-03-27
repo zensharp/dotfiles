@@ -17,7 +17,7 @@ case "$PLATFORM" in
         eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         ;;
     wsl)
-				export WIN_HOME="/mnt/c/Users/$USER"
+        export WIN_HOME="/mnt/c/Users/$USER"
         export OPEN='xdg-open'
         export BROWSER='wsl-browse.sh'
         export CLIPBOARD='clip.exe'
