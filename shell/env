@@ -18,7 +18,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export EDITOR="micro"
 export READER=mdcat
 export TOPATH="$TOPATH:$HOME/dotfiles/to"
-export JOT_DIR="$HOME/Nextcloud/Brain/me/journal"
+export JOT_DIR="$HOME/Nextcloud/Brain/Journal"
 export TODO="$HOME/Nextcloud/Brain/me/issues/todo.md"
 export CLIPDROP_URL="https://clipdrop.zensharp.net"
 
