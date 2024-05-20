@@ -40,7 +40,7 @@
 		"when": "editorFocus"
 	},
 	{
-		"key": "ctrl+d",
+		"key": "alt+d",
 		"command": "editor.action.revealDefinition",
 		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
 	},
