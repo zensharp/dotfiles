@@ -18,7 +18,7 @@ export PATH="$PATH:$HOME/.local/bin"
 export HOMEBREW_NO_INSTALL_CLEANUP="TRUE"
 zget brew
 case "$PLATFORM" in
-    "darwin")
+    "mac")
         eval "$(/opt/homebrew/bin/brew shellenv)"
         ;;
     *)
