@@ -1,3 +1,6 @@
+[user]
+	name = Zensharp
+	email = 48300131+zensharp@users.noreply.github.com
 [include]
 	path = ~/dotfiles/git/aliases.gitconfig
 	path = ~/dotfiles/git/colors.gitconfig
@@ -38,15 +41,17 @@
 	colormovedws = allow-indentation-change
 [http]
 	postBuffer = 524288000
+[sequence]
+	editor = micro
 [url "git@gitlab.com"]
-	insteadOf = gitlab.com
-	pushInsteadOf = gitlab.com
+	insteadOf = gl
+	pushInsteadOf = gl
 [url "git@github.com"]
-	insteadOf = github.com
-	pushInsteadOf = github.com
+	insteadOf = gh
+	pushInsteadOf = gh
 [url "git@bitbucket.org"]
-	insteadOf = bitbucket.org
-	pushInsteadOf = bitbucket.org
-[url "git@gitlab.andtech.me"]
-	insteadOf = andtech.me
-	pushInsteadOf = andtech.me
+	insteadOf = bb
+	pushInsteadOf = bb
+[url "git@gitlab.zensharp.net"]
+	insteadOf = zc
+	pushInsteadOf = zc
