@@ -23,7 +23,7 @@
 	excludesFile = ~/dotfiles/git/gitignore
 	filemode = false
 	hooksPath = ~/dotfiles/git/hooks
-	ignorecase = true
+	ignorecase = false
 	whitespace = cr-at-eol
 [fetch]
 	prune = true
