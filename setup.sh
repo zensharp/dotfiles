@@ -8,6 +8,7 @@ fi
 
 # Begin code
 DOTFILES_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+git submodule update --init
 if [ ! -d "$HOME/dotfiles" ]; then
     ln -s $DOTFILES_DIR $HOME/dotfiles
 fi
