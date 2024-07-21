@@ -1,6 +1,13 @@
 function open
 {
-	eval "$OPEN \"${1:-$PWD}\"";
+	TARGET=${1:-$PWD}
+	if [ -e "$TARGET" ]
+	then
+		eval "$OPEN \"$TARGET\"";
+	else
+		TARGET=${TARGET#https://}
+		eval "$OPEN \"https://$TARGET\"";
+	fi
 }
 
 function mksh

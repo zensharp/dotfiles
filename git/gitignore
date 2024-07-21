@@ -35,3 +35,6 @@ nohup.out
 
 # GitLab Runner
 builds/
+
+# Affinity
+*.afdesign~lock~

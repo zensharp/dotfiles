@@ -28,15 +28,6 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "id": "User.moveFocus.F747588A",
-            "keys": "shift+down"
-        },
-        {
-            "command": 
-            {
                 "action": "newTab"
             },
             "id": "User.newTab.5DEADB41",
@@ -46,19 +37,15 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
+                "direction": "down"
             },
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "shift+left"
+            "id": "User.moveFocus.F747588A",
+            "keys": "shift+down"
         },
         {
-            "command": 
-            {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "id": "User.clearBuffer.87C324ED",
-            "keys": "ctrl+k"
+            "command": "quit",
+            "id": "User.quit",
+            "keys": "ctrl+shift+q"
         },
         {
             "command": 
@@ -78,9 +65,22 @@
             "keys": "shift+right"
         },
         {
-            "command": "quit",
-            "id": "User.quit",
-            "keys": "ctrl+shift+q"
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "id": "User.clearBuffer.87C324ED",
+            "keys": "ctrl+k"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "shift+left"
         },
         {
             "command": 
@@ -116,6 +116,10 @@
             },
             "id": "User.sendInput.EA4CDA8A",
             "keys": "ctrl+shift+enter"
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+f"
         }
     ],
     "alwaysShowNotificationIcon": true,
