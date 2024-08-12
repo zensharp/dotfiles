@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MaxHotkeyTransformations Locked="false">
+    <Unassign_Hotkey Shortcut="Q" Description="Smart Select" Id="647394-SmartSelect`Selection"/>
+    <Assign_Hotkey Shortcut="Q" Description="Select Object" Id="0-50027"/>
+</MaxHotkeyTransformations>
