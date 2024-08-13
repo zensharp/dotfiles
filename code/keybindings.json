@@ -58,5 +58,10 @@
 		"key": "shift+alt+down",
 		"command": "-editor.action.copyLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly"
-	}
+	},
+	{
+		"key": "ctrl+escape",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	 }
 ]

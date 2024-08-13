@@ -13,5 +13,6 @@ brew install iterm2
 brew install macdown
 brew install nextcloud
 brew install rectangle
+brew install speedtest-cli
 brew install tailscale
 brew install visual-studio-code

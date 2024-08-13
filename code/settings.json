@@ -4,7 +4,7 @@
     "editor.autoClosingQuotes": "never",
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.fontFamily": "Iosevka Custom SemiBold, Cascadia Code PL, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.formatOnType": true,
     "editor.insertSpaces": false,
@@ -50,7 +50,6 @@
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
     "workbench.editor.openPositioning": "last",
-    "workbench.editor.untitled.hint": "hidden",
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -59,7 +58,7 @@
     "editor.wordWrap": "on",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.enabled": false,
-    "editor.wordBasedSuggestions": false,
+    "editor.wordBasedSuggestions": "off",
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
     "dotnet.codeLens.enableReferencesCodeLens": false,
@@ -71,7 +70,7 @@
     },
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    "terminal.integrated.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -102,5 +101,6 @@
     "dotnet.server.useOmnisharp": true,
     "security.allowedUNCHosts": [
         "wsl.localhost"
-    ]
+    ],
+    "workbench.editor.empty.hint": "hidden"
 }
