@@ -11,7 +11,8 @@ jobs:
       - run: |
           npm i -g docsify-cli
       - run: |
-          scripts/gather.sh
+          mv .github/site ./
+          .github/scripts/gather.sh
       - run: |
           cd site
           docsify generate .
