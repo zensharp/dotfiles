@@ -2,26 +2,17 @@ function unity
 {
 	set +m
 
-	project=${1:-main}
+	project=${1:-unity}
 
-	if [ -d "$project" ]
-	then
-		echo -e "${GREEN}Now opening Unity project at '$PWD/$project'...${CLEAR}"
-		goo "$project" &
+	for FILE in $(find . -iname "ProjectSettings.asset")
+	do
+		FILE_DIR=$(dirname "$FILE")
+		PROJECT_DIR=$(realpath -s --relative-to="$PWD" "$FILE_DIR/..")
+		
+		echo -e "${GREEN}Now opening Unity project at '$PWD/$PROJECT_DIR'...${CLEAR}"
+		goo "$PROJECT_DIR" &
 		sleep 0.2
-	elif [ -d "unity/$project" ]
-	then
-		echo -e "${GREEN}Now opening Unity project at '$PWD/unity/$project'...${CLEAR}"
-		goo "unity/$project" &
-		sleep 0.2
-	elif [ -d "unity" ]
-	then
-		echo -e "${GREEN}Now opening Unity project at '$PWD/unity'...${CLEAR}"
-		goo "unity" &
-		sleep 0.2
-	else
-		echo -e "${GREEN}Now opening Unity project at '$PWD'...${CLEAR}" || echo "${RED}No Unity projects detected!${CLEAR}"
-		goo "." &
-		sleep 0.2
-	fi
+		
+		break;
+	done
 }
