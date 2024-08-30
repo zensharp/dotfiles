@@ -11,7 +11,7 @@
 		</Header>
 		<Snippet>
 			<Code Language="CSharp" Kind="method decl">
-<![CDATA[await UniTask.Delay($delay$, delayTiming: $delayTiming$, cancellationToken: cancellationToken);$end$]]></Code>
+<![CDATA[await UniTask.Delay($delay$, delayTiming: PlayerLoopTiming.$delayTiming$, cancellationToken: cancellationToken);$end$]]></Code>
 			<Declarations>
 				<Literal>
 					<ID>delay</ID>
@@ -21,7 +21,7 @@
 				<Literal>
 					<ID>delayTiming</ID>
 					<ToolTip>DelayTiming value.</ToolTip>
-					<Default>PlayerLoopTiming.FixedUpdate</Default>
+					<Default>FixedUpdate</Default>
 				</Literal>
 			</Declarations>
 			<Imports>
