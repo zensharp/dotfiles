@@ -1,0 +1,71 @@
+[2024-09-01 16:38:44.126899] [p-4556] [t-6988] [info] keyboard-manager logger is initialized
+[2024-09-01 16:38:44.164193] [p-4556] [t-6988] [trace] Created/Opened Local\PowerToys_KBMEditor_InstanceMutex mutex
+[2024-09-01 16:38:44.165029] [p-4556] [t-6988] [trace] Editor started from the settings with pid 23088
+[2024-09-01 16:38:44.166167] [p-4556] [t-6988] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:44.174373] [p-4556] [t-6988] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:44.175079] [p-4556] [t-6988] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:44.686489] [p-4556] [t-6988] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:44.695896] [p-4556] [t-6988] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:44.696477] [p-4556] [t-6988] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:44.696925] [p-4556] [t-6988] [trace] CreateEditShortcutsWindowImpl()
+[2024-09-01 16:38:44.697247] [p-4556] [t-6988] [trace] Signaled PowerToys_KeyboardManager_Event_EditorWindow event to suspend the KBM engine
+[2024-09-01 16:38:44.713104] [p-4556] [t-6988] [info] Theme is now Dark
+[2024-09-01 16:38:44.714686] [p-4556] [t-6988] [trace] XamlBridge2::InitBridge()
+[2024-09-01 16:38:45.104813] [p-4556] [t-6988] [trace] XamlBridge2::MessageLoop()
+[2024-09-01 16:38:47.223484] [p-4556] [t-6988] [trace] XamlBridge2::MessageLoop() stopped
+[2024-09-01 16:38:47.226489] [p-4556] [t-6988] [trace] Terminating process 4556
+[2024-09-01 16:38:47.881023] [p-21840] [t-19924] [info] keyboard-manager logger is initialized
+[2024-09-01 16:38:47.918089] [p-21840] [t-19924] [trace] Created/Opened Local\PowerToys_KBMEditor_InstanceMutex mutex
+[2024-09-01 16:38:47.918916] [p-21840] [t-19924] [trace] Editor started from the settings with pid 23088
+[2024-09-01 16:38:47.919984] [p-21840] [t-19924] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:47.928910] [p-21840] [t-19924] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:47.929514] [p-21840] [t-19924] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:48.438454] [p-21840] [t-19924] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:48.444470] [p-21840] [t-19924] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:48.444778] [p-21840] [t-19924] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:48.445095] [p-21840] [t-19924] [trace] CreateEditKeyboardWindowImpl()
+[2024-09-01 16:38:48.445346] [p-21840] [t-19924] [trace] Signaled PowerToys_KeyboardManager_Event_EditorWindow event to suspend the KBM engine
+[2024-09-01 16:38:48.460195] [p-21840] [t-19924] [info] Theme is now Dark
+[2024-09-01 16:38:48.461844] [p-21840] [t-19924] [trace] XamlBridge2::InitBridge()
+[2024-09-01 16:38:48.612670] [p-21840] [t-19924] [trace] XamlBridge2::MessageLoop()
+[2024-09-01 16:38:49.688339] [p-21840] [t-19924] [trace] XamlBridge2::MessageLoop() stopped
+[2024-09-01 16:38:49.689740] [p-21840] [t-19924] [trace] Terminating process 21840
+[2024-09-01 16:38:50.311245] [p-23928] [t-18388] [info] keyboard-manager logger is initialized
+[2024-09-01 16:38:50.348638] [p-23928] [t-18388] [trace] Created/Opened Local\PowerToys_KBMEditor_InstanceMutex mutex
+[2024-09-01 16:38:50.349463] [p-23928] [t-18388] [trace] Editor started from the settings with pid 23088
+[2024-09-01 16:38:50.350521] [p-23928] [t-18388] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:50.359392] [p-23928] [t-18388] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:50.360001] [p-23928] [t-18388] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:50.862517] [p-23928] [t-18388] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:38:50.871266] [p-23928] [t-18388] [error] Improper JSON format for shortcut remaps. Skip to next remap type
+[2024-09-01 16:38:50.871872] [p-23928] [t-18388] [error] Improper JSON format for single key to text remaps. Skip to next remap type
+[2024-09-01 16:38:50.872402] [p-23928] [t-18388] [trace] CreateEditShortcutsWindowImpl()
+[2024-09-01 16:38:50.872945] [p-23928] [t-18388] [trace] Signaled PowerToys_KeyboardManager_Event_EditorWindow event to suspend the KBM engine
+[2024-09-01 16:38:50.888358] [p-23928] [t-18388] [info] Theme is now Dark
+[2024-09-01 16:38:50.890053] [p-23928] [t-18388] [trace] XamlBridge2::InitBridge()
+[2024-09-01 16:38:51.041171] [p-23928] [t-18388] [trace] XamlBridge2::MessageLoop()
+[2024-09-01 16:39:06.815307] [p-23928] [t-18388] [trace] Signaled PowerToys_KeyboardManager_Event_Settings event
+[2024-09-01 16:39:06.837618] [p-23928] [t-18388] [trace] XamlBridge2::MessageLoop() stopped
+[2024-09-01 16:39:06.842242] [p-23928] [t-18388] [trace] Terminating process 23928
+[2024-09-01 16:39:10.786242] [p-7280] [t-20208] [info] keyboard-manager logger is initialized
+[2024-09-01 16:39:10.824113] [p-7280] [t-20208] [trace] Created/Opened Local\PowerToys_KBMEditor_InstanceMutex mutex
+[2024-09-01 16:39:10.824951] [p-7280] [t-20208] [trace] Editor started from the settings with pid 23088
+[2024-09-01 16:39:10.826000] [p-7280] [t-20208] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:39:10.833788] [p-7280] [t-20208] [trace] CreateEditShortcutsWindowImpl()
+[2024-09-01 16:39:10.834241] [p-7280] [t-20208] [trace] Signaled PowerToys_KeyboardManager_Event_EditorWindow event to suspend the KBM engine
+[2024-09-01 16:39:10.848779] [p-7280] [t-20208] [info] Theme is now Dark
+[2024-09-01 16:39:10.850634] [p-7280] [t-20208] [trace] XamlBridge2::InitBridge()
+[2024-09-01 16:39:11.002916] [p-7280] [t-20208] [trace] XamlBridge2::MessageLoop()
+[2024-09-01 16:39:12.537201] [p-7280] [t-20208] [trace] XamlBridge2::MessageLoop() stopped
+[2024-09-01 16:39:12.542214] [p-7280] [t-20208] [trace] Terminating process 7280
+[2024-09-01 16:39:13.730314] [p-21180] [t-22012] [info] keyboard-manager logger is initialized
+[2024-09-01 16:39:13.768120] [p-21180] [t-22012] [trace] Created/Opened Local\PowerToys_KBMEditor_InstanceMutex mutex
+[2024-09-01 16:39:13.768951] [p-21180] [t-22012] [trace] Editor started from the settings with pid 23088
+[2024-09-01 16:39:13.770017] [p-21180] [t-22012] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:39:13.777871] [p-21180] [t-22012] [trace] CreateEditShortcutsWindowImpl()
+[2024-09-01 16:39:13.778323] [p-21180] [t-22012] [trace] Signaled PowerToys_KeyboardManager_Event_EditorWindow event to suspend the KBM engine
+[2024-09-01 16:39:13.792253] [p-21180] [t-22012] [info] Theme is now Dark
+[2024-09-01 16:39:13.794025] [p-21180] [t-22012] [trace] XamlBridge2::InitBridge()
+[2024-09-01 16:39:13.953018] [p-21180] [t-22012] [trace] XamlBridge2::MessageLoop()
+[2024-09-01 16:39:15.473644] [p-21180] [t-22012] [trace] XamlBridge2::MessageLoop() stopped
+[2024-09-01 16:39:15.478393] [p-21180] [t-22012] [trace] Terminating process 21180

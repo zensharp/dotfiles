@@ -1,0 +1,7 @@
+[2024-09-01 16:37:58.054452] [p-16448] [t-10556] [info] keyboard-manager logger is initialized
+[2024-09-01 16:37:58.091403] [p-16448] [t-10556] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:37:58.594346] [p-16448] [t-10556] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:39:06.815360] [p-16448] [t-17724] [trace] PowerToys_KeyboardManager_Event_Settings event was signaled
+[2024-09-01 16:39:06.816106] [p-16448] [t-17724] [trace] SettingsHelper::LoadSettings()
+[2024-09-01 16:39:45.722096] [p-16448] [t-10556] [trace] ChordKeyboardHandler:keyEventList.size:1
+[2024-09-01 16:39:48.055198] [p-16448] [t-10556] [trace] ChordKeyboardHandler:keyEventList.size:1
