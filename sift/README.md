@@ -1,5 +1,0 @@
-# macOS
-
-```
-$ brew install sift
-```
