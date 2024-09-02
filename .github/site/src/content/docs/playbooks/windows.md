@@ -64,7 +64,15 @@ Run the provided Powershell script to install essential software.
 :::tip
 You can uninstall distributions with the following:
 ```shell
-> wsl --unregister Ubuntu
+wsl --unregister Ubuntu
+```
+:::
+
+:::tip
+When installing xdg-open-wsl, you may need to use the `--break-system-packages` flag.
+```shell
+pip3 install --user --upgrade pip --break-system-packages
+pip install --user git+https://github.com/cpbotha/xdg-open-wsl.git
 ```
 :::
 
