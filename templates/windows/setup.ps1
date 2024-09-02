@@ -1,9 +1,13 @@
 winget install -e --id Bitwarden.Bitwarden
 winget install -e --id BlenderFoundation.Blender
 winget install -e --id Discord.Discord
+winget install -e --id Ferdium.Ferdium
+winget install -e --id Flow-Launcher.Flow-Launcher
 winget install -e --id Google.Chrome --force
+winget install -e --id Git.Git
 winget install -e --id HermannSchinagl.LinkShellExtension
 winget install -e --id ItchIo.Itch
+winget install -e --id Libretro.RetroArch
 winget install -e --id mcmilk.7zip-zstd
 winget install -e --id Microsoft.PowerToys
 winget install -e --id Microsoft.VisualStudio.2022.Community
@@ -15,7 +19,7 @@ winget install -e --id Nextcloud.NextcloudDesktop
 winget install -e --id Nvidia.GeForceExperience
 winget install -e --id Obsidian.Obsidian
 winget install -e --id Spotify.Spotify
-winget install -e --id UnityTechnologies.UnityHub --force
+winget install -e --id Unity.UnityHub
 winget install -e --id Valve.Steam
 winget install -e --id VideoLAN.VLC.Nightly
 winget install -e --id tailscale.tailscale

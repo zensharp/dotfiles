@@ -62,7 +62,15 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
     "dotnet.codeLens.enableReferencesCodeLens": false,
-    "remote.SSH.remotePlatform": {"coder-vscode--ajordan--arctic":"linux","coder-vscode--ajordan--alps":"linux","coder-vscode--zensharp--tatooine":"linux","zenon":"linux","coder-vscode.3000-zensharp-gitpad-rjqugunr7uu.ws-us115.gitpod.io--ajordan--endor":"linux","coder-vscode.coder.zensharp.net--ajordan--endor":"linux","coder-vscode.coder.zensharp.net--ajordan--endor--main":"linux"},
+    "remote.SSH.remotePlatform": {
+        "coder-vscode--ajordan--arctic": "linux",
+        "coder-vscode--ajordan--alps": "linux",
+        "coder-vscode--zensharp--tatooine": "linux",
+        "zenon": "linux",
+        "coder-vscode.3000-zensharp-gitpad-rjqugunr7uu.ws-us115.gitpod.io--ajordan--endor": "linux",
+        "coder-vscode.coder.zensharp.net--ajordan--endor": "linux",
+        "coder-vscode.coder.zensharp.net--ajordan--endor--main": "linux"
+    },
     "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
@@ -93,10 +101,9 @@
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.cursorBlinking": true,
     "csharp.showOmnisharpLogOnError": false,
+    "dotnet.server.useOmnisharp": true,
     "security.allowedUNCHosts": [
         "wsl.localhost"
     ],
-    "workbench.editor.empty.hint": "hidden",
-    "remote.SSH.connectTimeout": 1800,
-    "dotnet.server.useOmnisharp": true
+    "workbench.editor.empty.hint": "hidden","remote.SSH.connectTimeout": 1800
 }

@@ -9,8 +9,7 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": 
@@ -22,79 +21,7 @@
                 "name": "_quake",
                 "toggleVisibility": true
             },
-            "id": "User.globalSummon.4C8709E8",
-            "keys": "win+`"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "id": "User.newTab.5DEADB41",
-            "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "id": "User.moveFocus.F747588A",
-            "keys": "shift+down"
-        },
-        {
-            "command": "quit",
-            "id": "User.quit",
-            "keys": "ctrl+shift+q"
-        },
-        {
-            "command": 
-            {
-                "action": "closeTab"
-            },
-            "id": "User.closeTab.0",
-            "keys": "ctrl+w"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "id": "User.moveFocus.87C324ED",
-            "keys": "shift+right"
-        },
-        {
-            "command": 
-            {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "id": "User.clearBuffer.87C324ED",
-            "keys": "ctrl+k"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "shift+left"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "id": "User.moveFocus.6CD791B",
-            "keys": "shift+up"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.globalSummon.4C8709E8"
         },
         {
             "command": 
@@ -103,6 +30,68 @@
                 "direction": "previous"
             },
             "id": "User.moveFocus.75247157"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "id": "User.moveFocus.F747588A"
+        },
+        {
+            "command": "quit",
+            "id": "User.quit"
+        },
+        {
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "id": "User.clearBuffer.87C324ED"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "id": "User.closeTab.0"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "id": "User.moveFocus.2A0DA8E0"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.6CD791B"
         },
         {
             "command": "closeWindow",
@@ -114,12 +103,7 @@
                 "action": "sendInput",
                 "input": "\u001b["
             },
-            "id": "User.sendInput.EA4CDA8A",
-            "keys": "ctrl+shift+enter"
-        },
-        {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+t"
+            "id": "User.sendInput.EA4CDA8A"
         }
     ],
     "alwaysShowNotificationIcon": true,
@@ -128,6 +112,61 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.moveFocus.87C324ED",
+            "keys": "shift+right"
+        },
+        {
+            "id": "User.newTab.5DEADB41",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "User.globalSummon.4C8709E8",
+            "keys": "win+`"
+        },
+        {
+            "id": "User.clearBuffer.87C324ED",
+            "keys": "ctrl+k"
+        },
+        {
+            "id": "User.moveFocus.F747588A",
+            "keys": "shift+down"
+        },
+        {
+            "id": "User.quit",
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "id": "User.closeTab.0",
+            "keys": "ctrl+w"
+        },
+        {
+            "id": "User.moveFocus.2A0DA8E0",
+            "keys": "shift+left"
+        },
+        {
+            "id": "User.moveFocus.6CD791B",
+            "keys": "shift+up"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.sendInput.EA4CDA8A",
+            "keys": "ctrl+shift+enter"
+        },
+        {
+            "id": "Terminal.ToggleFocusMode",
+            "keys": "ctrl+shift+t"
+        }
+    ],
     "launchMode": "maximized",
     "minimizeToNotificationArea": false,
     "newTabMenu": 
@@ -186,28 +225,22 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{0bc8bd56-f44f-54c3-98cc-5c59539c2211}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{79b8c3a1-baee-51b1-a73a-a89daa04ba69}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
+                "guid": "{f555c789-3f38-5404-a349-a87148e40f26}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2f04dac1-2c25-555a-8893-20669b2a0f37}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },

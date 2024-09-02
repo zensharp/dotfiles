@@ -6,3 +6,4 @@ dotnet tool install -g andtech.gooball;
 dotnet tool install -g andtech.raccoon;
 dotnet tool install -g andtech.dj;
 dotnet tool install -g andtech.to;
+dotnet tool install -g andtech.gitline;
