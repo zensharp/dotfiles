@@ -1,3 +1,8 @@
+---
+title: Before You Reset
+description: Installing dotfiles on Windows.
+---
+
 * [ ] Push changes from all git repos.
 * [ ] Save files from Desktop.
 * [ ] Save files from Downloads.

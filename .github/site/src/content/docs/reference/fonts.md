@@ -1,3 +1,8 @@
+---
+title: Fonts
+description: Installing dotfiles on Windows.
+---
+
 | Environment | Font | Asset Name | Ligatures |
 | --- | --- | --- | --- |
 | Text Editor | [Iosevka (Custom)](https://github.com/zensharp/dotfiles/blob/main/misc/fonts/iosevka/iosevka-custom-semibold.ttf) | N/A | No |

@@ -1,3 +1,8 @@
+---
+title: Shell Aliases
+description: Installing dotfiles on Windows.
+---
+
 # Shell
 | Alias | Command |
 | --- | --- |

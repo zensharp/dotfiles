@@ -1,3 +1,12 @@
+---
+title: macOS Installation
+description: Installing dotfiles on macOS.
+---
+
+:::caution
+This page needs refinement.
+:::
+
 ```
 $ brew install starship
 $ brew install --cask sensiblesidebuttons
