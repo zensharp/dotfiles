@@ -1,6 +1,6 @@
 ---
-title: Windows Installation
-description: Installing dotfiles on Windows.
+title: Windows Configuration
+description: Configuration on Windows.
 ---
 
 If you are coming from a fresh re-installation of Windows, delete previous versions of Windows in [Settings > Storage Management > Cleanup Recommendations](ms-settings:storagerecommendations)

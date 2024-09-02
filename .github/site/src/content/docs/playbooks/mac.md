@@ -1,6 +1,6 @@
 ---
-title: macOS Installation
-description: Installing dotfiles on macOS.
+title: macOS Configuration
+description: Configuration on macOS.
 ---
 
 :::caution

@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://dotfiles.zensharp.net',
 	integrations: [
 		starlight({
-			title: 'Zensharp Dotfiles',
+			title: 'Dotfiles',
 			social: {
 				github: 'https://github.com/zensharp/dotfiles',
 			},
