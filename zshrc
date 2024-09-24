@@ -9,8 +9,6 @@ case "$PLATFORM" in
     linux)
         ;;
     wsl)
-        alias wudo="python3 ~/dotfiles/wsl/bin/wsl-sudo.py"
-        wsl-cd () { cd "$(wslpath $1)"; }
         # zsh only
         [[ -n "$WT_SESSION" ]] && {
             chpwd() {
@@ -19,6 +17,7 @@ case "$PLATFORM" in
                 echo -en '"\x07'
             }
         }
+        . $HOME/dotfiles/wsl/interactive
         ;;
 esac
 

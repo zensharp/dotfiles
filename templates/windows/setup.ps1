@@ -16,6 +16,7 @@ winget install -e --id Microsoft.WindowsTerminal.Preview
 winget install -e --id Microsoft.dotnet
 winget install -e --id Mozilla.Firefox
 winget install -e --id Nextcloud.NextcloudDesktop
+winget install -e --id NirSoft.ShellExView
 winget install -e --id Nvidia.GeForceExperience
 winget install -e --id Obsidian.Obsidian
 winget install -e --id Spotify.Spotify

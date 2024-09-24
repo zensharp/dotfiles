@@ -2,4 +2,7 @@
 <MaxHotkeyTransformations Locked="false">
     <Unassign_Hotkey Shortcut="Q" Description="Smart Select" Id="647394-SmartSelect`Selection"/>
     <Assign_Hotkey Shortcut="Q" Description="Select Object" Id="0-50027"/>
+    <Unassign_Hotkey Shortcut="Ctrl+E" Description="Scale Cycle" Id="0-278"/>
+    <Assign_Hotkey Shortcut="Ctrl+E" Description="Export File" Id="0-40011"/>
+    <Assign_Hotkey Shortcut="Ctrl+Shift+E" Description="Export Selected" Id="0-40373"/>
 </MaxHotkeyTransformations>

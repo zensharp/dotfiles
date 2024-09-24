@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+NAME=$(basename "$(git root)")
+
+$BROWSER https://$NAME.devspaces.app
