@@ -3,6 +3,7 @@
 [bB]ackup/
 [bB]ackups/
 *.git
+*.bak
 
 version.properties
 nohup.out
@@ -38,3 +39,8 @@ builds/
 
 # Affinity
 *.afdesign~lock~
+
+# Krita
+*-autosave.kra
+*-autosave.kra.meta
+*.png~

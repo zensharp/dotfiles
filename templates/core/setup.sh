@@ -34,7 +34,6 @@ brew install git-delta
 brew install make
 brew install micro
 brew install neofetch
-brew install npm
 brew install sd
 brew install sift
 ~/dotfiles/git/load.sh

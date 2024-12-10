@@ -49,4 +49,3 @@
 	sm-update = submodule update --recursive --remote
 	sm-status = submodule foreach git status
 	sms = sm-status
-	sw = !git switch "$*" || git switch main "$*"
