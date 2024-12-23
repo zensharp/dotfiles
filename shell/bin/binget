@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -eu
+
+BASENAME=$(basename "$1")
+echo $BASENAME
+
+mkdir -p $HOME/.local/bin
+wget -P $HOME/.local/bin $1
+sudo chmod +x $HOME/.local/bin/$BASENAME

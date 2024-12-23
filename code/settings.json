@@ -105,5 +105,6 @@
     ],
     "workbench.editor.empty.hint": "hidden",
     "remote.SSH.connectTimeout": 1800,
-    "dotnet.server.useOmnisharp": true
+    "dotnet.server.useOmnisharp": true,
+    "update.showReleaseNotes": false
 }
