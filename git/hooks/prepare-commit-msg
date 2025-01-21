@@ -9,9 +9,9 @@ SHA1=$3
 
 # Replace issue/feature string
 branch=$(git branch --show-current)
-if echo $branch | grep -q '^feature-'
+if echo $branch | grep -q '^feature/'
 then
-	name=${branch#feature-}
+	name=${branch#feature/}
 	if echo $name | grep -q '^[[:digit:]]*$'
 	then
 		message="\n\nImplementing #$name"

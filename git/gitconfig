@@ -20,14 +20,12 @@
 [init]
 	defaultBranch = main
 [core]
-	autocrlf = input
 	compression = 0
 	editor = gitline
 	excludesFile = ~/dotfiles/git/gitignore
 	filemode = false
 	hooksPath = ~/dotfiles/git/hooks
 	ignorecase = false
-	safecrlf = false
 	whitespace = cr-at-eol
 [fetch]
 	prune = true
