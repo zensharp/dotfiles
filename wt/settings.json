@@ -4,6 +4,15 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
             "command": "unbound",
             "id": "User.moveFocus.87C324ED",
             "keys": "shift+right"
@@ -63,11 +72,9 @@
         {
             "command": 
             {
-                "action": "copy",
-                "singleLine": false
+                "action": "newTab"
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.newTab.5DEADB41"
         },
         {
             "command": 
@@ -80,9 +87,10 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "moveFocus",
+                "direction": "previous"
             },
-            "id": "User.newTab.5DEADB41"
+            "id": "User.moveFocus.75247157"
         },
         {
             "command": 
@@ -96,9 +104,9 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "previous"
+                "direction": "right"
             },
-            "id": "User.moveFocus.75247157"
+            "id": "User.moveFocus.87C324ED"
         },
         {
             "command": "quit",
@@ -110,14 +118,6 @@
                 "action": "closeTab"
             },
             "id": "User.closeTab.0"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "id": "User.moveFocus.87C324ED"
         },
         {
             "command": "paste",
@@ -321,7 +321,7 @@
             "yellow": "#9C8E30"
         }
     ],
-    "startOnUserLogin": false,
+    "startOnUserLogin": true,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 
