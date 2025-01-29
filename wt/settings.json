@@ -22,10 +22,6 @@
         },
         {
             "command": "unbound",
-            "keys": "win+`"
-        },
-        {
-            "command": "unbound",
             "keys": "shift+down"
         },
         {
@@ -63,6 +59,13 @@
                 "singleLine": false
             },
             "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": 
+            {
+                "action": "quakeMode"
+            },
+            "keys": "win+`"
         },
         {
             "command": 
@@ -177,6 +180,7 @@
     {
         "defaults": 
         {
+            "antialiasingMode": "cleartype",
             "bellStyle": "taskbar",
             "colorScheme": "Andtech",
             "font": 
