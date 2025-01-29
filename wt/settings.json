@@ -10,10 +10,6 @@
         },
         {
             "command": "unbound",
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "unbound",
             "keys": "ctrl+t"
         },
         {
@@ -53,31 +49,25 @@
             "keys": "ctrl+shift+t"
         },
         {
+            "command": "unbound",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+sc(41)"
+        },
+        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2"
-        },
-        {
-            "command": 
-            {
-                "action": "quakeMode"
-            },
-            "keys": "win+`"
-        },
-        {
-            "command": 
-            {
-                "action": "globalSummon",
-                "desktop": "toCurrent",
-                "dropdownDuration": 0,
-                "monitor": "any",
-                "name": "_quake",
-                "toggleVisibility": true
-            },
-            "id": "User.globalSummon.4C8709E8"
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -111,14 +101,6 @@
             "id": "User.moveFocus.75247157"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "id": "User.moveFocus.87C324ED"
-        },
-        {
             "command": "quit",
             "id": "User.quit"
         },
@@ -128,6 +110,14 @@
                 "action": "closeTab"
             },
             "id": "User.closeTab.0"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
         },
         {
             "command": "paste",
