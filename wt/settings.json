@@ -1,6 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
     "actions": 
     [
         {
@@ -9,72 +9,7 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "command": "unbound",
-            "id": "User.moveFocus.87C324ED",
-            "keys": "shift+right"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+t"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+k"
-        },
-        {
-            "command": "unbound",
-            "keys": "shift+down"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+q"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+w"
-        },
-        {
-            "command": "unbound",
-            "keys": "shift+left"
-        },
-        {
-            "command": "unbound",
-            "keys": "shift+up"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+v"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+enter"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+t"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+shift+c"
-        },
-        {
-            "command": "unbound",
-            "keys": "ctrl+insert"
-        },
-        {
-            "command": "unbound",
-            "keys": "win+sc(41)"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab"
-            },
-            "id": "User.newTab.5DEADB41"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": 
@@ -83,6 +18,14 @@
                 "direction": "down"
             },
             "id": "User.moveFocus.F747588A"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
         },
         {
             "command": 
@@ -101,16 +44,27 @@
             "id": "User.sendInput.EA4CDA8A"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "id": "User.moveFocus.87C324ED"
+            "command": "paste",
+            "id": "User.paste"
         },
         {
-            "command": "quit",
-            "id": "User.quit"
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon",
+                "desktop": "toCurrent",
+                "dropdownDuration": 1,
+                "monitor": "any",
+                "name": "_quake",
+                "toggleVisibility": true
+            },
+            "id": "User.globalSummon.4C8709E8"
         },
         {
             "command": 
@@ -120,8 +74,8 @@
             "id": "User.closeTab.0"
         },
         {
-            "command": "paste",
-            "id": "User.paste"
+            "command": "quit",
+            "id": "User.quit"
         },
         {
             "command": 
@@ -158,6 +112,69 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "keybindings": 
+    [
+        {
+            "id": null,
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": null,
+            "keys": "shift+right"
+        },
+        {
+            "id": null,
+            "keys": "shift+left"
+        },
+        {
+            "id": "User.globalSummon.4C8709E8",
+            "keys": "win+`"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+k"
+        },
+        {
+            "id": null,
+            "keys": "shift+down"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "id": null,
+            "keys": "shift+up"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+v"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+enter"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+insert"
+        }
+    ],
     "launchMode": "maximized",
     "minimizeToNotificationArea": false,
     "newTabMenu": 
