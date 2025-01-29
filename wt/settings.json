@@ -1,16 +1,72 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-    "actions": [
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
         {
-            "command": {
+            "command": "unbound",
+            "id": "User.moveFocus.87C324ED",
+            "keys": "shift+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+k"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+`"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+down"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+q"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+enter"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
             "id": "User.copy.644BA8F2"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "globalSummon",
                 "desktop": "toCurrent",
                 "dropdownDuration": 0,
@@ -21,69 +77,78 @@
             "id": "User.globalSummon.4C8709E8"
         },
         {
-            "command": {
-                "action": "sendInput",
-                "input": "\u001b["
-            },
-            "id": "User.sendInput.EA4CDA8A"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "id": "User.moveFocus.87C324ED"
-        },
-        {
-            "command": {
-                "action": "moveFocus",
-                "direction": "previous"
-            },
-            "id": "User.moveFocus.75247157"
-        },
-        {
-            "command": {
-                "action": "newTab"
-            },
-            "id": "User.newTab.5DEADB41"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "down"
             },
             "id": "User.moveFocus.F747588A"
         },
         {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "\u001b["
+            },
+            "id": "User.sendInput.EA4CDA8A"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "previous"
+            },
+            "id": "User.moveFocus.75247157"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
+        },
+        {
             "command": "quit",
             "id": "User.quit"
         },
         {
-            "command": {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "id": "User.closeTab.0"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "up"
             },
             "id": "User.moveFocus.6CD791B"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "clearBuffer",
                 "clear": "all"
             },
             "id": "User.clearBuffer.87C324ED"
         },
         {
-            "command": {
-                "action": "closeTab"
-            },
-            "id": "User.closeTab.0"
-        },
-        {
-            "command": {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "left"
             },
@@ -100,74 +165,22 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "keybindings": [
-        {
-            "id": "User.moveFocus.87C324ED",
-            "keys": "shift+right"
-        },
-        {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": "User.newTab.5DEADB41",
-            "keys": "ctrl+t"
-        },
-        {
-            "id": "User.clearBuffer.87C324ED",
-            "keys": "ctrl+k"
-        },
-        {
-            "id": "User.globalSummon.4C8709E8",
-            "keys": "win+`"
-        },
-        {
-            "id": "User.moveFocus.F747588A",
-            "keys": "shift+down"
-        },
-        {
-            "id": "User.quit",
-            "keys": "ctrl+shift+q"
-        },
-        {
-            "id": "User.closeTab.0",
-            "keys": "ctrl+w"
-        },
-        {
-            "id": "User.moveFocus.2A0DA8E0",
-            "keys": "shift+left"
-        },
-        {
-            "id": "User.moveFocus.6CD791B",
-            "keys": "shift+up"
-        },
-        {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "User.sendInput.EA4CDA8A",
-            "keys": "ctrl+shift+enter"
-        },
-        {
-            "id": "Terminal.ToggleFocusMode",
-            "keys": "ctrl+shift+t"
-        }
-    ],
     "launchMode": "maximized",
     "minimizeToNotificationArea": false,
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
-            "antialiasingMode": "cleartype",
+    "profiles": 
+    {
+        "defaults": 
+        {
             "bellStyle": "taskbar",
             "colorScheme": "Andtech",
-            "experimental.retroTerminalEffect": true,
-            "font": {
+            "font": 
+            {
                 "face": "Iosevka Term SS16",
                 "size": 14,
                 "weight": "bold"
@@ -178,10 +191,12 @@
             "startingDirectory": ".",
             "useAcrylic": true
         },
-        "list": [
+        "list": 
+        [
             {
                 "backgroundImageAlignment": "bottomLeft",
-                "font": {
+                "font": 
+                {
                     "size": 15
                 },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
@@ -226,19 +241,22 @@
             },
             {
                 "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\andrew\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\andrew\\anaconda3' \"",
-                "name": "Anaconda PowerShell Prompt (anaconda3)",
+                "guid": "{eed49005-877d-5de2-94d5-5ce5e370f8c3}",
                 "icon": "C:\\Users\\andrew\\anaconda3\\Menu\\anaconda_powershell_prompt.ico",
+                "name": "Anaconda PowerShell Prompt (anaconda3)",
                 "startingDirectory": "C:\\Users\\andrew"
             },
             {
                 "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\andrew\\anaconda3\\Scripts\\activate.bat C:\\Users\\andrew\\anaconda3",
-                "name": "Anaconda Prompt (anaconda3)",
+                "guid": "{e78b37b4-0017-568b-9279-1abde5e14cde}",
                 "icon": "C:\\Users\\andrew\\anaconda3\\Menu\\anaconda_prompt.ico",
+                "name": "Anaconda Prompt (anaconda3)",
                 "startingDirectory": "C:\\Users\\andrew"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#000001",
             "black": "#37373D",
@@ -312,20 +330,24 @@
     "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
-    "themes": [
+    "themes": 
+    [
         {
             "name": "Nord",
-            "tab": {
+            "tab": 
+            {
                 "background": "#4C566AFF",
                 "iconStyle": "default",
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "tabRow": {
+            "tabRow": 
+            {
                 "background": "#3B4252FF",
                 "unfocusedBackground": "#3B4252FF"
             },
-            "window": {
+            "window": 
+            {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
