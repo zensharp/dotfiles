@@ -14,6 +14,13 @@
         {
             "command": 
             {
+                "action": "nextTab"
+            },
+            "id": "User.nextTab.0"
+        },
+        {
+            "command": 
+            {
                 "action": "moveFocus",
                 "direction": "down"
             },
@@ -22,10 +29,10 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "right"
+                "action": "sendInput",
+                "input": "\u001b["
             },
-            "id": "User.moveFocus.87C324ED"
+            "id": "User.sendInput.EA4CDA8A"
         },
         {
             "command": 
@@ -38,14 +45,10 @@
         {
             "command": 
             {
-                "action": "sendInput",
-                "input": "\u001b["
+                "action": "moveFocus",
+                "direction": "right"
             },
-            "id": "User.sendInput.EA4CDA8A"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
+            "id": "User.moveFocus.87C324ED"
         },
         {
             "command": 
@@ -53,6 +56,10 @@
                 "action": "newTab"
             },
             "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
         },
         {
             "command": 
@@ -80,18 +87,18 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "id": "User.moveFocus.6CD791B"
-        },
-        {
-            "command": 
-            {
                 "action": "clearBuffer",
                 "clear": "all"
             },
             "id": "User.clearBuffer.87C324ED"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "id": "User.moveFocus.6CD791B"
         },
         {
             "command": 
@@ -119,24 +126,28 @@
     "keybindings": 
     [
         {
+            "id": null,
+            "keys": "shift+right"
+        },
+        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
         {
-            "id": null,
-            "keys": "shift+right"
+            "id": "User.nextTab.0",
+            "keys": "ctrl+tab"
         },
         {
             "id": null,
             "keys": "shift+left"
         },
         {
-            "id": "User.globalSummon.4C8709E8",
-            "keys": "win+`"
-        },
-        {
             "id": null,
             "keys": "ctrl+k"
+        },
+        {
+            "id": "User.globalSummon.4C8709E8",
+            "keys": "win+`"
         },
         {
             "id": null,
@@ -179,12 +190,12 @@
             "keys": "ctrl+shift+v"
         },
         {
-            "id": null,
-            "keys": "ctrl+tab"
-        },
-        {
             "id": "User.newTab.5DEADB41",
             "keys": "ctrl+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+9"
         }
     ],
     "launchMode": "maximized",

@@ -6,7 +6,6 @@
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "editor.formatOnType": true,
     "editor.insertSpaces": false,
     "editor.renderWhitespace": "all",
     "editor.smoothScrolling": true,
@@ -61,16 +60,6 @@
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.invisibleCharacters": false,
     "dotnet.codeLens.enableReferencesCodeLens": false,
-    "remote.SSH.remotePlatform": {
-        "coder-vscode--ajordan--arctic": "linux",
-        "coder-vscode--ajordan--alps": "linux",
-        "coder-vscode--zensharp--tatooine": "linux",
-        "zenon": "linux",
-        "coder-vscode.3000-zensharp-gitpad-rjqugunr7uu.ws-us115.gitpod.io--ajordan--endor": "linux",
-        "coder-vscode.coder.zensharp.net--ajordan--endor": "linux",
-        "coder-vscode.coder.zensharp.net--ajordan--endor--main": "linux"
-    },
-    "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "terminal.integrated.profiles.windows": {
@@ -106,5 +95,43 @@
     "workbench.editor.empty.hint": "hidden",
     "remote.SSH.connectTimeout": 1800,
     "dotnet.server.useOmnisharp": true,
-    "update.showReleaseNotes": false
+    "update.showReleaseNotes": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.trimAutoWhitespace": false,
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "always",
+    "window.commandCenter": false,
+    "html.format.indentInnerHtml": true,
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "vstuc.refreshOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "editor.autoIndent": "advanced",
+    "omnisharp.useEditorFormattingSettings": false,
+    "editor.tabCompletion": "on"
 }
