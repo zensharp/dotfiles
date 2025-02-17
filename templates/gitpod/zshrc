@@ -1,0 +1,12 @@
+. ~/dotfiles/shell/ls_colors
+
+# Aliases
+alias ls=eza
+
+# Configure zoxide
+eval "$(starship init zsh)"
+
+# Configure starship
+eval "$(zoxide init zsh)"
+export _ZO_ECHO=1
+export _ZO_RESOLVE_SYMLINKS=1

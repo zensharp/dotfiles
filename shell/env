@@ -8,7 +8,6 @@ for file in ~/dotfiles/shell/functions/**/*
 do
 	. $file
 done
-. ~/dotfiles/shell/colors
 
 # Misc
 export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/dotfiles/git-tools"
@@ -23,5 +22,6 @@ export TODO="$HOME/Nextcloud/Brain/me/issues/todo.md"
 export CLIPDROP_URL="https://clipdrop.zensharp.net"
 
 # Coloring
-export LS_COLORS="fi=38;01:pi=38;01:cd=38;01:di=33;01:so=38;01:ln=36;01:ex=32;01:bd=38;01:or=31;01"
+. ~/dotfiles/shell/ls_colors
+. ~/dotfiles/shell/colors
 export BAT_THEME="Visual Studio Dark+"
