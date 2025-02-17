@@ -1,7 +1,9 @@
 . ~/dotfiles/shell/ls_colors
 
 # Aliases
+alias g=git
 alias ls=eza
+alias m=micro
 
 # Configure zoxide
 eval "$(starship init zsh)"
