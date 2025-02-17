@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
 # Setup profiles
-echo ". $HOME/dotfiles/templates/gitpod/zshrc" >> $HOME/.zshrc
-echo ". $HOME/dotfiles/templates/gitpod/zshenv" >> $HOME/.zshenv
+echo '. $HOME/dotfiles/templates/gitpod/zshrc' >> $HOME/.zshrc
+echo '. $HOME/dotfiles/templates/gitpod/zshenv' >> $HOME/.zshenv
+
+# Setup git
+git config --global "include.path" "~/dotfiles/git/gitconfig"
 
 # Install starship
 curl https://get.zensharp.net/starship | bash
