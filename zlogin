@@ -8,7 +8,7 @@ case "$PLATFORM" in
     linux)
         ;;
     wsl)
-        dir=$(echo $PWD | tr '[:upper:]' '[:lower:]')
+        dir=$(echo $PWD | tr '[:upper:]' '[:lower:]') 
         case $dir in
             /mnt/c/windows* )
                 cd $HOME

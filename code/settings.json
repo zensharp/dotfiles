@@ -7,7 +7,7 @@
     "editor.fontFamily": "Iosevka Custom Semibold, Iosevka Custom, Iosevka, Cascadia Code PL, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.insertSpaces": false,
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "boundary",
     "editor.smoothScrolling": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -107,7 +107,6 @@
         "editor.defaultFormatter": "ms-dotnettools.csharp"
     },
     "vstuc.refreshOnSave": true,
-    "editor.formatOnType": true,
     "editor.tokenColorCustomizations": {
         "[*Light*]": {
             "textMateRules": [
@@ -131,7 +130,13 @@
         }
     },
     "workbench.colorTheme": "Visual Studio 2019 Dark",
-    "editor.autoIndent": "advanced",
     "omnisharp.useEditorFormattingSettings": false,
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "csharpier.enableDiagnostics": false,
+    "csharpier.dev.disableCSharpierServer": true,
+	"editor.detectIndentation": false,
+	"editor.defaultFormatter": "mfederczuk.smart-indent-align",
+	"remote.SSH.remotePlatform": {
+		"zenon": "linux"
+	}
 }

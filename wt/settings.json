@@ -122,7 +122,7 @@
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
     "keybindings": 
     [
         {
@@ -198,7 +198,7 @@
             "keys": "ctrl+alt+9"
         }
     ],
-    "launchMode": "maximized",
+    "launchMode": "default",
     "minimizeToNotificationArea": false,
     "newTabMenu": 
     [
@@ -212,7 +212,8 @@
         {
             "antialiasingMode": "cleartype",
             "bellStyle": "taskbar",
-            "colorScheme": "Andtech",
+            "colorScheme": "Nord",
+            "cursorShape": "bar",
             "font": 
             {
                 "face": "Iosevka Term SS16",
@@ -222,21 +223,17 @@
             "opacity": 85,
             "padding": "16",
             "showMarksOnScrollbar": true,
-            "startingDirectory": ".",
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "backgroundImageAlignment": "bottomLeft",
-                "font": 
-                {
-                    "size": 15
-                },
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "commandline": "ubuntu.exe",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "startingDirectory": "."
             },
             {
                 "colorScheme": "Campbell Powershell",
@@ -246,46 +243,8 @@
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Command Prompt"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                "guid": "{c3ddd8e2-f89b-5668-93b9-690b044ffd85}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{fe032121-a311-5e69-b911-1f150e1e08c5}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Users\\andrew\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Users\\andrew\\anaconda3' \"",
-                "guid": "{eed49005-877d-5de2-94d5-5ce5e370f8c3}",
-                "icon": "C:\\Users\\andrew\\anaconda3\\Menu\\anaconda_powershell_prompt.ico",
-                "name": "Anaconda PowerShell Prompt (anaconda3)",
-                "startingDirectory": "C:\\Users\\andrew"
-            },
-            {
-                "commandline": "%WINDIR%\\System32\\cmd.exe \"/K\" C:\\Users\\andrew\\anaconda3\\Scripts\\activate.bat C:\\Users\\andrew\\anaconda3",
-                "guid": "{e78b37b4-0017-568b-9279-1abde5e14cde}",
-                "icon": "C:\\Users\\andrew\\anaconda3\\Menu\\anaconda_prompt.ico",
-                "name": "Anaconda Prompt (anaconda3)",
-                "startingDirectory": "C:\\Users\\andrew"
             }
         ]
     },
@@ -361,7 +320,7 @@
             "yellow": "#9C8E30"
         }
     ],
-    "startOnUserLogin": true,
+    "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 
