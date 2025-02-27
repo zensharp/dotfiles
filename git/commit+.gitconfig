@@ -1,0 +1,4 @@
+[alias]
+	cm = commit+
+	cma = !git add -u && git commit+
+	cmaa = !git add -A && git commit+
