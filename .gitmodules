@@ -1,6 +1,6 @@
 [submodule "git-tools"]
 	path = git-tools
-	url = https://github.com/zensharp/git-tools
+	url = git@github.com:zensharp/git-tools
 [submodule "sshconfig"]
 	path = sshconfig
 	url = git@github.com:zensharp/sshconfig.git
