@@ -5,6 +5,10 @@ echo '. $HOME/dotfiles/templates/gitpod/zshrc' >> $HOME/.zshrc
 echo '. $HOME/dotfiles/templates/gitpod/zshenv' >> $HOME/.zshenv
 
 # Setup git
+cd ~/dotfiles
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+git submodule update --init
+cd -
 git config --global "include.path" "~/dotfiles/git/gitconfig"
 
 # Install starship
