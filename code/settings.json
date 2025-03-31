@@ -137,6 +137,24 @@
 	"editor.detectIndentation": false,
 	"editor.defaultFormatter": "mfederczuk.smart-indent-align",
 	"remote.SSH.remotePlatform": {
-		"zenon": "linux"
-	}
+		"zenon": "linux",
+		"*.gitpod.io": "linux",
+		"zensharp-gitpad-gssdfkyzxz0.vss.gitpod.io": "linux",
+		"zensharp-gitpodcsharp-ukxoi07wu14.vss.gitpod.io": "linux",
+		"gitpodsampl-templatedot-qrm9xhbqhj3.vss.gitpod.io": "linux",
+		"zensharp-gitpodcsharp-u7x6ghxeha9.vss.gitpod.io": "linux",
+		"zensharp-gitpodcsharp-0odg5av7ecs.vss.gitpod.io": "linux",
+		"debug-zensharp-gitpodcsharp-0odg5av7ecs.vss.gitpod.io": "linux",
+		"zensharp-hookshotcsharp-64954jjwhef.vss.gitpod.io": "linux",
+		"berry": "linux",
+		"zensharp-hookshot-q3rv4u08yyi.vss.gitpod.io": "linux"
+	},
+	"remote.SSH.defaultExtensions": [
+		"gitpod.gitpod-remote-ssh"
+	],
+	"redhat.telemetry.enabled": false,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"diffEditor.ignoreTrimWhitespace": true
 }

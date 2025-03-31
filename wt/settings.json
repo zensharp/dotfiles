@@ -228,12 +228,11 @@
         "list": 
         [
             {
-                "commandline": "ubuntu.exe",
+                "commandline": "wsl.exe",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
-                "startingDirectory": "."
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "colorScheme": "Campbell Powershell",

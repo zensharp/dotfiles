@@ -57,12 +57,7 @@
             "identifier": {
                 "path": "Main Menu/Assets/Create/Folder"
             },
-            "combinations": [
-                {
-                    "m_KeyCode": 110,
-                    "m_Modifiers": 6
-                }
-            ]
+            "combinations": []
         },
         {
             "identifier": {
@@ -277,6 +272,114 @@
                 {
                     "m_KeyCode": 113,
                     "m_Modifiers": 7
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Maximize (Force)"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Generate Lighting"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Maximize Game Window"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 32,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Lighting/Generate Lighting"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/File/Build And Run"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 98,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Build"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 98,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/File/Build Profiles"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Clear Console"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 120,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Help/Search/Menu"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Help/Search Transient Window"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 112,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Create/MonoBehaviour Script"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "ShaderGraph/Add Node: Fresnel"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Collapse All"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 102,
+                    "m_Modifiers": 1
                 }
             ]
         }
