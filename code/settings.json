@@ -49,6 +49,9 @@
     "workbench.editor.decorations.badges": false,
     "workbench.editor.decorations.colors": false,
     "workbench.editor.openPositioning": "last",
+	 "workbench.editorAssociations": {
+    "*.svg": "default"
+	},
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -93,8 +96,7 @@
         "wsl.localhost"
     ],
     "workbench.editor.empty.hint": "hidden",
-    "remote.SSH.connectTimeout": 1800,
-    "dotnet.server.useOmnisharp": true,
+	"remote.SSH.connectTimeout": 1800,
     "update.showReleaseNotes": false,
     "workbench.layoutControl.enabled": false,
     "editor.trimAutoWhitespace": false,
@@ -147,7 +149,8 @@
 		"debug-zensharp-gitpodcsharp-0odg5av7ecs.vss.gitpod.io": "linux",
 		"zensharp-hookshotcsharp-64954jjwhef.vss.gitpod.io": "linux",
 		"berry": "linux",
-		"zensharp-hookshot-q3rv4u08yyi.vss.gitpod.io": "linux"
+		"zensharp-hookshot-q3rv4u08yyi.vss.gitpod.io": "linux",
+		"zensharp-tanuki-sq5hn056mp3.vss.gitpod.io": "linux"
 	},
 	"remote.SSH.defaultExtensions": [
 		"gitpod.gitpod-remote-ssh"
@@ -156,5 +159,12 @@
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"diffEditor.ignoreTrimWhitespace": true
+	"diffEditor.ignoreTrimWhitespace": true,
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"dotnet.server.useOmnisharp": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	}
 }

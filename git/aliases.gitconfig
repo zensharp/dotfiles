@@ -21,7 +21,6 @@
 	clr = clear
 	cm = commit
 	cma = !git add -u && git commit
-	cmaa = !git add -A && git commit
 	code = !cd $(git root) && code .
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	df = diff
@@ -45,7 +44,7 @@
 	ss = status --short
 	squash = rebase -i
 	stash-keep = "!f() { set -e; git stash push $@; git stash apply; }; f"
-	sm-init = submodule update --init --recursive
-	sm-update = submodule update --recursive --remote
-	sm-status = submodule foreach git status
-	sms = sm-status
+	smi = submodule update --init --recursive
+	smu = submodule update --recursive --remote
+	sms = submodule foreach git status
+	smsh = submodule foreach git-submodule-sh

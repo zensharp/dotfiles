@@ -5,13 +5,17 @@ set -e
 TARGET=$(realpath "$1")
 LINK_NAME=$(realpath "$2")
 
+# If target is a directory, add '/d' flag
 FLAGS=""
 if [ -d "$TARGET" ]
 then
 	FLAGS="$FLAGS /d"
 fi
 
+# Convert to Windows path
 TARGET=$(wslpath -w "$TARGET")
 LINK_NAME=$(wslpath -w "$LINK_NAME")
 
-wsl-sudo.py cmd.exe /c "mklink $FLAGS $LINK_NAME $TARGET"
+# Execute
+echo wsl-sudo.py cmd.exe /c "mklink $FLAGS \"$LINK_NAME\" \"$TARGET\""
+wsl-sudo.py cmd.exe /c mklink $FLAGS \"$LINK_NAME\" \"$TARGET\"
