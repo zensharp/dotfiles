@@ -166,5 +166,7 @@
 	"dotnet.server.useOmnisharp": true,
 	"[html]": {
 		"editor.defaultFormatter": "vscode.html-language-features"
-	}
+	},
+	"csharpFormatUsings.numEmptyLinesBeforeUsings": 0,
+	"csharpFormatUsings.splitGroups": false
 }
