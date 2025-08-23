@@ -105,7 +105,7 @@
     "window.commandCenter": false,
     "html.format.indentInnerHtml": true,
     "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp"
+        "editor.defaultFormatter": null
     },
     "vstuc.refreshOnSave": true,
     "editor.tokenColorCustomizations": {
@@ -130,8 +130,7 @@
             ]
         }
     },
-    "workbench.colorTheme": "Visual Studio 2019 Dark",
-    "omnisharp.useEditorFormattingSettings": false,
+	"workbench.colorTheme": "Visual Studio 2019 Dark",
     "editor.tabCompletion": "on",
     "csharpier.enableDiagnostics": false,
     "csharpier.dev.disableCSharpierServer": true,
@@ -149,7 +148,8 @@
 		"zensharp-hookshotcsharp-64954jjwhef.vss.gitpod.io": "linux",
 		"berry": "linux",
 		"zensharp-hookshot-q3rv4u08yyi.vss.gitpod.io": "linux",
-		"zensharp-tanuki-sq5hn056mp3.vss.gitpod.io": "linux"
+		"zensharp-tanuki-sq5hn056mp3.vss.gitpod.io": "linux",
+		"zensharp-gitpad-t4sngc75p07.vss.gitpod.io": "linux"
 	},
 	"remote.SSH.defaultExtensions": [
 		"gitpod.gitpod-remote-ssh"
@@ -167,5 +167,12 @@
 		"editor.defaultFormatter": "vscode.html-language-features"
 	},
 	"csharpFormatUsings.numEmptyLinesBeforeUsings": 0,
-	"csharpFormatUsings.splitGroups": false
+	"csharpFormatUsings.splitGroups": false,
+	"editor.wrappingIndent": "none",
+	"[markdown]": {
+		"editor.wordWrap": "off"
+	},
+	"explorer.confirmPasteNative": false,
+	"razor.languageServer.useNewFormattingEngine": false,
+	"razor.format.enable": false
 }
