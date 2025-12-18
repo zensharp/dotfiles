@@ -19,6 +19,7 @@ nohup.out
 **/Assets/Temp.meta
 **/Assets/User/
 **/Assets/User.meta
+**/Assets/_Recovery
 **/unity/dependencies
 **/unity/dependencies/
 **/unity/external
@@ -44,3 +45,6 @@ builds/
 *-autosave.kra
 *-autosave.kra.meta
 *.png~
+
+# Blender
+*.blend1

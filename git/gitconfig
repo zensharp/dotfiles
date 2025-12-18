@@ -1,6 +1,6 @@
 [user]
 	name = Zensharp
-	email = 48300131+zensharp@users.noreply.github.com
+	email = 8265381-zensharp@users.noreply.gitlab.com
 [include]
 	path = ~/dotfiles/git/aliases.gitconfig
 	path = ~/dotfiles/git/colors.gitconfig
