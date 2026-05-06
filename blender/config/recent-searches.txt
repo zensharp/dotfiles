@@ -1,0 +1,7 @@
+View ▸ Frame Selected|Numpad .
+View ▸ Frame Selected|F
+Face (Ctrl F) ▸ Wireframe
+Shading (Z) ▸ Wireframe
+Mesh ▸ Delete (X) ▸ Dissolve Faces
+View ▸ Frame All|Home
+Object ▸ Set Origin ▸ Origin to 3D Cursor

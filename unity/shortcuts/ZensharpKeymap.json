@@ -69,12 +69,7 @@
             "identifier": {
                 "path": "Main Menu/Edit/Play"
             },
-            "combinations": [
-                {
-                    "m_KeyCode": 113,
-                    "m_Modifiers": 2
-                }
-            ]
+            "combinations": []
         },
         {
             "identifier": {
@@ -171,7 +166,7 @@
             },
             "combinations": [
                 {
-                    "m_KeyCode": 50,
+                    "m_KeyCode": 51,
                     "m_Modifiers": 2
                 }
             ]
@@ -182,7 +177,7 @@
             },
             "combinations": [
                 {
-                    "m_KeyCode": 51,
+                    "m_KeyCode": 50,
                     "m_Modifiers": 2
                 }
             ]
@@ -375,6 +370,80 @@
         {
             "identifier": {
                 "path": "Main Menu/Assets/Collapse All"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Run+"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 113,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Play Mode/Play"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Pause+"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Bear Engine/Step+"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Play Mode/Pause"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 119,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Play Mode/Step"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 101,
+                    "m_Modifiers": 2
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/App/Scene Loader"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 108,
+                    "m_Modifiers": 6
+                }
+            ]
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Assets/Collapse All 2"
+            },
+            "combinations": []
+        },
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/BearEngine/Focus in tree"
             },
             "combinations": [
                 {

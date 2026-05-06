@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MaxHotkeyTransformations Locked="false">
+    <Unassign_Hotkey Shortcut="Q" Description="Select" Id="1909744250-40008"/>
+    <Unassign_Hotkey Shortcut="Q" Description="Smart Select" Id="647394-SmartSelect`Selection"/>
+    <Assign_Hotkey Shortcut="Q" Description="Select Object" Id="0-50027"/>
+    <Unassign_Hotkey Shortcut="Q" Description="Select Object" Id="6-40709"/>
+    <Assign_Hotkey Shortcut="Ctrl+Alt+Shift+S" Description="Export File" Id="0-40011"/>
+    <Unassign_Hotkey Shortcut="Shift+Z" Description="Undo Viewport Operation" Id="0-40104"/>
+    <Assign_Hotkey Shortcut="Shift+Z" Description="World Coordinate System" Id="647394-Coordsys_World`Coordinate System"/>
+    <Assign_Hotkey Shortcut="Shift+X" Description="Screen Coordinate System" Id="647394-Coordsys_Screen`Coordinate System"/>
+    <Unassign_Hotkey Shortcut="Shift+C" Description="Hide Cameras Toggle" Id="0-40185"/>
+    <Assign_Hotkey Shortcut="Shift+C" Description="Local Aligned Coordinate System" Id="647394-Coordsys_Local_Aligned`Coordinate System"/>
+    <Unassign_Hotkey Shortcut="Shift+X" Description="Constrain to Edges" Id="1250838234-40084"/>
+    <Unassign_Hotkey Shortcut="Shift+X" Description="Constrain to Edges" Id="369982487-40084"/>
+</MaxHotkeyTransformations>
