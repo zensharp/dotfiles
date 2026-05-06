@@ -22,6 +22,7 @@
 	cm = commit
 	cma = !git add -u && git commit
 	code = !cd $(git root) && code .
+	co = checkout
 	continue = !git merge --continue || git rebase --continue || git revert --continue
 	df = diff
 	dp = deposit

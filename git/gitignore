@@ -4,6 +4,8 @@
 [bB]ackups/
 *.git
 *.bak
+.devspace
+.devspaces
 
 version.properties
 nohup.out
