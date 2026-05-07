@@ -1,6 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
         {
@@ -29,10 +29,13 @@
         {
             "command": 
             {
-                "action": "sendInput",
-                "input": "\u001b["
+                "action": "newTab"
             },
-            "id": "User.sendInput.EA4CDA8A"
+            "id": "User.newTab.5DEADB41"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
         },
         {
             "command": 
@@ -53,13 +56,10 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "sendInput",
+                "input": "\u001b["
             },
-            "id": "User.newTab.5DEADB41"
-        },
-        {
-            "command": "paste",
-            "id": "User.paste"
+            "id": "User.sendInput.EA4CDA8A"
         },
         {
             "command": 
@@ -122,9 +122,13 @@
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+    "defaultProfile": "{60c4dc59-d646-5247-a1b8-59ed2358ed38}",
     "keybindings": 
     [
+        {
+            "id": "User.nextTab.0",
+            "keys": "ctrl+tab"
+        },
         {
             "id": null,
             "keys": "shift+right"
@@ -134,20 +138,16 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "User.nextTab.0",
-            "keys": "ctrl+tab"
-        },
-        {
-            "id": null,
-            "keys": "shift+left"
-        },
-        {
             "id": null,
             "keys": "ctrl+k"
         },
         {
             "id": "User.globalSummon.4C8709E8",
             "keys": "win+`"
+        },
+        {
+            "id": null,
+            "keys": "shift+left"
         },
         {
             "id": null,
@@ -228,13 +228,6 @@
         "list": 
         [
             {
-                "commandline": "wsl.exe",
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
                 "colorScheme": "Campbell Powershell",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -244,6 +237,31 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "elevate": false,
+                "guid": "{3d1e2798-c0a7-573d-a5ac-16d2976566ff}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{1e2260b2-667a-5318-8579-e8ca592fd2da}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{60c4dc59-d646-5247-a1b8-59ed2358ed38}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
             }
         ]
     },
@@ -319,7 +337,6 @@
             "yellow": "#9C8E30"
         }
     ],
-    "startOnUserLogin": false,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 
