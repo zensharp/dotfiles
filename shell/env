@@ -1,27 +1,10 @@
-# XDG
+# Define global environment
+skip_global_compinit=1 # Prevent system from calling compinit
+
+# Register user binary
+export PATH="$PATH:$HOME/.local/bin:$HOME/dotfiles/shell/bin:$HOME/dotfiles/git-tools"
+
+# Define XDG paths
 export XDG_DOWNLOAD_DIR="$HOME/downloads"
 export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
-
-# Dotfiles
-for file in ~/dotfiles/shell/functions/**/*
-do
-	. $file
-done
-
-# Misc
-export PATH="$PATH:$HOME/.local/bin/scripts:$HOME/dotfiles/git-tools"
-export PATH="$PATH:$HOME/dotfiles/shell/bin"
-export PATH="$PATH:$HOME/dotfiles/git/bin"
-export PATH="$HOME/.local/bin:$PATH"
-export EDITOR="micro"
-export READER=mdcat
-export TOPATH="$TOPATH:$HOME/dotfiles/to"
-export JOT_DIR="$HOME/Nextcloud/Brain/Journal"
-export TODO="$HOME/Nextcloud/Brain/me/issues/todo.md"
-export CLIPDROP_URL="https://clipdrop.zensharp.net"
-
-# Coloring
-. ~/dotfiles/shell/ls_colors
-. ~/dotfiles/shell/colors
-export BAT_THEME="Visual Studio Dark+"

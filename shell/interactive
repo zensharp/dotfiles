@@ -16,3 +16,11 @@ alias egrep='egrep --color=always'
 
 # Subcommands
 alias goo="subcommand goo"
+
+# Coloring
+. ~/dotfiles/shell/ls_colors
+. ~/dotfiles/shell/colors
+export BAT_THEME="Visual Studio Dark+"
+
+export EDITOR="micro"
+export READER=mdcat
