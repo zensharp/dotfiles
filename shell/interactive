@@ -11,16 +11,16 @@ alias grep='grep --color=always'
 alias fgrep='fgrep --color=always'
 alias egrep='egrep --color=always'
 
-# Extras
-[[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"
-
+# Default executables
+export EDITOR="micro"
+export READER=mdcat
 # Subcommands
 alias goo="subcommand goo"
 
 # Coloring
-. ~/dotfiles/shell/ls_colors
 . ~/dotfiles/shell/colors
+. ~/dotfiles/shell/ls_colors
 export BAT_THEME="Visual Studio Dark+"
 
-export EDITOR="micro"
-export READER=mdcat
+# Extras
+[[ "${LESS}" != *--mouse* ]] && export LESS="${LESS} --mouse"

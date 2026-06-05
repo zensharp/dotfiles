@@ -1,3 +1,0 @@
-#compdef dj
-
-_arguments "1:filename:_path_files -W $XDG_MUSIC_DIR"

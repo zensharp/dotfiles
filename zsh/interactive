@@ -1,17 +1,9 @@
+# zshell settings
 setopt menu_complete
 unsetopt autolist
 unsetopt nomatch
 
-# Prompt
-PROMPT='%F{green}%n@%m%f: %F{blue}%~%f '
-
-function set_win_title
-{
-    echo -ne "\033]0; $(basename "$PWD") \007"
-}
-precmd_functions+=(set_win_title)
-
-# Keybindings
+# zshell keybindings
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 bindkey '^H' backward-kill-word
@@ -20,34 +12,9 @@ bindkey '\e[Z' reverse-menu-complete
 bindkey '^[[1;3D' beginning-of-line
 bindkey '^[[1;3C' end-of-line
 
-# Oh-My-Zsh Take Functions
-function mkcd takedir() {
-  mkdir -p $@ && cd ${@:$#}
+# zshell functions
+function set_win_title
+{
+    echo -ne "\033]0; $(basename "$PWD") \007"
 }
-
-function takeurl() {
-  local data thedir
-  data="$(mktemp)"
-  curl -L "$1" > "$data"
-  tar xf "$data"
-  thedir="$(tar tf "$data" | head -n 1)"
-  rm "$data"
-  cd "$thedir"
-}
-
-function takegit() {
-  git clone "$1"
-  cd "$(basename ${1%%.git})"
-}
-
-function take() {
-  if [[ $1 =~ ^(https?|ftp).*\.tar\.(gz|bz2|xz)$ ]]; then
-    takeurl "$1"
-  elif [[ $1 =~ ^([A-Za-z0-9]\+@|https?|git|ssh|ftps?|rsync).*\.git/?$ ]]; then
-    takegit "$1"
-  else
-    takedir "$@"
-  fi
-}
-
-compctl -g '*(-/)' + -g '.*(-/)' + -k '(..)' cd rmdir cd+
+precmd_functions+=(set_win_title)

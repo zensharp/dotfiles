@@ -45,11 +45,3 @@ function cd+
 	fi
 }
 alias cd=cd+
-
-function source-if
-{
-	if [ -f "$1" ]
-	then
-	    source "$1"
-	fi
-}

@@ -1,10 +1,10 @@
 # Define global environment
 skip_global_compinit=1 # Prevent system from calling compinit
 
-# Register user binary
+# Register user binary directories
 export PATH="$PATH:$HOME/.local/bin:$HOME/dotfiles/shell/bin:$HOME/dotfiles/git-tools"
 
 # Define XDG paths
-export XDG_DOWNLOAD_DIR="$HOME/downloads"
-export XDG_MUSIC_DIR="$(realpath $HOME/Nextcloud)/music"
 export XDG_REPOS_DIR="$HOME/repos"
+export XDG_MUSIC_DIR="$HOME/music"
+export XDG_DOWNLOAD_DIR="$HOME/downloads"

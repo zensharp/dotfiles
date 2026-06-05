@@ -33,7 +33,6 @@ case "$PLATFORM" in
         ;;
 esac
 
-
 # Dotfiles
 for file in ~/dotfiles/shell/functions/**/*
 do
@@ -41,12 +40,16 @@ do
 done
 
 # Applications
+## Git
+unset GIT_AUTHOR_NAME
+unset GIT_AUTHOR_EMAIL
+unset GIT_COMMITER_EMAIL
+
 ## starship
 eval "$(starship init zsh)"
 ## zoxide
 eval "$(zoxide init zsh)"
 
-# Applications
 ## exa
 EXA_COLORS="reset:$LS_COLORS"
 ### Permissions
@@ -72,32 +75,12 @@ alias tree='eza --tree --group-directories-first --ignore-glob .git'
 ## zoxide
 export _ZO_ECHO=1
 export _ZO_RESOLVE_SYMLINKS=1
-## go
-source-if /etc/profile.d/golang_path.sh
 ## dotnet
 export DOTNET_ROOT="$HOME/.dotnet"
 export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
 export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
-unset GIT_AUTHOR_NAME
-unset GIT_AUTHOR_EMAIL
-unset GIT_COMMITER_EMAIL
-
-for TAG in $(echo $DOT_TAGS | sed "s/,/ /g")
-do
-	case $TAG in
-		"remote" | "code")
-			alias micro=code
-			alias open=code
-			;;
-	esac
-done
-
-# Misc
-if test -f "$HOME/OneDrive/dotfiles/zshenv"; then
-	. ~/OneDrive/dotfiles/zshenv
-fi
-
+## Visual Studio Code
 case "$TERM_PROGRAM" in
 	vscode)
 		export OPEN="code"
