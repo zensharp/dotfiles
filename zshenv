@@ -3,7 +3,7 @@
 ## Define shell-agnastic environment
 . ~/dotfiles/shell/env
 ## Define zshell environment
-#. ~/dotfiles/zsh/env
+. ~/dotfiles/zsh/env
 
 # Initialize per-platform
 case "$PLATFORM" in

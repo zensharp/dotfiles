@@ -18,3 +18,10 @@ function set_win_title
     echo -ne "\033]0; $(basename "$PWD") \007"
 }
 precmd_functions+=(set_win_title)
+
+# zshell compinit
+ZSH_DISABLE_COMPFIX=true
+if [[ -o interactive && -z "$ZSH_SUBSHELL" ]]; then # Only rebuild compinit if non-subshell
+  autoload -Uz compinit
+  compinit -C -u
+fi
