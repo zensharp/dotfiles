@@ -36,6 +36,7 @@ nohup.out
 # Miscellaneous
 .temp/
 *Zone.Identifier
+*.lscache
 
 # GitLab Runner
 builds/

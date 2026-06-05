@@ -27,6 +27,10 @@
             "id": "User.moveFocus.F747588A"
         },
         {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
             "command": 
             {
                 "action": "newTab"
@@ -34,16 +38,12 @@
             "id": "User.newTab.5DEADB41"
         },
         {
-            "command": "paste",
-            "id": "User.paste"
-        },
-        {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "previous"
+                "action": "sendInput",
+                "input": "\u001b["
             },
-            "id": "User.moveFocus.75247157"
+            "id": "User.sendInput.EA4CDA8A"
         },
         {
             "command": 
@@ -56,10 +56,10 @@
         {
             "command": 
             {
-                "action": "sendInput",
-                "input": "\u001b["
+                "action": "moveFocus",
+                "direction": "previous"
             },
-            "id": "User.sendInput.EA4CDA8A"
+            "id": "User.moveFocus.75247157"
         },
         {
             "command": 
@@ -87,18 +87,18 @@
         {
             "command": 
             {
-                "action": "clearBuffer",
-                "clear": "all"
-            },
-            "id": "User.clearBuffer.87C324ED"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "up"
             },
             "id": "User.moveFocus.6CD791B"
+        },
+        {
+            "command": 
+            {
+                "action": "clearBuffer",
+                "clear": "all"
+            },
+            "id": "User.clearBuffer.87C324ED"
         },
         {
             "command": 
@@ -130,20 +130,20 @@
             "keys": "ctrl+tab"
         },
         {
-            "id": null,
-            "keys": "shift+right"
-        },
-        {
             "id": "User.copy.644BA8F2",
             "keys": "ctrl+c"
         },
         {
             "id": null,
-            "keys": "ctrl+k"
+            "keys": "shift+right"
         },
         {
             "id": "User.globalSummon.4C8709E8",
             "keys": "win+`"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+k"
         },
         {
             "id": null,
@@ -262,6 +262,18 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{27bf8587-710c-5435-be5a-62fe3d08e40d}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 18",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{c2a3064f-eb40-50f9-8c02-0e94bb1dd717}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 18",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -337,6 +349,7 @@
             "yellow": "#9C8E30"
         }
     ],
+    "showTerminalTitleInTitlebar": false,
     "tabSwitcherMode": "mru",
     "theme": "Nord",
     "themes": 

@@ -45,6 +45,8 @@
 	postBuffer = 524288000
 [sequence]
 	editor = micro
+[submodule]
+	recurse = true
 [url "git@gitlab.com"]
 	insteadOf = gl
 	pushInsteadOf = gl

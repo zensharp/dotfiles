@@ -61,13 +61,12 @@ alias tree='eza --tree --group-directories-first --ignore-glob .git'
 ## zoxide
 export _ZO_ECHO=1
 export _ZO_RESOLVE_SYMLINKS=1
-## node
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 ## go
 source-if /etc/profile.d/golang_path.sh
 ## dotnet
 export DOTNET_ROOT="$HOME/.dotnet"
 export PATH="$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools"
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 
 unset GIT_AUTHOR_NAME
 unset GIT_AUTHOR_EMAIL

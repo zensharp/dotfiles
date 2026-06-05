@@ -11,13 +11,6 @@ function set_win_title
 }
 precmd_functions+=(set_win_title)
 
-# Completions
-autoload -U compinit
-compinit
-autoload -Uz select-word-style
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-select-word-style bash
-
 # Keybindings
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word

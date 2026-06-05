@@ -2,7 +2,7 @@ include:
   - path: CurrentSettings.vssettings
     symlink: true
   - path: snippets
-    destination: "%userprofile%/Documents/Visual Studio */Code Snippets/Visual C#/My Code Snippets"
+    destination: "%userprofile%/Documents/Visual Studio 18/Code Snippets/Visual C#/My Code Snippets"
     symlink: true
 
 windows:
