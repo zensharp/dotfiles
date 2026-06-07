@@ -12,6 +12,7 @@ case "$PLATFORM" in
     linux)
         ;;
     wsl)
+        export WIN_HOME="/mnt/c/Users/$USER"
         export XDG_REPOS_DIR="$WIN_HOME/repos"
         export XDG_DOWNLOAD_DIR="$WIN_HOME/downloads"
         export PATH="$PATH:$HOME/dotfiles/wsl/bin"

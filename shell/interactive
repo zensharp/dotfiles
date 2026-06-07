@@ -15,7 +15,7 @@ alias egrep='egrep --color=always'
 export EDITOR="micro"
 export READER=mdcat
 # Subcommands
-alias goo="subcommand goo"
+alias goo="subcommand goo --no-powershell-shim"
 
 # Coloring
 . ~/dotfiles/shell/colors
