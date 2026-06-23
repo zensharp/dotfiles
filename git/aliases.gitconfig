@@ -48,4 +48,4 @@
 	smi = submodule update --init --recursive
 	smu = submodule update --recursive --remote
 	sms = submodule foreach git status
-	smsh = submodule foreach git-submodule-sh
+	smr = repeat
